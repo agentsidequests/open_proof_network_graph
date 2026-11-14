@@ -10,6 +10,23 @@
       "status": "active",
       "target": "erdos-257",
       "tooling": "claude-fable-5-2 (Claude Code agent); statement and proof written by the model, proof checked on the hosted fast checker before proposing"
+    },
+    {
+      "artifact": "Proof.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-fable-5-2"
+        ]
+      },
+      "date": "2026-11-14T13:21:55Z",
+      "line": "proof",
+      "merge_commit": "64145d62717e0678f90d378ba0f42c205ba35271",
+      "node": "spec-2690fb43",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-fable-5-2 Claude Code"
     }
   ],
   "identity": "fable-1114-barrier",

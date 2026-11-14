@@ -1,0 +1,139 @@
+{
+  "artifact_hash": "d464cdcf5fa2521bb07fffd90a0aa16df6aac7637ee50545854ef3340f09738e",
+  "automation": {
+    "framework": "Claude Code",
+    "method": "agent",
+    "models": [
+      "claude-fable-5-2"
+    ]
+  },
+  "carried_by": null,
+  "diagnostic": null,
+  "first_failing_step": null,
+  "footprint": {
+    "nodes": []
+  },
+  "gate_spec_hash": "637bc93ef7a084539bcbfa68c0abcb944342c3c3ff98237fc7af173f121227c3",
+  "graph_commit": "64145d62717e0678f90d378ba0f42c205ba35271",
+  "graph_id": "erdos-257",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "merge_commit": "64145d62717e0678f90d378ba0f42c205ba35271",
+  "model_and_tooling": "claude-fable-5-2 Claude Code",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "spec-2690fb43",
+  "precheck_attestation": {
+    "hash": "596252402c81385806f56eeb262f6b8fa2fcaac2566426ffcd73ce3b8896c0c8",
+    "signature_kind": "service"
+  },
+  "review": {
+    "kind": "intermediate",
+    "reference": null,
+    "reviewer": null
+  },
+  "runner": "hosted",
+  "schema": "attestation/v8",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-14T13:26:27Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQHWwgQ9IEAO2TIMpitV1P7Gzyb0vCJ/BXUwI8D59riUh76JdMZ\nRe+QTqaRLAsUcvbu53p/oBVUEEa0D/TMRxkg0=\n-----END SSH SIGNATURE-----\n"
+  },
+  "statement_hash": "9d0959698f23658ddc05bdf00637e64ca4c9b4b5112057c569a24415d77f0767",
+  "steps": [
+    {
+      "diagnostic": {
+        "code": "mathlib-pinned",
+        "details": {
+          "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+          "packages": 8
+        },
+        "message": "Mathlib 0df444a360ea resolved from the pinned checkout"
+      },
+      "name": "toolchain",
+      "result": "pass",
+      "step": 1
+    },
+    {
+      "diagnostic": null,
+      "name": "paths",
+      "result": "pass",
+      "step": 2
+    },
+    {
+      "diagnostic": null,
+      "name": "kernel-replay",
+      "result": "pass",
+      "step": 4
+    },
+    {
+      "diagnostic": null,
+      "name": "axioms",
+      "result": "pass",
+      "step": 5
+    },
+    {
+      "diagnostic": {
+        "code": "hazards-acknowledged",
+        "details": {
+          "acknowledged": [
+            {
+              "checker": "nat-sub",
+              "justification": "q is prime in the same conjunction, so 2q ≥ 4 and the subtraction is exact; 2q - 1 is m + 1 for the point m = 2q - 2.",
+              "location": "2 * q - 1"
+            },
+            {
+              "checker": "nat-sub",
+              "justification": "q is prime in the same conjunction, so 2q ≥ 4 and the subtraction is exact; 2q - 2 is the point m of the interval.",
+              "location": "2 * q - 2"
+            },
+            {
+              "checker": "nat-sub",
+              "justification": "q is prime in the same conjunction, so 4q ≥ 8 and the subtraction is exact; 4q - 1 is m + 1 for the point m = 4q - 2.",
+              "location": "4 * q - 1"
+            },
+            {
+              "checker": "nat-sub",
+              "justification": "q is prime in the same conjunction, so 4q ≥ 8 and the subtraction is exact; 4q - 2 is the point m of the interval.",
+              "location": "4 * q - 2"
+            },
+            {
+              "checker": "off-by-one-range",
+              "justification": "Inclusive, copied verbatim from variant-cce9b284--h6, whose statement starts at n = 1092; the same bound is carried to the conclusion.",
+              "location": "1092 ≤ n"
+            },
+            {
+              "checker": "off-by-one-range",
+              "justification": "Strict, copied verbatim from variant-cce9b284--h6: the count is over divisors a with 20 < a < m.",
+              "location": "20 < a"
+            }
+          ]
+        },
+        "message": "6 hazard finding(s) acknowledged in META.yaml"
+      },
+      "name": "hazards",
+      "result": "pass",
+      "step": 6
+    },
+    {
+      "diagnostic": null,
+      "name": "witness",
+      "result": "pass",
+      "step": 7
+    },
+    {
+      "diagnostic": null,
+      "name": "deps",
+      "result": "pass",
+      "step": 8
+    }
+  ],
+  "submitter": "fable-1114-barrier",
+  "toolchain_hash": "f54d0bc916bf76a7fae460ce9d078ccd1f74aeb4fd12c4b6546bca28b6aa1c63",
+  "tooling": {
+    "harness": "Claude Code",
+    "model": "claude-fable-5-2"
+  },
+  "trust_base": "kernel",
+  "verdict": "pass"
+}
