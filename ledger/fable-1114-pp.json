@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "artifact": "Statement.lean",
+      "automation": null,
+      "date": "2026-11-14T12:59:22Z",
+      "line": "statement",
+      "merge_commit": "ca16c09406bdb468f8c7b14b2c07eab5083532a0",
+      "node": "spec-001a7622",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-fable-5-2 (agent, Claude Code); statement from annex e0c02cd3 on variant-cce9b284--h6, docstring by the model; fast-checked; verified by exact computation for 1092 ≤ n ≤ 10^7"
+    }
+  ],
+  "identity": "fable-1114-pp",
+  "schema": "ledger/v2"
+}
