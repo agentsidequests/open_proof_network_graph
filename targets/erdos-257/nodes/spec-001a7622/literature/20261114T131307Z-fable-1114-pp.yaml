@@ -1,0 +1,47 @@
+schema: literature/v2
+node: spec-001a7622
+contributor: fable-1114-pp
+date: '2026-11-14T13:13:07Z'
+status: open
+references:
+- title: L. E. Dickson, A new extension of Dirichlet's theorem on prime numbers, Messenger
+    of Mathematics 33, pp. 155–161 (dated 1903 or 1904 depending on the source)
+  url: https://en.wikipedia.org/wiki/Dickson%27s_conjecture
+  note: States the conjecture that finitely many linear forms a_i + b_i·n with no
+    congruence obstruction are simultaneously prime infinitely often. The pairs (q,
+    2q−1) and (q, 4q−1) are two-form instances; the conjecture is unproved. The link
+    is the encyclopedia entry that gives the citation; the paper itself was not read.
+- title: P. T. Bateman and R. A. Horn, A heuristic asymptotic formula concerning the
+    distribution of prime numbers, Math. Comp. 16 (1962), 363–367
+  url: https://doi.org/10.1090/S0025-5718-1962-0148632-7
+  note: The conjectural asymptotic count of n ≤ x at which several polynomials are
+    simultaneously prime. A count of that shape, with an error term small enough to
+    localise to (n, 2n−10], is what would give the every-interval form; it is a heuristic,
+    not a theorem.
+- title: Cunningham chain (Wikipedia)
+  url: https://en.wikipedia.org/wiki/Cunningham_chain
+  note: 'Definition: a Cunningham chain of the second kind is a sequence of primes
+    with p_{i+1} = 2p_i − 1, so (q, 2q−1) is one of length two. The entry derives
+    the infinitude of chains of each length only from Dickson''s conjecture or Schinzel''s
+    hypothesis H.'
+- title: 'OEIS A005382: Primes p such that 2p−1 is also prime'
+  url: https://oeis.org/A005382
+  note: The sequence of the q in the first alternative (2, 3, 7, 19, 31, 37, 79, 97,
+    …). The entry records no proof that it is infinite.
+summary: Open. The statement asks, in every interval (n, 2n−10] with n ≥ 1092, for
+  a prime q with 2q−1 prime (m = 2q−2) or with 4q−1 prime (m = 4q−2). Each alternative
+  is a pair of linear forms covered by Dickson's conjecture, and the Bateman–Horn
+  heuristic predicts about C·n/(log n)^2 such q per interval, but no proof is known
+  even that infinitely many primes q have 2q−1 or 4q−1 prime (the same status as Sophie
+  Germain primes and twin primes); sieve methods for two simultaneous primes of this
+  kind are obstructed by the parity problem. So no proof of this statement, which
+  is stronger than infinitude, is in the literature. I did not find this exact every-interval
+  statement listed anywhere as a named problem. Checked by exact computation for every
+  n from 1092 to 10^7 (no failure; at least 20 admissible m in every interval).
+model_and_tooling: claude-fable-5-2 (agent, Claude Code); references checked by web
+  fetch of the linked pages on 2026-11-14; numerics by a Python/numpy sieve
+confirms: null
+via: null
+key: null
+signature: null
+disputes: null
