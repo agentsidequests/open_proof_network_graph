@@ -1,0 +1,371 @@
+{
+  "artifact": {
+    "hash": "d464cdcf5fa2521bb07fffd90a0aa16df6aac7637ee50545854ef3340f09738e",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "spec-2690fb43",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (n : ℕ),\n  (1092 : ℕ) ≤ n →\n    ∃ (m : ℕ),\n      n < m ∧\n        m + (10 : ℕ) ≤ (2 : ℕ) * n ∧\n          ∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ) ≤\n            (99 / 100 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (n : ℕ),\n  (1092 : ℕ) ≤ n →\n    ∃ (m : ℕ),\n      n < m ∧\n        m + (10 : ℕ) ≤ (2 : ℕ) * n ∧\n          ∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ) ≤\n            (99 / 100 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (n : ℕ),\n  (1092 : ℕ) ≤ n →\n    ∃ (q : ℕ),\n      Nat.Prime q ∧\n        (n < (2 : ℕ) * q - (2 : ℕ) ∧ (2 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((2 : ℕ) * q - (1 : ℕ)) ∨\n          n < (4 : ℕ) * q - (2 : ℕ) ∧ (4 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((4 : ℕ) * q - (1 : ℕ)))",
+          "truncated": false
+        }
+      },
+      "id": "h",
+      "kind": "have",
+      "name": "h",
+      "span": {
+        "end_line": 267,
+        "start_line": 267
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The Double Negation Theorem: `¬¬P` is equivalent to `P`.",
+            "name": "Classical.not_not",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (m : ℕ),\n  n < m ∧\n    m + (10 : ℕ) ≤ (2 : ℕ) * n ∧\n      ∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ) ≤\n        (99 / 100 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "m",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "h1",
+            "type": {
+              "printed": "reliable",
+              "text": "n < m",
+              "truncated": false
+            }
+          },
+          {
+            "name": "h2",
+            "type": {
+              "printed": "reliable",
+              "text": "m + (10 : ℕ) ≤ (2 : ℕ) * n",
+              "truncated": false
+            }
+          },
+          {
+            "name": "h3",
+            "type": {
+              "printed": "reliable",
+              "text": "∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ) ≤\n  (99 / 100 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (q : ℕ),\n  Nat.Prime q ∧\n    (n < (2 : ℕ) * q - (2 : ℕ) ∧ (2 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((2 : ℕ) * q - (1 : ℕ)) ∨\n      n < (4 : ℕ) * q - (2 : ℕ) ∧ (4 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((4 : ℕ) * q - (1 : ℕ)))",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 269,
+        "start_line": 269
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Nat.Prime (m + (1 : ℕ)) ∧ ∃ (q : ℕ), Nat.Prime q ∧ (m + (2 : ℕ) = (2 : ℕ) * q ∨ m + (2 : ℕ) = (4 : ℕ) * q)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hp1",
+            "type": {
+              "printed": "reliable",
+              "text": "Nat.Prime (m + (1 : ℕ))",
+              "truncated": false
+            }
+          },
+          {
+            "name": "q",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hq",
+            "type": {
+              "printed": "reliable",
+              "text": "Nat.Prime q",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hcase",
+            "type": {
+              "printed": "reliable",
+              "text": "m + (2 : ℕ) = (2 : ℕ) * q ∨ m + (2 : ℕ) = (4 : ℕ) * q",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (q : ℕ),\n  Nat.Prime q ∧\n    (n < (2 : ℕ) * q - (2 : ℕ) ∧ (2 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((2 : ℕ) * q - (1 : ℕ)) ∨\n      n < (4 : ℕ) * q - (2 : ℕ) ∧ (4 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((4 : ℕ) * q - (1 : ℕ)))",
+          "truncated": false
+        }
+      },
+      "id": "s3",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 270,
+        "start_line": 270
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(2 : ℕ) * q - (1 : ℕ) = m + (1 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "automation",
+            "tactics": [
+              "omega"
+            ]
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "e",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(2 : ℕ) * q - (1 : ℕ) = m + (1 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n < (2 : ℕ) * q - (2 : ℕ) ∧ (2 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((2 : ℕ) * q - (1 : ℕ))",
+              "truncated": false
+            }
+          },
+          "id": "s4.e",
+          "kind": "have",
+          "name": "e",
+          "span": {
+            "end_line": 274,
+            "start_line": 274
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hc",
+            "type": {
+              "printed": "reliable",
+              "text": "m + (2 : ℕ) = (2 : ℕ) * q",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "n < (2 : ℕ) * q - (2 : ℕ) ∧ (2 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((2 : ℕ) * q - (1 : ℕ)) ∨\n  n < (4 : ℕ) * q - (2 : ℕ) ∧ (4 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((4 : ℕ) * q - (1 : ℕ))",
+          "truncated": false
+        }
+      },
+      "id": "s4",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 276,
+        "start_line": 273
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(4 : ℕ) * q - (1 : ℕ) = m + (1 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "automation",
+            "tactics": [
+              "omega"
+            ]
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "e",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(4 : ℕ) * q - (1 : ℕ) = m + (1 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n < (4 : ℕ) * q - (2 : ℕ) ∧ (4 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((4 : ℕ) * q - (1 : ℕ))",
+              "truncated": false
+            }
+          },
+          "id": "s5.e",
+          "kind": "have",
+          "name": "e",
+          "span": {
+            "end_line": 278,
+            "start_line": 278
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hc",
+            "type": {
+              "printed": "reliable",
+              "text": "m + (2 : ℕ) = (4 : ℕ) * q",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "n < (2 : ℕ) * q - (2 : ℕ) ∧ (2 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((2 : ℕ) * q - (1 : ℕ)) ∨\n  n < (4 : ℕ) * q - (2 : ℕ) ∧ (4 : ℕ) * q + (8 : ℕ) ≤ (2 : ℕ) * n ∧ Nat.Prime ((4 : ℕ) * q - (1 : ℕ))",
+          "truncated": false
+        }
+      },
+      "id": "s5",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 280,
+        "start_line": 277
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-257"
+}
