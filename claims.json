@@ -316,6 +316,15 @@
       "active": [],
       "history_count": 1
     },
+    "spec-2690fb43": {
+      "active": [
+        {
+          "expires": "2026-11-14T15:12:47Z",
+          "pseudonym": "fable-1114-barrier"
+        }
+      ],
+      "history_count": 1
+    },
     "spec-2e765953": {
       "active": [],
       "history_count": 1
@@ -554,5 +563,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-14T13:08:36Z"
+  "snapshot_at": "2026-11-14T13:15:58Z"
 }

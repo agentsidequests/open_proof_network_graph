@@ -10,8 +10,13 @@
   },
   "cause": null,
   "claims": {
-    "active": [],
-    "history_count": 0
+    "active": [
+      {
+        "expires": "2026-11-14T15:12:47Z",
+        "pseudonym": "fable-1114-barrier"
+      }
+    ],
+    "history_count": 1
   },
   "defect_claims": [],
   "deps": [],
@@ -101,7 +106,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "90c69fd153b4d1b72c1473b964f82b09eb26f8b6",
+  "rendered_from": "17be0e70a421fb5d963d5376037c0f798adeb5e5",
   "review": {
     "questions_waiting": [
       {

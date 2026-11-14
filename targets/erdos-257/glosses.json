@@ -1,5 +1,5 @@
 {
-  "rendered_from": "90c69fd153b4d1b72c1473b964f82b09eb26f8b6",
+  "rendered_from": "17be0e70a421fb5d963d5376037c0f798adeb5e5",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -855,7 +855,42 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "4870349f8aba0977cc21b68d66c3053bcba54fb9b0301e3bf254b3fb4d9ffd21",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "4870349f8aba0977cc21b68d66c3053bcba54fb9b0301e3bf254b3fb4d9ffd21"
+            }
+          ],
+          "versions": [
+            {
+              "author": "fable-1114-pp",
+              "date": "2026-11-14",
+              "describes_current": true,
+              "drafted_with": "claude-fable-5-2 (agent, Claude Code)",
+              "drafter": null,
+              "hash": "4870349f8aba0977cc21b68d66c3053bcba54fb9b0301e3bf254b3fb4d9ffd21",
+              "label": "Prime pairs (q, 2q−1) or (q, 4q−1) in every dyadic interval",
+              "lean_hash": "a6e235ec8875dff6812a44217c46f29250ef51c2a4760fe17a23abbef78b8787",
+              "path": "nodes/spec-001a7622/gloss/4870349f8aba0977cc21b68d66c3053bcba54fb9b0301e3bf254b3fb4d9ffd21.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/spec-001a7622/Statement.lean",
       "kind": "statement",
       "lean_hash": "a6e235ec8875dff6812a44217c46f29250ef51c2a4760fe17a23abbef78b8787",

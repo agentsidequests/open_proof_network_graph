@@ -342,16 +342,20 @@
     },
     {
       "cause": null,
-      "claim": null,
+      "claim": "\\forall n \\in \\mathbb{N},\\ 1092 \\le n \\ \\Rightarrow\\ \\exists q \\in \\mathbb{N}:\\ q \\text{ prime} \\ \\wedge\\ \\Big( \\big(n < 2q-2 \\ \\wedge\\ 2q+8 \\le 2n \\ \\wedge\\ 2q-1 \\text{ prime}\\big) \\ \\vee\\ \\big(n < 4q-2 \\ \\wedge\\ 4q+8 \\le 2n \\ \\wedge\\ 4q-1 \\text{ prime}\\big) \\Big)",
       "closure": null,
       "decompositions": [],
       "defect_claims": [],
       "deps": [],
-      "label": "spec-001a7622",
-      "label_source": "id",
+      "label": "Prime pairs (q, 2q−1) or (q, 4q−1) in every dyadic interval",
+      "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "fable-1114-pp",
+        "record": "literature/20261114T131307Z-fable-1114-pp.yaml",
+        "status": "open"
+      },
       "node_id": "spec-001a7622",
       "origin": "authored",
       "outline": null,
@@ -2927,7 +2931,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "90c69fd153b4d1b72c1473b964f82b09eb26f8b6",
+  "rendered_from": "17be0e70a421fb5d963d5376037c0f798adeb5e5",
   "review": {
     "candidates": 1,
     "clusters": 1,
