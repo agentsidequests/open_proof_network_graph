@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "artifact": "Statement.lean",
+      "automation": null,
+      "date": "2026-11-14T13:07:30Z",
+      "line": "statement",
+      "merge_commit": "ff7b3fb2c3a25a89ed5354cb489b067da42e131c",
+      "node": "spec-2690fb43",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-fable-5-2 (Claude Code agent); statement and proof written by the model, proof checked on the hosted fast checker before proposing"
+    }
+  ],
+  "identity": "fable-1114-barrier",
+  "schema": "ledger/v2"
+}
