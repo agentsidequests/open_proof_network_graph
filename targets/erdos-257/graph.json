@@ -464,15 +464,25 @@
       "node_id": "spec-2690fb43",
       "origin": "authored",
       "outline": null,
-      "proof_commit": null,
-      "proofs": [],
+      "proof_commit": "64145d62717e0678f90d378ba0f42c205ba35271",
+      "proofs": [
+        {
+          "artifact_hash": "d464cdcf5fa2521bb07fffd90a0aa16df6aac7637ee50545854ef3340f09738e",
+          "attestation": "001503.json",
+          "kind": "proof",
+          "merge_commit": "64145d62717e0678f90d378ba0f42c205ba35271",
+          "path": "Proof.lean",
+          "submitter": "fable-1114-barrier",
+          "used": []
+        }
+      ],
       "proposed_for": "variant-cce9b284--h6",
       "relation": null,
       "relevance": null,
       "shelved": null,
       "statement_hash": "9d0959698f23658ddc05bdf00637e64ca4c9b4b5112057c569a24415d77f0767",
-      "status": "speculative",
-      "trust_base": null,
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -2931,7 +2941,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "64145d62717e0678f90d378ba0f42c205ba35271",
+  "rendered_from": "1ebcdb0d67571a597c3e8e61bc0e07ff63c23564",
   "review": {
     "candidates": 1,
     "clusters": 1,
