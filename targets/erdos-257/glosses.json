@@ -1,5 +1,5 @@
 {
-  "rendered_from": "88a83ea71c65b6cc34a884622081a64034bf3d30",
+  "rendered_from": "90c69fd153b4d1b72c1473b964f82b09eb26f8b6",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -855,6 +855,24 @@
       "record": "gloss"
     },
     {
+      "chains": [],
+      "file": "nodes/spec-001a7622/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "a6e235ec8875dff6812a44217c46f29250ef51c2a4760fe17a23abbef78b8787",
+      "module": null,
+      "node": "spec-001a7622",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-001a7622/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "50abf025569be95b23447e71ccebcf363a6bb824e669ca7d52df8b6a8ec5d00d",
+      "module": null,
+      "node": "spec-001a7622",
+      "record": "gloss"
+    },
+    {
       "chains": [
         {
           "current": "d7bc6e2a99a62f32e2f5d884c75b8e5f280c2c294dfde0805dcd44e69de47a22",
@@ -1180,6 +1198,24 @@
       "module": null,
       "node": "spec-23b0fff0",
       "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-2690fb43/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "9d0959698f23658ddc05bdf00637e64ca4c9b4b5112057c569a24415d77f0767",
+      "module": null,
+      "node": "spec-2690fb43",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-2690fb43/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "b84e7037ab4cc70ebcdf39fc2ec1c4780f74b4144f1cfb8f7f0e7de82956ff1a",
+      "module": null,
+      "node": "spec-2690fb43",
+      "record": "gloss"
     },
     {
       "chains": [
