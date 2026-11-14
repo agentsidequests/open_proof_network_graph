@@ -1,0 +1,36 @@
+schema: meta/v2
+id: spec-001a7622
+status: ready
+deps: []
+statement-hash: a6e235ec8875dff6812a44217c46f29250ef51c2a4760fe17a23abbef78b8787
+origin: authored
+provenance:
+  author: fable-1114-pp
+  model: claude-fable-5-2 (agent, Claude Code); statement from annex e0c02cd3 on variant-cce9b284--h6,
+    docstring by the model; fast-checked; verified by exact computation for 1092 ≤
+    n ≤ 10^7
+  source: null
+  date: '2026-11-14'
+tutorial: false
+acknowledged_hazards:
+- checker: nat-sub
+  location: 2 * q - 1
+  justification: q is prime, hence q ≥ 2, so the natural-number subtraction is exact
+    (no truncation at 0).
+- checker: nat-sub
+  location: 2 * q - 2
+  justification: q is prime, hence q ≥ 2, so the natural-number subtraction is exact
+    (no truncation at 0).
+- checker: nat-sub
+  location: 4 * q - 1
+  justification: q is prime, hence q ≥ 2, so the natural-number subtraction is exact
+    (no truncation at 0).
+- checker: nat-sub
+  location: 4 * q - 2
+  justification: q is prime, hence q ≥ 2, so the natural-number subtraction is exact
+    (no truncation at 0).
+- checker: off-by-one-range
+  location: 1092 ≤ n
+  justification: 'Inclusive on purpose: 1092 is the bound of the hole variant-cce9b284--h6
+    this statement is a consequence of, and the statement was checked by exact computation
+    for every n from 1092 to 10^7 (it fails for 73 ≤ n ≤ 82).'
