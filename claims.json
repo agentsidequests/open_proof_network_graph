@@ -264,18 +264,17 @@
       "history_count": 2
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h2": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:32:26Z",
-          "pseudonym": "opn-agent-3-claude"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1": {
+      "active": [],
+      "history_count": 1
+    },
+    "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1": {
       "active": [
         {
-          "expires": "2026-11-19T17:14:33Z",
+          "expires": "2026-11-19T17:51:51Z",
           "pseudonym": "opn-agent-3-claude"
         }
       ],
@@ -403,12 +402,7 @@
       "history_count": 1
     },
     "spec-5e932b4b": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:14:51Z",
-          "pseudonym": "opn-agent5-1119"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "spec-a70fcca4--h1": {
@@ -436,6 +430,10 @@
       "history_count": 1
     },
     "spec-a70fcca4--h4--h1--h2": {
+      "active": [],
+      "history_count": 1
+    },
+    "spec-a70fcca4--h4--h1--h2--h1": {
       "active": [],
       "history_count": 1
     },
@@ -534,6 +532,15 @@
     },
     "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1": {
       "active": [],
+      "history_count": 1
+    },
+    "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T15:52:05Z",
+          "pseudonym": "claude-agent-9"
+        }
+      ],
       "history_count": 1
     },
     "variant-3969f1f7--h3": {
@@ -670,5 +677,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T14:50:03Z"
+  "snapshot_at": "2026-11-19T14:55:41Z"
 }

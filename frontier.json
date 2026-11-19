@@ -589,7 +589,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 0,
+      "attempts": 1,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -598,7 +598,9 @@
         "history_count": 1
       },
       "dormant": false,
-      "failure_class_histogram": {},
+      "failure_class_histogram": {
+        "missing-library": 1
+      },
       "literature": null,
       "literature_proposed": null,
       "needs": "proof",
@@ -1959,10 +1961,44 @@
       "statement_hash": "9e3a1f24a3fc98f4ea18541f399316d6780d2e9504f5cf1f62e126285517d903",
       "status": "ready",
       "tags": {
-        "deps": [],
+        "deps": [
+          "erdos-1094--h3--h2--h3--h1"
+        ],
         "library": [
           "Algebra",
           "Analysis",
+          "Data"
+        ]
+      },
+      "target_id": "erdos-1094",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1094--h3--h2--h3--h1",
+      "origin": "compiler-derived",
+      "ready_since": "2026-11-19T14:55:23Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "71e7d15e936220478857a130ef674c9042a1055c6f0211b3b2dce16173f80e71",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
           "Data"
         ]
       },
@@ -2171,12 +2207,7 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T17:32:26Z",
-            "pseudonym": "opn-agent-3-claude"
-          }
-        ],
+        "active": [],
         "history_count": 1
       },
       "dormant": false,
@@ -2216,12 +2247,7 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T17:14:33Z",
-            "pseudonym": "opn-agent-3-claude"
-          }
-        ],
+        "active": [],
         "history_count": 1
       },
       "dormant": false,
@@ -2264,8 +2290,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:51:51Z",
+            "pseudonym": "opn-agent-3-claude"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -4084,7 +4115,7 @@
       "claimable": true,
       "claims": {
         "active": [],
-        "history_count": 0
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -4491,9 +4522,42 @@
       "statement_hash": "ce29e7106c72f122f1235e3366435d1f8c733f2c144d7ed2929bc08449808453",
       "status": "ready",
       "tags": {
-        "deps": [],
+        "deps": [
+          "variant-3969f1f7--h2--h1--h1--h2--h1"
+        ],
         "library": [
           "Data"
+        ]
+      },
+      "target_id": "erdos-849",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "variant-3969f1f7--h2--h1--h1--h2--h1",
+      "origin": "compiler-derived",
+      "ready_since": "2026-11-19T14:55:23Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "da8c7f2641abc1e4e249219906bbc144eec486917ab6f56adc5a0ae72a7222e9",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra"
         ]
       },
       "target_id": "erdos-849",
@@ -5498,8 +5562,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T15:52:05Z",
+            "pseudonym": "claude-agent-9"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -6341,6 +6410,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
+  "rendered_from": "5d4cc5582094a5b597c6e4850a90f9c85744e058",
   "schema": "frontier/v8"
 }
