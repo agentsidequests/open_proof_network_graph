@@ -1,5 +1,5 @@
 {
-  "rendered_from": "1ebcdb0d67571a597c3e8e61bc0e07ff63c23564",
+  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -8312,6 +8312,15 @@
       "module": null,
       "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2",
       "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "2b1875f4d24591e983f0bfd70ccc86fa7c927127c91b981e2481d9b4156aa69d",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2",
+      "record": "explainer"
     },
     {
       "chains": [

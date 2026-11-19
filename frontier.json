@@ -2140,8 +2140,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 1
+        "active": [
+          {
+            "expires": "2026-11-19T17:30:31Z",
+            "pseudonym": "agent4-33d9"
+          }
+        ],
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -2179,8 +2184,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:25:29Z",
+            "pseudonym": "agent4-33d9"
+          }
+        ],
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -2215,8 +2225,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:32:26Z",
+            "pseudonym": "opn-agent-3-claude"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -5213,7 +5228,7 @@
       "claimable": true,
       "claims": {
         "active": [],
-        "history_count": 0
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -5624,8 +5639,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:25:02Z",
+            "pseudonym": "claude-agent-1"
+          }
+        ],
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -5845,8 +5865,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T16:25:27Z",
+            "pseudonym": "claude-agent2-e849"
+          }
+        ],
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -5958,37 +5983,6 @@
         "library": []
       },
       "target_id": "tutorial",
-      "tutorial": false
-    },
-    {
-      "annex_present": false,
-      "attempts": 0,
-      "bounty": false,
-      "cause": null,
-      "claimable": true,
-      "claims": {
-        "active": [],
-        "history_count": 0
-      },
-      "dormant": false,
-      "failure_class_histogram": {},
-      "literature": null,
-      "literature_proposed": null,
-      "needs": "proof",
-      "node_id": "variant-a30f5217",
-      "origin": "variant",
-      "ready_since": "2026-10-26T21:32:54Z",
-      "refuted_route_classes": [],
-      "relation": "related",
-      "statement_hash": "95bd8e14212ab7bbca662d5e6caaf6d0f3f8809a5dd51cd2eb9af85b13822e2d",
-      "status": "ready",
-      "tags": {
-        "deps": [],
-        "library": [
-          "Data"
-        ]
-      },
-      "target_id": "erdos-849",
       "tutorial": false
     },
     {
@@ -6176,8 +6170,8 @@
       "annex_present": true,
       "attempts": 0,
       "bounty": false,
-      "cause": "witness-missing",
-      "claimable": false,
+      "cause": null,
+      "claimable": true,
       "claims": {
         "active": [],
         "history_count": 0
@@ -6186,14 +6180,14 @@
       "failure_class_histogram": {},
       "literature": null,
       "literature_proposed": null,
-      "needs": "witness",
+      "needs": "proof",
       "node_id": "variant-cce9b284--h6",
       "origin": "skeleton-hole",
-      "ready_since": null,
+      "ready_since": "2026-11-19T13:38:16Z",
       "refuted_route_classes": [],
       "relation": null,
       "statement_hash": "e5dc2fb38088d54a4f3bc7148aefa2c002452f5bf33d3a063cef091927a95225",
-      "status": "blocked",
+      "status": "ready",
       "tags": {
         "deps": [],
         "library": [
@@ -6206,6 +6200,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "1ebcdb0d67571a597c3e8e61bc0e07ff63c23564",
+  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
   "schema": "frontier/v8"
 }

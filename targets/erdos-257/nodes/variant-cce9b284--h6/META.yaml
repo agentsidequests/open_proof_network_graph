@@ -1,6 +1,6 @@
 schema: meta/v3
 id: variant-cce9b284--h6
-status: blocked
+status: ready
 deps: []
 statement-hash: e5dc2fb38088d54a4f3bc7148aefa2c002452f5bf33d3a063cef091927a95225
 origin: skeleton-hole

@@ -1,5 +1,5 @@
 {
-  "rendered_from": "1ebcdb0d67571a597c3e8e61bc0e07ff63c23564",
+  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -5505,6 +5505,15 @@
       "record": "gloss"
     },
     {
+      "chains": [],
+      "file": "nodes/variant-3e42e1ad/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "60f90115acca5569ae9bf70bded5a0736bc7638ca9db2539369ab512296a7dab",
+      "module": null,
+      "node": "variant-3e42e1ad",
+      "record": "explainer"
+    },
+    {
       "chains": [
         {
           "current": "843e2336084ef800c26de057440734bcea8a78579d921eb1a6d8a78c759afea8",
@@ -5618,6 +5627,15 @@
       "module": null,
       "node": "variant-a30f5217",
       "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-a30f5217/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "28d966bd04747cd793ccb2d5fcaf5e0698c4c2bb318171bb143501b4033dde3c",
+      "module": null,
+      "node": "variant-a30f5217",
+      "record": "explainer"
     },
     {
       "chains": [
