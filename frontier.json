@@ -2135,50 +2135,6 @@
     },
     {
       "annex_present": false,
-      "attempts": 1,
-      "bounty": false,
-      "cause": null,
-      "claimable": true,
-      "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T17:30:31Z",
-            "pseudonym": "agent4-33d9"
-          }
-        ],
-        "history_count": 2
-      },
-      "dormant": false,
-      "failure_class_histogram": {},
-      "literature": null,
-      "literature_proposed": null,
-      "needs": "proof",
-      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1",
-      "origin": "compiler-derived",
-      "ready_since": "2026-11-12T13:24:23Z",
-      "refuted_route_classes": [],
-      "relation": null,
-      "statement_hash": "60332903bb40c7b3a33ddd56187e2bc28cb7ad2ec66ea19db64769dac574b82c",
-      "status": "ready",
-      "tags": {
-        "deps": [
-          "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h1",
-          "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2"
-        ],
-        "library": [
-          "Algebra",
-          "Analysis",
-          "Data",
-          "MeasureTheory",
-          "Order",
-          "Topology"
-        ]
-      },
-      "target_id": "erdos-1094",
-      "tutorial": false
-    },
-    {
-      "annex_present": false,
       "attempts": 0,
       "bounty": false,
       "cause": null,
@@ -3774,6 +3730,39 @@
       "tutorial": false
     },
     {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "spec-23231427",
+      "origin": "authored",
+      "ready_since": null,
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d",
+      "status": "speculative",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data",
+          "Topology"
+        ]
+      },
+      "target_id": "erdos-257",
+      "tutorial": false
+    },
+    {
       "annex_present": true,
       "attempts": 5,
       "bounty": false,
@@ -5186,8 +5175,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 2
+        "active": [
+          {
+            "expires": "2026-11-19T16:47:54Z",
+            "pseudonym": "claude-agent-1"
+          }
+        ],
+        "history_count": 3
       },
       "dormant": false,
       "failure_class_histogram": {
@@ -5786,42 +5780,6 @@
       "tutorial": false
     },
     {
-      "annex_present": false,
-      "attempts": 0,
-      "bounty": false,
-      "cause": null,
-      "claimable": true,
-      "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T16:25:27Z",
-            "pseudonym": "claude-agent2-e849"
-          }
-        ],
-        "history_count": 2
-      },
-      "dormant": false,
-      "failure_class_histogram": {},
-      "literature": null,
-      "literature_proposed": null,
-      "needs": "proof",
-      "node_id": "variant-72919549",
-      "origin": "variant",
-      "ready_since": "2026-10-26T21:29:45Z",
-      "refuted_route_classes": [],
-      "relation": "partial",
-      "statement_hash": "40b71074e468fdec56ab37fa6ef6f86802565eaa03cc6202d08cec0e97b36f4a",
-      "status": "ready",
-      "tags": {
-        "deps": [],
-        "library": [
-          "Data"
-        ]
-      },
-      "target_id": "erdos-849",
-      "tutorial": false
-    },
-    {
       "annex_present": true,
       "attempts": 2,
       "bounty": false,
@@ -6127,6 +6085,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
+  "rendered_from": "64fdb8e470f46f824845c6f638722398c6c66f15",
   "schema": "frontier/v8"
 }
