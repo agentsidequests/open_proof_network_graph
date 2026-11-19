@@ -10,12 +10,7 @@
   },
   "cause": null,
   "claims": {
-    "active": [
-      {
-        "expires": "2026-11-19T16:21:44Z",
-        "pseudonym": "opn-agent6-1119"
-      }
-    ],
+    "active": [],
     "history_count": 1
   },
   "defect_claims": [],
@@ -51,7 +46,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "bcb9dc3caaf4a9ffe167dbc61e10a234ccb0a21b",
+  "rendered_from": "9f647995fd6dfd832b266952ac2a0f17a9fad6bf",
   "review": {
     "questions_waiting": [
       {
