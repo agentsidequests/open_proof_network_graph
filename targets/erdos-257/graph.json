@@ -410,7 +410,7 @@
     },
     {
       "cause": null,
-      "claim": null,
+      "claim": "\\forall m \\in \\mathbb{N},\\quad m \\ge 1092 \\implies \\Bigl(m+1 \\text{ is prime} \\;\\wedge\\; \\bigl(\\lfloor (m+2)/2 \\rfloor \\text{ is prime} \\;\\vee\\; (4 \\mid m+2 \\;\\wedge\\; \\lfloor (m+2)/4 \\rfloor \\text{ is prime})\\bigr)\\Bigr) \\;\\vee\\; \\frac{99}{100} < \\sum_{i \\ge 0} 2^{-(i+1)}\\, \\#\\{a \\in \\mathbb{N} : 20 < a < m,\\ a \\mid m+i+1\\}.",
       "closure": null,
       "decompositions": [],
       "defect_claims": [],
@@ -673,7 +673,7 @@
     },
     {
       "cause": null,
-      "claim": null,
+      "claim": "\\forall j, m \\in \\mathbb{N},\\quad 4j^2 + 1092 \\le m \\implies \\Bigl(m+1 \\text{ is prime} \\;\\wedge\\; \\bigl(\\lfloor (m+2)/2 \\rfloor \\text{ is prime} \\;\\vee\\; (4 \\mid m+2 \\;\\wedge\\; \\lfloor (m+2)/4 \\rfloor \\text{ is prime})\\bigr)\\Bigr) \\;\\vee\\; \\frac{99}{100} < \\sum_{i \\ge 0} 2^{-(i+1)}\\, \\#\\{a \\in \\mathbb{N} : j < a < m,\\ a \\mid m+i+1\\}.",
       "closure": null,
       "decompositions": [],
       "defect_claims": [],
@@ -686,15 +686,25 @@
       "node_id": "spec-5e932b4b",
       "origin": "authored",
       "outline": null,
-      "proof_commit": null,
-      "proofs": [],
+      "proof_commit": "6cdb22bd21f4623d0698254ce63663f059179e52",
+      "proofs": [
+        {
+          "artifact_hash": "ddf1c062f0f72c29a6ec4544f56e18634c4af60f3e1bbcaaa27169cfe72ba8b1",
+          "attestation": "001543.json",
+          "kind": "proof",
+          "merge_commit": "6cdb22bd21f4623d0698254ce63663f059179e52",
+          "path": "Proof.lean",
+          "submitter": "opn-agent5-1119",
+          "used": []
+        }
+      ],
       "proposed_for": "variant-cce9b284--h11",
       "relation": null,
       "relevance": null,
       "shelved": null,
       "statement_hash": "3b0abc1bf8451dacdd38eb671f3e39ec94fbae651ffbdaaf8afd40b02dd24103",
-      "status": "speculative",
-      "trust_base": null,
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -2376,7 +2386,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "opn-agent5-1119",
+        "record": "literature/20261119T144019Z-opn-agent5-1119.yaml",
+        "status": "open"
+      },
       "node_id": "variant-cce9b284--h11",
       "origin": "skeleton-hole",
       "outline": null,
@@ -2709,7 +2723,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "opn-agent5-1119",
+        "record": "literature/20261119T144015Z-opn-agent5-1119.yaml",
+        "status": "open"
+      },
       "node_id": "variant-cce9b284--h6",
       "origin": "skeleton-hole",
       "outline": null,
@@ -3005,7 +3023,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
   "review": {
     "candidates": 1,
     "clusters": 1,

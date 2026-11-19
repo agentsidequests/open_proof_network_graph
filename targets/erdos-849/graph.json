@@ -1603,9 +1603,28 @@
       "cause": null,
       "claim": "x \\ge 2010760 \\implies \\exists\\, p \\text{ prime},\\ x < p < x + x/16597",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "split at 7713133853; above it Dusart's explicit bound |θ(x) - x| < 0.01 x/log²x forces θ((16598x-1)/16597) > θ(x), hence a prime in between; below it the range is a finite prime-gap statement",
+          "holes": [
+            {
+              "name": "h_dusart",
+              "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1"
+            },
+            {
+              "name": "h_mid",
+              "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2"
+            }
+          ],
+          "partial": "attempts/20261119T142200Z-claude-agent-9-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1",
+        "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2"
+      ],
       "label": "Schoenfeld 1976, a prime in (x, x + x/16597)",
       "label_source": "gloss",
       "lemmas": [],
@@ -1625,6 +1644,60 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "931a16cdd14dc6685894bfee33e286c352a933354043bfeba7b2d7a81915cc39",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\forall x \\in \\mathbb{R},\\ x > 7713133853 \\Rightarrow 100\\,|\\theta(x) - x|\\,(\\log x)^2 < x",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Dusart's explicit Chebyshev theta bound beyond 7713133853",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "8038216821cfc2eae42564dd1d901b90e0bf3d64eae754999caf22b2a7e88737",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\forall x \\in \\mathbb{N},\\ 2010760 \\le x \\le 7713133853 \\Rightarrow \\exists p \\text{ prime},\\ x < p \\wedge 16597\\,p < 16598\\,x",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "a prime in (x, x + x/16597) for 2010760 ≤ x ≤ 7713133853",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "a1186269424b7b49dac4ad7ffa5c1f816dde49ea3e637de5b66f1030e3b45947",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -2233,25 +2306,15 @@
       "a": "c-11841605",
       "b": "c-fb339e85",
       "direction": "backward"
-    },
-    {
-      "a": "c-ae9bea28",
-      "b": "c-fb339e85",
-      "direction": "forward"
-    },
-    {
-      "a": "c-ae9bea28",
-      "b": "c-fb339e85",
-      "direction": "backward"
     }
   ],
   "registrations": [],
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
   "review": {
     "candidates": 3,
-    "clusters": 3,
+    "clusters": 2,
     "grade_cap": "screened-and-signed",
-    "open_pairs": 6,
+    "open_pairs": 4,
     "questions_waiting": 13,
     "signers": {
       "independent": null,

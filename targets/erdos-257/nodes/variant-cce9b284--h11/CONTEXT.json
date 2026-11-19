@@ -13,9 +13,51 @@
   ],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-257/nodes/variant-cce9b284--h11/attempts/20261119T143813Z-opn-agent5-1119.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": [
+              "infinitely many primes q with 2q-1 or 4q-1 prime, in every large dyadic range: open"
+            ]
+          },
+          "contributor": "opn-agent5-1119",
+          "detail": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h11/attempts/20261119T143813Z-opn-agent5-1119.yaml",
+            "text": "Choosing j does not escape the prime-pair barrier of the h6 route. spec-5e932b4b (merged proof, pull request 1543): for all j and m >= 4j^2+1092, either m+1 is prime and (m+2)/2 is prime or 4 | m+2 with (m+2)/4 prime, or G_j(m) > 99/100. Same proof as spec-23231427 (first 12 or 8 terms of the tsum, divisors (m+i+1)/d for 2 <= d <= 12, one extra divisor of a composite m+1, three divisors of m+2 above j unless m+2 is 2q or 4q, kernel residue check mod 27720 and mod 60), with the size conditions n…",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h11/attempts/20261119T143813Z-opn-agent5-1119.yaml",
+            "text": "claude-opus-5-5 (Claude Code agent); hosted /check and precheck",
+            "untrusted": true
+          },
+          "node": "variant-cce9b284--h11",
+          "outcome": "blocked",
+          "route": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h11/attempts/20261119T143813Z-opn-agent5-1119.yaml",
+            "text": "choose j and N and prove the calm-point chain for G_j directly; instead proved formally (spec-5e932b4b) that for every j each calm m >= 4j^2+1092 has m+1 prime and (m+2)/2 or (m+2)/4 prime, so this hole, for any j, implies prime pairs q, 2q-1 or q, 4q-1 in every large dyadic interval",
+            "untrusted": true
+          },
+          "route_class": "direct-estimate",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h11/attempts/20261119T143813Z-opn-agent5-1119.yaml",
+            "text": "⊢ ∃ j N, 1 ≤ j ∧ j ≤ N ∧\n    (∀ (r : ℕ → ℝ), r 0 = 1 / 2 ^ j → (∀ k, r (k + 1) = if 1 ≤ k ∧ 1 / (2 ^ k - 1) ≤ r k then r k - 1 / (2 ^ k - 1) else r k) →\n      ∀ n < N, ¬(r (n + 1) < 1 / (2 ^ (n + 1) - 1) ∧ ∑' i, 1 / (2 ^ (n + 2 + i) - 1) < r (n + 1))) ∧\n    ∀ n, N ≤ n → ∃ m, n < m ∧ m + 10 ≤ 2 * n ∧\n      ∑' i, (1 / 2) ^ (i + 1) * ↑{a | j < a ∧ a < m ∧ a ∣ m + i + 1}.ncard ≤ 99 / 100\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
@@ -36,7 +78,24 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "opn-agent5-1119",
+    "record": "literature/20261119T144019Z-opn-agent5-1119.yaml",
+    "references": [
+      {
+        "note": "the problem this hole's route would refute; listed open",
+        "title": "Erdős problem 257 (erdosproblems.com/257)",
+        "url": "https://www.erdosproblems.com/257"
+      },
+      {
+        "note": "the conjecture whose two-form case (q and 2q-1 both prime) the hole implies",
+        "title": "L. E. Dickson, A new extension of Dirichlet's theorem on prime numbers, Messenger of Mathematics 33 (1904)",
+        "url": "https://en.wikipedia.org/wiki/Dickson%27s_conjecture"
+      }
+    ],
+    "status": "open",
+    "summary": "No proof is known. By the merged node spec-5e932b4b, for every j each calm point m >= 4j^2+1092 has m+1 and (m+2)/2 or (m+2)/4 prime, so the calm-chain half of this statement implies a prime q with 2q-1 or 4q-1 prime in every interval (n, 2n-10] for n large, an open case of Dickson's conjecture."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "skeleton-hole",
@@ -57,7 +116,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
   "review": {
     "questions_waiting": [
       {

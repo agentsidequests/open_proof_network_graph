@@ -3525,9 +3525,43 @@
       "cause": null,
       "claim": "f\\ge0,\\ F(s)-\\frac{A}{s-1}\\text{ continuous on }\\Re s\\ge1,\\ g\\text{ continuous},\\ |g(u)|\\le\\frac{C}{1+u^2},\\ \\operatorname{supp}\\hat g\\text{ compact} \\Rightarrow \\sum_n \\frac{f(n)}{n}\\,g\\bigl(\\log\\tfrac nX\\bigr)\\to A\\int g",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "PNT+'s route (limiting_fourier, limiting_cor): an a priori bound S(N) = O(N); with it the weighted sums converge (dyadic blocks); Fourier inversion and Re s → 1+ give Σ = ∫ ĝ(ξ) e^{-2πiξ log X} G(1−2πiξ) dξ + A ∫_{−log X}^∞ g; Riemann–Lebesgue and ∫_{−y}^∞ g → ∫ g.",
+          "holes": [
+            {
+              "name": "h_cheb",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1"
+            },
+            {
+              "name": "h_summ",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2"
+            },
+            {
+              "name": "h_id",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3"
+            },
+            {
+              "name": "h_rl",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4"
+            },
+            {
+              "name": "h_tail",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5"
+            }
+          ],
+          "partial": "attempts/20261119T141220Z-opn-agent-3-claude-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5"
+      ],
       "label": "band-limited Wiener–Ikehara",
       "label_source": "gloss",
       "lemmas": [],
@@ -3545,6 +3579,171 @@
       "statement_hash": "6e2f1cc0dc6ad22549f1ae8283bf215c2cea87677115ee35a240dbc42b9bdb9f",
       "status": "ready",
       "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "f\\ge0,\\ F(s)-\\frac{A}{s-1}\\text{ continuous on }\\Re s\\ge1 \\Rightarrow \\exists C\\ \\forall N:\\ \\sum_{n<N} f(n)\\le C N",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Chebyshev bound under the Wiener–Ikehara hypotheses",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "25d98dc2f7be2bca680ef59b6c8ef46c942a401eb7aefd85afbf526ef42b2d62",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "f\\ge0,\\ \\sum_{n<N} f(n)\\le CN,\\ |g(u)|\\le\\frac{D}{1+u^2},\\ X>0 \\Rightarrow \\sum_n \\frac{f(n)}{n}\\,g\\bigl(\\log\\tfrac nX\\bigr)\\text{ converges absolutely}",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "weighted sums converge under a Chebyshev bound",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+      "proofs": [
+        {
+          "artifact_hash": "74e5f7c75650b3c528fecca10fbdfd0fb52e1383cb8c5cd969b0ed18e99b6f30",
+          "attestation": "001542.erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2.json",
+          "kind": "proof",
+          "merge_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+          "path": "Proof.lean",
+          "submitter": "opn-agent-3-claude",
+          "used": []
+        }
+      ],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "08b0817ac909163106020e9eb746c6f8bedfc2f24ddb3c555fb811cb80d463dd",
+      "status": "proved",
+      "trust_base": "kernel",
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\sum_n \\frac{f(n)}{n}\\,g\\bigl(\\log\\tfrac nX\\bigr)=\\int_{\\mathbb R}\\hat g(\\xi)\\,e^{-2\\pi i\\xi\\log X}\\,G(1-2\\pi i\\xi)\\,d\\xi+A\\int_{-\\log X}^{\\infty} g(v)\\,dv",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "the limiting Fourier identity",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "f4dcb26f364c6b681620f02c64426ddb0ab2bf7abc68af4f6cfa9b67f18a023b",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\int_{\\mathbb R}\\hat g(\\xi)\\,e^{-2\\pi i\\xi\\log X}\\,G(1-2\\pi i\\xi)\\,d\\xi\\to0 \\text{ as } X\\to\\infty",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Riemann–Lebesgue along log X",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+      "proofs": [
+        {
+          "artifact_hash": "3f140c368733069ead2f075aee5f7ee6ef652a4828e51f50c85749034ca78e5e",
+          "attestation": "001542.erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4.json",
+          "kind": "proof",
+          "merge_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+          "path": "Proof.lean",
+          "submitter": "opn-agent-3-claude",
+          "used": []
+        }
+      ],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "118356a03f9cc3efbe369725e82bf0414a295f09833bd9c7a825c4cf714995cd",
+      "status": "proved",
+      "trust_base": "kernel",
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "g\\text{ continuous},\\ |g(u)|\\le\\frac{D}{1+u^2} \\Rightarrow \\int_{-\\log X}^{\\infty} g\\to\\int_{\\mathbb R} g",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "the tail integral tends to the whole integral",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+      "proofs": [
+        {
+          "artifact_hash": "94c8547df170df1cfde17469a4640be2a40a529b93269194321e795a44fc0ce9",
+          "attestation": "001542.erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5.json",
+          "kind": "proof",
+          "merge_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+          "path": "Proof.lean",
+          "submitter": "opn-agent-3-claude",
+          "used": []
+        }
+      ],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "09f9d3e7d7983e33b08181b134d5f177654641aa40abed0160a48b3c528813af",
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -3687,7 +3886,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
   "review": {
     "candidates": 1,
     "clusters": 1,
