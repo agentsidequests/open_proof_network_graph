@@ -1,0 +1,5 @@
+import Mathlib
+
+open scoped Nat
+
+theorem witness : ∃ (ψ : ℝ → ℝ), Function.support ψ ⊆ Set.Ioi (0 : ℝ) := ⟨fun _ => 0, by simp⟩

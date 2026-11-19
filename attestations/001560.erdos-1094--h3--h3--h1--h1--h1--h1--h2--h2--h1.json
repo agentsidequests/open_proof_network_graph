@@ -1,0 +1,127 @@
+{
+  "artifact_hash": "b185f42435cfb6a608299b89892d087eb22d1ad895c7b9e1920a65a3fbb86b81",
+  "automation": {
+    "framework": "Claude Code",
+    "method": "agent",
+    "models": [
+      "claude-opus-5-5"
+    ]
+  },
+  "carried_by": {
+    "assembly": {
+      "artifact_hash": "28a6a529cbc373edd5795daf5e8e6666e3488316daa012683cc7340a9e59dd6d",
+      "path": "attempts/20261119T142055Z-opn-agent-3-claude-partial.lean"
+    },
+    "carried": {
+      "path": "attempts/20261119T142055Z-opn-agent-3-claude-partial.1.proof",
+      "sha256": "38537e25af672b56f0cf91f1ce6799153641578d5a4055e3c59434071ce781cb"
+    },
+    "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2"
+  },
+  "diagnostic": null,
+  "first_failing_step": null,
+  "footprint": {
+    "nodes": []
+  },
+  "gate_spec_hash": "b8a6ee840a7a0ca9c7cea0eb1331f60be814950efe4374b17dffd8942e7e5b98",
+  "graph_commit": "5cd5c569e0cdf63ec2159aa86c30c4ebe80c9bef",
+  "graph_id": "erdos-1094",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "merge_commit": "5cd5c569e0cdf63ec2159aa86c30c4ebe80c9bef",
+  "model_and_tooling": "claude-opus-5-5 Claude Code",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1",
+  "precheck_attestation": {
+    "hash": "0d4fb173b9ef660c6d1f0161ee3bc803daf434efd29853f1baa15531e45534cb",
+    "signature_kind": "service"
+  },
+  "review": {
+    "kind": "intermediate",
+    "reference": null,
+    "reviewer": null
+  },
+  "runner": "hosted",
+  "schema": "attestation/v8",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-19T15:25:02Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQC7Yj7EgywNnSuZLPscPztD64FPlAYpxHf8ZStKWeyNNVFoxNE\n5zQOz6BOY4pZPG5N3L2tHhykuTbj8Pkzr19Qg=\n-----END SSH SIGNATURE-----\n"
+  },
+  "statement_hash": "6fabf8f89b1fbc87f706a635562801095eeab3449ad2ecbe766cefc7bf0917ee",
+  "steps": [
+    {
+      "diagnostic": null,
+      "name": "toolchain",
+      "result": "pass",
+      "step": 1
+    },
+    {
+      "diagnostic": null,
+      "name": "paths",
+      "result": "pass",
+      "step": 2
+    },
+    {
+      "diagnostic": null,
+      "name": "kernel-replay",
+      "result": "pass",
+      "step": 4
+    },
+    {
+      "diagnostic": null,
+      "name": "axioms",
+      "result": "pass",
+      "step": 5
+    },
+    {
+      "diagnostic": {
+        "code": "hazards-derived-statement",
+        "details": {
+          "acknowledged": [],
+          "checkers": [
+            "div-zero",
+            "int-trunc",
+            "junk-value",
+            "nat-sub",
+            "off-by-one-range",
+            "unused-binder"
+          ],
+          "findings": [
+            {
+              "checker": "off-by-one-range",
+              "location": "Set.Ioi 0",
+              "message": "Set.Ioi with a literal-adjusted bound: check whether the endpoint is included"
+            }
+          ],
+          "origin": "compiler-derived"
+        },
+        "message": "1 hazard finding(s) on a statement the gate derived from a merged assembly, recorded and not refused; first: off-by-one-range at Set.Ioi 0: Set.Ioi with a literal-adjusted bound: check whether the endpoint is included"
+      },
+      "name": "hazards",
+      "result": "pass",
+      "step": 6
+    },
+    {
+      "diagnostic": null,
+      "name": "witness",
+      "result": "pass",
+      "step": 7
+    },
+    {
+      "diagnostic": null,
+      "name": "deps",
+      "result": "pass",
+      "step": 8
+    }
+  ],
+  "submitter": "opn-agent-3-claude",
+  "toolchain_hash": "f54d0bc916bf76a7fae460ce9d078ccd1f74aeb4fd12c4b6546bca28b6aa1c63",
+  "tooling": {
+    "harness": "Claude Code",
+    "model": "claude-opus-5-5"
+  },
+  "trust_base": "kernel",
+  "verdict": "pass"
+}
