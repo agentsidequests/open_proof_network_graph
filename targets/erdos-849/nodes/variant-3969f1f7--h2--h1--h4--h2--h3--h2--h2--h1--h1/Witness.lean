@@ -1,0 +1,5 @@
+import Mathlib
+
+open Nat
+
+theorem witness : ∃ (x : ℝ), (7713133853 : ℝ) < x := ⟨7713133854, by norm_num⟩
