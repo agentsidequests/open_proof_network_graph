@@ -1021,9 +1021,23 @@
       "cause": null,
       "claim": "\\exists C>0\\ \\ \\exists k_0\\in\\mathbb{N}\\ \\ \\forall k\\ge k_0:\\qquad \\frac{C\\,k^{21/40}}{\\log k}\\ \\le\\ \\#\\bigl\\{p\\text{ prime}:\\ k<p<k+k^{21/40}\\bigr\\}",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "since 21/40 > 1/2, prime powers are negligible: the Chebyshev-ψ form ψ(k+k^{21/40}) − ψ(k) ≫ k^{21/40} gives the same for θ up to 4√x log x (Mathlib), and θ's increment is at most (count + 1)·log(k+k^{21/40}), which yields the prime count ≫ k^{21/40}/log k",
+          "holes": [
+            {
+              "name": "h_psi",
+              "node": "erdos-1094--h2--h2--h1--h1"
+            }
+          ],
+          "partial": "attempts/20261119T144328Z-agent4-33d9-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "erdos-1094--h2--h2--h1--h1"
+      ],
       "label": "BHP short-interval primes",
       "label_source": "gloss",
       "lemmas": [],
@@ -1043,6 +1057,33 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "239d5513abf6882610032313dab3f1fdca865fe2887a806a6e017d86b30bb728",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\exists c>0\\ \\exists k_0\\ \\forall k\\ge k_0:\\ c\\,k^{21/40}\\le\\psi\\bigl(k+k^{21/40}\\bigr)-\\psi(k)",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "BHP in Chebyshev ψ form",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h2--h2--h1--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "deb017d7b38411353b955e18fa5782e6f75d49f83accc096c6ec8ec8ccd475b4",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -4046,7 +4087,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
+  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
   "review": {
     "candidates": 1,
     "clusters": 1,

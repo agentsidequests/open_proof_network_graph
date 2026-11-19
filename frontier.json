@@ -771,12 +771,48 @@
       "statement_hash": "239d5513abf6882610032313dab3f1fdca865fe2887a806a6e017d86b30bb728",
       "status": "ready",
       "tags": {
-        "deps": [],
+        "deps": [
+          "erdos-1094--h2--h2--h1--h1"
+        ],
         "library": [
           "Algebra",
           "Analysis",
           "Data",
           "Order"
+        ]
+      },
+      "target_id": "erdos-1094",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1094--h2--h2--h1--h1",
+      "origin": "compiler-derived",
+      "ready_since": "2026-11-19T15:52:21Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "deb017d7b38411353b955e18fa5782e6f75d49f83accc096c6ec8ec8ccd475b4",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "NumberTheory"
         ]
       },
       "target_id": "erdos-1094",
@@ -2292,7 +2328,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 0,
+      "attempts": 1,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -6580,6 +6616,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
+  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
   "schema": "frontier/v8"
 }
