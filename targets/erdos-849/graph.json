@@ -1701,7 +1701,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent-9",
+        "record": "literature/20261119T145226Z-claude-agent-9.yaml",
+        "status": "known"
+      },
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1",
       "origin": "compiler-derived",
       "outline": null,
@@ -2340,7 +2344,7 @@
     }
   ],
   "registrations": [],
-  "rendered_from": "5d4cc5582094a5b597c6e4850a90f9c85744e058",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "candidates": 3,
     "clusters": 2,

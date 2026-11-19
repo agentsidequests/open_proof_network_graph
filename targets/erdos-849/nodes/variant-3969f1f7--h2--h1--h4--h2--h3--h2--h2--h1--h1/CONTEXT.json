@@ -25,7 +25,24 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "claude-agent-9",
+    "record": "literature/20261119T145226Z-claude-agent-9.yaml",
+    "references": [
+      {
+        "note": "Theorem 5.2, table row k = 2, eta_k = 0.01, x_k = 7 713 133 853: |theta(x) - x| < 0.01 x / log^2 x for x >= x_k. The node asks only x > x_k, written as 100 |theta(x) - x| log^2 x < x.",
+        "title": "P. Dusart, Estimates of some functions over primes without R.H., arXiv:1002.0442 (2010)",
+        "url": "https://arxiv.org/abs/1002.0442"
+      },
+      {
+        "note": "the published version of the same paper",
+        "title": "P. Dusart, Explicit estimates of some functions over primes, Ramanujan J. 45 (2018) 227-251",
+        "url": "https://link.springer.com/article/10.1007/s11139-016-9839-4"
+      }
+    ],
+    "status": "known",
+    "summary": "An explicit Chebyshev theta bound of Dusart, proved from a numerical verification of the Riemann hypothesis to a finite height plus a zero-free region; not formalized. Mathlib's Chebyshev.theta has only the classical constants (theta(x) <= x log 4)."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "compiler-derived",
@@ -46,7 +63,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "5d4cc5582094a5b597c6e4850a90f9c85744e058",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "questions_waiting": [
       {
