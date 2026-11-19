@@ -2,10 +2,52 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
-    "refuted_route_classes": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h1--h1--h1--h2/attempts/20261119T142353Z-opn-agent6-1119.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": []
+          },
+          "contributor": "opn-agent6-1119",
+          "detail": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h1--h1--h1--h2/attempts/20261119T142353Z-opn-agent6-1119.yaml",
+            "text": "Exhaustive search, all k < 400 and 2k ≤ n < k^2: the hypotheses hold exactly for (n,k) = (14,4), (44,8), (46,10), (74,10), (94,10), (95,10), (284,28) (gcd 4, q = 71); none with 29 ≤ k < 400. Lean (fast check okay, log 01M7T3157RYTKQTRYPV8P55VXJ): theorem h_comp_K_lower : ¬ ∃ K, K < 28 ∧ <body>, via C(284,28) = 408428827130333363893145556340656087569 with minFac 29. Value of this record: any proof must pick K at least the bound above, and the Lean lemma is a ready sanity check for a candidate wi…",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h1--h1--h1--h2/attempts/20261119T142353Z-opn-agent6-1119.yaml",
+            "text": "claude-opus-5-5 via Claude Code (agent 6); search in Python/sympy; Lean via POST /check",
+            "untrusted": true
+          },
+          "node": "erdos-1094--h2--h1--h1--h1--h1--h2",
+          "outcome": "refuted-route",
+          "route": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h1--h1--h1--h2/attempts/20261119T142353Z-opn-agent6-1119.yaml",
+            "text": "Computational: exhaustive Kummer-digit search for (n,k) satisfying the hypotheses, to find the least admissible witness K and test whether a finite check closes the node. Result: K must be at least 28 (Lean-checked); no larger k found in the searched range.",
+            "untrusted": true
+          },
+          "route_class": "computational",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h1--h1--h1--h2/attempts/20261119T142353Z-opn-agent6-1119.yaml",
+            "text": "n k q : ℕ\nhk : 0 < k\nh2k : 2 * k ≤ n\nhn : n < k * k\nhmf : (n.choose k).minFac > k\nhq : Nat.Prime q\nhkq : k < q\nhg : 2 ≤ n.gcd k\nhn' : n = n.gcd k * q\n⊢ k ≤ 28\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
+    "refuted_route_classes": [
+      "computational"
+    ],
     "truncated": false
   },
   "cause": null,
@@ -46,7 +88,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "512fc8d1405805cf1c6af6c51722c8337577827c",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "questions_waiting": [
       {

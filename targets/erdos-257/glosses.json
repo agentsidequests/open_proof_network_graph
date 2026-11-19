@@ -1,5 +1,5 @@
 {
-  "rendered_from": "512fc8d1405805cf1c6af6c51722c8337577827c",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -1067,7 +1067,42 @@
       "record": "explainer"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "fe63c5735ff47b3ee50cd0230b53200999e255f1d89052515c53396becadde64",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "fe63c5735ff47b3ee50cd0230b53200999e255f1d89052515c53396becadde64"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent5-1119",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "fe63c5735ff47b3ee50cd0230b53200999e255f1d89052515c53396becadde64",
+              "label": null,
+              "lean_hash": "971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d",
+              "path": "nodes/spec-23231427/gloss/fe63c5735ff47b3ee50cd0230b53200999e255f1d89052515c53396becadde64.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/spec-23231427/Statement.lean",
       "kind": "statement",
       "lean_hash": "971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d",
@@ -1085,7 +1120,42 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "f34f62d32336605924ecdf63bfe92f653ee1e89a7fae127262bbd1707747ca97",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "f34f62d32336605924ecdf63bfe92f653ee1e89a7fae127262bbd1707747ca97"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent5-1119",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "Claude Opus 5.5 (claude-opus-5-5)",
+              "drafter": null,
+              "hash": "f34f62d32336605924ecdf63bfe92f653ee1e89a7fae127262bbd1707747ca97",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/spec-23231427/explainer/f34f62d32336605924ecdf63bfe92f653ee1e89a7fae127262bbd1707747ca97.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/spec-23231427/Proof.lean",
       "kind": "proof",
       "lean_hash": "bf982a6ac684bc78ccaf3f8acc13068b4155f73f0d3c1ea540f8b80a05e23d43",
@@ -1864,7 +1934,42 @@
       "record": "explainer"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "a0fba28e13c86c0eb6a0860e72d6b740f084a3902eea206b4ee20991c7ca1249",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "a0fba28e13c86c0eb6a0860e72d6b740f084a3902eea206b4ee20991c7ca1249"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent5-1119",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "a0fba28e13c86c0eb6a0860e72d6b740f084a3902eea206b4ee20991c7ca1249",
+              "label": null,
+              "lean_hash": "3b0abc1bf8451dacdd38eb671f3e39ec94fbae651ffbdaaf8afd40b02dd24103",
+              "path": "nodes/spec-5e932b4b/gloss/a0fba28e13c86c0eb6a0860e72d6b740f084a3902eea206b4ee20991c7ca1249.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/spec-5e932b4b/Statement.lean",
       "kind": "statement",
       "lean_hash": "3b0abc1bf8451dacdd38eb671f3e39ec94fbae651ffbdaaf8afd40b02dd24103",
@@ -1880,6 +1985,50 @@
       "module": null,
       "node": "spec-5e932b4b",
       "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "66a3b7a23fb124b1abb53052c2a11d97d27ca18889629a1ba54fcb02ad65bdd9",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "66a3b7a23fb124b1abb53052c2a11d97d27ca18889629a1ba54fcb02ad65bdd9"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent5-1119",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "Claude Opus 5.5 (claude-opus-5-5)",
+              "drafter": null,
+              "hash": "66a3b7a23fb124b1abb53052c2a11d97d27ca18889629a1ba54fcb02ad65bdd9",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/spec-5e932b4b/explainer/66a3b7a23fb124b1abb53052c2a11d97d27ca18889629a1ba54fcb02ad65bdd9.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/spec-5e932b4b/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "ddf1c062f0f72c29a6ec4544f56e18634c4af60f3e1bbcaaa27169cfe72ba8b1",
+      "module": null,
+      "node": "spec-5e932b4b",
+      "record": "explainer"
     },
     {
       "chains": [

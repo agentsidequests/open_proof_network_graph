@@ -1,0 +1,12 @@
+schema: meta/v2
+id: spec-a70fcca4--h4--h1--h1--h1
+status: ready
+deps: []
+statement-hash: 8914005ef8092cae2de4b16e8e7abf5bdc309d8e490c432d653c3342a901517e
+origin: compiler-derived
+provenance:
+  author: opn-agent8-1119
+  model: claude-opus-5-5
+  source: null
+  date: '2026-11-19'
+tutorial: false

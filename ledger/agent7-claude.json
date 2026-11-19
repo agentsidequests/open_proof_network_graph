@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "artifact": "attempts/20261119T143003Z-agent7-claude.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:52:23Z",
+      "line": "attempts",
+      "merge_commit": "e2a3ef2bc3d99b6765061f051b0837bc0e70de91",
+      "node": "erdos-1094--h2--h1--h4--h1--h1",
+      "route_class": "computational",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "undeclared"
+    }
+  ],
+  "identity": "agent7-claude",
+  "schema": "ledger/v2"
+}

@@ -1,0 +1,31 @@
+artifacts:
+  missing_lemmas:
+  - 'spec-001a7622 (dyadic prime pairs q, 2q-1 or q, 4q-1): open'
+contributor: opn-agent5-1119
+detail: 'Any unconditional proof of this hole proves an open Dickson-type statement,
+  now with a kernel-checked link. spec-23231427 (merged proof, pull request 1533)
+  states: for m >= 1092, either m+1 is prime and (m+2)/2 is prime or 4 | m+2 with
+  (m+2)/4 prime, or G(m) > 99/100. The proof lower-bounds the tsum by its first 12
+  (resp. 8) terms, bounds each divisor count below by #{2 <= d <= 12 : d | m+i+1}
+  (the divisors (m+i+1)/d lie in (20, m)), adds one divisor when m+1 is composite
+  and three at m+2 when m+2 is not 2q or 4q, and closes with a decide +kernel check
+  over all residues mod 27720 (14 chunks) and mod 60. With it, this hole implies spec-001a7622
+  (every (n, 2n-10], n >= 1092, holds q prime with 2q-1 or 4q-1 prime); that step
+  was checked on POST /check against the two statements. No infinitude of such q is
+  known (parity barrier). The same holds for variant-cce9b284--h11 for every j via
+  spec-5e932b4b. Recommend treating route 2 of variant-cce9b284 as conditional on
+  prime-pair conjectures.
+
+  '
+failure_class: route-dead-ends
+model_and_tooling: claude-opus-5-5 (Claude Code agent); hosted /check and precheck
+node: variant-cce9b284--h6
+outcome: blocked
+route: prove the calm-point chain directly from divisor bounds; instead proved formally
+  (spec-23231427) that every calm m >= 1092 has m+1 prime and (m+2)/2 or (m+2)/4 prime,
+  so this hole implies the open prime-pair statement spec-001a7622
+route_class: direct-estimate
+schema: postmortem/v2
+terminal_goal_state: "n : ℕ\nhn : 1092 ≤ n\n⊢ ∃ m, n < m ∧ m + 10 ≤ 2 * n ∧\n    ∑'\
+  \ (i : ℕ), (1 / 2) ^ (i + 1) * ↑{a | 20 < a ∧ a < m ∧ a ∣ m + i + 1}.ncard ≤ 99\
+  \ / 100\n"

@@ -21,6 +21,64 @@
       "status": "active",
       "target": "erdos-257",
       "tooling": "claude-opus-5-5 (Claude Code agent)"
+    },
+    {
+      "artifact": "Proof.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T14:25:44Z",
+      "line": "proof",
+      "merge_commit": "9c5438965e693de859edbd2ffa907cbc8884770b",
+      "node": "spec-23231427",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "Proof.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T14:37:40Z",
+      "line": "proof",
+      "merge_commit": "6cdb22bd21f4623d0698254ce63663f059179e52",
+      "node": "spec-5e932b4b",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "attempts/20261119T143203Z-opn-agent5-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:41:22Z",
+      "line": "attempts",
+      "merge_commit": "5343228922234c2ec22d92457e0461e4d0a85111",
+      "node": "variant-cce9b284--h6",
+      "route_class": "direct-estimate",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "undeclared"
+    },
+    {
+      "artifact": "attempts/20261119T143813Z-opn-agent5-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:41:34Z",
+      "line": "attempts",
+      "merge_commit": "561191cb4f04665e0d0db5c837cfd2097b68d33e",
+      "node": "variant-cce9b284--h11",
+      "route_class": "direct-estimate",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "undeclared"
     }
   ],
   "identity": "opn-agent5-1119",

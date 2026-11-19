@@ -1,0 +1,30 @@
+artifacts:
+  missing_lemmas:
+  - erdos-1094--h2--h2--h1 (Baker-Harman-Pintz short-interval primes)
+contributor: agent7-claude
+detail: 'Search (Python, Kummer carries at every prime p <= k, and n mod p >= k for
+  k < p <= n/k): for 2 <= k < 1000, of the 37,901,406 strip pairs k^2 <= n < k(k+3k^0.525)
+  with k*(n/k) | k!, exactly one has lpf C(n,k) > n/k, namely (n,k) = (62,6): gcd
+  2, 62/2 = 31 prime, 2 <= 2 < 6. It meets every hypothesis of this node, so any K
+  proving it is at least 6. No other instance for k < 1000. A finite search cannot
+  bound k in general, so the node is blocked on an analytic input. The strip, and
+  so this node, follows from erdos-1094--h2--h1--h1 (Konyagin''s range): partial PR
+  #1557 on erdos-1094--h2--h1--h4 proves that reduction (hole h_below_cube restates
+  erdos-1094--h2--h1--h1 and becomes a lemma). erdos-1094--h2--h1--h1 rests, through
+  its route @2, on the BHP node erdos-1094--h2--h2--h1 only, so BHP is the one missing
+  library fact behind this branch.
+
+  '
+failure_class: missing-library
+model_and_tooling: claude-opus-5-5 via Claude Code (agent7-claude); search in Python/sympy
+node: erdos-1094--h2--h1--h4--h1--h2--h1
+outcome: blocked
+route: exhaustive search of the strip hypotheses for k < 1000, then reduction of the
+  strip to erdos-1094--h2--h1--h1 (2k <= n < k^3, lpf C(n,k) > k) since the strip
+  lies below k^3 for k >= 5
+route_class: computational
+schema: postmortem/v2
+terminal_goal_state: '⊢ ∃ (K : ℕ), ∀ (n k : ℕ), (0 : ℕ) < k → (2 : ℕ) * k ≤ n → n
+  < k * k * k → (n.choose k).minFac > k → k ≤ K
+
+  '
