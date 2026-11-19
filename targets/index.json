@@ -41,7 +41,7 @@
       "since": null
     }
   },
-  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
+  "rendered_from": "b8fe174a7962f83fbd9a28964208e9d002a22c17",
   "schema": "targets-index/v11",
   "targets": [
     {
@@ -338,7 +338,7 @@
       "digestion": {
         "closure": 0,
         "closure_explained": 0,
-        "proved": 26,
+        "proved": 27,
         "proved_explained": 0,
         "state": null
       },
@@ -351,8 +351,8 @@
         "blocked": 0,
         "defective": 0,
         "disputed": 0,
-        "proved": 26,
-        "ready": 67,
+        "proved": 27,
+        "ready": 68,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,

@@ -1,5 +1,5 @@
 {
-  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
+  "rendered_from": "b8fe174a7962f83fbd9a28964208e9d002a22c17",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -9404,6 +9404,121 @@
       "module": "attempts/20261119T145204Z-opn-agent-3-claude-partial.lean",
       "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
       "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "a82f7a004ebbb680676182df1c262190187a5707e6be75d534448c1602f8c70f",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "a82f7a004ebbb680676182df1c262190187a5707e6be75d534448c1602f8c70f"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "a82f7a004ebbb680676182df1c262190187a5707e6be75d534448c1602f8c70f",
+              "label": "a positive kernel with bounded weighted sums",
+              "lean_hash": "64984fe2c3e75eb05ae64db9162e445d30480af358396558c9a83371b1e6b3e5",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1/gloss/a82f7a004ebbb680676182df1c262190187a5707e6be75d534448c1602f8c70f.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "64984fe2c3e75eb05ae64db9162e445d30480af358396558c9a83371b1e6b3e5",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "e75219ad2c4f86289396e4e4eb45a2cc922544b4a95060f1ea3ae4d1c1678ccb",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "0ff163c265041b4a4859440332c4a1e5d09e69e82ad0eba582b68e2220cf46d2",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "0ff163c265041b4a4859440332c4a1e5d09e69e82ad0eba582b68e2220cf46d2"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "0ff163c265041b4a4859440332c4a1e5d09e69e82ad0eba582b68e2220cf46d2",
+              "label": "bounded kernel sums give a Chebyshev bound",
+              "lean_hash": "49cd97285c6471ef03db2d85ae264e330174baca700c263f11e4ce67ca8baf02",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2/gloss/0ff163c265041b4a4859440332c4a1e5d09e69e82ad0eba582b68e2220cf46d2.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "49cd97285c6471ef03db2d85ae264e330174baca700c263f11e4ce67ca8baf02",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "b0b44c4a70bfa98f30b3b7a591f85340bbca4949907c3d9f18ad4b1124e934b3",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "3ba53d061d31d19f0899a98315d3b5b425ef36b96d8f84742264a06e201b3989",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2",
+      "record": "explainer"
     },
     {
       "chains": [

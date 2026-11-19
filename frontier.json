@@ -2349,6 +2349,44 @@
       "statement_hash": "25d98dc2f7be2bca680ef59b6c8ef46c942a401eb7aefd85afbf526ef42b2d62",
       "status": "ready",
       "tags": {
+        "deps": [
+          "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1",
+          "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2"
+        ],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "NumberTheory",
+          "Topology"
+        ]
+      },
+      "target_id": "erdos-1094",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1",
+      "origin": "compiler-derived",
+      "ready_since": "2026-11-19T15:56:52Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "64984fe2c3e75eb05ae64db9162e445d30480af358396558c9a83371b1e6b3e5",
+      "status": "ready",
+      "tags": {
         "deps": [],
         "library": [
           "Algebra",
@@ -6616,6 +6654,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
+  "rendered_from": "b8fe174a7962f83fbd9a28964208e9d002a22c17",
   "schema": "frontier/v8"
 }

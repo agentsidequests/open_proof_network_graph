@@ -3704,9 +3704,28 @@
       "cause": null,
       "claim": "f\\ge0,\\ F(s)-\\frac{A}{s-1}\\text{ continuous on }\\Re s\\ge1 \\Rightarrow \\exists C\\ \\forall N:\\ \\sum_{n<N} f(n)\\le C N",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "a nonnegative band-limited kernel (Fejér, sinc²(πu/8)) that is ≥ c > 0 on [−2, 0] has bounded weighted sums Σ f(n) K₀(log(n/X))/n for X ≥ 1 (Fourier side, σ → 1+ by monotone convergence); the blocks N/4 < n ≤ N then carry at most (K/c)N, and summing the blocks gives S(N) = O(N).",
+          "holes": [
+            {
+              "name": "h_kernel",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1"
+            },
+            {
+              "name": "h_kcheb",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2"
+            }
+          ],
+          "partial": "attempts/20261119T145204Z-opn-agent-3-claude-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2"
+      ],
       "label": "Chebyshev bound under the Wiener–Ikehara hypotheses",
       "label_source": "gloss",
       "lemmas": [],
@@ -3724,6 +3743,70 @@
       "statement_hash": "25d98dc2f7be2bca680ef59b6c8ef46c942a401eb7aefd85afbf526ef42b2d62",
       "status": "ready",
       "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\exists K_0\\ge0,\\ c>0,\\ K:\\ K_0\\ge c\\text{ on }[-2,0],\\ \\forall X\\ge1:\\ \\sum_n \\frac{f(n)}{n}K_0\\bigl(\\log\\tfrac nX\\bigr)\\text{ converges and is}\\le K",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "a positive kernel with bounded weighted sums",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "64984fe2c3e75eb05ae64db9162e445d30480af358396558c9a83371b1e6b3e5",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "f\\ge0,\\ \\sum_n \\frac{f(n)}{n}K_0\\bigl(\\log\\tfrac nX\\bigr)\\le K\\ (X\\ge1),\\ K_0\\ge c>0\\text{ on }[-2,0] \\Rightarrow \\exists C\\ \\forall N:\\ \\sum_{n<N}f(n)\\le CN",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "bounded kernel sums give a Chebyshev bound",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": "219c595407a0d492b5d1a82c36dcc653dc46bff0",
+      "proofs": [
+        {
+          "artifact_hash": "3ba53d061d31d19f0899a98315d3b5b425ef36b96d8f84742264a06e201b3989",
+          "attestation": "001596.erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2.json",
+          "kind": "proof",
+          "merge_commit": "219c595407a0d492b5d1a82c36dcc653dc46bff0",
+          "path": "Proof.lean",
+          "submitter": "opn-agent-3-claude",
+          "used": []
+        }
+      ],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "49cd97285c6471ef03db2d85ae264e330174baca700c263f11e4ce67ca8baf02",
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -4087,7 +4170,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
+  "rendered_from": "b8fe174a7962f83fbd9a28964208e9d002a22c17",
   "review": {
     "candidates": 1,
     "clusters": 1,
