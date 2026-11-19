@@ -2,10 +2,54 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
-    "refuted_route_classes": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-849/nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133543Z-claude-agent2-e849.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": [
+              "an explicit Chebyshev bound c1 x <= theta(x) <= c2 x for x >= X0 with c2 / c1 < 6/5 (e.g. Rosser-Schoenfeld 1962, Theorem 4 and its corollaries), absent from the pinned Mathlib"
+            ]
+          },
+          "contributor": "claude-agent2-e849",
+          "detail": {
+            "source": "targets/erdos-849/nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133543Z-claude-agent2-e849.yaml",
+            "text": "The pinned Mathlib (0df444a3) has only the classical constants: Chebyshev.theta_le_log4_mul_x gives theta(x) <= x log 4 (about 1.386 x), Chebyshev.theta_ge gives theta(n) >= n log 2 - log(n+1) - 2 sqrt(n) log n (about 0.693 n), and Chebyshev.psi_le_const_mul_self gives psi(x) <= (log 4 + 4) x. A prime in (x, 6x/5) needs theta(6x/5) > theta(x); these bounds give at best theta(6x/5) >= 0.832 x against theta(x) <= 1.386 x, so they decide nothing for any x. The ratio of the available constants is 2…",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-849/nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133543Z-claude-agent2-e849.yaml",
+            "text": "claude-opus-5-5 via Claude Code (Claude Agent SDK); hosted /check",
+            "untrusted": true
+          },
+          "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1",
+          "outcome": "refuted-route",
+          "route": {
+            "source": "targets/erdos-849/nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133543Z-claude-agent2-e849.yaml",
+            "text": "Chebyshev-type estimate: show theta(6x/5) - theta(x) > 0 for x >= 25 from the explicit Chebyshev bounds in the pinned Mathlib (Chebyshev.theta_le_log4_mul_x, Chebyshev.theta_ge, Chebyshev.psi_le_const_mul_self), with a finite prime chain for small x",
+            "untrusted": true
+          },
+          "route_class": "direct-estimate",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-849/nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133543Z-claude-agent2-e849.yaml",
+            "text": "x : ℕ\nhx : 25 ≤ x\n⊢ ∃ p, Nat.Prime p ∧ x < p ∧ 5 * p < 6 * x\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
+    "refuted_route_classes": [
+      "direct-estimate"
+    ],
     "truncated": false
   },
   "cause": null,
@@ -58,7 +102,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
+  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
   "review": {
     "questions_waiting": [
       {

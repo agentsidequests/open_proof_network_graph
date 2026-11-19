@@ -1,0 +1,380 @@
+{
+  "artifact": {
+    "hash": "60f90115acca5569ae9bf70bded5a0736bc7638ca9db2539369ab512296a7dab",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "variant-3e42e1ad",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (p : ℕ), N + (7 : ℕ) ≤ p ∧ Nat.Prime p",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "p",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hpN",
+            "type": {
+              "printed": "reliable",
+              "text": "N + (7 : ℕ) ≤ p",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hp",
+            "type": {
+              "printed": "reliable",
+              "text": "Nat.Prime p",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "(∃ a ≥ N, {n : ℕ | ∃ k ≥ (1 : ℕ), (2 : ℕ) * k ≤ n ∧ n.choose k = a}.ncard = (1 : ℕ)) ∧\n  ∃ a ≥ N, {n : ℕ | ∃ k ≥ (1 : ℕ), (2 : ℕ) * k ≤ n ∧ n.choose k = a}.ncard = (2 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "s1",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 104,
+        "start_line": 104
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "Euclid's theorem on the **infinitude of primes**.",
+            "name": "Nat.exists_infinite_primes",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [],
+        "target": {
+          "printed": "reliable",
+          "text": "{n : ℕ | ∃ k ≥ (1 : ℕ), (2 : ℕ) * k ≤ n ∧ n.choose k = p}.ncard = (1 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Set.ncard_singleton",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "p.choose (2 : ℕ) = p * (p - (1 : ℕ)) / (2 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hb",
+                "type": {
+                  "printed": "reliable",
+                  "text": "p.choose (2 : ℕ) = p * (p - (1 : ℕ)) / (2 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "p.choose (2 : ℕ) ≥ N",
+              "truncated": false
+            }
+          },
+          "id": "s3.hb",
+          "kind": "have",
+          "name": "hb",
+          "span": {
+            "end_line": 107,
+            "start_line": 107
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": "`choose n k` is the number of `k`-element subsets in an `n`-element set.",
+                "name": "Nat.choose",
+                "tags": []
+              },
+              {
+                "doc": "`choose n 2` is the `n`-th triangle number.",
+                "name": "Nat.choose_two_right",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "p * (p - (1 : ℕ)) ≥ p * (6 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "p * (p - (1 : ℕ)) ≥ p * (6 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "p.choose (2 : ℕ) ≥ N",
+              "truncated": false
+            }
+          },
+          "id": "s3.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 108,
+            "start_line": 108
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Nat.mul_le_mul_left",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [],
+        "target": {
+          "printed": "reliable",
+          "text": "p.choose (2 : ℕ) ≥ N",
+          "truncated": false
+        }
+      },
+      "id": "s3",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 109,
+        "start_line": 107
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "p.choose (2 : ℕ) = p * (p - (1 : ℕ)) / (2 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hb",
+                "type": {
+                  "printed": "reliable",
+                  "text": "p.choose (2 : ℕ) = p * (p - (1 : ℕ)) / (2 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "p.choose (2 : ℕ) ≠ p",
+              "truncated": false
+            }
+          },
+          "id": "s4.hb",
+          "kind": "have",
+          "name": "hb",
+          "span": {
+            "end_line": 112,
+            "start_line": 112
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": "`choose n k` is the number of `k`-element subsets in an `n`-element set.",
+                "name": "Nat.choose",
+                "tags": []
+              },
+              {
+                "doc": "`choose n 2` is the `n`-th triangle number.",
+                "name": "Nat.choose_two_right",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "p * (p - (1 : ℕ)) ≥ p * (6 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "p * (p - (1 : ℕ)) ≥ p * (6 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "p.choose (2 : ℕ) ≠ p",
+              "truncated": false
+            }
+          },
+          "id": "s4.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 113,
+            "start_line": 113
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Nat.mul_le_mul_left",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [],
+        "target": {
+          "printed": "reliable",
+          "text": "{n : ℕ | ∃ k ≥ (1 : ℕ), (2 : ℕ) * k ≤ n ∧ n.choose k = p.choose (2 : ℕ)}.ncard = (2 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "s4",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 114,
+        "start_line": 110
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Set.ncard_pair",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-849"
+}
