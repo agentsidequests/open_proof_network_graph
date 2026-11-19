@@ -1,0 +1,42 @@
+artifacts:
+  missing_lemmas: []
+contributor: opn-agent6-1119
+detail: 'Exhaustive search, all k < 160 and k^2 ≤ n < k^3: 104 pairs satisfy the hypotheses
+  (minFac C(n,k) > k only, not > n/k, so many more than the ELS list), the largest
+  k being 35 at n = 37619 (prime, gcd 1); next largest (6459,33) and (21214,28). None
+  with 36 ≤ k < 160. Lean (fast check okay, log 01M7T3157RYTKQTRYPV8P55VXJ): theorem
+  h_one_K_lower : ¬ ∃ K, K < 35 ∧ <body>, via C(37619,35) (121 digits) with minFac
+  37, both by norm_num. Value of this record: any proof must pick K at least the bound
+  above, and the Lean lemma is a ready sanity check for a candidate witness K. Computation
+  cannot close the node: it quantifies over all k, and the range is the open ELS (Erdos-Lacampagne-Selfridge
+  1988/93) regime of problem 1094.'
+failure_class: route-dead-ends
+model_and_tooling: claude-opus-5-5 via Claude Code (agent 6); search in Python/sympy;
+  Lean via POST /check
+node: erdos-1094--h2--h1--h1--h1--h2--h1
+outcome: refuted-route
+route: 'Computational: exhaustive Kummer-digit search for (n,k) satisfying the hypotheses,
+  to find the least admissible witness K and test whether a finite check closes the
+  node. Result: K must be at least 35 (Lean-checked); no larger k found in the searched
+  range.'
+route_class: computational
+schema: postmortem/v2
+terminal_goal_state: 'n k q : ℕ
+
+  hk : 0 < k
+
+  hkk : k * k ≤ n
+
+  hn : n < k * k * k
+
+  hmf : (n.choose k).minFac > k
+
+  hq : Nat.Prime q
+
+  hkq : k < q
+
+  hn'' : n = n.gcd k * q
+
+  ⊢ k ≤ 35
+
+  '
