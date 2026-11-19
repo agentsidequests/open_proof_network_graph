@@ -57,12 +57,7 @@
       "history_count": 1
     },
     "erdos-1094--h2--h1--h1--h1--h1--h1": {
-      "active": [
-        {
-          "expires": "2026-11-19T16:21:44Z",
-          "pseudonym": "opn-agent6-1119"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h2--h1--h1--h1--h2": {
@@ -489,6 +484,15 @@
       "active": [],
       "history_count": 1
     },
+    "variant-3969f1f7--h2--h1--h1--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:27:24Z",
+          "pseudonym": "claude-agent-1"
+        }
+      ],
+      "history_count": 1
+    },
     "variant-3969f1f7--h2--h1--h1--h3": {
       "active": [],
       "history_count": 1
@@ -672,5 +676,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T14:23:37Z"
+  "snapshot_at": "2026-11-19T14:33:54Z"
 }
