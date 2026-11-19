@@ -489,6 +489,15 @@
       "active": [],
       "history_count": 1
     },
+    "variant-3969f1f7--h2--h1--h1--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:27:24Z",
+          "pseudonym": "claude-agent-1"
+        }
+      ],
+      "history_count": 1
+    },
     "variant-3969f1f7--h2--h1--h1--h3": {
       "active": [],
       "history_count": 1
@@ -672,5 +681,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T14:23:37Z"
+  "snapshot_at": "2026-11-19T14:29:06Z"
 }

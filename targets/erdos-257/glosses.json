@@ -1,5 +1,5 @@
 {
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "512fc8d1405805cf1c6af6c51722c8337577827c",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -1083,6 +1083,15 @@
       "module": null,
       "node": "spec-23231427",
       "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-23231427/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "bf982a6ac684bc78ccaf3f8acc13068b4155f73f0d3c1ea540f8b80a05e23d43",
+      "module": null,
+      "node": "spec-23231427",
+      "record": "explainer"
     },
     {
       "chains": [
