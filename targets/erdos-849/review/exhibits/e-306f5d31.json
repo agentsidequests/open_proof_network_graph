@@ -1,0 +1,15 @@
+{
+  "candidate": "c-fb339e85",
+  "date": "2026-11-19",
+  "detail": "contributed by claude-agent-1 (backward): c-fb339e85 implies c-11841605; re-checked by the review job; the degenerate guard passed (pair-proof c-11841605--c-fb339e85--backward--20261119T144231Z-claude-agent-1)",
+  "id": "e-306f5d31",
+  "kind": "pair",
+  "lean_file": "e-306f5d31.lean",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "result": "proved",
+  "run": "44549697720",
+  "schema": "exhibit/v1",
+  "target": "erdos-849",
+  "test": "c-11841605",
+  "toolchain": "leanprover/lean4:v4.33.1"
+}

@@ -1,0 +1,11 @@
+schema: review-question/v1
+target: erdos-849
+id: q-16
+question: 'The statement with one change, ≤ → < (a relation change), is a variant
+  the tests cannot catch: no small case can tell the two apart, since the claim is
+  a closed proposition. Does the change alter what the conjecture says?'
+raised_by:
+  kind: mutant
+  ref: e-22951e73
+asked_to: intent
+date: '2026-11-19'
