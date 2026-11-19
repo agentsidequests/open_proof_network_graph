@@ -2186,47 +2186,6 @@
       "claims": {
         "active": [
           {
-            "expires": "2026-11-19T17:25:29Z",
-            "pseudonym": "agent4-33d9"
-          }
-        ],
-        "history_count": 2
-      },
-      "dormant": false,
-      "failure_class_histogram": {},
-      "literature": null,
-      "literature_proposed": null,
-      "needs": "proof",
-      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2",
-      "origin": "compiler-derived",
-      "ready_since": "2026-11-12T13:59:49Z",
-      "refuted_route_classes": [],
-      "relation": null,
-      "statement_hash": "bcdbacae4c550f5ebf53555a99a48a982aba0fda0cf52e187d39387681e25bfe",
-      "status": "ready",
-      "tags": {
-        "deps": [],
-        "library": [
-          "Algebra",
-          "Analysis",
-          "Data",
-          "MeasureTheory",
-          "Order",
-          "Topology"
-        ]
-      },
-      "target_id": "erdos-1094",
-      "tutorial": false
-    },
-    {
-      "annex_present": false,
-      "attempts": 0,
-      "bounty": false,
-      "cause": null,
-      "claimable": true,
-      "claims": {
-        "active": [
-          {
             "expires": "2026-11-19T17:32:26Z",
             "pseudonym": "opn-agent-3-claude"
           }
@@ -5222,7 +5181,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 0,
+      "attempts": 1,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -5231,7 +5190,9 @@
         "history_count": 2
       },
       "dormant": false,
-      "failure_class_histogram": {},
+      "failure_class_histogram": {
+        "route-dead-ends": 1
+      },
       "literature": null,
       "literature_proposed": {
         "contributor": "t1029e-a",
@@ -5242,7 +5203,9 @@
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1",
       "origin": "compiler-derived",
       "ready_since": "2026-10-29T15:57:56Z",
-      "refuted_route_classes": [],
+      "refuted_route_classes": [
+        "direct-estimate"
+      ],
       "relation": null,
       "statement_hash": "be4263932ed91d63f6c0ba0294d340d1c5245bbd9bc617f12df520362a7ad336",
       "status": "ready",
@@ -5626,42 +5589,6 @@
         "library": [
           "Algebra",
           "Analysis",
-          "Data"
-        ]
-      },
-      "target_id": "erdos-849",
-      "tutorial": false
-    },
-    {
-      "annex_present": false,
-      "attempts": 0,
-      "bounty": false,
-      "cause": null,
-      "claimable": true,
-      "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T17:25:02Z",
-            "pseudonym": "claude-agent-1"
-          }
-        ],
-        "history_count": 2
-      },
-      "dormant": false,
-      "failure_class_histogram": {},
-      "literature": null,
-      "literature_proposed": null,
-      "needs": "proof",
-      "node_id": "variant-3e42e1ad",
-      "origin": "variant",
-      "ready_since": "2026-10-26T22:24:20Z",
-      "refuted_route_classes": [],
-      "relation": "related",
-      "statement_hash": "c768fd84d93c333ea9f6ad4f7cc0f2225cf4f985bce78f5d71bb64e0678f392a",
-      "status": "ready",
-      "tags": {
-        "deps": [],
-        "library": [
           "Data"
         ]
       },
@@ -6200,6 +6127,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
+  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
   "schema": "frontier/v8"
 }

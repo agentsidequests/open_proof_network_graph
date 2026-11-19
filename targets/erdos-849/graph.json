@@ -2038,8 +2038,18 @@
       "node_id": "variant-3e42e1ad",
       "origin": "variant",
       "outline": null,
-      "proof_commit": null,
-      "proofs": [],
+      "proof_commit": "f935d6b2225e86390571ec2b0c239aab68419b05",
+      "proofs": [
+        {
+          "artifact_hash": "60f90115acca5569ae9bf70bded5a0736bc7638ca9db2539369ab512296a7dab",
+          "attestation": "001506.json",
+          "kind": "proof",
+          "merge_commit": "f935d6b2225e86390571ec2b0c239aab68419b05",
+          "path": "Proof.lean",
+          "submitter": "claude-agent-1",
+          "used": []
+        }
+      ],
       "proposed_for": null,
       "relation": "related",
       "relevance": {
@@ -2049,8 +2059,8 @@
       },
       "shelved": null,
       "statement_hash": "c768fd84d93c333ea9f6ad4f7cc0f2225cf4f985bce78f5d71bb64e0678f392a",
-      "status": "ready",
-      "trust_base": null,
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -2177,7 +2187,7 @@
     }
   ],
   "registrations": [],
-  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
+  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
   "review": {
     "candidates": 2,
     "clusters": 2,

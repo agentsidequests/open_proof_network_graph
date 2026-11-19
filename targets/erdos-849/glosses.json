@@ -1,5 +1,5 @@
 {
-  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
+  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -374,7 +374,51 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "a43216f92393867225443d03e1664b4adb07e0610b9fde1c0830b37d8fd191a2",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "a43216f92393867225443d03e1664b4adb07e0610b9fde1c0830b37d8fd191a2"
+            },
+            {
+              "key": "steps:close",
+              "state": "drafted",
+              "version": "a43216f92393867225443d03e1664b4adb07e0610b9fde1c0830b37d8fd191a2"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "a43216f92393867225443d03e1664b4adb07e0610b9fde1c0830b37d8fd191a2",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-0691f5bb/explainer/a43216f92393867225443d03e1664b4adb07e0610b9fde1c0830b37d8fd191a2.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-0691f5bb/Proof.lean",
       "kind": "proof",
       "lean_hash": "ca71a1cc50761ee6122f7f85b3b44812110a7dc8464e44083f705d83420e9073",
@@ -445,7 +489,51 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "c5a37da827c84ae9f1529d323282cd51551184ff93134eeea7821604d13ea4c0",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "c5a37da827c84ae9f1529d323282cd51551184ff93134eeea7821604d13ea4c0"
+            },
+            {
+              "key": "steps:close",
+              "state": "drafted",
+              "version": "c5a37da827c84ae9f1529d323282cd51551184ff93134eeea7821604d13ea4c0"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "c5a37da827c84ae9f1529d323282cd51551184ff93134eeea7821604d13ea4c0",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-293c7f51/explainer/c5a37da827c84ae9f1529d323282cd51551184ff93134eeea7821604d13ea4c0.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-293c7f51/Proof.lean",
       "kind": "proof",
       "lean_hash": "d354f03633fc718ac9d97d90905ee796fcf670cbd24c80051c0f612cf4e78a12",
@@ -2420,7 +2508,87 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371"
+            },
+            {
+              "key": "steps:h_sdw36",
+              "state": "drafted",
+              "version": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371"
+            },
+            {
+              "key": "steps:s2,s3,s4",
+              "state": "drafted",
+              "version": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371"
+            },
+            {
+              "key": "steps:e3,e6,s0,s1,s7,t0,t1,t2,t3,t4,t5",
+              "state": "drafted",
+              "version": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371"
+            },
+            {
+              "key": "steps:hv45,key,key8",
+              "state": "drafted",
+              "version": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371"
+            },
+            {
+              "key": "steps:close,hs",
+              "state": "drafted",
+              "version": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code (Claude Agent SDK)",
+              "drafter": null,
+              "hash": "a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-3969f1f7--h2--h1--h1--h7/explainer/a516153e02d5cea8c9f15b24b6daee3c91cdbe407302d7fd67eb645e74063371.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_sdw36",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s2,s3,s4",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:e3,e6,s0,s1,s7,t0,t1,t2,t3,t4,t5",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hv45,key,key8",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close,hs",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3969f1f7--h2--h1--h1--h7/attempts/20261029T145900Z-t1029e-a-partial.lean",
       "kind": "partial",
       "lean_hash": "66609cfff376f3b2b3a9ce851f75420bfde4592fe3c759985993a2d0b4306941",
@@ -4023,7 +4191,78 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20"
+            },
+            {
+              "key": "steps:h_sep",
+              "state": "drafted",
+              "version": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20"
+            },
+            {
+              "key": "steps:h_nagura",
+              "state": "drafted",
+              "version": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20"
+            },
+            {
+              "key": "steps:h_rest2",
+              "state": "drafted",
+              "version": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20"
+            },
+            {
+              "key": "steps:s4,s5",
+              "state": "drafted",
+              "version": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code (Claude Agent SDK)",
+              "drafter": null,
+              "hash": "4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2/explainer/4d994cce962069df3107796701757441f02c506d3f16ff05fb5019b5f11f2d20.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_sep",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_nagura",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_rest2",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s4,s5",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2/attempts/20261029T150500Z-t1029e-a-partial.lean",
       "kind": "partial",
       "lean_hash": "d91c33af7172985e6179e7b43242811ede4d136ad4868e81452df476dcb4d9a4",
@@ -4168,7 +4407,78 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7"
+            },
+            {
+              "key": "steps:h_sep",
+              "state": "drafted",
+              "version": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7"
+            },
+            {
+              "key": "steps:h_schoenfeld",
+              "state": "drafted",
+              "version": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7"
+            },
+            {
+              "key": "steps:h_rest3",
+              "state": "drafted",
+              "version": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7"
+            },
+            {
+              "key": "steps:s4,s5",
+              "state": "drafted",
+              "version": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code (Claude Agent SDK)",
+              "drafter": null,
+              "hash": "79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2/explainer/79ead412d3e5472393b3fc86d59f38be93ab87dadb25f7fe9a4b62a7700072e7.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_sep",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_schoenfeld",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_rest3",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s4,s5",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2/attempts/20261029T154500Z-t1029e-a-partial.lean",
       "kind": "partial",
       "lean_hash": "5dd316d276467e03ab45f2f7fe03526082eab98d439052f44a2dc4facdf146f0",
@@ -5443,7 +5753,51 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "040e35cf174cbe4832c103db55ff8ef9a3d79d6680f77f635bb0d1a3ec84cc2a",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "040e35cf174cbe4832c103db55ff8ef9a3d79d6680f77f635bb0d1a3ec84cc2a"
+            },
+            {
+              "key": "steps:close",
+              "state": "drafted",
+              "version": "040e35cf174cbe4832c103db55ff8ef9a3d79d6680f77f635bb0d1a3ec84cc2a"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "040e35cf174cbe4832c103db55ff8ef9a3d79d6680f77f635bb0d1a3ec84cc2a",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-3d9db4a5/explainer/040e35cf174cbe4832c103db55ff8ef9a3d79d6680f77f635bb0d1a3ec84cc2a.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3d9db4a5/Proof.lean",
       "kind": "proof",
       "lean_hash": "cb5d84f2cf916b258e6251584e4d042fefefdc1c4091df78c78c08d3c521308e",
@@ -5567,13 +5921,57 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "7c4aa8458e8cf37858e85f9a0aecb0bfcee955e7d9942f108435148669ab7dac",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "7c4aa8458e8cf37858e85f9a0aecb0bfcee955e7d9942f108435148669ab7dac"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code (Claude Agent SDK)",
+              "drafter": null,
+              "hash": "7c4aa8458e8cf37858e85f9a0aecb0bfcee955e7d9942f108435148669ab7dac",
+              "label": null,
+              "lean_hash": "2c3d11523bb8a22d5302aceda4c83838e1608fa861c069d42c04ac6591059c1e",
+              "path": "nodes/variant-72919549/gloss/7c4aa8458e8cf37858e85f9a0aecb0bfcee955e7d9942f108435148669ab7dac.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-72919549/Relation.lean",
       "kind": "relation",
       "lean_hash": "2c3d11523bb8a22d5302aceda4c83838e1608fa861c069d42c04ac6591059c1e",
       "module": null,
       "node": "variant-72919549",
       "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-72919549/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "09447892b1371fb7dfb8828b31d3fecc2f68edb5290e94298282ddeda534be6c",
+      "module": null,
+      "node": "variant-72919549",
+      "record": "explainer"
     },
     {
       "chains": [
@@ -5700,7 +6098,51 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "0c706afebdfa360f5074a5e4673c5f1e8a83e17b39d0a414b3e4e600072e4300",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "0c706afebdfa360f5074a5e4673c5f1e8a83e17b39d0a414b3e4e600072e4300"
+            },
+            {
+              "key": "steps:close",
+              "state": "drafted",
+              "version": "0c706afebdfa360f5074a5e4673c5f1e8a83e17b39d0a414b3e4e600072e4300"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code (Claude Agent SDK)",
+              "drafter": null,
+              "hash": "0c706afebdfa360f5074a5e4673c5f1e8a83e17b39d0a414b3e4e600072e4300",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-c9253839/explainer/0c706afebdfa360f5074a5e4673c5f1e8a83e17b39d0a414b3e4e600072e4300.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-c9253839/Proof.lean",
       "kind": "proof",
       "lean_hash": "74e21664dc36feb7af5a4b309ccf36bc196b5ab8bccd13fc38902f0ca75064d3",

@@ -65,12 +65,12 @@
   },
   "node_id": "variant-72919549",
   "proof": {
-    "artifact": null,
+    "artifact": "proof",
     "commit": null,
-    "present": false,
+    "present": true,
     "trust_base": null
   },
-  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
+  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
   "review": {
     "questions_waiting": [
       {

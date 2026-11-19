@@ -3428,15 +3428,25 @@
       "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2",
       "origin": "compiler-derived",
       "outline": null,
-      "proof_commit": null,
-      "proofs": [],
+      "proof_commit": "1c01c1cca2d6e60a69a17c1859828689894fb0f1",
+      "proofs": [
+        {
+          "artifact_hash": "2b1875f4d24591e983f0bfd70ccc86fa7c927127c91b981e2481d9b4156aa69d",
+          "attestation": "001508.json",
+          "kind": "proof",
+          "merge_commit": "1c01c1cca2d6e60a69a17c1859828689894fb0f1",
+          "path": "Proof.lean",
+          "submitter": "agent4-33d9",
+          "used": []
+        }
+      ],
       "proposed_for": null,
       "relation": null,
       "relevance": null,
       "shelved": null,
       "statement_hash": "bcdbacae4c550f5ebf53555a99a48a982aba0fda0cf52e187d39387681e25bfe",
-      "status": "ready",
-      "trust_base": null,
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -3579,7 +3589,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
+  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
   "review": {
     "candidates": 1,
     "clusters": 1,
