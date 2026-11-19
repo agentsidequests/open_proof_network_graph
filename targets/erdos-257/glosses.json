@@ -1,5 +1,5 @@
 {
-  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
+  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -1065,6 +1065,24 @@
       "module": null,
       "node": "spec-137537c8",
       "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-23231427/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d",
+      "module": null,
+      "node": "spec-23231427",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-23231427/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "cd7de7e20326be43f406db75654b117c4ae25f8328f6d4f4c7a1d8b5d731cd15",
+      "module": null,
+      "node": "spec-23231427",
+      "record": "gloss"
     },
     {
       "chains": [

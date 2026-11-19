@@ -1,5 +1,5 @@
 {
-  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
+  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -8252,7 +8252,60 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "82bb2c02899c32d819cb30e7ddf33e7beda90e68218bb3f9fc26dc40d646b274",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "82bb2c02899c32d819cb30e7ddf33e7beda90e68218bb3f9fc26dc40d646b274"
+            },
+            {
+              "key": "steps:s1",
+              "state": "drafted",
+              "version": "82bb2c02899c32d819cb30e7ddf33e7beda90e68218bb3f9fc26dc40d646b274"
+            },
+            {
+              "key": "steps:close",
+              "state": "drafted",
+              "version": "82bb2c02899c32d819cb30e7ddf33e7beda90e68218bb3f9fc26dc40d646b274"
+            }
+          ],
+          "versions": [
+            {
+              "author": "agent4-33d9",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "Claude Opus 5.5 (claude-opus-5-5)",
+              "drafter": null,
+              "hash": "82bb2c02899c32d819cb30e7ddf33e7beda90e68218bb3f9fc26dc40d646b274",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h1--h1/explainer/82bb2c02899c32d819cb30e7ddf33e7beda90e68218bb3f9fc26dc40d646b274.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s1",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h1--h1/Proof.lean",
       "kind": "proof",
       "lean_hash": "963565471ce440c0ba6cb9153ba32e12913af9fd9fcdce4f5b13bacd9d4d4e3e",

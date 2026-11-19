@@ -3333,7 +3333,15 @@
     {
       "cause": null,
       "claim": "\\Bigl(\\forall \\psi \\in C_c^\\infty(0,\\infty):\\ \\tfrac{1}{X}\\sum_n f(n)\\psi(n/X) \\to A\\int\\psi\\Bigr) \\Rightarrow \\tfrac{1}{N}\\sum_{n<N} f(n) \\to A",
-      "closure": null,
+      "closure": {
+        "id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1@1",
+        "inputs": [
+          "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h1",
+          "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2"
+        ],
+        "kind": "route",
+        "record": "erdos-1094--h3--h3--h1--h1--h1--h1--h1/closure.json"
+      },
       "decompositions": [
         {
           "annex": null,
@@ -3364,15 +3372,15 @@
       "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1",
       "origin": "compiler-derived",
       "outline": null,
-      "proof_commit": null,
+      "proof_commit": "7c6e66175cc0355309443aa7886ae70ce22f882d",
       "proofs": [],
       "proposed_for": null,
       "relation": null,
       "relevance": null,
       "shelved": null,
       "statement_hash": "60332903bb40c7b3a33ddd56187e2bc28cb7ad2ec66ea19db64769dac574b82c",
-      "status": "ready",
-      "trust_base": null,
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -3589,7 +3597,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
+  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
   "review": {
     "candidates": 1,
     "clusters": 1,

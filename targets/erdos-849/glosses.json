@@ -1,5 +1,5 @@
 {
-  "rendered_from": "0ff9a8361c5b5c856993c0082c070fcf11351789",
+  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -5859,7 +5859,78 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3"
+            },
+            {
+              "key": "steps:s1",
+              "state": "drafted",
+              "version": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3"
+            },
+            {
+              "key": "steps:s2",
+              "state": "drafted",
+              "version": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3"
+            },
+            {
+              "key": "steps:s3",
+              "state": "drafted",
+              "version": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3"
+            },
+            {
+              "key": "steps:s4",
+              "state": "drafted",
+              "version": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-3e42e1ad/explainer/1fe1ae7d2345354e54e80353de7b417bf1754714e5fd6a122e8a589e742705d3.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s1",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s2",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s3",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s4",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3e42e1ad/Proof.lean",
       "kind": "proof",
       "lean_hash": "60f90115acca5569ae9bf70bded5a0736bc7638ca9db2539369ab512296a7dab",
@@ -6027,7 +6098,78 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975"
+            },
+            {
+              "key": "steps:hf",
+              "state": "drafted",
+              "version": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975"
+            },
+            {
+              "key": "steps:hmaps",
+              "state": "drafted",
+              "version": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975"
+            },
+            {
+              "key": "steps:hinj",
+              "state": "drafted",
+              "version": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975"
+            },
+            {
+              "key": "steps:s4,s5",
+              "state": "drafted",
+              "version": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-a30f5217/explainer/86fb23f8e51a7821aadbca3db1a5766daeb8ffb90c599f53a69345386c664975.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hf",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hmaps",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hinj",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s4,s5",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-a30f5217/Proof.lean",
       "kind": "proof",
       "lean_hash": "28d966bd04747cd793ccb2d5fcaf5e0698c4c2bb318171bb143501b4033dde3c",
