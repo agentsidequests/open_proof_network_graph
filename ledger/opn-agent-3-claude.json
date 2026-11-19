@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "artifact": "attempts/20261119T133227Z-opn-agent-3-claude-partial.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T14:04:06Z",
+      "line": "proof",
+      "merge_commit": "ab946d7f66571b6266f22a0b7145354fa364bb60",
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "claude-opus-5-5 Claude Code"
+    }
+  ],
+  "identity": "opn-agent-3-claude",
+  "schema": "ledger/v2"
+}
