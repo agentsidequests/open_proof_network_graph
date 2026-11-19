@@ -50,6 +50,56 @@
       "status": "active",
       "target": "erdos-849",
       "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "review/pair-proofs/c-ae9bea28--c-fb339e85--forward--20261119T142347Z-claude-agent-1.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:26:56Z",
+      "line": "review",
+      "merge_commit": "f8924338585683ce5d10b9d0c229bb9de8c3705e",
+      "node": "erdos-849",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "claude-opus-5-5"
+    },
+    {
+      "artifact": "attempts/20261119T142809Z-claude-agent-1-partial.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T14:43:11Z",
+      "line": "proof",
+      "merge_commit": "4abf39bd9a96bd6b3effffd7f3590ec37c2b069e",
+      "node": "variant-3969f1f7--h2--h1--h1--h2",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "review/pair-proofs/c-11841605--c-ae9bea28--forward--20261119T144205Z-claude-agent-1.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:45:05Z",
+      "line": "review",
+      "merge_commit": "df7b127442c1a5a240185d08a1b8c55bbe822251",
+      "node": "erdos-849",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "claude-opus-5-5"
+    },
+    {
+      "artifact": "review/pair-proofs/c-11841605--c-fb339e85--forward--20261119T144223Z-claude-agent-1.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:45:09Z",
+      "line": "review",
+      "merge_commit": "cb1441513ac02d546cf38e2e5d3ed2c4c1351baf",
+      "node": "erdos-849",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "claude-opus-5-5"
     }
   ],
   "identity": "claude-agent-1",

@@ -1,0 +1,737 @@
+{
+  "artifact": {
+    "hash": "8d165428e49b59cba2c2230490dd7ab6ef403cb813af9068f80abc3664082d27",
+    "kind": "partial",
+    "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_cheb",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∀ (g : ℝ → ℝ),\n          Continuous g →\n            (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n              HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                (∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) ∧\n                  Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n                    (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "h_cheb",
+      "kind": "hole",
+      "name": "h_cheb",
+      "span": {
+        "end_line": 32,
+        "start_line": 27
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`LSeriesSummable f s` indicates that the L-series of `f` converges absolutely at `s`.",
+            "name": "LSeriesSummable",
+            "tags": []
+          },
+          {
+            "doc": "A function between topological spaces is continuous on a subset `s` when it's continuous at every point of `s` within `s`.",
+            "name": "ContinuousOn",
+            "tags": []
+          },
+          {
+            "doc": "The value of the L-series of the sequence `f` at the point `s` if it converges absolutely there, and `0` otherwise.",
+            "name": "LSeries",
+            "tags": []
+          },
+          {
+            "doc": "`range n` is the set of natural numbers less than `n`.",
+            "name": "Finset.range",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (f : ℕ → ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)) →\n      ∀ (g : ℝ → ℝ),\n        (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n          ∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_summ",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (f : ℕ → ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)) →\n      ∀ (g : ℝ → ℝ),\n        (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n          ∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∀ (g : ℝ → ℝ),\n          Continuous g →\n            (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n              HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                (∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) ∧\n                  Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n                    (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "h_summ",
+      "kind": "hole",
+      "name": "h_summ",
+      "span": {
+        "end_line": 40,
+        "start_line": 36
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`range n` is the set of natural numbers less than `n`.",
+            "name": "Finset.range",
+            "tags": []
+          },
+          {
+            "doc": "`Summable f` means that `f` has some (infinite) sum with respect to `L`.",
+            "name": "Summable",
+            "tags": []
+          },
+          {
+            "doc": "The real logarithm function, equal to the inverse of the exponential for `x > 0`, to `log |x|` for `x < 0`, and to `0` for `0`.",
+            "name": "Real.log",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (f : ℕ → ℝ) (A : ℝ) (G : ℂ → ℂ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} →\n        (∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n          (∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)) →\n            ∀ (g : ℝ → ℝ),\n              Continuous g →\n                (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n                  HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                    ∀ (X : ℝ),\n                      (0 : ℝ) < X →\n                        (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ) =\n                          (∫ (ξ : ℝ),\n                              FourierTransform.fourier (fun (u : ℝ) => (↑(g u) : ℂ)) ξ *\n                                  Complex.exp\n                                    (-((2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑(Real.log X) : ℂ) * (↑ξ : ℂ))) *\n                                G ((1 : ℂ) - (2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑ξ : ℂ))) +\n                            (↑A : ℂ) * (↑(∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) : ℂ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_id",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (f : ℕ → ℝ) (A : ℝ) (G : ℂ → ℂ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} →\n        (∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n          (∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)) →\n            ∀ (g : ℝ → ℝ),\n              Continuous g →\n                (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n                  HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                    ∀ (X : ℝ),\n                      (0 : ℝ) < X →\n                        (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ) =\n                          (∫ (ξ : ℝ),\n                              FourierTransform.fourier (fun (u : ℝ) => (↑(g u) : ℂ)) ξ *\n                                  Complex.exp\n                                    (-((2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑(Real.log X) : ℂ) * (↑ξ : ℂ))) *\n                                G ((1 : ℂ) - (2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑ξ : ℂ))) +\n                            (↑A : ℂ) * (↑(∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) : ℂ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∀ (g : ℝ → ℝ),\n          Continuous g →\n            (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n              HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                (∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) ∧\n                  Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n                    (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "h_id",
+      "kind": "hole",
+      "name": "h_id",
+      "span": {
+        "end_line": 58,
+        "start_line": 45
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`LSeriesSummable f s` indicates that the L-series of `f` converges absolutely at `s`.",
+            "name": "LSeriesSummable",
+            "tags": []
+          },
+          {
+            "doc": "A function between topological spaces is continuous on a subset `s` when it's continuous at every point of `s` within `s`.",
+            "name": "ContinuousOn",
+            "tags": []
+          },
+          {
+            "doc": "The value of the L-series of the sequence `f` at the point `s` if it converges absolutely there, and `0` otherwise.",
+            "name": "LSeries",
+            "tags": []
+          },
+          {
+            "doc": "`range n` is the set of natural numbers less than `n`.",
+            "name": "Finset.range",
+            "tags": []
+          },
+          {
+            "doc": "A function between topological spaces is continuous if the preimage of every open set is open.",
+            "name": "Continuous",
+            "tags": []
+          },
+          {
+            "doc": "A function `f` *has compact support* or is *compactly supported* if the closure of the support of `f` is compact.",
+            "name": "HasCompactSupport",
+            "tags": []
+          },
+          {
+            "doc": "`𝓕 f` is the Fourier transform of `f`.",
+            "name": "FourierTransform.fourier",
+            "tags": []
+          },
+          {
+            "doc": "The real logarithm function, equal to the inverse of the exponential for `x > 0`, to `log |x|` for `x < 0`, and to `0` for `0`.",
+            "name": "Real.log",
+            "tags": []
+          },
+          {
+            "doc": "The complex exponential function, defined via its Taylor series",
+            "name": "Complex.exp",
+            "tags": []
+          },
+          {
+            "doc": "The number π = 3.14159265...",
+            "name": "Real.pi",
+            "tags": []
+          },
+          {
+            "doc": "The imaginary unit.",
+            "name": "Complex.I",
+            "tags": []
+          },
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (G : ℂ → ℂ) (g : ℝ → ℝ),\n  Filter.Tendsto\n    (fun (X : ℝ) =>\n      ∫ (ξ : ℝ),\n        FourierTransform.fourier (fun (u : ℝ) => (↑(g u) : ℂ)) ξ *\n            Complex.exp (-((2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑(Real.log X) : ℂ) * (↑ξ : ℂ))) *\n          G ((1 : ℂ) - (2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑ξ : ℂ)))\n    Filter.atTop (nhds (0 : ℂ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_rl",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (G : ℂ → ℂ) (g : ℝ → ℝ),\n  Filter.Tendsto\n    (fun (X : ℝ) =>\n      ∫ (ξ : ℝ),\n        FourierTransform.fourier (fun (u : ℝ) => (↑(g u) : ℂ)) ξ *\n            Complex.exp (-((2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑(Real.log X) : ℂ) * (↑ξ : ℂ))) *\n          G ((1 : ℂ) - (2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑ξ : ℂ)))\n    Filter.atTop (nhds (0 : ℂ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∀ (g : ℝ → ℝ),\n          Continuous g →\n            (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n              HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                (∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) ∧\n                  Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n                    (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "h_rl",
+      "kind": "hole",
+      "name": "h_rl",
+      "span": {
+        "end_line": 66,
+        "start_line": 62
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Filter.Tendsto` is the generic \"limit of a function\" predicate.",
+            "name": "Filter.Tendsto",
+            "tags": []
+          },
+          {
+            "doc": "`𝓕 f` is the Fourier transform of `f`.",
+            "name": "FourierTransform.fourier",
+            "tags": []
+          },
+          {
+            "doc": "The complex exponential function, defined via its Taylor series",
+            "name": "Complex.exp",
+            "tags": []
+          },
+          {
+            "doc": "The number π = 3.14159265...",
+            "name": "Real.pi",
+            "tags": []
+          },
+          {
+            "doc": "The imaginary unit.",
+            "name": "Complex.I",
+            "tags": []
+          },
+          {
+            "doc": "The real logarithm function, equal to the inverse of the exponential for `x > 0`, to `log |x|` for `x < 0`, and to `0` for `0`.",
+            "name": "Real.log",
+            "tags": []
+          },
+          {
+            "doc": "`atTop` is the filter representing the limit `→ ∞` on an ordered set.",
+            "name": "Filter.atTop",
+            "tags": []
+          },
+          {
+            "doc": "A set is called a neighborhood of `x` if it contains an open set around `x`.",
+            "name": "nhds",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (g : ℝ → ℝ),\n  Continuous g →\n    (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n      Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_tail",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (g : ℝ → ℝ),\n  Continuous g →\n    (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n      Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∀ (s : ℂ), (1 : ℝ) < s.re → LSeriesSummable (fun (n : ℕ) => (↑(f n) : ℂ)) s) →\n      (∃ (G : ℂ → ℂ),\n          ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n            ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))) →\n        ∀ (g : ℝ → ℝ),\n          Continuous g →\n            (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n              HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g u) : ℂ)) →\n                (∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) ∧\n                  Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n                    (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "h_tail",
+      "kind": "hole",
+      "name": "h_tail",
+      "span": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "A function between topological spaces is continuous if the preimage of every open set is open.",
+            "name": "Continuous",
+            "tags": []
+          },
+          {
+            "doc": "`Filter.Tendsto` is the generic \"limit of a function\" predicate.",
+            "name": "Filter.Tendsto",
+            "tags": []
+          },
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": "The real logarithm function, equal to the inverse of the exponential for `x > 0`, to `log |x|` for `x < 0`, and to `0` for `0`.",
+            "name": "Real.log",
+            "tags": []
+          },
+          {
+            "doc": "`atTop` is the filter representing the limit `→ ∞` on an ordered set.",
+            "name": "Filter.atTop",
+            "tags": []
+          },
+          {
+            "doc": "A set is called a neighborhood of `x` if it contains an open set around `x`.",
+            "name": "nhds",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hC",
+            "type": {
+              "printed": "reliable",
+              "text": "∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "(∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) ∧\n  Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n    (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "hC",
+      "kind": "have",
+      "name": "hC",
+      "span": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (G : ℂ → ℂ),\n  ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re} ∧\n    ∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "G",
+            "type": {
+              "printed": "reliable",
+              "text": "ℂ → ℂ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hGc",
+            "type": {
+              "printed": "reliable",
+              "text": "ContinuousOn G {s : ℂ | (1 : ℝ) ≤ s.re}",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hGe",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (s : ℂ), (1 : ℝ) < s.re → G s = LSeries (fun (n : ℕ) => (↑(f n) : ℂ)) s - (↑A : ℂ) / (s - (1 : ℂ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n  (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "s7",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "Filter.Tendsto\n  (fun (x : ℝ) =>\n    (∫ (ξ : ℝ),\n        FourierTransform.fourier (fun (u : ℝ) => (↑(g u) : ℂ)) ξ *\n            Complex.exp (-((2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑(Real.log x) : ℂ) * (↑ξ : ℂ))) *\n          G ((1 : ℂ) - (2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑ξ : ℂ))) +\n      (↑A : ℂ) * (Complex.ofReal ∘ fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) x)\n  Filter.atTop (nhds ((0 : ℂ) + (↑A : ℂ) * (↑(∫ (v : ℝ), g v) : ℂ)))",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h1",
+                "type": {
+                  "printed": "reliable",
+                  "text": "Filter.Tendsto\n  (fun (x : ℝ) =>\n    (∫ (ξ : ℝ),\n        FourierTransform.fourier (fun (u : ℝ) => (↑(g u) : ℂ)) ξ *\n            Complex.exp (-((2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑(Real.log x) : ℂ) * (↑ξ : ℂ))) *\n          G ((1 : ℂ) - (2 : ℂ) * (↑Real.pi : ℂ) * Complex.I * (↑ξ : ℂ))) +\n      (↑A : ℂ) * (Complex.ofReal ∘ fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) x)\n  Filter.atTop (nhds ((0 : ℂ) + (↑A : ℂ) * (↑(∫ (v : ℝ), g v) : ℂ)))",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto (fun (X : ℝ) => (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ)) Filter.atTop\n  (nhds (↑(A * ∫ (u : ℝ), g u) : ℂ))",
+              "truncated": false
+            }
+          },
+          "id": "hlimC.h1",
+          "kind": "have",
+          "name": "h1",
+          "span": {
+            "end_line": 80,
+            "start_line": 80
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Complex.continuous_ofReal",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(0 : ℂ) + (↑A : ℂ) * (↑(∫ (v : ℝ), g v) : ℂ) = (↑(A * ∫ (u : ℝ), g u) : ℂ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h2",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(0 : ℂ) + (↑A : ℂ) * (↑(∫ (v : ℝ), g v) : ℂ) = (↑(A * ∫ (u : ℝ), g u) : ℂ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto (fun (X : ℝ) => (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ)) Filter.atTop\n  (nhds (↑(A * ∫ (u : ℝ), g u) : ℂ))",
+              "truncated": false
+            }
+          },
+          "id": "hlimC.h2",
+          "kind": "have",
+          "name": "h2",
+          "span": {
+            "end_line": 81,
+            "start_line": 81
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto (fun (X : ℝ) => (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ)) Filter.atTop\n  (nhds (↑(A * ∫ (u : ℝ), g u) : ℂ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hlimC",
+            "type": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto (fun (X : ℝ) => (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ)) Filter.atTop\n  (nhds (↑(A * ∫ (u : ℝ), g u) : ℂ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n  (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "hlimC",
+      "kind": "have",
+      "name": "hlimC",
+      "span": {
+        "end_line": 85,
+        "start_line": 78
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Filter.Tendsto` is the generic \"limit of a function\" predicate.",
+            "name": "Filter.Tendsto",
+            "tags": []
+          },
+          {
+            "doc": "The real logarithm function, equal to the inverse of the exponential for `x > 0`, to `log |x|` for `x < 0`, and to `0` for `0`.",
+            "name": "Real.log",
+            "tags": []
+          },
+          {
+            "doc": "`atTop` is the filter representing the limit `→ ∞` on an ordered set.",
+            "name": "Filter.atTop",
+            "tags": []
+          },
+          {
+            "doc": "A set is called a neighborhood of `x` if it contains an open set around `x`.",
+            "name": "nhds",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Filter.eventually_gt_atTop",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto (Complex.re ∘ fun (X : ℝ) => (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ))\n  Filter.atTop (nhds (↑(A * ∫ (u : ℝ), g u) : ℂ).re)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "this",
+            "type": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto (Complex.re ∘ fun (X : ℝ) => (↑(∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) : ℂ))\n  Filter.atTop (nhds (↑(A * ∫ (u : ℝ), g u) : ℂ).re)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n  (nhds (A * ∫ (u : ℝ), g u))",
+          "truncated": false
+        }
+      },
+      "id": "this",
+      "kind": "have",
+      "name": "this",
+      "span": {
+        "end_line": 86,
+        "start_line": 86
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Complex.continuous_re",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto (fun (X : ℝ) => ∑' (n : ℕ), f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)) Filter.atTop\n  (nhds (A * ∫ (u : ℝ), g u))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 88,
+        "start_line": 87
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Function.comp_apply",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Complex.ofReal_re",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}

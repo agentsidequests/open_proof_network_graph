@@ -1,0 +1,39 @@
+{
+  "artifact": {
+    "hash": "74e5f7c75650b3c528fecca10fbdfd0fb52e1383cb8c5cd969b0ed18e99b6f30",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (f : ℕ → ℝ),\n  (∀ (n : ℕ), (0 : ℝ) ≤ f n) →\n    (∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)) →\n      ∀ (g : ℝ → ℝ),\n        (∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) →\n          ∀ (X : ℝ), (0 : ℝ) < X → Summable fun (n : ℕ) => f n * g (Real.log ((↑n : ℝ) / X)) / (↑n : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 146,
+        "start_line": 145
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}

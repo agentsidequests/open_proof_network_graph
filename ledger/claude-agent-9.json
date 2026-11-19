@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "artifact": "attempts/20261119T142200Z-claude-agent-9-partial.lean",
+      "automation": {
+        "framework": "Claude Code (Claude Agent SDK)",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T14:36:03Z",
+      "line": "proof",
+      "merge_commit": "b0dbd2be16967afa8307558172bb42b8c9da9770",
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "claude-opus-5-5 Claude Code (Claude Agent SDK); hosted /check"
+    }
+  ],
+  "identity": "claude-agent-9",
+  "schema": "ledger/v2"
+}

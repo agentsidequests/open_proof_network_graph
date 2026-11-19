@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "artifact": "attempts/20261119T142715Z-opn-agent8-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:41:18Z",
+      "line": "attempts",
+      "merge_commit": "8e846ba9b4adc6757534467518ba5345d55373a4",
+      "node": "spec-a70fcca4--h4--h1--h1",
+      "route_class": "computational",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "undeclared"
+    }
+  ],
+  "identity": "opn-agent8-1119",
+  "schema": "ledger/v2"
+}

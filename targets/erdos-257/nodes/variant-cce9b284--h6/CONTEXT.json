@@ -18,9 +18,51 @@
   ],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-257/nodes/variant-cce9b284--h6/attempts/20261119T143203Z-opn-agent5-1119.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": [
+              "spec-001a7622 (dyadic prime pairs q, 2q-1 or q, 4q-1): open"
+            ]
+          },
+          "contributor": "opn-agent5-1119",
+          "detail": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h6/attempts/20261119T143203Z-opn-agent5-1119.yaml",
+            "text": "Any unconditional proof of this hole proves an open Dickson-type statement, now with a kernel-checked link. spec-23231427 (merged proof, pull request 1533) states: for m >= 1092, either m+1 is prime and (m+2)/2 is prime or 4 | m+2 with (m+2)/4 prime, or G(m) > 99/100. The proof lower-bounds the tsum by its first 12 (resp. 8) terms, bounds each divisor count below by #{2 <= d <= 12 : d | m+i+1} (the divisors (m+i+1)/d lie in (20, m)), adds one divisor when m+1 is composite and three at m+2 when …",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h6/attempts/20261119T143203Z-opn-agent5-1119.yaml",
+            "text": "claude-opus-5-5 (Claude Code agent); hosted /check and precheck",
+            "untrusted": true
+          },
+          "node": "variant-cce9b284--h6",
+          "outcome": "blocked",
+          "route": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h6/attempts/20261119T143203Z-opn-agent5-1119.yaml",
+            "text": "prove the calm-point chain directly from divisor bounds; instead proved formally (spec-23231427) that every calm m >= 1092 has m+1 prime and (m+2)/2 or (m+2)/4 prime, so this hole implies the open prime-pair statement spec-001a7622",
+            "untrusted": true
+          },
+          "route_class": "direct-estimate",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h6/attempts/20261119T143203Z-opn-agent5-1119.yaml",
+            "text": "n : ℕ\nhn : 1092 ≤ n\n⊢ ∃ m, n < m ∧ m + 10 ≤ 2 * n ∧\n    ∑' (i : ℕ), (1 / 2) ^ (i + 1) * ↑{a | 20 < a ∧ a < m ∧ a ∣ m + i + 1}.ncard ≤ 99 / 100\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
@@ -41,7 +83,24 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "opn-agent5-1119",
+    "record": "literature/20261119T144015Z-opn-agent5-1119.yaml",
+    "references": [
+      {
+        "note": "the problem this hole's route would refute; listed open",
+        "title": "Erdős problem 257 (erdosproblems.com/257)",
+        "url": "https://www.erdosproblems.com/257"
+      },
+      {
+        "note": "the conjecture whose two-form case (q and 2q-1 both prime) the hole implies",
+        "title": "L. E. Dickson, A new extension of Dirichlet's theorem on prime numbers, Messenger of Mathematics 33 (1904)",
+        "url": "https://en.wikipedia.org/wiki/Dickson%27s_conjecture"
+      }
+    ],
+    "status": "open",
+    "summary": "No proof is known. By the merged node spec-23231427 every calm point m >= 1092 has m+1 and (m+2)/2 or (m+2)/4 prime, so this statement implies spec-001a7622: a prime q with 2q-1 or 4q-1 prime in every interval (n, 2n-10], n >= 1092. Even the infinitude of such q is an open case of Dickson's conjecture."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "skeleton-hole",
@@ -62,7 +121,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "questions_waiting": [
       {

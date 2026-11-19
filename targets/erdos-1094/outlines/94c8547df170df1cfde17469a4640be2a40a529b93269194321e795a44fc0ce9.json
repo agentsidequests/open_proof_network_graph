@@ -1,0 +1,362 @@
+{
+  "artifact": {
+    "hash": "94c8547df170df1cfde17469a4640be2a40a529b93269194321e795a44fc0ce9",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ), ∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "C",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hC",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (u : ℝ), |g u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+          "truncated": false
+        }
+      },
+      "id": "s1",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 14,
+        "start_line": 14
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "MeasureTheory.Integrable g MeasureTheory.volume",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hint",
+            "type": {
+              "printed": "reliable",
+              "text": "MeasureTheory.Integrable g MeasureTheory.volume",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+          "truncated": false
+        }
+      },
+      "id": "hint",
+      "kind": "have",
+      "name": "hint",
+      "span": {
+        "end_line": 19,
+        "start_line": 15
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Integrable f μ` means that `f` is measurable and that the integral `∫⁻ a, ‖f a‖ ∂μ` is finite.",
+            "name": "MeasureTheory.Integrable",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "MeasureTheory.Integrable.mono'",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "integrable_inv_one_add_sq",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "MeasureTheory.ae_of_all",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Real.norm_eq_abs",
+            "tags": []
+          },
+          {
+            "doc": "Dividing by an element is the same as multiplying by its inverse.",
+            "name": "div_eq_mul_inv",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Monotone fun (y : ℝ) => Set.Ioi (-y)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hmono",
+            "type": {
+              "printed": "reliable",
+              "text": "Monotone fun (y : ℝ) => Set.Ioi (-y)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+          "truncated": false
+        }
+      },
+      "id": "hmono",
+      "kind": "have",
+      "name": "hmono",
+      "span": {
+        "end_line": 22,
+        "start_line": 20
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "A function `f` is monotone if `a ≤ b` implies `f a ≤ f b`.",
+            "name": "Monotone",
+            "tags": []
+          },
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": "If `a ≤ b`, then `(b, +∞) ⊆ (a, +∞)`.",
+            "name": "Set.Ioi_subset_Ioi",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "neg_le_neg",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "⋃ (y : ℝ), Set.Ioi (-y) = Set.univ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hU",
+            "type": {
+              "printed": "reliable",
+              "text": "⋃ (y : ℝ), Set.Ioi (-y) = Set.univ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+          "truncated": false
+        }
+      },
+      "id": "hU",
+      "kind": "have",
+      "name": "hU",
+      "span": {
+        "end_line": 26,
+        "start_line": 23
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": "The universal set on a type `α` is the set containing all elements of `α`.",
+            "name": "Set.univ",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.eq_univ_of_forall",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.mem_iUnion",
+            "tags": []
+          },
+          {
+            "doc": "Existential introduction.",
+            "name": "Exists.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto (fun (i : ℝ) => ∫ (x : ℝ) in Set.Ioi (-i), g x) Filter.atTop\n  (nhds (∫ (x : ℝ) in ⋃ (n : ℝ), Set.Ioi (-n), g x))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h1",
+            "type": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto (fun (i : ℝ) => ∫ (x : ℝ) in Set.Ioi (-i), g x) Filter.atTop\n  (nhds (∫ (x : ℝ) in ⋃ (n : ℝ), Set.Ioi (-n), g x))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+          "truncated": false
+        }
+      },
+      "id": "h1",
+      "kind": "have",
+      "name": "h1",
+      "span": {
+        "end_line": 28,
+        "start_line": 27
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "MeasureTheory.tendsto_setIntegral_of_monotone",
+            "tags": []
+          },
+          {
+            "doc": "`volume` is the canonical measure on `α`.",
+            "name": "MeasureTheory.MeasureSpace.volume",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "measurableSet_Ioi",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto (fun (X : ℝ) => ∫ (v : ℝ) in Set.Ioi (-Real.log X), g v) Filter.atTop (nhds (∫ (v : ℝ), g v))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 30,
+        "start_line": 29
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "MeasureTheory.setIntegral_univ",
+            "tags": []
+          },
+          {
+            "doc": "The real logarithm function tends to `+∞` at `+∞`.",
+            "name": "Real.tendsto_log_atTop",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}

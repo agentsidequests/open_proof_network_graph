@@ -1,5 +1,5 @@
 {
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -7555,7 +7555,60 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "15ce2077eb37f5e25c996751fa8a7b30180c949fd05b7d125b346c7b38b1248b",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "15ce2077eb37f5e25c996751fa8a7b30180c949fd05b7d125b346c7b38b1248b"
+            },
+            {
+              "key": "steps:h_bhp",
+              "state": "drafted",
+              "version": "15ce2077eb37f5e25c996751fa8a7b30180c949fd05b7d125b346c7b38b1248b"
+            },
+            {
+              "key": "steps:close,s2",
+              "state": "drafted",
+              "version": "15ce2077eb37f5e25c996751fa8a7b30180c949fd05b7d125b346c7b38b1248b"
+            }
+          ],
+          "versions": [
+            {
+              "author": "agent4-33d9",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "Claude Opus 5.5 (claude-opus-5-5)",
+              "drafter": null,
+              "hash": "15ce2077eb37f5e25c996751fa8a7b30180c949fd05b7d125b346c7b38b1248b",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/erdos-1094--h3--h2--h1--h1/explainer/15ce2077eb37f5e25c996751fa8a7b30180c949fd05b7d125b346c7b38b1248b.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_bhp",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close,s2",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/erdos-1094--h3--h2--h1--h1/attempts/20261119T135726Z-agent4-33d9-partial.lean",
       "kind": "partial",
       "lean_hash": "6516fce58872c37e372e4ebaa06a1e6e68e6b352a8525d089158326c02a3dfe9",
@@ -7746,6 +7799,77 @@
       "lean_hash": "a2e10791c88cf9ee35749e691e8eb8fc13560b6e25f379b6cfd14767c3a661b3",
       "module": null,
       "node": "erdos-1094--h3--h2--h3",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h2--h3/attempts/20261119T141117Z-claude-agent2-e849-partial.lean",
+      "kind": "partial",
+      "lean_hash": "26ec2f263eacb61792f4ac3836d1ad8523964e6a564af5ef687e47cb24dcb604",
+      "module": null,
+      "node": "erdos-1094--h3--h2--h3",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h2--h3/attempts/20261119T141117Z-claude-agent2-e849-partial.lean",
+      "kind": "partial",
+      "lean_hash": "26ec2f263eacb61792f4ac3836d1ad8523964e6a564af5ef687e47cb24dcb604",
+      "module": "attempts/20261119T141117Z-claude-agent2-e849-partial.lean",
+      "node": "erdos-1094--h3--h2--h3",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "6c1c230da1005f35b8b2a8d70f80e01b122b8ae35412899b2f2a070954f567f4",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "6c1c230da1005f35b8b2a8d70f80e01b122b8ae35412899b2f2a070954f567f4"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "6c1c230da1005f35b8b2a8d70f80e01b122b8ae35412899b2f2a070954f567f4",
+              "label": "two close primes just above k/2",
+              "lean_hash": "71e7d15e936220478857a130ef674c9042a1055c6f0211b3b2dce16173f80e71",
+              "path": "nodes/erdos-1094--h3--h2--h3--h1/gloss/6c1c230da1005f35b8b2a8d70f80e01b122b8ae35412899b2f2a070954f567f4.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h2--h3--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "71e7d15e936220478857a130ef674c9042a1055c6f0211b3b2dce16173f80e71",
+      "module": null,
+      "node": "erdos-1094--h3--h2--h3--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h2--h3--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "1aa8a1c1b9f3232074c7e54b8ea96e1d6e70e135f02aa9ffb169c7e3f55bffea",
+      "module": null,
+      "node": "erdos-1094--h3--h2--h3--h1",
       "record": "gloss"
     },
     {
@@ -8720,6 +8844,316 @@
       "module": null,
       "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
       "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1/attempts/20261119T141220Z-opn-agent-3-claude-partial.lean",
+      "kind": "partial",
+      "lean_hash": "8d165428e49b59cba2c2230490dd7ab6ef403cb813af9068f80abc3664082d27",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1/attempts/20261119T141220Z-opn-agent-3-claude-partial.lean",
+      "kind": "partial",
+      "lean_hash": "8d165428e49b59cba2c2230490dd7ab6ef403cb813af9068f80abc3664082d27",
+      "module": "attempts/20261119T141220Z-opn-agent-3-claude-partial.lean",
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "e0bff293fb891b439838b5e7829c05f42bed3e86caee67f7d957b70d76c0e271",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "e0bff293fb891b439838b5e7829c05f42bed3e86caee67f7d957b70d76c0e271"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "e0bff293fb891b439838b5e7829c05f42bed3e86caee67f7d957b70d76c0e271",
+              "label": "Chebyshev bound under the Wiener–Ikehara hypotheses",
+              "lean_hash": "25d98dc2f7be2bca680ef59b6c8ef46c942a401eb7aefd85afbf526ef42b2d62",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1/gloss/e0bff293fb891b439838b5e7829c05f42bed3e86caee67f7d957b70d76c0e271.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "25d98dc2f7be2bca680ef59b6c8ef46c942a401eb7aefd85afbf526ef42b2d62",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "e75219ad2c4f86289396e4e4eb45a2cc922544b4a95060f1ea3ae4d1c1678ccb",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "58a55dd9c25a7bd3fa801259400d45f8d1283dc65c98f50ec0e4a5eeb37513e6",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "58a55dd9c25a7bd3fa801259400d45f8d1283dc65c98f50ec0e4a5eeb37513e6"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "58a55dd9c25a7bd3fa801259400d45f8d1283dc65c98f50ec0e4a5eeb37513e6",
+              "label": "weighted sums converge under a Chebyshev bound",
+              "lean_hash": "08b0817ac909163106020e9eb746c6f8bedfc2f24ddb3c555fb811cb80d463dd",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2/gloss/58a55dd9c25a7bd3fa801259400d45f8d1283dc65c98f50ec0e4a5eeb37513e6.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "08b0817ac909163106020e9eb746c6f8bedfc2f24ddb3c555fb811cb80d463dd",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "99279bbc78cdd6d453941cf2c0e2c6485a99d73c5a7545e881f5b122940f7776",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "74e5f7c75650b3c528fecca10fbdfd0fb52e1383cb8c5cd969b0ed18e99b6f30",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+      "record": "explainer"
+    },
+    {
+      "chains": [
+        {
+          "current": "046936337cd87fdc3ce0ad15fe090bb99f2658f585ea388c5c9b13e8e55faf3a",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "046936337cd87fdc3ce0ad15fe090bb99f2658f585ea388c5c9b13e8e55faf3a"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "046936337cd87fdc3ce0ad15fe090bb99f2658f585ea388c5c9b13e8e55faf3a",
+              "label": "the limiting Fourier identity",
+              "lean_hash": "f4dcb26f364c6b681620f02c64426ddb0ab2bf7abc68af4f6cfa9b67f18a023b",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3/gloss/046936337cd87fdc3ce0ad15fe090bb99f2658f585ea388c5c9b13e8e55faf3a.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "f4dcb26f364c6b681620f02c64426ddb0ab2bf7abc68af4f6cfa9b67f18a023b",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "ab8d74827f39db897de08e2b248495cac529db756207f112e6d4466c6777223c",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "c534bcf2bd23b3c7525e91fe2c60278dbb9fb47c5933e432c3c9628a72266dbd",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "c534bcf2bd23b3c7525e91fe2c60278dbb9fb47c5933e432c3c9628a72266dbd"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "c534bcf2bd23b3c7525e91fe2c60278dbb9fb47c5933e432c3c9628a72266dbd",
+              "label": "Riemann–Lebesgue along log X",
+              "lean_hash": "118356a03f9cc3efbe369725e82bf0414a295f09833bd9c7a825c4cf714995cd",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4/gloss/c534bcf2bd23b3c7525e91fe2c60278dbb9fb47c5933e432c3c9628a72266dbd.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "118356a03f9cc3efbe369725e82bf0414a295f09833bd9c7a825c4cf714995cd",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "7485c27b862364b80a7c5c335d155c0becbb90f2de443ff587dae63607992fd6",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "3f140c368733069ead2f075aee5f7ee6ef652a4828e51f50c85749034ca78e5e",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+      "record": "explainer"
+    },
+    {
+      "chains": [
+        {
+          "current": "7f3ed51b507f5159e42ddb2b486e48f67a43cf543e86512bd4f8644b271bd3b4",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "7f3ed51b507f5159e42ddb2b486e48f67a43cf543e86512bd4f8644b271bd3b4"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent-3-claude",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "7f3ed51b507f5159e42ddb2b486e48f67a43cf543e86512bd4f8644b271bd3b4",
+              "label": "the tail integral tends to the whole integral",
+              "lean_hash": "09f9d3e7d7983e33b08181b134d5f177654641aa40abed0160a48b3c528813af",
+              "path": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5/gloss/7f3ed51b507f5159e42ddb2b486e48f67a43cf543e86512bd4f8644b271bd3b4.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "09f9d3e7d7983e33b08181b134d5f177654641aa40abed0160a48b3c528813af",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "e9e5b8b0f1733a08ef7e9838eaac892dfe6cc6a405e4a8c7e988f4fb8fd14251",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5/Proof.lean",
+      "kind": "proof",
+      "lean_hash": "94c8547df170df1cfde17469a4640be2a40a529b93269194321e795a44fc0ce9",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+      "record": "explainer"
     },
     {
       "chains": [
