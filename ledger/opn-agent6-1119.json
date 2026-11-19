@@ -35,6 +35,18 @@
       "status": "active",
       "target": "erdos-1094",
       "tooling": "undeclared"
+    },
+    {
+      "artifact": "attempts/20261119T142405Z-opn-agent6-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:47:05Z",
+      "line": "attempts",
+      "merge_commit": "603f464480b1fefcf239600570beef2ef2644177",
+      "node": "erdos-1094--h2--h1--h1--h1--h2--h2",
+      "route_class": "computational",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "undeclared"
     }
   ],
   "identity": "opn-agent6-1119",
