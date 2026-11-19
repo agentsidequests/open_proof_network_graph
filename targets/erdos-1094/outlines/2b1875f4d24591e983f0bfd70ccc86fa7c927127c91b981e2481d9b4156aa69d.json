@@ -1,0 +1,2654 @@
+{
+  "artifact": {
+    "hash": "2b1875f4d24591e983f0bfd70ccc86fa7c927127c91b981e2481d9b4156aa69d",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ), ∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "C",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hC",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C * (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (N : ℕ) => (∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) Filter.atTop (nhds A)",
+          "truncated": false
+        }
+      },
+      "id": "s1",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(0 : ℝ) ≤ C'",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hC'nn",
+            "type": {
+              "printed": "reliable",
+              "text": "(0 : ℝ) ≤ C'",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (N : ℕ) => (∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) Filter.atTop (nhds A)",
+          "truncated": false
+        }
+      },
+      "id": "hC'nn",
+      "kind": "have",
+      "name": "hC'nn",
+      "span": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "le_max_right",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C' * (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hC'",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (N : ℕ), ∑ n ∈ Finset.range N, f n ≤ C' * (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Filter.Tendsto (fun (N : ℕ) => (∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) Filter.atTop (nhds A)",
+          "truncated": false
+        }
+      },
+      "id": "hC'",
+      "kind": "have",
+      "name": "hC'",
+      "span": {
+        "end_line": 109,
+        "start_line": 108
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`range n` is the set of natural numbers less than `n`.",
+            "name": "Finset.range",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "mul_le_mul_of_nonneg_right",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_left",
+            "tags": []
+          },
+          {
+            "doc": "Specialisation of `Nat.cast_nonneg'`, which seems to be easier for Lean to use.",
+            "name": "Nat.cast_nonneg",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(0 : ℝ) < (8 : ℝ) * (|A| + C' + (1 : ℝ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "automation",
+        "tactics": [
+          "positivity"
+        ]
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hD",
+            "type": {
+              "printed": "reliable",
+              "text": "(0 : ℝ) < (8 : ℝ) * (|A| + C' + (1 : ℝ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hD",
+      "kind": "have",
+      "name": "hD",
+      "span": {
+        "end_line": 112,
+        "start_line": 112
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(0 : ℝ) < δ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hδpos",
+            "type": {
+              "printed": "reliable",
+              "text": "(0 : ℝ) < δ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "h_x3b4pos",
+      "kind": "have",
+      "name": "hδpos",
+      "span": {
+        "end_line": 114,
+        "start_line": 114
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "lt_min",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "div_pos",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "δ ≤ (1 / 2 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hδ1",
+            "type": {
+              "printed": "reliable",
+              "text": "δ ≤ (1 / 2 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "h_x3b41",
+      "kind": "have",
+      "name": "hδ1",
+      "span": {
+        "end_line": 115,
+        "start_line": 115
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "min_le_left",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "δ ≤ ε / ((8 : ℝ) * (|A| + C' + (1 : ℝ)))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hδ2",
+            "type": {
+              "printed": "reliable",
+              "text": "δ ≤ ε / ((8 : ℝ) * (|A| + C' + (1 : ℝ)))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "h_x3b42",
+      "kind": "have",
+      "name": "hδ2",
+      "span": {
+        "end_line": 116,
+        "start_line": 116
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "min_le_right",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(|A| + C' + (1 : ℝ)) * δ ≤ ε / (8 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hδ3",
+            "type": {
+              "printed": "reliable",
+              "text": "(|A| + C' + (1 : ℝ)) * δ ≤ ε / (8 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "h_x3b43",
+      "kind": "have",
+      "name": "hδ3",
+      "span": {
+        "end_line": 119,
+        "start_line": 117
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "See `le_div_iff₀'` for a version with multiplication on the other side.",
+            "name": "le_div_iff₀",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "|A| * δ ≤ ε / (8 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "automation",
+        "tactics": [
+          "nlinarith"
+        ]
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hδA",
+            "type": {
+              "printed": "reliable",
+              "text": "|A| * δ ≤ ε / (8 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "h_x3b4A",
+      "kind": "have",
+      "name": "hδA",
+      "span": {
+        "end_line": 120,
+        "start_line": 120
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_nonneg",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "C' * δ ≤ ε / (8 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "automation",
+        "tactics": [
+          "nlinarith"
+        ]
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hδC",
+            "type": {
+              "printed": "reliable",
+              "text": "C' * δ ≤ ε / (8 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "h_x3b4C",
+      "kind": "have",
+      "name": "hδC",
+      "span": {
+        "end_line": 121,
+        "start_line": 121
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_nonneg",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (ψ : ℝ → ℝ),\n  ContDiff ℝ (2 : WithTop ℕ∞) ψ ∧\n    HasCompactSupport ψ ∧\n      Function.support ψ ⊆ Set.Ioo ((1 / 2 : ℝ) - (1 / 2 : ℝ)) ((1 / 2 : ℝ) + (1 / 2 : ℝ)) ∧\n        (∀ (x : ℝ), (0 : ℝ) ≤ ψ x) ∧\n          (∀ (x : ℝ), ψ x ≤ (1 : ℝ)) ∧\n            (∀ (x : ℝ),\n                (1 / 2 : ℝ) - ((1 : ℝ) - δ) / (2 : ℝ) ≤ x → x ≤ (1 / 2 : ℝ) + ((1 : ℝ) - δ) / (2 : ℝ) → ψ x = (1 : ℝ)) ∧\n              (2 : ℝ) * (((1 : ℝ) - δ) / (2 : ℝ)) ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ (2 : ℝ) * (1 / 2 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "u",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ → ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "us",
+            "type": {
+              "printed": "reliable",
+              "text": "ContDiff ℝ (2 : WithTop ℕ∞) u",
+              "truncated": false
+            }
+          },
+          {
+            "name": "uc",
+            "type": {
+              "printed": "reliable",
+              "text": "HasCompactSupport u",
+              "truncated": false
+            }
+          },
+          {
+            "name": "usupp",
+            "type": {
+              "printed": "reliable",
+              "text": "Function.support u ⊆ Set.Ioo ((1 / 2 : ℝ) - (1 / 2 : ℝ)) ((1 / 2 : ℝ) + (1 / 2 : ℝ))",
+              "truncated": false
+            }
+          },
+          {
+            "name": "unn",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), (0 : ℝ) ≤ u x",
+              "truncated": false
+            }
+          },
+          {
+            "name": "ule",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), u x ≤ (1 : ℝ)",
+              "truncated": false
+            }
+          },
+          {
+            "name": "uone",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), (1 / 2 : ℝ) - ((1 : ℝ) - δ) / (2 : ℝ) ≤ x → x ≤ (1 / 2 : ℝ) + ((1 : ℝ) - δ) / (2 : ℝ) → u x = (1 : ℝ)",
+              "truncated": false
+            }
+          },
+          {
+            "name": "ulo",
+            "type": {
+              "printed": "reliable",
+              "text": "(2 : ℝ) * (((1 : ℝ) - δ) / (2 : ℝ)) ≤ ∫ (x : ℝ), u x",
+              "truncated": false
+            }
+          },
+          {
+            "name": "uhi",
+            "type": {
+              "printed": "reliable",
+              "text": "∫ (x : ℝ), u x ≤ (2 : ℝ) * (1 / 2 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s11",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 123,
+        "start_line": 122
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (ψ : ℝ → ℝ),\n  ContDiff ℝ (2 : WithTop ℕ∞) ψ ∧\n    HasCompactSupport ψ ∧\n      Function.support ψ ⊆ Set.Ioo (((1 : ℝ) + δ) / (2 : ℝ) - (1 / 2 : ℝ)) (((1 : ℝ) + δ) / (2 : ℝ) + (1 / 2 : ℝ)) ∧\n        (∀ (x : ℝ), (0 : ℝ) ≤ ψ x) ∧\n          (∀ (x : ℝ), ψ x ≤ (1 : ℝ)) ∧\n            (∀ (x : ℝ),\n                ((1 : ℝ) + δ) / (2 : ℝ) - ((1 : ℝ) - δ) / (2 : ℝ) ≤ x →\n                  x ≤ ((1 : ℝ) + δ) / (2 : ℝ) + ((1 : ℝ) - δ) / (2 : ℝ) → ψ x = (1 : ℝ)) ∧\n              (2 : ℝ) * (((1 : ℝ) - δ) / (2 : ℝ)) ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ (2 : ℝ) * (1 / 2 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "w",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ → ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "ws",
+            "type": {
+              "printed": "reliable",
+              "text": "ContDiff ℝ (2 : WithTop ℕ∞) w",
+              "truncated": false
+            }
+          },
+          {
+            "name": "wc",
+            "type": {
+              "printed": "reliable",
+              "text": "HasCompactSupport w",
+              "truncated": false
+            }
+          },
+          {
+            "name": "wsupp",
+            "type": {
+              "printed": "reliable",
+              "text": "Function.support w ⊆ Set.Ioo (((1 : ℝ) + δ) / (2 : ℝ) - (1 / 2 : ℝ)) (((1 : ℝ) + δ) / (2 : ℝ) + (1 / 2 : ℝ))",
+              "truncated": false
+            }
+          },
+          {
+            "name": "wnn",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), (0 : ℝ) ≤ w x",
+              "truncated": false
+            }
+          },
+          {
+            "name": "wle",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), w x ≤ (1 : ℝ)",
+              "truncated": false
+            }
+          },
+          {
+            "name": "wone",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ),\n  ((1 : ℝ) + δ) / (2 : ℝ) - ((1 : ℝ) - δ) / (2 : ℝ) ≤ x →\n    x ≤ ((1 : ℝ) + δ) / (2 : ℝ) + ((1 : ℝ) - δ) / (2 : ℝ) → w x = (1 : ℝ)",
+              "truncated": false
+            }
+          },
+          {
+            "name": "wlo",
+            "type": {
+              "printed": "reliable",
+              "text": "(2 : ℝ) * (((1 : ℝ) - δ) / (2 : ℝ)) ≤ ∫ (x : ℝ), w x",
+              "truncated": false
+            }
+          },
+          {
+            "name": "whi",
+            "type": {
+              "printed": "reliable",
+              "text": "∫ (x : ℝ), w x ≤ (2 : ℝ) * (1 / 2 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s12",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 125,
+        "start_line": 124
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "x ∈ Set.Ioo ((1 / 2 : ℝ) - (1 / 2 : ℝ)) ((1 / 2 : ℝ) + (1 / 2 : ℝ))",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "x ∈ Set.Ioo ((1 / 2 : ℝ) - (1 / 2 : ℝ)) ((1 / 2 : ℝ) + (1 / 2 : ℝ))",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "x ∈ Set.Ioi (0 : ℝ)",
+              "truncated": false
+            }
+          },
+          "id": "upos.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 128,
+            "start_line": 128
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "Function.support u ⊆ Set.Ioi (0 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "upos",
+            "type": {
+              "printed": "reliable",
+              "text": "Function.support u ⊆ Set.Ioi (0 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "upos",
+      "kind": "have",
+      "name": "upos",
+      "span": {
+        "end_line": 130,
+        "start_line": 126
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`support` of a function is the set of points `x` such that `f x ≠ 0`.",
+            "name": "Function.support",
+            "tags": []
+          },
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.mem_Ioo",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.mem_Ioi",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "x ∈ Set.Ioo (((1 : ℝ) + δ) / (2 : ℝ) - (1 / 2 : ℝ)) (((1 : ℝ) + δ) / (2 : ℝ) + (1 / 2 : ℝ))",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "x ∈ Set.Ioo (((1 : ℝ) + δ) / (2 : ℝ) - (1 / 2 : ℝ)) (((1 : ℝ) + δ) / (2 : ℝ) + (1 / 2 : ℝ))",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "x ∈ Set.Ioi (0 : ℝ)",
+              "truncated": false
+            }
+          },
+          "id": "wpos.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 133,
+            "start_line": 133
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "Function.support w ⊆ Set.Ioi (0 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "wpos",
+            "type": {
+              "printed": "reliable",
+              "text": "Function.support w ⊆ Set.Ioi (0 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "wpos",
+      "kind": "have",
+      "name": "wpos",
+      "span": {
+        "end_line": 135,
+        "start_line": 131
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`support` of a function is the set of points `x` such that `f x ≠ 0`.",
+            "name": "Function.support",
+            "tags": []
+          },
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.mem_Ioo",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.mem_Ioi",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "x ∈ Set.Ioo ((1 / 2 : ℝ) - (1 / 2 : ℝ)) ((1 / 2 : ℝ) + (1 / 2 : ℝ))",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "x ∈ Set.Ioo ((1 / 2 : ℝ) - (1 / 2 : ℝ)) ((1 / 2 : ℝ) + (1 / 2 : ℝ))",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "uzero.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 139,
+            "start_line": 139
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Function.mem_support",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (x : ℝ), (1 : ℝ) ≤ x → u x = (0 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "uzero",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), (1 : ℝ) ≤ x → u x = (0 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "uzero",
+      "kind": "have",
+      "name": "uzero",
+      "span": {
+        "end_line": 141,
+        "start_line": 136
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Set.mem_Ioo",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "x ∈ Set.Ioo (((1 : ℝ) + δ) / (2 : ℝ) - (1 / 2 : ℝ)) (((1 : ℝ) + δ) / (2 : ℝ) + (1 / 2 : ℝ))",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "x ∈ Set.Ioo (((1 : ℝ) + δ) / (2 : ℝ) - (1 / 2 : ℝ)) (((1 : ℝ) + δ) / (2 : ℝ) + (1 / 2 : ℝ))",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "wzero.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 145,
+            "start_line": 145
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Function.mem_support",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (x : ℝ), (2 : ℝ) ≤ x → w x = (0 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "wzero",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), (2 : ℝ) ≤ x → w x = (0 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "wzero",
+      "kind": "have",
+      "name": "wzero",
+      "span": {
+        "end_line": 147,
+        "start_line": 142
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Set.mem_Ioo",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (x : ℝ), δ ≤ x → x ≤ (1 : ℝ) → w x = (1 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "wone'",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), δ ≤ x → x ≤ (1 : ℝ) → w x = (1 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "wone'",
+      "kind": "have",
+      "name": "wone'",
+      "span": {
+        "end_line": 150,
+        "start_line": 148
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto ((fun (X : ℝ) => (∑' (n : ℕ), f n * u ((↑n : ℝ) / X)) / X) ∘ Nat.cast) Filter.atTop\n  (nhds (A * ∫ (x : ℝ), u x))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hut",
+            "type": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto ((fun (X : ℝ) => (∑' (n : ℕ), f n * u ((↑n : ℝ) / X)) / X) ∘ Nat.cast) Filter.atTop\n  (nhds (A * ∫ (x : ℝ), u x))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hut",
+      "kind": "have",
+      "name": "hut",
+      "span": {
+        "end_line": 151,
+        "start_line": 151
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "tendsto_natCast_atTop_atTop",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Filter.Tendsto ((fun (X : ℝ) => (∑' (n : ℕ), f n * w ((↑n : ℝ) / X)) / X) ∘ Nat.cast) Filter.atTop\n  (nhds (A * ∫ (x : ℝ), w x))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hwt",
+            "type": {
+              "printed": "reliable",
+              "text": "Filter.Tendsto ((fun (X : ℝ) => (∑' (n : ℕ), f n * w ((↑n : ℝ) / X)) / X) ∘ Nat.cast) Filter.atTop\n  (nhds (A * ∫ (x : ℝ), w x))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hwt",
+      "kind": "have",
+      "name": "hwt",
+      "span": {
+        "end_line": 152,
+        "start_line": 152
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "tendsto_natCast_atTop_atTop",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (N : ℕ),\n  ∀ n ≥ N,\n    dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * u ((↑n : ℝ) / X)) / X) ∘ Nat.cast) n) (A * ∫ (x : ℝ), u x) < ε / (4 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "N1",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hN1",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ n ≥ N1,\n  dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * u ((↑n : ℝ) / X)) / X) ∘ Nat.cast) n) (A * ∫ (x : ℝ), u x) < ε / (4 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s20",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 153,
+        "start_line": 153
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Metric.tendsto_atTop",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (N : ℕ),\n  ∀ n ≥ N,\n    dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * w ((↑n : ℝ) / X)) / X) ∘ Nat.cast) n) (A * ∫ (x : ℝ), w x) < ε / (4 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "N2",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hN2",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ n ≥ N2,\n  dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * w ((↑n : ℝ) / X)) / X) ∘ Nat.cast) n) (A * ∫ (x : ℝ), w x) < ε / (4 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s21",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 154,
+        "start_line": 154
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Metric.tendsto_atTop",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (n : ℕ), (8 : ℝ) * C' / ε < (↑n : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "N3",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hN3",
+            "type": {
+              "printed": "reliable",
+              "text": "(8 : ℝ) * C' / ε < (↑N3 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (N : ℕ), ∀ n ≥ N, dist ((∑ n ∈ Finset.range n, f n) / (↑n : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s22",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 155,
+        "start_line": 155
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "exists_nat_gt",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "N1 ≤ N",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hNN1",
+            "type": {
+              "printed": "reliable",
+              "text": "N1 ≤ N",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hNN1",
+      "kind": "have",
+      "name": "hNN1",
+      "span": {
+        "end_line": 157,
+        "start_line": 157
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The relation `≤` on a preorder is transitive.",
+            "name": "le_trans",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_left",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "N2 ≤ N",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hNN2",
+            "type": {
+              "printed": "reliable",
+              "text": "N2 ≤ N",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hNN2",
+      "kind": "have",
+      "name": "hNN2",
+      "span": {
+        "end_line": 158,
+        "start_line": 158
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The relation `≤` on a preorder is transitive.",
+            "name": "le_trans",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_right",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_left",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "N3 ≤ N",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hNN3",
+            "type": {
+              "printed": "reliable",
+              "text": "N3 ≤ N",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hNN3",
+      "kind": "have",
+      "name": "hNN3",
+      "span": {
+        "end_line": 159,
+        "start_line": 159
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The relation `≤` on a preorder is transitive.",
+            "name": "le_trans",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_left",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_right",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(1 : ℕ) ≤ N",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hNN4",
+            "type": {
+              "printed": "reliable",
+              "text": "(1 : ℕ) ≤ N",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hNN4",
+      "kind": "have",
+      "name": "hNN4",
+      "span": {
+        "end_line": 160,
+        "start_line": 160
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The relation `≤` on a preorder is transitive.",
+            "name": "le_trans",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "le_max_right",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(0 : ℝ) < (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hNpos",
+            "type": {
+              "printed": "reliable",
+              "text": "(0 : ℝ) < (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hNpos",
+      "kind": "have",
+      "name": "hNpos",
+      "span": {
+        "end_line": 161,
+        "start_line": 161
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * u ((↑n : ℝ) / X)) / X) ∘ Nat.cast) N) (A * ∫ (x : ℝ), u x) < ε / (4 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "e1",
+            "type": {
+              "printed": "reliable",
+              "text": "dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * u ((↑n : ℝ) / X)) / X) ∘ Nat.cast) N) (A * ∫ (x : ℝ), u x) < ε / (4 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "e1",
+      "kind": "have",
+      "name": "e1",
+      "span": {
+        "end_line": 162,
+        "start_line": 162
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * w ((↑n : ℝ) / X)) / X) ∘ Nat.cast) N) (A * ∫ (x : ℝ), w x) < ε / (4 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "e2",
+            "type": {
+              "printed": "reliable",
+              "text": "dist (((fun (X : ℝ) => (∑' (n : ℕ), f n * w ((↑n : ℝ) / X)) / X) ∘ Nat.cast) N) (A * ∫ (x : ℝ), w x) < ε / (4 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "e2",
+      "kind": "have",
+      "name": "e2",
+      "span": {
+        "end_line": 163,
+        "start_line": 163
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "⌈δ * (↑N : ℝ)⌉₊ ≤ N",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hM",
+            "type": {
+              "printed": "reliable",
+              "text": "⌈δ * (↑N : ℝ)⌉₊ ≤ N",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hM",
+      "kind": "have",
+      "name": "hM",
+      "span": {
+        "end_line": 167,
+        "start_line": 165
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Nat.ceil_le",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∑' (n : ℕ), f n * u ((↑n : ℝ) / (↑N : ℝ)) ≤ ∑ n ∈ Finset.range N, f n",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "lo",
+            "type": {
+              "printed": "reliable",
+              "text": "∑' (n : ℕ), f n * u ((↑n : ℝ) / (↑N : ℝ)) ≤ ∑ n ∈ Finset.range N, f n",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "lo",
+      "kind": "have",
+      "name": "lo",
+      "span": {
+        "end_line": 168,
+        "start_line": 168
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∑ n ∈ Finset.range N, f n ≤ ∑ n ∈ Finset.range ⌈δ * (↑N : ℝ)⌉₊, f n + ∑' (n : ℕ), f n * w ((↑n : ℝ) / (↑N : ℝ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "up",
+            "type": {
+              "printed": "reliable",
+              "text": "∑ n ∈ Finset.range N, f n ≤ ∑ n ∈ Finset.range ⌈δ * (↑N : ℝ)⌉₊, f n + ∑' (n : ℕ), f n * w ((↑n : ℝ) / (↑N : ℝ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "up",
+      "kind": "have",
+      "name": "up",
+      "span": {
+        "end_line": 169,
+        "start_line": 169
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∑ n ∈ Finset.range ⌈δ * (↑N : ℝ)⌉₊, f n ≤ C' * (δ * (↑N : ℝ) + (1 : ℝ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hMb",
+            "type": {
+              "printed": "reliable",
+              "text": "∑ n ∈ Finset.range ⌈δ * (↑N : ℝ)⌉₊, f n ≤ C' * (δ * (↑N : ℝ) + (1 : ℝ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist ((∑ n ∈ Finset.range N, f n) / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hMb",
+      "kind": "have",
+      "name": "hMb",
+      "span": {
+        "end_line": 171,
+        "start_line": 170
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`range n` is the set of natural numbers less than `n`.",
+            "name": "Finset.range",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "mul_le_mul_of_nonneg_left",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Nat.ceil_lt_add_one",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "|A * I1 - A| ≤ |A| * δ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "a1",
+            "type": {
+              "printed": "reliable",
+              "text": "|A * I1 - A| ≤ |A| * δ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "a1",
+      "kind": "have",
+      "name": "a1",
+      "span": {
+        "end_line": 179,
+        "start_line": 177
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_mul",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "mul_le_mul_of_nonneg_left",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "abs_le",
+            "tags": []
+          },
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "abs_nonneg",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "|A * I2 - A| ≤ |A| * δ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "a2",
+            "type": {
+              "printed": "reliable",
+              "text": "|A * I2 - A| ≤ |A| * δ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "a2",
+      "kind": "have",
+      "name": "a2",
+      "span": {
+        "end_line": 182,
+        "start_line": 180
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_mul",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "mul_le_mul_of_nonneg_left",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "abs_le",
+            "tags": []
+          },
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "abs_nonneg",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "-(|A| * δ) ≤ A * I1 - A ∧ A * I1 - A ≤ |A| * δ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "a1l",
+            "type": {
+              "printed": "reliable",
+              "text": "-(|A| * δ) ≤ A * I1 - A",
+              "truncated": false
+            }
+          },
+          {
+            "name": "a1r",
+            "type": {
+              "printed": "reliable",
+              "text": "A * I1 - A ≤ |A| * δ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s36",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 183,
+        "start_line": 183
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_le",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "-(|A| * δ) ≤ A * I2 - A ∧ A * I2 - A ≤ |A| * δ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "a2l",
+            "type": {
+              "printed": "reliable",
+              "text": "-(|A| * δ) ≤ A * I2 - A",
+              "truncated": false
+            }
+          },
+          {
+            "name": "a2r",
+            "type": {
+              "printed": "reliable",
+              "text": "A * I2 - A ≤ |A| * δ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s37",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 184,
+        "start_line": 184
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_le",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "-(ε / (4 : ℝ)) < T1 / (↑N : ℝ) - A * I1 ∧ T1 / (↑N : ℝ) - A * I1 < ε / (4 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "e1l",
+            "type": {
+              "printed": "reliable",
+              "text": "-(ε / (4 : ℝ)) < T1 / (↑N : ℝ) - A * I1",
+              "truncated": false
+            }
+          },
+          {
+            "name": "e1r",
+            "type": {
+              "printed": "reliable",
+              "text": "T1 / (↑N : ℝ) - A * I1 < ε / (4 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s38",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 185,
+        "start_line": 185
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_lt",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "-(ε / (4 : ℝ)) < T2 / (↑N : ℝ) - A * I2 ∧ T2 / (↑N : ℝ) - A * I2 < ε / (4 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "e2l",
+            "type": {
+              "printed": "reliable",
+              "text": "-(ε / (4 : ℝ)) < T2 / (↑N : ℝ) - A * I2",
+              "truncated": false
+            }
+          },
+          {
+            "name": "e2r",
+            "type": {
+              "printed": "reliable",
+              "text": "T2 / (↑N : ℝ) - A * I2 < ε / (4 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "s39",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 186,
+        "start_line": 186
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "abs_lt",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "T1 / (↑N : ℝ) ≤ S / (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hlow",
+            "type": {
+              "printed": "reliable",
+              "text": "T1 / (↑N : ℝ) ≤ S / (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hlow",
+      "kind": "have",
+      "name": "hlow",
+      "span": {
+        "end_line": 187,
+        "start_line": 187
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "div_le_div_of_nonneg_right",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "S / (↑N : ℝ) ≤ (C' * (δ * (↑N : ℝ) + (1 : ℝ)) + T2) / (↑N : ℝ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "S / (↑N : ℝ) ≤ (C' * (δ * (↑N : ℝ) + (1 : ℝ)) + T2) / (↑N : ℝ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "S / (↑N : ℝ) ≤ C' * δ + C' / (↑N : ℝ) + T2 / (↑N : ℝ)",
+              "truncated": false
+            }
+          },
+          "id": "hup.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 189,
+            "start_line": 189
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "div_le_div_of_nonneg_right",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(C' * (δ * (↑N : ℝ) + (1 : ℝ)) + T2) / (↑N : ℝ) = C' * δ + C' / (↑N : ℝ) + T2 / (↑N : ℝ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "automation",
+            "tactics": [
+              "field_simp"
+            ]
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "eq",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(C' * (δ * (↑N : ℝ) + (1 : ℝ)) + T2) / (↑N : ℝ) = C' * δ + C' / (↑N : ℝ) + T2 / (↑N : ℝ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "S / (↑N : ℝ) ≤ C' * δ + C' / (↑N : ℝ) + T2 / (↑N : ℝ)",
+              "truncated": false
+            }
+          },
+          "id": "hup.eq",
+          "kind": "have",
+          "name": "eq",
+          "span": {
+            "end_line": 191,
+            "start_line": 190
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "S / (↑N : ℝ) ≤ C' * δ + C' / (↑N : ℝ) + T2 / (↑N : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hup",
+            "type": {
+              "printed": "reliable",
+              "text": "S / (↑N : ℝ) ≤ C' * δ + C' / (↑N : ℝ) + T2 / (↑N : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hup",
+      "kind": "have",
+      "name": "hup",
+      "span": {
+        "end_line": 192,
+        "start_line": 188
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(8 : ℝ) * C' / ε < (↑N : ℝ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h3",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(8 : ℝ) * C' / ε < (↑N : ℝ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "C' / (↑N : ℝ) < ε / (8 : ℝ)",
+              "truncated": false
+            }
+          },
+          "id": "hCN.h3",
+          "kind": "have",
+          "name": "h3",
+          "span": {
+            "end_line": 194,
+            "start_line": 194
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "lt_of_lt_of_le",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "C' / (↑N : ℝ) < ε / (8 : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hCN",
+            "type": {
+              "printed": "reliable",
+              "text": "C' / (↑N : ℝ) < ε / (8 : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "dist (S / (↑N : ℝ)) A < ε",
+          "truncated": false
+        }
+      },
+      "id": "hCN",
+      "kind": "have",
+      "name": "hCN",
+      "span": {
+        "end_line": 197,
+        "start_line": 193
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "See `div_lt_iff₀'` for a version with multiplication on the other side.",
+            "name": "div_lt_iff₀",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "dist (S / (↑N : ℝ)) A < ε",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 199,
+        "start_line": 198
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Real.dist_eq",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "abs_lt",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}
