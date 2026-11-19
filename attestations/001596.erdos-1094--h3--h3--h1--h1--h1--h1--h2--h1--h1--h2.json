@@ -1,0 +1,142 @@
+{
+  "artifact_hash": "3ba53d061d31d19f0899a98315d3b5b425ef36b96d8f84742264a06e201b3989",
+  "automation": {
+    "framework": "Claude Code",
+    "method": "agent",
+    "models": [
+      "claude-opus-5-5"
+    ]
+  },
+  "carried_by": {
+    "assembly": {
+      "artifact_hash": "d81ec87d41aa155b0beeebb4d620ef3029b1af699bfa94d38ca42e21b2c320d8",
+      "path": "attempts/20261119T145204Z-opn-agent-3-claude-partial.lean"
+    },
+    "carried": {
+      "path": "attempts/20261119T145204Z-opn-agent-3-claude-partial.2.proof",
+      "sha256": "4fdc64261409bd7d98cacd47a69e7f17c1f2528edbd714835f374af413628c2a"
+    },
+    "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1"
+  },
+  "diagnostic": null,
+  "first_failing_step": null,
+  "footprint": {
+    "nodes": []
+  },
+  "gate_spec_hash": "b8a6ee840a7a0ca9c7cea0eb1331f60be814950efe4374b17dffd8942e7e5b98",
+  "graph_commit": "219c595407a0d492b5d1a82c36dcc653dc46bff0",
+  "graph_id": "erdos-1094",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "merge_commit": "219c595407a0d492b5d1a82c36dcc653dc46bff0",
+  "model_and_tooling": "claude-opus-5-5 Claude Code",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h2",
+  "precheck_attestation": {
+    "hash": "a410aabb5131c2161cbc34bef624707e106bf5fa33552146035c8fcfcf18870d",
+    "signature_kind": "service"
+  },
+  "review": {
+    "kind": "intermediate",
+    "reference": null,
+    "reviewer": null
+  },
+  "runner": "hosted",
+  "schema": "attestation/v8",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-19T15:52:38Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQNBWhdxPuqdWVq2+vK18LHlqd+tFenBiGSrYGKaXz9jGEQSoqA\n//AIGM3JFSe26N4wNfb3QJtQG2xQzWjWXxvww=\n-----END SSH SIGNATURE-----\n"
+  },
+  "statement_hash": "49cd97285c6471ef03db2d85ae264e330174baca700c263f11e4ce67ca8baf02",
+  "steps": [
+    {
+      "diagnostic": null,
+      "name": "toolchain",
+      "result": "pass",
+      "step": 1
+    },
+    {
+      "diagnostic": null,
+      "name": "paths",
+      "result": "pass",
+      "step": 2
+    },
+    {
+      "diagnostic": null,
+      "name": "kernel-replay",
+      "result": "pass",
+      "step": 4
+    },
+    {
+      "diagnostic": null,
+      "name": "axioms",
+      "result": "pass",
+      "step": 5
+    },
+    {
+      "diagnostic": {
+        "code": "hazards-derived-statement",
+        "details": {
+          "acknowledged": [],
+          "checkers": [
+            "div-zero",
+            "int-trunc",
+            "junk-value",
+            "nat-sub",
+            "off-by-one-range",
+            "unused-binder"
+          ],
+          "findings": [
+            {
+              "checker": "div-zero",
+              "location": "f n * K₀ (Real.log (↑n / X)) / ↑n",
+              "message": "division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+            },
+            {
+              "checker": "div-zero",
+              "location": "↑n / X",
+              "message": "division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+            },
+            {
+              "checker": "junk-value",
+              "location": "Real.log (↑n / X)",
+              "message": "Real.log of a possibly-negative argument is a junk value (0)"
+            },
+            {
+              "checker": "off-by-one-range",
+              "location": "1 ≤ X",
+              "message": "comparison against an explicit literal: check whether the boundary is inclusive or exclusive"
+            }
+          ],
+          "origin": "compiler-derived"
+        },
+        "message": "4 hazard finding(s) on a statement the gate derived from a merged assembly, recorded and not refused; first: div-zero at f n * K₀ (Real.log (↑n / X)) / ↑n: division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+      },
+      "name": "hazards",
+      "result": "pass",
+      "step": 6
+    },
+    {
+      "diagnostic": null,
+      "name": "witness",
+      "result": "pass",
+      "step": 7
+    },
+    {
+      "diagnostic": null,
+      "name": "deps",
+      "result": "pass",
+      "step": 8
+    }
+  ],
+  "submitter": "opn-agent-3-claude",
+  "toolchain_hash": "f54d0bc916bf76a7fae460ce9d078ccd1f74aeb4fd12c4b6546bca28b6aa1c63",
+  "tooling": {
+    "harness": "Claude Code",
+    "model": "claude-opus-5-5"
+  },
+  "trust_base": "kernel",
+  "verdict": "pass"
+}

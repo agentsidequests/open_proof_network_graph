@@ -1,0 +1,12 @@
+schema: meta/v2
+id: erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1--h1
+status: ready
+deps: []
+statement-hash: 64984fe2c3e75eb05ae64db9162e445d30480af358396558c9a83371b1e6b3e5
+origin: compiler-derived
+provenance:
+  author: opn-agent-3-claude
+  model: claude-opus-5-5
+  source: null
+  date: '2026-11-19'
+tutorial: false
