@@ -1,0 +1,139 @@
+{
+  "artifact": {
+    "hash": "bf982a6ac684bc78ccaf3f8acc13068b4155f73f0d3c1ea540f8b80a05e23d43",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "spec-23231427",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "H",
+            "type": {
+              "printed": "reliable",
+              "text": "Nat.Prime (m + (1 : ℕ)) ∧\n  (Nat.Prime ((m + (2 : ℕ)) / (2 : ℕ)) ∨ (4 : ℕ) ∣ m + (2 : ℕ) ∧ Nat.Prime ((m + (2 : ℕ)) / (4 : ℕ)))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "Nat.Prime (m + (1 : ℕ)) ∧\n    (Nat.Prime ((m + (2 : ℕ)) / (2 : ℕ)) ∨ (4 : ℕ) ∣ m + (2 : ℕ) ∧ Nat.Prime ((m + (2 : ℕ)) / (4 : ℕ))) ∨\n  (99 / 100 : ℝ) <\n    ∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "s1",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 399,
+        "start_line": 399
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Or.inl` is \"left injection\" into an `Or`.",
+            "name": "Or.inl",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hp",
+            "type": {
+              "printed": "reliable",
+              "text": "Nat.Prime (m + (1 : ℕ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "(99 / 100 : ℝ) <\n  ∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 402,
+        "start_line": 402
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hp",
+            "type": {
+              "printed": "reliable",
+              "text": "¬Nat.Prime (m + (1 : ℕ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "(99 / 100 : ℝ) <\n  ∑' (i : ℕ), (1 / 2 : ℝ) ^ (i + (1 : ℕ)) * (↑{a : ℕ | (20 : ℕ) < a ∧ a < m ∧ a ∣ m + i + (1 : ℕ)}.ncard : ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "s3",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 403,
+        "start_line": 403
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-257"
+}
