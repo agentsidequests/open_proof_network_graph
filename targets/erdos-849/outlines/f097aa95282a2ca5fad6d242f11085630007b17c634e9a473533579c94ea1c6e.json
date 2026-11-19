@@ -1,0 +1,210 @@
+{
+  "artifact": {
+    "hash": "f097aa95282a2ca5fad6d242f11085630007b17c634e9a473533579c94ea1c6e",
+    "kind": "partial",
+    "path": "attempts/20261119T133529Z-claude-agent-1-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (x : ℕ), (2010760 : ℕ) ≤ x → ∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (16597 : ℕ) * p < (16598 : ℕ) * x",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_schoenfeld",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℕ), (2010760 : ℕ) ≤ x → ∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (16597 : ℕ) * p < (16598 : ℕ) * x",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (x : ℕ), (25 : ℕ) ≤ x → ∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (5 : ℕ) * p < (6 : ℕ) * x",
+          "truncated": false
+        }
+      },
+      "id": "h_schoenfeld",
+      "kind": "hole",
+      "name": "h_schoenfeld",
+      "span": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Nat.Prime p` means that `p` is a prime number, that is, a natural number at least 2 whose only divisors are `p` and `1`.",
+            "name": "Nat.Prime",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (16597 : ℕ) * p < (16598 : ℕ) * x",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "p",
+                "type": {
+                  "printed": "reliable",
+                  "text": "ℕ",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "hp",
+                "type": {
+                  "printed": "reliable",
+                  "text": "Nat.Prime p",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "hxp",
+                "type": {
+                  "printed": "reliable",
+                  "text": "x < p",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "hlt",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(16597 : ℕ) * p < (16598 : ℕ) * x",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (5 : ℕ) * p < (6 : ℕ) * x",
+              "truncated": false
+            }
+          },
+          "id": "s2.s1",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 57,
+            "start_line": 57
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hbig",
+            "type": {
+              "printed": "reliable",
+              "text": "(2010760 : ℕ) ≤ x",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (5 : ℕ) * p < (6 : ℕ) * x",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 58,
+        "start_line": 57
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "Existential introduction.",
+            "name": "Exists.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hbig",
+            "type": {
+              "printed": "reliable",
+              "text": "¬(2010760 : ℕ) ≤ x",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (p : ℕ), Nat.Prime p ∧ x < p ∧ (5 : ℕ) * p < (6 : ℕ) * x",
+          "truncated": false
+        }
+      },
+      "id": "s3",
+      "kind": "case",
+      "name": null,
+      "span": {
+        "end_line": 59,
+        "start_line": 59
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-849"
+}
