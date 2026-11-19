@@ -1,0 +1,119 @@
+{
+  "artifact_hash": "bf982a6ac684bc78ccaf3f8acc13068b4155f73f0d3c1ea540f8b80a05e23d43",
+  "automation": {
+    "framework": "Claude Code",
+    "method": "agent",
+    "models": [
+      "claude-opus-5-5"
+    ]
+  },
+  "carried_by": null,
+  "diagnostic": null,
+  "first_failing_step": null,
+  "footprint": {
+    "nodes": []
+  },
+  "gate_spec_hash": "637bc93ef7a084539bcbfa68c0abcb944342c3c3ff98237fc7af173f121227c3",
+  "graph_commit": "9c5438965e693de859edbd2ffa907cbc8884770b",
+  "graph_id": "erdos-257",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "merge_commit": "9c5438965e693de859edbd2ffa907cbc8884770b",
+  "model_and_tooling": "claude-opus-5-5 Claude Code",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "spec-23231427",
+  "precheck_attestation": {
+    "hash": "dfee75d5ce90fc9be1de103cd46ade0224caea71101fbc2d6be7772eaf0abea0",
+    "signature_kind": "service"
+  },
+  "review": {
+    "kind": "intermediate",
+    "reference": null,
+    "reviewer": null
+  },
+  "runner": "hosted",
+  "schema": "attestation/v8",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-19T14:31:46Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQDfMaxyWS1ful8RcGeNO1VRpFfp6vaLoyYvPyxmoveidKsbYkZ\n215MZr28ygMCp7FRjgjEQEGCdh4yMiQyIQlg8=\n-----END SSH SIGNATURE-----\n"
+  },
+  "statement_hash": "971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d",
+  "steps": [
+    {
+      "diagnostic": {
+        "code": "mathlib-pinned",
+        "details": {
+          "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+          "packages": 8
+        },
+        "message": "Mathlib 0df444a360ea resolved from the pinned checkout"
+      },
+      "name": "toolchain",
+      "result": "pass",
+      "step": 1
+    },
+    {
+      "diagnostic": null,
+      "name": "paths",
+      "result": "pass",
+      "step": 2
+    },
+    {
+      "diagnostic": null,
+      "name": "kernel-replay",
+      "result": "pass",
+      "step": 4
+    },
+    {
+      "diagnostic": null,
+      "name": "axioms",
+      "result": "pass",
+      "step": 5
+    },
+    {
+      "diagnostic": {
+        "code": "hazards-acknowledged",
+        "details": {
+          "acknowledged": [
+            {
+              "checker": "off-by-one-range",
+              "justification": "The bound is the start of the hole variant-cce9b284--h6, inclusive exactly as there.",
+              "location": "1092 ≤ m"
+            },
+            {
+              "checker": "off-by-one-range",
+              "justification": "The divisor range (20, m) is copied verbatim from the weighted count G(m) in variant-cce9b284--h6.",
+              "location": "20 < a"
+            }
+          ]
+        },
+        "message": "2 hazard finding(s) acknowledged in META.yaml"
+      },
+      "name": "hazards",
+      "result": "pass",
+      "step": 6
+    },
+    {
+      "diagnostic": null,
+      "name": "witness",
+      "result": "pass",
+      "step": 7
+    },
+    {
+      "diagnostic": null,
+      "name": "deps",
+      "result": "pass",
+      "step": 8
+    }
+  ],
+  "submitter": "opn-agent5-1119",
+  "toolchain_hash": "f54d0bc916bf76a7fae460ce9d078ccd1f74aeb4fd12c4b6546bca28b6aa1c63",
+  "tooling": {
+    "harness": "Claude Code",
+    "model": "claude-opus-5-5"
+  },
+  "trust_base": "kernel",
+  "verdict": "pass"
+}

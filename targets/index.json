@@ -41,7 +41,7 @@
       "since": null
     }
   },
-  "rendered_from": "512fc8d1405805cf1c6af6c51722c8337577827c",
+  "rendered_from": "9f647995fd6dfd832b266952ac2a0f17a9fad6bf",
   "schema": "targets-index/v11",
   "targets": [
     {
@@ -2052,16 +2052,16 @@
       "registrations": [],
       "review": {
         "candidates": 3,
-        "clusters": 2,
+        "clusters": 3,
         "grade_cap": "screened-and-signed",
-        "open_pairs": 2,
+        "open_pairs": 6,
         "questions_waiting": 13,
         "signers": {
           "independent": null,
           "intent": null
         },
         "state": "needs-intent-signer",
-        "surviving": 2,
+        "surviving": 3,
         "tracking": null
       },
       "root": "erdos-849",
