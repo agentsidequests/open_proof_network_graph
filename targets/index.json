@@ -41,7 +41,7 @@
       "since": null
     }
   },
-  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "schema": "targets-index/v11",
   "targets": [
     {
@@ -352,7 +352,7 @@
         "defective": 0,
         "disputed": 0,
         "proved": 25,
-        "ready": 64,
+        "ready": 65,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,
@@ -2035,7 +2035,7 @@
         "defective": 0,
         "disputed": 0,
         "proved": 13,
-        "ready": 44,
+        "ready": 45,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,
@@ -2054,7 +2054,7 @@
         "candidates": 3,
         "clusters": 2,
         "grade_cap": "screened-and-signed",
-        "open_pairs": 4,
+        "open_pairs": 2,
         "questions_waiting": 13,
         "signers": {
           "independent": null,

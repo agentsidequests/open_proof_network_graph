@@ -3071,9 +3071,23 @@
       "cause": null,
       "claim": "\\exists C, K_4\\in\\mathbb{N}\\ \\forall n,k\\in\\mathbb{N}:\\quad K_4<k,\\ \\ k^{7/4}\\le n,\\ \\ C\\cdot n\\cdot\\lfloor\\log_2 k\\rfloor < k^2 \\implies \\exists\\,p \\text{ prime},\\ \\tfrac{k}{2}<p<k,\\ \\ p\\mid\\tbinom{n}{k}",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "Erdős–Lacampagne–Selfridge (1993), Theorem 1, the range n ≥ k^(7/4): two primes p < q in (k/2, k/2 + k^(3/4)/2] at distance at most c·log₂ k (from Ingham's count of primes in short intervals, by pigeonhole) cannot both fail Kummer's criterion n % p < k % p",
+          "holes": [
+            {
+              "name": "h_close",
+              "node": "erdos-1094--h3--h2--h3--h1"
+            }
+          ],
+          "partial": "attempts/20261119T141117Z-claude-agent2-e849-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "erdos-1094--h3--h2--h3--h1"
+      ],
       "label": "ELS case A: k^(7/4) ≤ n ≪ k²/log k, a prime in (k/2, k)",
       "label_source": "gloss",
       "lemmas": [],
@@ -3093,6 +3107,33 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "9e3a1f24a3fc98f4ea18541f399316d6780d2e9504f5cf1f62e126285517d903",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\exists c, K\\ \\forall k > K\\ \\exists p, q \\text{ prime}:\\ k < 2p,\\ p < q,\\ 16\\,(2q - k)^4 \\le k^3,\\ q - p \\le c \\log_2 k",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "two close primes just above k/2",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h2--h3--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "71e7d15e936220478857a130ef674c9042a1055c6f0211b3b2dce16173f80e71",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -3886,7 +3927,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "candidates": 1,
     "clusters": 1,
