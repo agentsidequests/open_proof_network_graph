@@ -28,6 +28,18 @@
       "status": "active",
       "target": "erdos-1094",
       "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "attempts/20261119T143020Z-agent7-claude.yaml",
+      "automation": null,
+      "date": "2026-11-19T15:22:49Z",
+      "line": "attempts",
+      "merge_commit": "af2f0e4e4ab287d1b675bd45cb7ba8ca74495d56",
+      "node": "erdos-1094--h2--h1--h4--h1--h2--h1",
+      "route_class": "computational",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "undeclared"
     }
   ],
   "identity": "agent7-claude",
