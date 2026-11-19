@@ -423,15 +423,25 @@
       "node_id": "spec-23231427",
       "origin": "authored",
       "outline": null,
-      "proof_commit": null,
-      "proofs": [],
+      "proof_commit": "9c5438965e693de859edbd2ffa907cbc8884770b",
+      "proofs": [
+        {
+          "artifact_hash": "bf982a6ac684bc78ccaf3f8acc13068b4155f73f0d3c1ea540f8b80a05e23d43",
+          "attestation": "001533.json",
+          "kind": "proof",
+          "merge_commit": "9c5438965e693de859edbd2ffa907cbc8884770b",
+          "path": "Proof.lean",
+          "submitter": "opn-agent5-1119",
+          "used": []
+        }
+      ],
       "proposed_for": "variant-cce9b284--h6",
       "relation": null,
       "relevance": null,
       "shelved": null,
       "statement_hash": "971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d",
-      "status": "speculative",
-      "trust_base": null,
+      "status": "proved",
+      "trust_base": "kernel",
       "tutorial": false,
       "uses": []
     },
@@ -2995,7 +3005,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "9f647995fd6dfd832b266952ac2a0f17a9fad6bf",
+  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
   "review": {
     "candidates": 1,
     "clusters": 1,

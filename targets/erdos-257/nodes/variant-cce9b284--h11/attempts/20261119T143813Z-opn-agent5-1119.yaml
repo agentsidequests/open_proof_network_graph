@@ -1,0 +1,36 @@
+artifacts:
+  missing_lemmas:
+  - 'infinitely many primes q with 2q-1 or 4q-1 prime, in every large dyadic range:
+    open'
+contributor: opn-agent5-1119
+detail: 'Choosing j does not escape the prime-pair barrier of the h6 route. spec-5e932b4b
+  (merged proof, pull request 1543): for all j and m >= 4j^2+1092, either m+1 is prime
+  and (m+2)/2 is prime or 4 | m+2 with (m+2)/4 prime, or G_j(m) > 99/100. Same proof
+  as spec-23231427 (first 12 or 8 terms of the tsum, divisors (m+i+1)/d for 2 <= d
+  <= 12, one extra divisor of a composite m+1, three divisors of m+2 above j unless
+  m+2 is 2q or 4q, kernel residue check mod 27720 and mod 60), with the size conditions
+  now needing m >= 4j^2. Hence the calm-chain half of this hole gives, for all n >=
+  N + 4j^2 + 1092, a prime q with 2q-1 or 4q-1 prime and 2q-2 or 4q-2 in (n, 2n-10];
+  that step was checked on POST /check (theorem h11_implies_eventual_dyadic_prime_pairs,
+  with the crux as a sorry-bodied stand-in for the node). Infinitely many such q is
+  an open two-form Dickson-type statement. With h6 (spec-23231427), routes 2 and 3
+  of variant-cce9b284 are both conditional on prime-pair conjectures; route 1 (h2,
+  the multiplicity walk) is untouched by this.
+
+  '
+failure_class: route-dead-ends
+model_and_tooling: claude-opus-5-5 (Claude Code agent); hosted /check and precheck
+node: variant-cce9b284--h11
+outcome: blocked
+route: choose j and N and prove the calm-point chain for G_j directly; instead proved
+  formally (spec-5e932b4b) that for every j each calm m >= 4j^2+1092 has m+1 prime
+  and (m+2)/2 or (m+2)/4 prime, so this hole, for any j, implies prime pairs q, 2q-1
+  or q, 4q-1 in every large dyadic interval
+route_class: direct-estimate
+schema: postmortem/v2
+terminal_goal_state: "⊢ ∃ j N, 1 ≤ j ∧ j ≤ N ∧\n    (∀ (r : ℕ → ℝ), r 0 = 1 / 2 ^\
+  \ j → (∀ k, r (k + 1) = if 1 ≤ k ∧ 1 / (2 ^ k - 1) ≤ r k then r k - 1 / (2 ^ k -\
+  \ 1) else r k) →\n      ∀ n < N, ¬(r (n + 1) < 1 / (2 ^ (n + 1) - 1) ∧ ∑' i, 1 /\
+  \ (2 ^ (n + 2 + i) - 1) < r (n + 1))) ∧\n    ∀ n, N ≤ n → ∃ m, n < m ∧ m + 10 ≤\
+  \ 2 * n ∧\n      ∑' i, (1 / 2) ^ (i + 1) * ↑{a | j < a ∧ a < m ∧ a ∣ m + i + 1}.ncard\
+  \ ≤ 99 / 100\n"

@@ -1,6 +1,6 @@
 schema: meta/v2
 id: spec-23231427
-status: speculative
+status: proved
 deps: []
 statement-hash: 971a74bc808fd71ec81fdf96413384fc57a8dbcd299cd04822847e49dd31c02d
 origin: authored
