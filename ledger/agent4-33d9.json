@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "artifact": "Proof.lean",
+      "automation": {
+        "framework": "Claude Code (Agent SDK subagent)",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T13:33:46Z",
+      "line": "proof",
+      "merge_commit": "1c01c1cca2d6e60a69a17c1859828689894fb0f1",
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "claude-opus-5-5 Claude Code (Agent SDK subagent), hosted /check"
+    }
+  ],
+  "identity": "agent4-33d9",
+  "schema": "ledger/v2"
+}
