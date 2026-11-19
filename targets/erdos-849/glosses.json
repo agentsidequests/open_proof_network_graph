@@ -1,5 +1,5 @@
 {
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "5d4cc5582094a5b597c6e4850a90f9c85744e058",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -1782,6 +1782,77 @@
       "lean_hash": "5fe0117eba130e3ee910895b404875c1b2fb60a30452cd88301cb9928c87a234",
       "module": null,
       "node": "variant-3969f1f7--h2--h1--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h1--h2/attempts/20261119T142809Z-claude-agent-1-partial.lean",
+      "kind": "partial",
+      "lean_hash": "ba9e80c442d99775a7f58a83ae0ca7b3a44cb3f761aaa0d13aed221b6b917deb",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h1--h2",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h1--h2/attempts/20261119T142809Z-claude-agent-1-partial.lean",
+      "kind": "partial",
+      "lean_hash": "ba9e80c442d99775a7f58a83ae0ca7b3a44cb3f761aaa0d13aed221b6b917deb",
+      "module": "attempts/20261119T142809Z-claude-agent-1-partial.lean",
+      "node": "variant-3969f1f7--h2--h1--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac",
+              "label": "the quartic (m² − 3m + 1)² + 2 = 3x² has no m > 10",
+              "lean_hash": "da8c7f2641abc1e4e249219906bbc144eec486917ab6f56adc5a0ae72a7222e9",
+              "path": "nodes/variant-3969f1f7--h2--h1--h1--h2--h1/gloss/80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/variant-3969f1f7--h2--h1--h1--h2--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "da8c7f2641abc1e4e249219906bbc144eec486917ab6f56adc5a0ae72a7222e9",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h1--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h1--h2--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "b81e51ccd872a0e9dc49c06e9fb3812527f63ca79cd8d44bafc292685c1ff9fd",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h1--h2--h1",
       "record": "gloss"
     },
     {
@@ -4714,6 +4785,112 @@
       "lean_hash": "1c3ec7114ee51ad2e26e6f1e27f7cb25d26acfe543fb8688d8453c0d533d56f3",
       "module": "attempts/20261119T142200Z-claude-agent-9-partial.lean",
       "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "dff5523ddb5c22658941244f7e97460bc5ff295f9d6f986ccc67b2842c2332b0",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "dff5523ddb5c22658941244f7e97460bc5ff295f9d6f986ccc67b2842c2332b0"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-9",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "dff5523ddb5c22658941244f7e97460bc5ff295f9d6f986ccc67b2842c2332b0",
+              "label": "Dusart's explicit Chebyshev theta bound beyond 7713133853",
+              "lean_hash": "8038216821cfc2eae42564dd1d901b90e0bf3d64eae754999caf22b2a7e88737",
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1/gloss/dff5523ddb5c22658941244f7e97460bc5ff295f9d6f986ccc67b2842c2332b0.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "8038216821cfc2eae42564dd1d901b90e0bf3d64eae754999caf22b2a7e88737",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "174df3b74a53ad65704857f33374780bd14a95dfba389119bb0a07a054de6169",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "0671322cfd7c0f1833fa8e244b0ce39d9aec0c2fff0d0cd2da5643f336d69670",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "0671322cfd7c0f1833fa8e244b0ce39d9aec0c2fff0d0cd2da5643f336d69670"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-9",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "0671322cfd7c0f1833fa8e244b0ce39d9aec0c2fff0d0cd2da5643f336d69670",
+              "label": "a prime in (x, x + x/16597) for 2010760 ≤ x ≤ 7713133853",
+              "lean_hash": "a1186269424b7b49dac4ad7ffa5c1f816dde49ea3e637de5b66f1030e3b45947",
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2/gloss/0671322cfd7c0f1833fa8e244b0ce39d9aec0c2fff0d0cd2da5643f336d69670.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "a1186269424b7b49dac4ad7ffa5c1f816dde49ea3e637de5b66f1030e3b45947",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "6d7cf959dd3da487730b4e29eca0f560e6248a61f1e227c526437a27fc982e6e",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
       "record": "gloss"
     },
     {
