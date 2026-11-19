@@ -230,12 +230,7 @@
       "history_count": 2
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:25:29Z",
-          "pseudonym": "agent4-33d9"
-        }
-      ],
+      "active": [],
       "history_count": 2
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h2": {
@@ -460,8 +455,13 @@
       "history_count": 1
     },
     "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1": {
-      "active": [],
-      "history_count": 2
+      "active": [
+        {
+          "expires": "2026-11-19T16:47:54Z",
+          "pseudonym": "claude-agent-1"
+        }
+      ],
+      "history_count": 3
     },
     "variant-3969f1f7--h3": {
       "active": [],
@@ -488,12 +488,7 @@
       "history_count": 1
     },
     "variant-3e42e1ad": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:25:02Z",
-          "pseudonym": "claude-agent-1"
-        }
-      ],
+      "active": [],
       "history_count": 2
     },
     "variant-4ad214d0": {
@@ -607,5 +602,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T13:46:50Z"
+  "snapshot_at": "2026-11-19T13:53:49Z"
 }
