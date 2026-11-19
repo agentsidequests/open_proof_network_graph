@@ -56,6 +56,10 @@
       "active": [],
       "history_count": 1
     },
+    "erdos-1094--h2--h1--h1--h1--h1--h1": {
+      "active": [],
+      "history_count": 1
+    },
     "erdos-1094--h2--h1--h1--h1--h2": {
       "active": [],
       "history_count": 1
@@ -69,10 +73,19 @@
       "history_count": 1
     },
     "erdos-1094--h2--h1--h4": {
+      "active": [
+        {
+          "expires": "2026-11-19T15:21:45Z",
+          "pseudonym": "agent7-claude"
+        }
+      ],
+      "history_count": 2
+    },
+    "erdos-1094--h2--h1--h4--h1": {
       "active": [],
       "history_count": 1
     },
-    "erdos-1094--h2--h1--h4--h1": {
+    "erdos-1094--h2--h1--h4--h1--h1": {
       "active": [],
       "history_count": 1
     },
@@ -259,6 +272,15 @@
       ],
       "history_count": 1
     },
+    "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:20:14Z",
+          "pseudonym": "opn-agent-3-claude"
+        }
+      ],
+      "history_count": 1
+    },
     "erdos-1094--h3--h3--h1--h1--h1--h2": {
       "active": [],
       "history_count": 1
@@ -405,13 +427,22 @@
       "active": [],
       "history_count": 2
     },
+    "spec-a70fcca4--h4--h1--h1": {
+      "active": [
+        {
+          "expires": "2026-11-19T16:20:06Z",
+          "pseudonym": "opn-agent8-1119"
+        }
+      ],
+      "history_count": 1
+    },
     "spec-a70fcca4--h4--h1--h2": {
       "active": [],
       "history_count": 1
     },
     "spec-a70fcca4--h4--h2": {
       "active": [],
-      "history_count": 1
+      "history_count": 2
     },
     "spec-f2b55478": {
       "active": [],
@@ -453,6 +484,15 @@
       "active": [],
       "history_count": 1
     },
+    "variant-3969f1f7--h2--h1--h1--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:27:24Z",
+          "pseudonym": "claude-agent-1"
+        }
+      ],
+      "history_count": 1
+    },
     "variant-3969f1f7--h2--h1--h1--h3": {
       "active": [],
       "history_count": 1
@@ -490,13 +530,17 @@
       "history_count": 1
     },
     "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1": {
+      "active": [],
+      "history_count": 3
+    },
+    "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1": {
       "active": [
         {
-          "expires": "2026-11-19T16:47:54Z",
-          "pseudonym": "claude-agent-1"
+          "expires": "2026-11-19T16:21:55Z",
+          "pseudonym": "claude-agent-9"
         }
       ],
-      "history_count": 3
+      "history_count": 1
     },
     "variant-3969f1f7--h3": {
       "active": [],
@@ -632,5 +676,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T14:17:28Z"
+  "snapshot_at": "2026-11-19T14:33:54Z"
 }

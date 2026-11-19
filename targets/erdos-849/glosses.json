@@ -1,5 +1,5 @@
 {
-  "rendered_from": "d897ecea62ea7fa8b74712696dfc40e30d6a523f",
+  "rendered_from": "9f647995fd6dfd832b266952ac2a0f17a9fad6bf",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -365,7 +365,42 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "f3d720541ec3e996fec927bcf6ae0f051d2fc84d31d3ec65e43ced5b32d9457c",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "f3d720541ec3e996fec927bcf6ae0f051d2fc84d31d3ec65e43ced5b32d9457c"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "f3d720541ec3e996fec927bcf6ae0f051d2fc84d31d3ec65e43ced5b32d9457c",
+              "label": null,
+              "lean_hash": "0ca456afa8ee3448c62f74327147044417916665325925c9e6348ed577f22b65",
+              "path": "nodes/variant-0691f5bb/gloss/f3d720541ec3e996fec927bcf6ae0f051d2fc84d31d3ec65e43ced5b32d9457c.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-0691f5bb/Relation.lean",
       "kind": "relation",
       "lean_hash": "0ca456afa8ee3448c62f74327147044417916665325925c9e6348ed577f22b65",
@@ -480,7 +515,42 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "c2ce1fec6caf5540a0c19c37901fd8751b1da172ac892954e166f026b4008b80",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "c2ce1fec6caf5540a0c19c37901fd8751b1da172ac892954e166f026b4008b80"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "c2ce1fec6caf5540a0c19c37901fd8751b1da172ac892954e166f026b4008b80",
+              "label": null,
+              "lean_hash": "2e1f7cae9d80837159f08d47e1a960b059b3902fb1047a6744afcfb9e4995b41",
+              "path": "nodes/variant-293c7f51/gloss/c2ce1fec6caf5540a0c19c37901fd8751b1da172ac892954e166f026b4008b80.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-293c7f51/Relation.lean",
       "kind": "relation",
       "lean_hash": "2e1f7cae9d80837159f08d47e1a960b059b3902fb1047a6744afcfb9e4995b41",
@@ -4333,7 +4403,69 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de"
+            },
+            {
+              "key": "steps:h_schoenfeld",
+              "state": "drafted",
+              "version": "488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de"
+            },
+            {
+              "key": "steps:s2",
+              "state": "drafted",
+              "version": "488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de"
+            },
+            {
+              "key": "steps:s3",
+              "state": "drafted",
+              "version": "488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/explainer/488bdf3d1aee7eaca286163afbdc62bbeb854fcfe4e24afbe395c35a219cd4de.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:h_schoenfeld",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s2",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:s3",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133529Z-claude-agent-1-partial.lean",
       "kind": "partial",
       "lean_hash": "f097aa95282a2ca5fad6d242f11085630007b17c634e9a473533579c94ea1c6e",
@@ -5762,7 +5894,42 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "bb92706b2397b8ffba700f7a0aaee7d8909f2e16d2346831fe20cfb37ba74cf7",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "bb92706b2397b8ffba700f7a0aaee7d8909f2e16d2346831fe20cfb37ba74cf7"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "bb92706b2397b8ffba700f7a0aaee7d8909f2e16d2346831fe20cfb37ba74cf7",
+              "label": null,
+              "lean_hash": "f3cbe8091271edb51193f91f8758aca7e32f82bec7d0e326ee1260f24f1c7984",
+              "path": "nodes/variant-3d9db4a5/gloss/bb92706b2397b8ffba700f7a0aaee7d8909f2e16d2346831fe20cfb37ba74cf7.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-3d9db4a5/Relation.lean",
       "kind": "relation",
       "lean_hash": "f3cbe8091271edb51193f91f8758aca7e32f82bec7d0e326ee1260f24f1c7984",
@@ -6320,7 +6487,42 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "f475357f162ff29e4f5f85c4d4194e860bf80bea068c3eb1e7565dbdb490d376",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "f475357f162ff29e4f5f85c4d4194e860bf80bea068c3eb1e7565dbdb490d376"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5 via Claude Code",
+              "drafter": null,
+              "hash": "f475357f162ff29e4f5f85c4d4194e860bf80bea068c3eb1e7565dbdb490d376",
+              "label": null,
+              "lean_hash": "e1ab765e65bef875af0016b335d4a0b02016db11fb13256c7367a3e11436d7fc",
+              "path": "nodes/variant-c9253839/gloss/f475357f162ff29e4f5f85c4d4194e860bf80bea068c3eb1e7565dbdb490d376.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-c9253839/Relation.lean",
       "kind": "relation",
       "lean_hash": "e1ab765e65bef875af0016b335d4a0b02016db11fb13256c7367a3e11436d7fc",

@@ -2996,12 +2996,29 @@
       "cause": null,
       "claim": "\\exists c>0\\,\\exists K\\,\\forall n,k:\\ K<k,\\ 2k\\le n<k^2,\\ \\mathrm{lpf}\\binom{n}{k}>k \\Rightarrow k^{1+c}<n",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "a prime p in (k/2, k] with two multiples in the window (n-k, n] divides C(n,k) (a carry in the last base-p digit); for n ≤ k^{5/4} such a p lies in an interval ((n-k)/(a-1), n/a] of length ≫ k^{3/4}, a = ⌊3n/2k⌋, so Baker–Harman–Pintz supplies one",
+          "holes": [
+            {
+              "name": "h_bhp",
+              "node": "erdos-1094--h2--h2--h1"
+            }
+          ],
+          "partial": "attempts/20261119T135726Z-agent4-33d9-partial.lean"
+        }
+      ],
       "defect_claims": [],
       "deps": [],
       "label": "EES bound below k squared",
       "label_source": "gloss",
-      "lemmas": [],
+      "lemmas": [
+        {
+          "hole": "h_bhp",
+          "node": "erdos-1094--h2--h2--h1"
+        }
+      ],
       "literature": null,
       "literature_proposed": null,
       "node_id": "erdos-1094--h3--h2--h1--h1",
@@ -3670,7 +3687,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "d897ecea62ea7fa8b74712696dfc40e30d6a523f",
+  "rendered_from": "9f647995fd6dfd832b266952ac2a0f17a9fad6bf",
   "review": {
     "candidates": 1,
     "clusters": 1,

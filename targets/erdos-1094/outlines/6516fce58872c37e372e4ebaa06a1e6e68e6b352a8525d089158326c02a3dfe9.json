@@ -1,0 +1,163 @@
+{
+  "artifact": {
+    "hash": "6516fce58872c37e372e4ebaa06a1e6e68e6b352a8525d089158326c02a3dfe9",
+    "kind": "partial",
+    "path": "attempts/20261119T135726Z-agent4-33d9-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h2--h1--h1",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "erdos-1094--h2--h2--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ),\n  (0 : ℝ) < C ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n            (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n                    (0 : ℤ) < p ∧\n                      Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n              ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_bhp",
+            "type": {
+              "printed": "reliable",
+              "text": "∃ (C : ℝ),\n  (0 : ℝ) < C ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n            (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n                    (0 : ℤ) < p ∧\n                      Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n              ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (c : ℝ),\n  (0 : ℝ) < c ∧\n    ∃ (K : ℕ),\n      ∀ (n k : ℕ), K < k → (2 : ℕ) * k ≤ n → n < k * k → (n.choose k).minFac > k → (↑k : ℝ) ^ ((1 : ℝ) + c) < (↑n : ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "h_bhp",
+      "kind": "hole",
+      "name": "h_bhp",
+      "span": {
+        "end_line": 237,
+        "start_line": 228
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The real logarithm function, equal to the inverse of the exponential for `x > 0`, to `log |x|` for `x < 0`, and to `0` for `0`.",
+            "name": "Real.log",
+            "tags": []
+          },
+          {
+            "doc": "The finset $(a, b)$ of elements `x` such that `a < x` and `x < b`.",
+            "name": "Finset.Ioo",
+            "tags": []
+          },
+          {
+            "doc": "`Nat.Prime p` means that `p` is a prime number, that is, a natural number at least 2 whose only divisors are `p` and `1`.",
+            "name": "Nat.Prime",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ),\n  (0 : ℝ) < C ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n            (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n                    (0 : ℤ) < p ∧\n                      Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n              ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "C",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hC",
+            "type": {
+              "printed": "reliable",
+              "text": "(0 : ℝ) < C",
+              "truncated": false
+            }
+          },
+          {
+            "name": "k₀",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hb",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (k : ℕ),\n  k₀ ≤ k →\n    C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n      (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n              (0 : ℤ) < p ∧\n                Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n        ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (c : ℝ),\n  (0 : ℝ) < c ∧\n    ∃ (K : ℕ),\n      ∀ (n k : ℕ), K < k → (2 : ℕ) * k ≤ n → n < k * k → (n.choose k).minFac > k → (↑k : ℝ) ^ ((1 : ℝ) + c) < (↑n : ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 238,
+        "start_line": 238
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (c : ℝ),\n  (0 : ℝ) < c ∧\n    ∃ (K : ℕ),\n      ∀ (n k : ℕ), K < k → (2 : ℕ) * k ≤ n → n < k * k → (n.choose k).minFac > k → (↑k : ℝ) ^ ((1 : ℝ) + c) < (↑n : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 239,
+        "start_line": 239
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}

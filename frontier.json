@@ -337,7 +337,7 @@
       "claimable": true,
       "claims": {
         "active": [],
-        "history_count": 0
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -496,8 +496,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 1
+        "active": [
+          {
+            "expires": "2026-11-19T15:21:45Z",
+            "pseudonym": "agent7-claude"
+          }
+        ],
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -574,7 +579,7 @@
       "claimable": true,
       "claims": {
         "active": [],
-        "history_count": 0
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -2232,8 +2237,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:20:14Z",
+            "pseudonym": "opn-agent-3-claude"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -3980,8 +3990,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T16:20:06Z",
+            "pseudonym": "opn-agent8-1119"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -4081,7 +4096,7 @@
       "claimable": true,
       "claims": {
         "active": [],
-        "history_count": 1
+        "history_count": 2
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -4431,8 +4446,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:27:24Z",
+            "pseudonym": "claude-agent-1"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -5312,12 +5332,7 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T16:47:54Z",
-            "pseudonym": "claude-agent-1"
-          }
-        ],
+        "active": [],
         "history_count": 3
       },
       "dormant": false,
@@ -5391,8 +5406,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T16:21:55Z",
+            "pseudonym": "claude-agent-9"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -6226,6 +6246,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "d897ecea62ea7fa8b74712696dfc40e30d6a523f",
+  "rendered_from": "9f647995fd6dfd832b266952ac2a0f17a9fad6bf",
   "schema": "frontier/v8"
 }
