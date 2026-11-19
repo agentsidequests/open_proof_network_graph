@@ -1,5 +1,5 @@
 {
-  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -1800,6 +1800,59 @@
       "lean_hash": "ba9e80c442d99775a7f58a83ae0ca7b3a44cb3f761aaa0d13aed221b6b917deb",
       "module": "attempts/20261119T142809Z-claude-agent-1-partial.lean",
       "node": "variant-3969f1f7--h2--h1--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-1",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac",
+              "label": "the quartic (m² − 3m + 1)² + 2 = 3x² has no m > 10",
+              "lean_hash": "da8c7f2641abc1e4e249219906bbc144eec486917ab6f56adc5a0ae72a7222e9",
+              "path": "nodes/variant-3969f1f7--h2--h1--h1--h2--h1/gloss/80f90f6e113b22f4c63e01cda88ae158b47a7e2d6400544dd3d4855b570b47ac.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/variant-3969f1f7--h2--h1--h1--h2--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "da8c7f2641abc1e4e249219906bbc144eec486917ab6f56adc5a0ae72a7222e9",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h1--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h1--h2--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "b81e51ccd872a0e9dc49c06e9fb3812527f63ca79cd8d44bafc292685c1ff9fd",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h1--h2--h1",
       "record": "gloss"
     },
     {

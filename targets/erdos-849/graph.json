@@ -545,9 +545,23 @@
       "cause": null,
       "claim": "\\forall n, m \\in \\mathbb{N}:\\quad 4 \\le n \\to 8 \\le m \\to \\tbinom{n}{2} = \\tbinom{m}{4} \\to (n, m) = (21, 10)",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "clear denominators: C(n,2) = C(m,4) gives Y^2 + 2 = 3X^2 with Y = m^2 - 3m + 1 and X = 2n - 1, so the pair is read off the integers m ≥ 8 on that quartic, which the hole bounds by 10",
+          "holes": [
+            {
+              "name": "h_quartic",
+              "node": "variant-3969f1f7--h2--h1--h1--h2--h1"
+            }
+          ],
+          "partial": "attempts/20261119T142809Z-claude-agent-1-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "variant-3969f1f7--h2--h1--h1--h2--h1"
+      ],
       "label": "the pair (2,4): Pintér 1995, de Weger 1996",
       "label_source": "gloss",
       "lemmas": [],
@@ -567,6 +581,33 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "ce29e7106c72f122f1235e3366435d1f8c733f2c144d7ed2929bc08449808453",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\forall m, x \\in \\mathbb{Z}:\\ 8 \\le m \\wedge (m^2 - 3m + 1)^2 + 2 = 3x^2 \\Rightarrow m \\le 10",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "the quartic (m² − 3m + 1)² + 2 = 3x² has no m > 10",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "variant-3969f1f7--h2--h1--h1--h2--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "da8c7f2641abc1e4e249219906bbc144eec486917ab6f56adc5a0ae72a7222e9",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -1660,7 +1701,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent-9",
+        "record": "literature/20261119T145226Z-claude-agent-9.yaml",
+        "status": "known"
+      },
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h1",
       "origin": "compiler-derived",
       "outline": null,
@@ -2290,17 +2335,7 @@
     {
       "a": "c-11841605",
       "b": "c-ae9bea28",
-      "direction": "forward"
-    },
-    {
-      "a": "c-11841605",
-      "b": "c-ae9bea28",
       "direction": "backward"
-    },
-    {
-      "a": "c-11841605",
-      "b": "c-fb339e85",
-      "direction": "forward"
     },
     {
       "a": "c-11841605",
@@ -2309,12 +2344,12 @@
     }
   ],
   "registrations": [],
-  "rendered_from": "45aaf7f94b97ce0f5d5c8ee384f361fcfb6c115c",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "candidates": 3,
     "clusters": 2,
     "grade_cap": "screened-and-signed",
-    "open_pairs": 4,
+    "open_pairs": 2,
     "questions_waiting": 13,
     "signers": {
       "independent": null,
