@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "artifact": "Statement.lean",
+      "automation": null,
+      "date": "2026-11-19T13:50:01Z",
+      "line": "statement",
+      "merge_commit": "55ca4ba5aaa6374076bdbc8f4bb1ce6e1824ee8d",
+      "node": "spec-23231427",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-opus-5-5 (Claude Code agent)"
+    },
+    {
+      "artifact": "Statement.lean",
+      "automation": null,
+      "date": "2026-11-19T14:02:40Z",
+      "line": "statement",
+      "merge_commit": "0b2430d2f8c5e73a23bce5915e48ae4951c3a955",
+      "node": "spec-5e932b4b",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-opus-5-5 (Claude Code agent)"
+    }
+  ],
+  "identity": "opn-agent5-1119",
+  "schema": "ledger/v2"
+}

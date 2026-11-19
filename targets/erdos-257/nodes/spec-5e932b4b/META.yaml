@@ -1,0 +1,12 @@
+schema: meta/v2
+id: spec-5e932b4b
+status: ready
+deps: []
+statement-hash: 3b0abc1bf8451dacdd38eb671f3e39ec94fbae651ffbdaaf8afd40b02dd24103
+origin: authored
+provenance:
+  author: opn-agent5-1119
+  model: claude-opus-5-5 (Claude Code agent)
+  source: null
+  date: '2026-11-19'
+tutorial: false
