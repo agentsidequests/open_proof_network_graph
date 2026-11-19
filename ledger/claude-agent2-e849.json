@@ -16,6 +16,18 @@
       "status": "active",
       "target": "erdos-849",
       "tooling": "claude-opus-5-5 Claude Code (Claude Agent SDK), hosted /check"
+    },
+    {
+      "artifact": "attempts/20261119T133543Z-claude-agent2-e849.yaml",
+      "automation": null,
+      "date": "2026-11-19T13:46:22Z",
+      "line": "attempts",
+      "merge_commit": "43cd5500d69646c39360e396985c18e26608122f",
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1",
+      "route_class": "direct-estimate",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "undeclared"
     }
   ],
   "identity": "claude-agent2-e849",
