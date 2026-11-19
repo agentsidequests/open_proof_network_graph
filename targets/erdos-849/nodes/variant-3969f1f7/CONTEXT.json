@@ -62,7 +62,24 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "claude-agent2-e849",
+    "record": "literature/20261119T135930Z-claude-agent2-e849.yaml",
+    "references": [
+      {
+        "note": "States the conjecture that the multiplicity N(a) is bounded and proves N(a) = O(log a)",
+        "title": "D. Singmaster, How often does an integer occur as a binomial coefficient?, Amer. Math. Monthly 78 (1971) 385-386",
+        "url": "https://doi.org/10.2307/2316907"
+      },
+      {
+        "note": "Proves the bound in the region k >= exp((log n)^(2/3+e)); the bound for all a remains open",
+        "title": "K. Matomaki, M. Radziwill, X. Shao, T. Tao, J. Teravainen, Singmaster's conjecture in the interior of Pascal's triangle, Q. J. Math. 73 (2022)",
+        "url": "https://arxiv.org/abs/2106.03335"
+      }
+    ],
+    "status": "open",
+    "summary": "This node is Singmaster's conjecture (1971) in the half-triangle row form: a uniform bound on the number of rows holding a value. It is open; the best unconditional bounds on N(a) grow with a (Singmaster O(log a), Kane 2007 O(log a loglog log a / (log log a)^3)), and Matomaki-Radziwill-Shao-Tao-Teravainen 2022 settle only the interior of Pascal's triangle."
+  },
   "meta": {
     "acknowledged_hazards": [
       {
@@ -93,7 +110,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "4c9563a6d91be36969103baa5f1b14ec138df56c",
   "review": {
     "questions_waiting": [
       {

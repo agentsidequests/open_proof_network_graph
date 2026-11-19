@@ -201,10 +201,14 @@
       "history_count": 1
     },
     "erdos-1094--h3--h2--h1--h1": {
+      "active": [],
+      "history_count": 1
+    },
+    "erdos-1094--h3--h2--h3": {
       "active": [
         {
-          "expires": "2026-11-19T17:54:34Z",
-          "pseudonym": "agent4-33d9"
+          "expires": "2026-11-19T17:08:18Z",
+          "pseudonym": "claude-agent2-e849"
         }
       ],
       "history_count": 1
@@ -610,5 +614,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T13:56:26Z"
+  "snapshot_at": "2026-11-19T14:12:13Z"
 }

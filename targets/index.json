@@ -41,7 +41,7 @@
       "since": null
     }
   },
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "4c9563a6d91be36969103baa5f1b14ec138df56c",
   "schema": "targets-index/v11",
   "targets": [
     {
@@ -352,7 +352,7 @@
         "defective": 0,
         "disputed": 0,
         "proved": 22,
-        "ready": 60,
+        "ready": 62,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,
@@ -755,7 +755,7 @@
         "proved": 42,
         "ready": 23,
         "refuted": 0,
-        "speculative": 2,
+        "speculative": 3,
         "stale": 0,
         "superseded": 1
       },

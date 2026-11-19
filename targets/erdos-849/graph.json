@@ -218,7 +218,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T135930Z-claude-agent2-e849.yaml",
+        "status": "open"
+      },
       "node_id": "variant-3969f1f7",
       "origin": "variant",
       "outline": null,
@@ -1481,7 +1485,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T140033Z-claude-agent2-e849.yaml",
+        "status": "open"
+      },
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2",
       "origin": "compiler-derived",
       "outline": null,
@@ -1501,12 +1509,29 @@
       "cause": null,
       "claim": "x \\ge 25 \\implies \\exists\\, p \\text{ prime},\\ x < p < 6x/5",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "below 2010760 a chain of 66 primes, each under 6/5 of the one before, covers every x ≥ 25; from 2010760 on Schoenfeld's interval (x, x + x/16597) lies inside (x, 6x/5)",
+          "holes": [
+            {
+              "name": "h_schoenfeld",
+              "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1"
+            }
+          ],
+          "partial": "attempts/20261119T133529Z-claude-agent-1-partial.lean"
+        }
+      ],
       "defect_claims": [],
       "deps": [],
       "label": "Nagura 1952, a prime between x and 6x/5",
       "label_source": "gloss",
-      "lemmas": [],
+      "lemmas": [
+        {
+          "hole": "h_schoenfeld",
+          "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1"
+        }
+      ],
       "literature": null,
       "literature_proposed": {
         "contributor": "t1029e-a",
@@ -1585,7 +1610,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T140027Z-claude-agent2-e849.yaml",
+        "status": "known"
+      },
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1",
       "origin": "compiler-derived",
       "outline": null,
@@ -2197,7 +2226,7 @@
     }
   ],
   "registrations": [],
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "4c9563a6d91be36969103baa5f1b14ec138df56c",
   "review": {
     "candidates": 2,
     "clusters": 2,

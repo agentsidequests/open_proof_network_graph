@@ -1834,17 +1834,12 @@
     },
     {
       "annex_present": false,
-      "attempts": 0,
+      "attempts": 1,
       "bounty": false,
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [
-          {
-            "expires": "2026-11-19T17:54:34Z",
-            "pseudonym": "agent4-33d9"
-          }
-        ],
+        "active": [],
         "history_count": 1
       },
       "dormant": false,
@@ -1913,8 +1908,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:08:18Z",
+            "pseudonym": "claude-agent2-e849"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -2140,7 +2140,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 0,
+      "attempts": 1,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -2166,6 +2166,46 @@
       "statement_hash": "5254d9847c1c40f5be630742f0bca761d8f804c632ce58604aa22f726d644851",
       "status": "ready",
       "tags": {
+        "deps": [
+          "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+          "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2"
+        ],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "MeasureTheory",
+          "NumberTheory",
+          "Order",
+          "Topology"
+        ]
+      },
+      "target_id": "erdos-1094",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+      "origin": "compiler-derived",
+      "ready_since": "2026-11-19T14:11:55Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "6e2f1cc0dc6ad22549f1ae8283bf215c2cea87677115ee35a240dbc42b9bdb9f",
+      "status": "ready",
+      "tags": {
         "deps": [],
         "library": [
           "Algebra",
@@ -2173,6 +2213,42 @@
           "Data",
           "MeasureTheory",
           "NumberTheory",
+          "Order",
+          "Topology"
+        ]
+      },
+      "target_id": "erdos-1094",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2",
+      "origin": "compiler-derived",
+      "ready_since": "2026-11-19T14:11:55Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "d5df8d5ed3a2b9c70dfe804c41e07c1adc8f240e6d9b9f13ab0212789be5681d",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "MeasureTheory",
           "Order",
           "Topology"
         ]
@@ -3773,6 +3849,39 @@
       "tutorial": false
     },
     {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "spec-5e932b4b",
+      "origin": "authored",
+      "ready_since": null,
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "3b0abc1bf8451dacdd38eb671f3e39ec94fbae651ffbdaaf8afd40b02dd24103",
+      "status": "speculative",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data",
+          "Topology"
+        ]
+      },
+      "target_id": "erdos-257",
+      "tutorial": false
+    },
+    {
       "annex_present": true,
       "attempts": 5,
       "bounty": false,
@@ -4075,7 +4184,11 @@
       "dormant": false,
       "failure_class_histogram": {},
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T135930Z-claude-agent2-e849.yaml",
+        "status": "open"
+      },
       "needs": "proof",
       "node_id": "variant-3969f1f7",
       "origin": "variant",
@@ -5156,7 +5269,11 @@
       "dormant": false,
       "failure_class_histogram": {},
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T140033Z-claude-agent2-e849.yaml",
+        "status": "open"
+      },
       "needs": "proof",
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2",
       "origin": "compiler-derived",
@@ -5180,7 +5297,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 1,
+      "attempts": 2,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -5270,7 +5387,11 @@
       "dormant": false,
       "failure_class_histogram": {},
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T140027Z-claude-agent2-e849.yaml",
+        "status": "known"
+      },
       "needs": "proof",
       "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1",
       "origin": "compiler-derived",
@@ -6095,6 +6216,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "4c9563a6d91be36969103baa5f1b14ec138df56c",
   "schema": "frontier/v8"
 }

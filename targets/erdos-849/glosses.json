@@ -1,5 +1,5 @@
 {
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "4c9563a6d91be36969103baa5f1b14ec138df56c",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -4333,6 +4333,24 @@
       "record": "gloss"
     },
     {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133529Z-claude-agent-1-partial.lean",
+      "kind": "partial",
+      "lean_hash": "f097aa95282a2ca5fad6d242f11085630007b17c634e9a473533579c94ea1c6e",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1/attempts/20261119T133529Z-claude-agent-1-partial.lean",
+      "kind": "partial",
+      "lean_hash": "f097aa95282a2ca5fad6d242f11085630007b17c634e9a473533579c94ea1c6e",
+      "module": "attempts/20261119T133529Z-claude-agent-1-partial.lean",
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1",
+      "record": "gloss"
+    },
+    {
       "chains": [
         {
           "current": "426270812acd64c2f1dba3415f6b6195c4b52fd060de955d354afe94122462ce",
@@ -6036,7 +6054,78 @@
       "record": "gloss"
     },
     {
-      "chains": [],
+      "chains": [
+        {
+          "current": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a",
+          "pending": [],
+          "shown": [
+            {
+              "key": "overview",
+              "state": "drafted",
+              "version": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a"
+            },
+            {
+              "key": "steps:hb,s1",
+              "state": "drafted",
+              "version": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a"
+            },
+            {
+              "key": "steps:hbc,hbca,hc5,hgap,hk5,hkm,hnk,hpoly,hrel,s10",
+              "state": "drafted",
+              "version": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a"
+            },
+            {
+              "key": "steps:hchoose",
+              "state": "drafted",
+              "version": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a"
+            },
+            {
+              "key": "steps:close,h3,hfin,hn2,hna,hsub,hvn",
+              "state": "drafted",
+              "version": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": null,
+              "drafted_with": "claude-opus-5-5 via Claude Code (Claude Agent SDK)",
+              "drafter": null,
+              "hash": "35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a",
+              "label": null,
+              "lean_hash": null,
+              "path": "nodes/variant-72919549/explainer/35ab526f49efa1fd28013ce6ad40a0b66526d268432f386c81659d9423cc851a.md",
+              "schema": "explainer/v2",
+              "sections": [
+                {
+                  "key": "overview",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hb,s1",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hbc,hbca,hc5,hgap,hk5,hkm,hnk,hpoly,hrel,s10",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:hchoose",
+                  "state": "drafted"
+                },
+                {
+                  "key": "steps:close,h3,hfin,hn2,hna,hsub,hvn",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
       "file": "nodes/variant-72919549/Proof.lean",
       "kind": "proof",
       "lean_hash": "09447892b1371fb7dfb8828b31d3fecc2f68edb5290e94298282ddeda534be6c",

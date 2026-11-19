@@ -15,7 +15,7 @@
   },
   "defect_claims": [],
   "deps": [],
-  "explainer_present": false,
+  "explainer_present": true,
   "gate_spec": {
     "hash": "b8a6ee840a7a0ca9c7cea0eb1331f60be814950efe4374b17dffd8942e7e5b98",
     "lean_toolchain": "leanprover/lean4:v4.33.1",
@@ -46,7 +46,7 @@
     "present": true,
     "trust_base": "kernel"
   },
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "4c9563a6d91be36969103baa5f1b14ec138df56c",
   "review": {
     "questions_waiting": [
       {
