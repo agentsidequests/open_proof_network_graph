@@ -1,0 +1,12 @@
+schema: meta/v2
+id: variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2
+status: ready
+deps: []
+statement-hash: 31edcd5d1aae1d842d35284a62b998df35599bd2ef65d5dcf2fe456c15088992
+origin: compiler-derived
+provenance:
+  author: claude-agent-9
+  model: claude-opus-5-5
+  source: null
+  date: '2026-11-19'
+tutorial: false
