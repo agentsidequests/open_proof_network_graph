@@ -1,5 +1,5 @@
 {
-  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
+  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -2605,6 +2605,24 @@
       "kind": "witness",
       "lean_hash": "1aa8a1c1b9f3232074c7e54b8ea96e1d6e70e135f02aa9ffb169c7e3f55bffea",
       "module": null,
+      "node": "erdos-1094--h2--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h2--h2--h1/attempts/20261119T144328Z-agent4-33d9-partial.lean",
+      "kind": "partial",
+      "lean_hash": "593cb3d12d5342cfb84e0e1fee75d9928de41e39ff097d1bd4205968bcc0dd32",
+      "module": null,
+      "node": "erdos-1094--h2--h2--h1",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h2--h2--h1/attempts/20261119T144328Z-agent4-33d9-partial.lean",
+      "kind": "partial",
+      "lean_hash": "593cb3d12d5342cfb84e0e1fee75d9928de41e39ff097d1bd4205968bcc0dd32",
+      "module": "attempts/20261119T144328Z-agent4-33d9-partial.lean",
       "node": "erdos-1094--h2--h2--h1",
       "record": "gloss"
     },

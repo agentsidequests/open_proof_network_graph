@@ -744,7 +744,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 1,
+      "attempts": 2,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -6580,6 +6580,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
+  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
   "schema": "frontier/v8"
 }
