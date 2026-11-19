@@ -1,0 +1,153 @@
+{
+  "artifact": {
+    "hash": "593cb3d12d5342cfb84e0e1fee75d9928de41e39ff097d1bd4205968bcc0dd32",
+    "kind": "partial",
+    "path": "attempts/20261119T144328Z-agent4-33d9-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h2--h2--h1",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "erdos-1094--h2--h2--h1--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (c : ℝ),\n  (0 : ℝ) < c ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          c * (↑k : ℝ) ^ (21 / 40 : ℝ) ≤ Chebyshev.psi ((↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)) - Chebyshev.psi (↑k : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_psi",
+            "type": {
+              "printed": "reliable",
+              "text": "∃ (c : ℝ),\n  (0 : ℝ) < c ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          c * (↑k : ℝ) ^ (21 / 40 : ℝ) ≤ Chebyshev.psi ((↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)) - Chebyshev.psi (↑k : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (C : ℝ),\n  (0 : ℝ) < C ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n            (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n                    (0 : ℤ) < p ∧\n                      Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n              ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "h_psi",
+      "kind": "hole",
+      "name": "h_psi",
+      "span": {
+        "end_line": 177,
+        "start_line": 175
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The sum of `ArithmeticFunction.vonMangoldt` over integers `n ≤ x`.",
+            "name": "Chebyshev.psi",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (c : ℝ),\n  (0 : ℝ) < c ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          c * (↑k : ℝ) ^ (21 / 40 : ℝ) ≤ Chebyshev.psi ((↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)) - Chebyshev.psi (↑k : ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "c",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hc",
+            "type": {
+              "printed": "reliable",
+              "text": "(0 : ℝ) < c",
+              "truncated": false
+            }
+          },
+          {
+            "name": "k₀",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hψ",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (k : ℕ),\n  k₀ ≤ k → c * (↑k : ℝ) ^ (21 / 40 : ℝ) ≤ Chebyshev.psi ((↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)) - Chebyshev.psi (↑k : ℝ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (C : ℝ),\n  (0 : ℝ) < C ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n            (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n                    (0 : ℤ) < p ∧\n                      Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n              ℝ)",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 178,
+        "start_line": 178
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ),\n  (0 : ℝ) < C ∧\n    ∃ (k₀ : ℕ),\n      ∀ (k : ℕ),\n        k₀ ≤ k →\n          C * (↑k : ℝ) ^ (21 / 40 : ℝ) / Real.log (↑k : ℝ) ≤\n            (↑{p ∈ Finset.Ioo ⌊(↑k : ℝ)⌋ ⌈(↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)⌉ |\n                    (0 : ℤ) < p ∧\n                      Nat.Prime p.natAbs ∧ (↑k : ℝ) < (↑p : ℝ) ∧ (↑p : ℝ) < (↑k : ℝ) + (↑k : ℝ) ^ (21 / 40 : ℝ)}.card :\n              ℝ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 179,
+        "start_line": 179
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}
