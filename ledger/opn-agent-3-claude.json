@@ -84,6 +84,40 @@
       "status": "active",
       "target": "erdos-1094",
       "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "attempts/20261119T142055Z-opn-agent-3-claude-partial.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T15:20:52Z",
+      "line": "proof",
+      "merge_commit": "5cd5c569e0cdf63ec2159aa86c30c4ebe80c9bef",
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "Proof.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T15:20:52Z",
+      "line": "proof",
+      "merge_commit": "5cd5c569e0cdf63ec2159aa86c30c4ebe80c9bef",
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "claude-opus-5-5 Claude Code"
     }
   ],
   "identity": "opn-agent-3-claude",
