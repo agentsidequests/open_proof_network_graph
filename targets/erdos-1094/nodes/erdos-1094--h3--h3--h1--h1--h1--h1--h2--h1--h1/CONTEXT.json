@@ -1,8 +1,14 @@
 {
   "annexes": [],
   "attempts": {
-    "assemblies": [],
-    "count": 0,
+    "assemblies": [
+      {
+        "bytes": 3174,
+        "hash": "d81ec87d41aa155b0beeebb4d620ef3029b1af699bfa94d38ca42e21b2c320d8",
+        "path": "targets/erdos-1094/nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1/attempts/20261119T145204Z-opn-agent-3-claude-partial.lean"
+      }
+    ],
+    "count": 1,
     "failure_class_histogram": {},
     "records": [],
     "refuted_route_classes": [],
@@ -46,7 +52,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
+  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
   "review": {
     "questions_waiting": [
       {

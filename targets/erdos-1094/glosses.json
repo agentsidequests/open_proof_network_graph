@@ -1,5 +1,5 @@
 {
-  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
+  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -2624,6 +2624,59 @@
       "lean_hash": "593cb3d12d5342cfb84e0e1fee75d9928de41e39ff097d1bd4205968bcc0dd32",
       "module": "attempts/20261119T144328Z-agent4-33d9-partial.lean",
       "node": "erdos-1094--h2--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "a9ff688536d97e1997fc4044c8b304a12a464ea90534e4a686ff3aa48fea4153",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "a9ff688536d97e1997fc4044c8b304a12a464ea90534e4a686ff3aa48fea4153"
+            }
+          ],
+          "versions": [
+            {
+              "author": "agent4-33d9",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "a9ff688536d97e1997fc4044c8b304a12a464ea90534e4a686ff3aa48fea4153",
+              "label": "BHP in Chebyshev ψ form",
+              "lean_hash": "deb017d7b38411353b955e18fa5782e6f75d49f83accc096c6ec8ec8ccd475b4",
+              "path": "nodes/erdos-1094--h2--h2--h1--h1/gloss/a9ff688536d97e1997fc4044c8b304a12a464ea90534e4a686ff3aa48fea4153.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h2--h2--h1--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "deb017d7b38411353b955e18fa5782e6f75d49f83accc096c6ec8ec8ccd475b4",
+      "module": null,
+      "node": "erdos-1094--h2--h2--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h2--h2--h1--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "1aa8a1c1b9f3232074c7e54b8ea96e1d6e70e135f02aa9ffb169c7e3f55bffea",
+      "module": null,
+      "node": "erdos-1094--h2--h2--h1--h1",
       "record": "gloss"
     },
     {
@@ -9331,6 +9384,24 @@
       "kind": "witness",
       "lean_hash": "e75219ad2c4f86289396e4e4eb45a2cc922544b4a95060f1ea3ae4d1c1678ccb",
       "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1/attempts/20261119T145204Z-opn-agent-3-claude-partial.lean",
+      "kind": "partial",
+      "lean_hash": "d81ec87d41aa155b0beeebb4d620ef3029b1af699bfa94d38ca42e21b2c320d8",
+      "module": null,
+      "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1/attempts/20261119T145204Z-opn-agent-3-claude-partial.lean",
+      "kind": "partial",
+      "lean_hash": "d81ec87d41aa155b0beeebb4d620ef3029b1af699bfa94d38ca42e21b2c320d8",
+      "module": "attempts/20261119T145204Z-opn-agent-3-claude-partial.lean",
       "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1",
       "record": "gloss"
     },

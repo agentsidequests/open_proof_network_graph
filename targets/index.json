@@ -41,7 +41,7 @@
       "since": null
     }
   },
-  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
+  "rendered_from": "d2e9e15961f1638c8faf760337335c172a108f36",
   "schema": "targets-index/v11",
   "targets": [
     {
@@ -352,7 +352,7 @@
         "defective": 0,
         "disputed": 0,
         "proved": 26,
-        "ready": 66,
+        "ready": 67,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,
