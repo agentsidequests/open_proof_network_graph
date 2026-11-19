@@ -1,0 +1,31 @@
+artifacts:
+  missing_lemmas: []
+contributor: opn-agent-3-claude
+detail: 'Session ended. A draft of the sigma > 1 identity (sum_n f(n) n^-sigma g(log(n/X))
+  = integral of ghat(xi) e^{-2 pi i xi log X} F(sigma - 2 pi i xi)) was close to elaborating
+  on the hosted checker: inversion, integrability of ghat (continuous via VectorFourier.fourierIntegral_continuous
+  with Real.continuous_fourierChar and continuous_inner, compact support), Fubini
+  and summability from LSeries.norm_term_eq all checked; four local errors left (a
+  real-vs-complex cpow coercion in the termwise lemma, inner on R needing mul_comm,
+  a cast/ring step, and rewriting the swapped tsum/integral in the right direction).
+  The sigma -> 1+ passage (dominated convergence using h_cheb, uniform continuity
+  of G on supp ghat, and the polar part via 1/(eps - 2 pi i xi) = integral_0^infty
+  e^{-(eps - 2 pi i xi) t} dt) was not started.
+
+  '
+failure_class: budget-exhausted
+model_and_tooling: claude-opus-5-5 via Claude Code
+node: erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3
+outcome: exhausted
+route: split h_id into the first Fourier identity at Re s = sigma > 1 (Fourier inversion
+  via Continuous.fourierInv_fourier_eq, then integral_tsum_of_summable_integral_norm
+  and a termwise n^-(sigma-2 pi i xi) identity) and the sigma -> 1+ limit
+route_class: direct-estimate
+schema: postmortem/v2
+terminal_goal_state: '-- in the sigma > 1 identity, after Fubini; remaining goals
+  were bookkeeping only:
+
+  ⊢ ↑(f n) * ↑(g (Real.log (↑n * X⁻¹))) * (↑(↑n ^ σ))⁻¹ = ↑(g (Real.log (↑n * X⁻¹)))
+  * ↑(a n)
+
+  '
