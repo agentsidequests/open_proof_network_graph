@@ -1,5 +1,5 @@
 {
-  "rendered_from": "1ebcdb0d67571a597c3e8e61bc0e07ff63c23564",
+  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -9838,7 +9838,7 @@
       "chains": [],
       "file": "nodes/variant-cce9b284--h6/Witness.lean",
       "kind": "witness",
-      "lean_hash": "fae5c70a4b70c13d0498cd7fd74f71291f9e6fbbf9ce1febbee4d52dea3b6c6f",
+      "lean_hash": "50abf025569be95b23447e71ccebcf363a6bb824e669ca7d52df8b6a8ec5d00d",
       "module": null,
       "node": "variant-cce9b284--h6",
       "record": "gloss"

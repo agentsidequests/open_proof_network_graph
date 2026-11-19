@@ -221,7 +221,30 @@
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h1": {
-      "active": [],
+      "active": [
+        {
+          "expires": "2026-11-19T17:30:31Z",
+          "pseudonym": "agent4-33d9"
+        }
+      ],
+      "history_count": 2
+    },
+    "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:25:29Z",
+          "pseudonym": "agent4-33d9"
+        }
+      ],
+      "history_count": 2
+    },
+    "erdos-1094--h3--h3--h1--h1--h1--h1--h2": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:32:26Z",
+          "pseudonym": "opn-agent-3-claude"
+        }
+      ],
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h2": {
@@ -317,12 +340,7 @@
       "history_count": 1
     },
     "spec-2690fb43": {
-      "active": [
-        {
-          "expires": "2026-11-14T15:12:47Z",
-          "pseudonym": "fable-1114-barrier"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "spec-2e765953": {
@@ -441,6 +459,10 @@
       "active": [],
       "history_count": 1
     },
+    "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1": {
+      "active": [],
+      "history_count": 2
+    },
     "variant-3969f1f7--h3": {
       "active": [],
       "history_count": 1
@@ -464,6 +486,15 @@
     "variant-3d9db4a5": {
       "active": [],
       "history_count": 1
+    },
+    "variant-3e42e1ad": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:25:02Z",
+          "pseudonym": "claude-agent-1"
+        }
+      ],
+      "history_count": 2
     },
     "variant-4ad214d0": {
       "active": [],
@@ -491,6 +522,15 @@
     },
     "variant-6bd06d63": {
       "active": [],
+      "history_count": 2
+    },
+    "variant-72919549": {
+      "active": [
+        {
+          "expires": "2026-11-19T16:25:27Z",
+          "pseudonym": "claude-agent2-e849"
+        }
+      ],
       "history_count": 2
     },
     "variant-780e7ade": {
@@ -524,6 +564,15 @@
     "variant-9724698e": {
       "active": [],
       "history_count": 1
+    },
+    "variant-a30f5217": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:25:02Z",
+          "pseudonym": "claude-agent-1"
+        }
+      ],
+      "history_count": 2
     },
     "variant-a3b3cb8f": {
       "active": [],
@@ -563,5 +612,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-14T13:32:30Z"
+  "snapshot_at": "2026-11-19T13:38:37Z"
 }

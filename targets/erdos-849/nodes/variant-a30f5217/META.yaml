@@ -1,6 +1,6 @@
 schema: meta/v2
 id: variant-a30f5217
-status: ready
+status: proved
 deps: []
 statement-hash: 95bd8e14212ab7bbca662d5e6caaf6d0f3f8809a5dd51cd2eb9af85b13822e2d
 origin: variant

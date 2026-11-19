@@ -2635,7 +2635,7 @@
       "uses": []
     },
     {
-      "cause": "witness-missing",
+      "cause": null,
       "claim": "\\forall n\\ge 1092\\ \\exists m:\\ n<m,\\ m+10\\le 2n,\\ G_{20}(m)\\le\\tfrac{99}{100}",
       "closure": null,
       "decompositions": [],
@@ -2656,7 +2656,7 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "e5dc2fb38088d54a4f3bc7148aefa2c002452f5bf33d3a063cef091927a95225",
-      "status": "blocked",
+      "status": "ready",
       "trust_base": null,
       "tutorial": false,
       "uses": []
@@ -2941,7 +2941,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "1ebcdb0d67571a597c3e8e61bc0e07ff63c23564",
+  "rendered_from": "382ee2b158e881356160f71531317716419430c7",
   "review": {
     "candidates": 1,
     "clusters": 1,

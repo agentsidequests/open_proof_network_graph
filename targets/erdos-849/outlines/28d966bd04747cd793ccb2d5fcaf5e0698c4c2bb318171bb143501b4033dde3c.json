@@ -1,0 +1,806 @@
+{
+  "artifact": {
+    "hash": "28d966bd04747cd793ccb2d5fcaf5e0698c4c2bb318171bb143501b4033dde3c",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "variant-a30f5217",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "∃ k ≥ (1 : ℕ), (2 : ℕ) * k ≤ n ∧ n.choose k = a",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hn'",
+                "type": {
+                  "printed": "reliable",
+                  "text": "∃ k ≥ (1 : ℕ), (2 : ℕ) * k ≤ n ∧ n.choose k = a",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "(1 : ℕ) ≤ f n ∧ (2 : ℕ) * f n ≤ n ∧ n.choose (f n) = a",
+              "truncated": false
+            }
+          },
+          "id": "hf.hn'",
+          "kind": "have",
+          "name": "hn'",
+          "span": {
+            "end_line": 44,
+            "start_line": 44
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": "`choose n k` is the number of `k`-element subsets in an `n`-element set.",
+                "name": "Nat.choose",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ n ∈ S, (1 : ℕ) ≤ f n ∧ (2 : ℕ) * f n ≤ n ∧ n.choose (f n) = a",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hf",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ n ∈ S, (1 : ℕ) ≤ f n ∧ (2 : ℕ) * f n ≤ n ∧ n.choose (f n) = a",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "S.ncard ≤ log (2 : ℕ) a",
+          "truncated": false
+        }
+      },
+      "id": "hf",
+      "kind": "have",
+      "name": "hf",
+      "span": {
+        "end_line": 46,
+        "start_line": 42
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`choose n k` is the number of `k`-element subsets in an `n`-element set.",
+            "name": "Nat.choose",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "dif_pos",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Classical.choose_spec",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(1 : ℕ) ≤ f n ∧ (2 : ℕ) * f n ≤ n ∧ n.choose (f n) = a",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h1",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(1 : ℕ) ≤ f n",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h2",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(2 : ℕ) * f n ≤ n",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h3",
+                "type": {
+                  "printed": "reliable",
+                  "text": "n.choose (f n) = a",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "f n ∈ (↑(Finset.Icc (1 : ℕ) (log (2 : ℕ) a)) : Set ℕ)",
+              "truncated": false
+            }
+          },
+          "id": "hmaps.s1",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 49,
+            "start_line": 49
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(2 : ℕ) ^ f n ≤ (f n).centralBinom",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": null,
+          "id": "hmaps.s2",
+          "kind": "calc",
+          "name": null,
+          "span": {
+            "end_line": 53,
+            "start_line": 53
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": "The central binomial coefficient, `Nat.choose (2 * n) n`.",
+                "name": "Nat.centralBinom",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(f n).centralBinom = ((2 : ℕ) * f n).choose (f n)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": null,
+          "id": "hmaps.s3",
+          "kind": "calc",
+          "name": null,
+          "span": {
+            "end_line": 54,
+            "start_line": 54
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": "`choose n k` is the number of `k`-element subsets in an `n`-element set.",
+                "name": "Nat.choose",
+                "tags": []
+              },
+              {
+                "doc": "`rfl : a = a` is the unique constructor of the equality type.",
+                "name": "rfl",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "((2 : ℕ) * f n).choose (f n) ≤ n.choose (f n)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": null,
+          "id": "hmaps.s4",
+          "kind": "calc",
+          "name": null,
+          "span": {
+            "end_line": 55,
+            "start_line": 55
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": "`choose n k` is the number of `k`-element subsets in an `n`-element set.",
+                "name": "Nat.choose",
+                "tags": []
+              },
+              {
+                "doc": null,
+                "name": "Nat.choose_le_choose",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "n.choose (f n) = a",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": null,
+          "id": "hmaps.s5",
+          "kind": "calc",
+          "name": null,
+          "span": {
+            "end_line": 56,
+            "start_line": 56
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ n ∈ S, f n ∈ (↑(Finset.Icc (1 : ℕ) (log (2 : ℕ) a)) : Set ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hmaps",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ n ∈ S, f n ∈ (↑(Finset.Icc (1 : ℕ) (log (2 : ℕ) a)) : Set ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "S.ncard ≤ log (2 : ℕ) a",
+          "truncated": false
+        }
+      },
+      "id": "hmaps",
+      "kind": "have",
+      "name": "hmaps",
+      "span": {
+        "end_line": 56,
+        "start_line": 47
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The finset $[a, b]$ of elements `x` such that `a ≤ x` and `x ≤ b`.",
+            "name": "Finset.Icc",
+            "tags": []
+          },
+          {
+            "doc": "`log b n`, is the logarithm of natural number `n` in base `b`.",
+            "name": "Nat.log",
+            "tags": []
+          },
+          {
+            "doc": "A set is a collection of elements of some type `α`.",
+            "name": "Set",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Finset.coe_Icc",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.mem_Icc",
+            "tags": []
+          },
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Nat.le_log_of_pow_le",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(1 : ℕ) ≤ f n ∧ (2 : ℕ) * f n ≤ n ∧ n.choose (f n) = a",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h1",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(1 : ℕ) ≤ f n",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h2",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(2 : ℕ) * f n ≤ n",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h3",
+                "type": {
+                  "printed": "reliable",
+                  "text": "n.choose (f n) = a",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n = m",
+              "truncated": false
+            }
+          },
+          "id": "hinj.s1",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 59,
+            "start_line": 59
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(1 : ℕ) ≤ f m ∧ (2 : ℕ) * f m ≤ m ∧ m.choose (f m) = a",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h1'",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(1 : ℕ) ≤ f m",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h2'",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(2 : ℕ) * f m ≤ m",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h3'",
+                "type": {
+                  "printed": "reliable",
+                  "text": "m.choose (f m) = a",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n = m",
+              "truncated": false
+            }
+          },
+          "id": "hinj.s2",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 60,
+            "start_line": 60
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [
+            {
+              "child_node": null,
+              "children": [],
+              "claim": {
+                "printed": "reliable",
+                "text": "n.choose (f n) < m.choose (f n)",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "term",
+                "tactics": []
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "this",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "n.choose (f n) < m.choose (f n)",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "False",
+                  "truncated": false
+                }
+              },
+              "id": "hinj.s3.this",
+              "kind": "have",
+              "name": "this",
+              "span": {
+                "end_line": 64,
+                "start_line": 64
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [],
+                "nodes": []
+              }
+            }
+          ],
+          "claim": null,
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hlt",
+                "type": {
+                  "printed": "reliable",
+                  "text": "n < m",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "hinj.s3",
+          "kind": "case",
+          "name": null,
+          "span": {
+            "end_line": 64,
+            "start_line": 64
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [
+            {
+              "child_node": null,
+              "children": [],
+              "claim": {
+                "printed": "reliable",
+                "text": "m.choose (f n) < n.choose (f n)",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "term",
+                "tactics": []
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "this",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "m.choose (f n) < n.choose (f n)",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "False",
+                  "truncated": false
+                }
+              },
+              "id": "hinj.s4.this",
+              "kind": "have",
+              "name": "this",
+              "span": {
+                "end_line": 65,
+                "start_line": 65
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [],
+                "nodes": []
+              }
+            }
+          ],
+          "claim": null,
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hlt",
+                "type": {
+                  "printed": "reliable",
+                  "text": "n > m",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "hinj.s4",
+          "kind": "case",
+          "name": null,
+          "span": {
+            "end_line": 65,
+            "start_line": 65
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "Set.InjOn f S",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hinj",
+            "type": {
+              "printed": "reliable",
+              "text": "Set.InjOn f S",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "S.ncard ≤ log (2 : ℕ) a",
+          "truncated": false
+        }
+      },
+      "id": "hinj",
+      "kind": "have",
+      "name": "hinj",
+      "span": {
+        "end_line": 65,
+        "start_line": 57
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`f` is injective on `s` if the restriction of `f` to `s` is injective.",
+            "name": "Set.InjOn",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Nat.lt_or_gt_of_ne",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "S.ncard ≤ (↑(Finset.Icc (1 : ℕ) (log (2 : ℕ) a)) : Set ℕ).ncard",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "s4",
+      "kind": "calc",
+      "name": null,
+      "span": {
+        "end_line": 67,
+        "start_line": 66
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The finset $[a, b]$ of elements `x` such that `a ≤ x` and `x ≤ b`.",
+            "name": "Finset.Icc",
+            "tags": []
+          },
+          {
+            "doc": "`log b n`, is the logarithm of natural number `n` in base `b`.",
+            "name": "Nat.log",
+            "tags": []
+          },
+          {
+            "doc": "A set is a collection of elements of some type `α`.",
+            "name": "Set",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.ncard_le_ncard_of_injOn",
+            "tags": []
+          },
+          {
+            "doc": "Gives a `Set.Finite` for the `Finset` coerced to a `Set`.",
+            "name": "Finset.finite_toSet",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": null,
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "s5",
+      "kind": "calc",
+      "name": null,
+      "span": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`log b n`, is the logarithm of natural number `n` in base `b`.",
+            "name": "Nat.log",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Set.ncard_coe_finset",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-849"
+}
