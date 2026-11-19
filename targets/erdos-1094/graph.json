@@ -446,7 +446,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "opn-agent6-1119",
+        "record": "literature/20261119T143235Z-opn-agent6-1119.yaml",
+        "status": "known"
+      },
       "node_id": "erdos-1094--h2--h1--h1--h1--h1--h1",
       "origin": "compiler-derived",
       "outline": null,
@@ -473,7 +477,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "opn-agent6-1119",
+        "record": "literature/20261119T144803Z-opn-agent6-1119.yaml",
+        "status": "known"
+      },
       "node_id": "erdos-1094--h2--h1--h1--h1--h1--h2",
       "origin": "compiler-derived",
       "outline": null,
@@ -546,7 +554,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "opn-agent6-1119",
+        "record": "literature/20261119T144810Z-opn-agent6-1119.yaml",
+        "status": "known"
+      },
       "node_id": "erdos-1094--h2--h1--h1--h1--h2--h1",
       "origin": "compiler-derived",
       "outline": null,
@@ -573,7 +585,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "opn-agent6-1119",
+        "record": "literature/20261119T144817Z-opn-agent6-1119.yaml",
+        "status": "known"
+      },
       "node_id": "erdos-1094--h2--h1--h1--h1--h2--h2",
       "origin": "compiler-derived",
       "outline": null,
@@ -723,6 +739,17 @@
             }
           ],
           "partial": "attempts/20261014T111658Z-t1014-y-partial.lean"
+        },
+        {
+          "annex": null,
+          "approach": "The strip lies below k³ and lpf C(n,k) > n/k ≥ k there, so it is a case of the 2k ≤ n < k³ statement (Konyagin's range) for k ≥ 5.",
+          "holes": [
+            {
+              "name": "h_below_cube",
+              "node": "erdos-1094--h2--h1--h1"
+            }
+          ],
+          "partial": "attempts/20261119T142211Z-agent7-claude-partial.lean"
         }
       ],
       "defect_claims": [],
@@ -731,7 +758,12 @@
       ],
       "label": "the thin strip above k²",
       "label_source": "gloss",
-      "lemmas": [],
+      "lemmas": [
+        {
+          "hole": "h_below_cube",
+          "node": "erdos-1094--h2--h1--h1"
+        }
+      ],
       "literature": null,
       "literature_proposed": {
         "contributor": "t1014-z",
@@ -3792,9 +3824,28 @@
       "cause": null,
       "claim": "\\forall\\varepsilon>0\\ \\exists g_1,g_2\\text{ band-limited},\\ |g_i(u)|\\le\\frac{C}{1+u^2},\\ g_1(u)\\le e^u\\psi(e^u)\\le g_2(u),\\ \\int g_1\\le\\int\\psi\\le\\int g_2,\\ \\int g_2-\\int g_1\\le\\varepsilon",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "with h(u) = e^u ψ(e^u): h is continuous, O(e^u) as u → −∞ and 0 for large u, and ∫ h = ∫ ψ by u = log x; band-limited one-sided approximations of such an h (Beurling–Selberg, Graham–Vaaler for the tail) give g₁ ≤ h ≤ g₂, and the integral bounds follow.",
+          "holes": [
+            {
+              "name": "h_cov",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1"
+            },
+            {
+              "name": "h_bs",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h2"
+            }
+          ],
+          "partial": "attempts/20261119T142055Z-opn-agent-3-claude-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h2"
+      ],
       "label": "band-limited one-sided approximation",
       "label_source": "gloss",
       "lemmas": [],
@@ -3810,6 +3861,70 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "d5df8d5ed3a2b9c70dfe804c41e07c1adc8f240e6d9b9f13ab0212789be5681d",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\operatorname{supp}\\psi\\subseteq(0,\\infty) \\Rightarrow \\int_{\\mathbb R} e^u\\psi(e^u)\\,du=\\int_{\\mathbb R}\\psi(x)\\,dx",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "change of variables x = e^u",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": "5cd5c569e0cdf63ec2159aa86c30c4ebe80c9bef",
+      "proofs": [
+        {
+          "artifact_hash": "b185f42435cfb6a608299b89892d087eb22d1ad895c7b9e1920a65a3fbb86b81",
+          "attestation": "001560.erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1.json",
+          "kind": "proof",
+          "merge_commit": "5cd5c569e0cdf63ec2159aa86c30c4ebe80c9bef",
+          "path": "Proof.lean",
+          "submitter": "opn-agent-3-claude",
+          "used": []
+        }
+      ],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "6fabf8f89b1fbc87f706a635562801095eeab3449ad2ecbe766cefc7bf0917ee",
+      "status": "proved",
+      "trust_base": "kernel",
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "h\\text{ continuous},\\ |h(u)|\\le Me^u,\\ h(u)=0\\ (u\\ge R),\\ \\varepsilon>0 \\Rightarrow \\exists g_1\\le h\\le g_2\\text{ band-limited},\\ |g_i(u)|\\le\\frac{C}{1+u^2},\\ \\int g_1\\le\\int h\\le\\int g_2,\\ \\int g_2-\\int g_1\\le\\varepsilon",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "band-limited one-sided approximation, exponential tail",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h2",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "aa66b9c97f470aa97705ad1f923b7b4862ec727108ad8ce2bd45c11e996ce1bd",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -3927,7 +4042,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
   "review": {
     "candidates": 1,
     "clusters": 1,

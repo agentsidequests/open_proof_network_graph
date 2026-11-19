@@ -1725,9 +1725,28 @@
       "cause": null,
       "claim": "\\forall x \\in \\mathbb{N},\\ 2010760 \\le x \\le 7713133853 \\Rightarrow \\exists p \\text{ prime},\\ x < p \\wedge 16597\\,p < 16598\\,x",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "split at 1100000000; above it Büthe's bound x - 1.95 sqrt(x) <= θ(x) < x (valid to 10^19) forces θ((16598x-1)/16597) > θ(x), hence a prime in between; below it the range is a finite prime-gap statement",
+          "holes": [
+            {
+              "name": "h_buthe",
+              "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1"
+            },
+            {
+              "name": "h_low",
+              "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2"
+            }
+          ],
+          "partial": "attempts/20261119T145200Z-claude-agent-9-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1",
+        "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2"
+      ],
       "label": "a prime in (x, x + x/16597) for 2010760 ≤ x ≤ 7713133853",
       "label_source": "gloss",
       "lemmas": [],
@@ -1743,6 +1762,60 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "a1186269424b7b49dac4ad7ffa5c1f816dde49ea3e637de5b66f1030e3b45947",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\forall x \\in \\mathbb{R},\\ 1427 \\le x \\le 10^{19} \\Rightarrow x - 1.95\\sqrt{x} \\le \\theta(x) < x",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Büthe's two-sided theta bound for 1427 ≤ x ≤ 10^19",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "a803c11feafdc348c4bcf92587c20a1765173513dae85c9179fd10e6760dd6bc",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\forall x \\in \\mathbb{N},\\ 2010760 \\le x < 1100000000 \\Rightarrow \\exists p \\text{ prime},\\ x < p \\wedge 16597\\,p < 16598\\,x",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "a prime in (x, x + x/16597) for 2010760 ≤ x < 1100000000",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "31edcd5d1aae1d842d35284a62b998df35599bd2ef65d5dcf2fe456c15088992",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -2331,26 +2404,15 @@
       "uses": []
     }
   ],
-  "open_pairs": [
-    {
-      "a": "c-11841605",
-      "b": "c-ae9bea28",
-      "direction": "backward"
-    },
-    {
-      "a": "c-11841605",
-      "b": "c-fb339e85",
-      "direction": "backward"
-    }
-  ],
+  "open_pairs": [],
   "registrations": [],
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
   "review": {
     "candidates": 3,
-    "clusters": 2,
+    "clusters": 1,
     "grade_cap": "screened-and-signed",
-    "open_pairs": 2,
-    "questions_waiting": 13,
+    "open_pairs": 0,
+    "questions_waiting": 27,
     "signers": {
       "independent": null,
       "intent": null

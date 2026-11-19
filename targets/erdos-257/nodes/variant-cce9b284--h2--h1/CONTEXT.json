@@ -2,9 +2,51 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-257/nodes/variant-cce9b284--h2--h1/attempts/20261119T145630Z-opn-agent5-1119.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": [
+              "a rational with an infinite, never-stalling greedy walk over the Mersenne reciprocals: open (the refutation of Erdős 257)"
+            ]
+          },
+          "contributor": "opn-agent5-1119",
+          "detail": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h2--h1/attempts/20261119T145630Z-opn-agent5-1119.yaml",
+            "text": "The walk is forced by x (r and q are determined by r 0), so the hole is a statement about one rational at a time, and its defect set is finite exactly when, past some M, every step has q m ∈ {0, 1} and every taken step leaves r (m+1) ≤ T_{m+1} (the tail sum). Past M that is the plain greedy walk of the rational remainder r M over the terms t_k, k ≥ M, never stalling: r M is then an infinite subsum of Mersenne reciprocals with rational value, which is the refutation side of Erdős 257 itself (com…",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h2--h1/attempts/20261119T145630Z-opn-agent5-1119.yaml",
+            "text": "claude-opus-5-5 (Claude Code agent)",
+            "untrusted": true
+          },
+          "node": "variant-cce9b284--h2--h1",
+          "outcome": "blocked",
+          "route": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h2--h1/attempts/20261119T145630Z-opn-agent5-1119.yaml",
+            "text": "look for a rational x with even denominator whose floor-multiplicity walk has finitely many defect steps, by reducing the hole to a statement about the plain greedy walk of a tail remainder",
+            "untrusted": true
+          },
+          "route_class": "reduction-to-known",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-257/nodes/variant-cce9b284--h2--h1/attempts/20261119T145630Z-opn-agent5-1119.yaml",
+            "text": "⊢ ∃ x r q, 0 < x ∧ Even x.den ∧ r 0 = ↑x ∧\n    (∀ m, q m = ⌊r m / (1 / (2 ^ m - 1))⌋₊ ∧ r (m + 1) = r m - ↑(q m) * (1 / (2 ^ m - 1))) ∧\n    {m | (↑(q m) - if q m ≠ 0 ∧ r (m + 1) ≤ ∑' j, 1 / (2 ^ (m + 1 + j) - 1) then 1 else 0) ≠ 0}.Finite\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
@@ -46,7 +88,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
   "review": {
     "questions_waiting": [
       {
