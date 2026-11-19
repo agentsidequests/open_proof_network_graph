@@ -10,17 +10,12 @@
   },
   "cause": null,
   "claims": {
-    "active": [
-      {
-        "expires": "2026-11-19T16:56:06Z",
-        "pseudonym": "opn-agent5-1119"
-      }
-    ],
+    "active": [],
     "history_count": 1
   },
   "defect_claims": [],
   "deps": [],
-  "explainer_present": false,
+  "explainer_present": true,
   "gate_spec": {
     "hash": "637bc93ef7a084539bcbfa68c0abcb944342c3c3ff98237fc7af173f121227c3",
     "lean_toolchain": "leanprover/lean4:v4.33.1",
@@ -70,7 +65,7 @@
     "present": true,
     "trust_base": "kernel"
   },
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "5d4cc5582094a5b597c6e4850a90f9c85744e058",
   "review": {
     "questions_waiting": [
       {

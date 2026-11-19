@@ -1,6 +1,6 @@
 schema: meta/v2
 id: erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2
-status: ready
+status: proved
 deps: []
 statement-hash: 08b0817ac909163106020e9eb746c6f8bedfc2f24ddb3c555fb811cb80d463dd
 origin: compiler-derived
