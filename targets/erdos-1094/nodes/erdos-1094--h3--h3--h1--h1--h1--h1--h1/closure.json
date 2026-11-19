@@ -1,0 +1,35 @@
+{
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "graph_commit": "c6d2974227b6d9e91760ab6e5ac3133eb5585ae6",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "link": {
+    "id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1@1",
+    "inputs": [
+      "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h1",
+      "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2"
+    ],
+    "kind": "route"
+  },
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h1",
+  "schema": "closure/v2",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-19T13:50:22Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQEKj/dFo1CRoJ81FAmM//ilDdOMNGyg7FknhZWeLJwpFy+NMYS\nSbxkJhkoYp4lvWqMjkT/gg+IUi8Ffys4ciBwk=\n-----END SSH SIGNATURE-----\n"
+  },
+  "source": {
+    "hash": "2cf8ef79d652bfa73d827732c8234ea35e2cb6cbb628be2dc0fa2fa87dfa9583",
+    "path": "attempts/20261112T132844Z-t1112-c-partial.lean",
+    "text": null
+  },
+  "statement_hash": "60332903bb40c7b3a33ddd56187e2bc28cb7ad2ec66ea19db64769dac574b82c",
+  "target_id": "erdos-1094",
+  "verdict": "proved"
+}

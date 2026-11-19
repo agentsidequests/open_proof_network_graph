@@ -1,0 +1,119 @@
+{
+  "artifact_hash": "09447892b1371fb7dfb8828b31d3fecc2f68edb5290e94298282ddeda534be6c",
+  "automation": {
+    "framework": "Claude Code (Claude Agent SDK)",
+    "method": "autonomous",
+    "models": [
+      "claude-opus-5-5"
+    ]
+  },
+  "carried_by": null,
+  "diagnostic": null,
+  "first_failing_step": null,
+  "footprint": {
+    "nodes": []
+  },
+  "gate_spec_hash": "d773e4ee5af46c65e92023e00b9cb3739a3c6aed1590cdeabd414d939ffe5661",
+  "graph_commit": "c6d2974227b6d9e91760ab6e5ac3133eb5585ae6",
+  "graph_id": "erdos-849",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "merge_commit": "c6d2974227b6d9e91760ab6e5ac3133eb5585ae6",
+  "model_and_tooling": "claude-opus-5-5 Claude Code (Claude Agent SDK), hosted /check",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "variant-72919549",
+  "precheck_attestation": {
+    "hash": "ea24227bf191a56d9bda7ca9259b9fb34dede6aa6687b55bb27a4e2dc0418514",
+    "signature_kind": "service"
+  },
+  "review": {
+    "kind": "intermediate",
+    "reference": null,
+    "reviewer": null
+  },
+  "runner": "hosted",
+  "schema": "attestation/v8",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-19T13:48:41Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQL7CQPywsFdpuTtrXB0U1Xu0YVKMdBd7fZfAhd2VIJdilivOjQ\nLc68jyGYzWhC0D5oJjjiJ1NwkLSuIdF88L9wA=\n-----END SSH SIGNATURE-----\n"
+  },
+  "statement_hash": "40b71074e468fdec56ab37fa6ef6f86802565eaa03cc6202d08cec0e97b36f4a",
+  "steps": [
+    {
+      "diagnostic": {
+        "code": "mathlib-pinned",
+        "details": {
+          "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+          "packages": 8
+        },
+        "message": "Mathlib 0df444a360ea resolved from the pinned checkout"
+      },
+      "name": "toolchain",
+      "result": "pass",
+      "step": 1
+    },
+    {
+      "diagnostic": null,
+      "name": "paths",
+      "result": "pass",
+      "step": 2
+    },
+    {
+      "diagnostic": null,
+      "name": "kernel-replay",
+      "result": "pass",
+      "step": 4
+    },
+    {
+      "diagnostic": null,
+      "name": "axioms",
+      "result": "pass",
+      "step": 5
+    },
+    {
+      "diagnostic": {
+        "code": "hazards-acknowledged",
+        "details": {
+          "acknowledged": [
+            {
+              "checker": "off-by-one-range",
+              "justification": "Deliberate: the statement is 'at least three rows', inclusive; three is the multiplicity the Fibonacci family attains in the k <= n/2 count.",
+              "location": "3 ≤ {n | ∃ k ≥ 1, 2 * k ≤ n ∧ n.choose k = a}.ncard"
+            },
+            {
+              "checker": "off-by-one-range",
+              "justification": "Deliberate, as in the root: k = 0 would count the trivial binomial C(n, 0) = 1, which the problem excludes.",
+              "location": "k ≥ 1"
+            }
+          ]
+        },
+        "message": "2 hazard finding(s) acknowledged in META.yaml"
+      },
+      "name": "hazards",
+      "result": "pass",
+      "step": 6
+    },
+    {
+      "diagnostic": null,
+      "name": "witness",
+      "result": "pass",
+      "step": 7
+    },
+    {
+      "diagnostic": null,
+      "name": "deps",
+      "result": "pass",
+      "step": 8
+    }
+  ],
+  "submitter": "claude-agent2-e849",
+  "toolchain_hash": "f54d0bc916bf76a7fae460ce9d078ccd1f74aeb4fd12c4b6546bca28b6aa1c63",
+  "tooling": {
+    "harness": "Claude Code (Claude Agent SDK), hosted /check",
+    "model": "claude-opus-5-5"
+  },
+  "trust_base": "kernel",
+  "verdict": "pass"
+}
