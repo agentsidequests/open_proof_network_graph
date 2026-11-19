@@ -1,0 +1,228 @@
+{
+  "artifact_hash": null,
+  "automation": {
+    "framework": "Claude Code",
+    "method": "agent",
+    "models": [
+      "claude-opus-5-5"
+    ]
+  },
+  "carried_by": null,
+  "diagnostic": null,
+  "first_failing_step": null,
+  "footprint": {
+    "nodes": []
+  },
+  "gate_spec_hash": "b8a6ee840a7a0ca9c7cea0eb1331f60be814950efe4374b17dffd8942e7e5b98",
+  "graph_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "graph_id": "erdos-1094",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "merge_commit": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "model_and_tooling": "claude-opus-5-5 Claude Code",
+  "network_commit": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+  "precheck_attestation": {
+    "hash": "b1643fc7858634b6d3c83b70a98a8beb154e981aec77cf53d02bd2f02a3d32ab",
+    "signature_kind": "service"
+  },
+  "review": {
+    "kind": "intermediate",
+    "reference": null,
+    "reviewer": null
+  },
+  "runner": "hosted",
+  "schema": "attestation/v8",
+  "signature": {
+    "key_id": "SHA256:XOd3xiS7BYG+uqfTlo5j3uEH96wPy5SCfmBWEsAKZLI",
+    "kind": "gate",
+    "timestamp": "2026-11-19T14:43:56Z",
+    "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg/0CrS22AvUGT9mSnPoKDoPcVUP\niyEO8YoRslzDQ33+kAAAAPb3BuLWF0dGVzdGF0aW9uAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQHXoGaeEvGwo2A840V3K0e2OTl48EGG9XZ5xuxfPeMLEeR0xOR\nY2+28WVdLvS+KA7jdou8lEOXSrTUFLJrVS/AY=\n-----END SSH SIGNATURE-----\n"
+  },
+  "statement_hash": "6e2f1cc0dc6ad22549f1ae8283bf215c2cea87677115ee35a240dbc42b9bdb9f",
+  "steps": [
+    {
+      "diagnostic": {
+        "code": "mathlib-pinned",
+        "details": {
+          "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+          "packages": 8
+        },
+        "message": "Mathlib 0df444a360ea resolved from the pinned checkout"
+      },
+      "name": "toolchain",
+      "result": "pass",
+      "step": 1
+    },
+    {
+      "diagnostic": {
+        "code": "partial-submission",
+        "details": {
+          "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.lean"
+        },
+        "message": "a partial proof: attempts/20261119T141220Z-opn-agent-3-claude-partial.lean (D-12 #5)"
+      },
+      "name": "paths",
+      "result": "pass",
+      "step": 2
+    },
+    {
+      "diagnostic": {
+        "code": "hole-proofs",
+        "details": {
+          "holes": [
+            "h_cheb",
+            "h_summ",
+            "h_id",
+            "h_rl",
+            "h_tail"
+          ],
+          "kind": "partial",
+          "proofs": [
+            {
+              "hole": "h_summ",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.2.proof",
+              "proof_sha256": "74e5f7c75650b3c528fecca10fbdfd0fb52e1383cb8c5cd969b0ed18e99b6f30",
+              "sha256": "f0f911473a1a8d76547d9c778de1e81be2857f669b6567fe42a9907c08032de7"
+            },
+            {
+              "hole": "h_rl",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.4.proof",
+              "proof_sha256": "3f140c368733069ead2f075aee5f7ee6ef652a4828e51f50c85749034ca78e5e",
+              "sha256": "5822e216168c056ca280b29f87ebcefab5b30f3cf29f1010397e7d3ac180f4ac"
+            },
+            {
+              "hole": "h_tail",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.5.proof",
+              "proof_sha256": "94c8547df170df1cfde17469a4640be2a40a529b93269194321e795a44fc0ce9",
+              "sha256": "d9508f8aea74d15257289c09b0a2e16ed920d2fe02dc5750cf41a2135c3c23c0"
+            }
+          ]
+        },
+        "message": "partial: erdos_1094__h3__h3__h1__h1__h1__h1__h2__h1 declares ∀ (f : ℕ → ℝ) (A : ℝ),\n  (∀ (n : ℕ), 0 ≤ f n) →\n    (∀ (s : ℂ), 1 < s.re → LSeriesSummable (fun n => ↑(f n)) s) →\n      (∃ G, ContinuousOn G {s | 1 ≤ s.re} ∧ ∀ (s : ℂ), 1 < s.re → G s = LSeries (fun n => ↑(f n)) s - ↑A / (s - 1)) →\n        ∀ (g : ℝ → ℝ),\n          Continuous g →\n            (∃ C, ∀ (u : ℝ), |g u| ≤ C / (1 + u ^ 2)) →\n              HasCompactSupport (FourierTransform.fourier fun u => ↑(g u)) →\n                (∀ (X : ℝ), 0 < X → Summable fun n => f n * g (Real.log (↑n / X)) / ↑n) ∧\n                  Filter.Tendsto (fun X => ∑' (n : ℕ), f n * g (Real.log (↑n / X)) / ↑n) Filter.atTop\n                    (nhds (A * ∫ (u : ℝ), g u)); 5 hole(s); 3 hole(s) carry a proof, each built and replayed as the node its hole becomes (F32-R3)"
+      },
+      "name": "kernel-replay",
+      "result": "pass",
+      "step": 4
+    },
+    {
+      "diagnostic": null,
+      "name": "axioms",
+      "result": "pass",
+      "step": 5
+    },
+    {
+      "diagnostic": {
+        "code": "hazards-derived-statement",
+        "details": {
+          "acknowledged": [],
+          "checkers": [
+            "div-zero",
+            "int-trunc",
+            "junk-value",
+            "nat-sub",
+            "off-by-one-range",
+            "unused-binder"
+          ],
+          "findings": [
+            {
+              "checker": "div-zero",
+              "location": "C / (1 + u ^ 2)",
+              "message": "division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+            },
+            {
+              "checker": "div-zero",
+              "location": "f n * g (Real.log (↑n / X)) / ↑n",
+              "message": "division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+            },
+            {
+              "checker": "div-zero",
+              "location": "↑A / (s - 1)",
+              "message": "division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+            },
+            {
+              "checker": "div-zero",
+              "location": "↑n / X",
+              "message": "division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+            },
+            {
+              "checker": "junk-value",
+              "location": "Real.log (↑n / X)",
+              "message": "Real.log of a possibly-negative argument is a junk value (0)"
+            },
+            {
+              "checker": "off-by-one-range",
+              "location": "1 < s.re",
+              "message": "comparison against an explicit literal: check whether the boundary is inclusive or exclusive"
+            },
+            {
+              "checker": "off-by-one-range",
+              "location": "1 ≤ s.re",
+              "message": "comparison against an explicit literal: check whether the boundary is inclusive or exclusive"
+            }
+          ],
+          "origin": "compiler-derived"
+        },
+        "message": "7 hazard finding(s) on a statement the gate derived from a merged assembly, recorded and not refused; first: div-zero at C / (1 + u ^ 2): division by a divisor that is not syntactically non-zero: Lean's / and % are total and give a junk value at 0"
+      },
+      "name": "hazards",
+      "result": "pass",
+      "step": 6
+    },
+    {
+      "diagnostic": {
+        "code": "hole-witnesses",
+        "details": {
+          "witnesses": [
+            {
+              "hole": "h_cheb",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.1.witness",
+              "sha256": "4fe02d091568b06fbd4fd7f754cab60942c93ef2e425c8df2136c400d6553904"
+            },
+            {
+              "hole": "h_summ",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.2.witness",
+              "sha256": "ff2dae69af7c0c46faabe15a087cf97bba519826ad2ef91cfb954dcefe7c634e"
+            },
+            {
+              "hole": "h_id",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.3.witness",
+              "sha256": "bc3e4c76e5c0e7d0b15debc9dbd5eba90b05dbd7c101792b58c2e479228b3401"
+            },
+            {
+              "hole": "h_rl",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.4.witness",
+              "sha256": "f5a593d052ce214fb405eea5db000581f713e4969b8749b1e65a89cd77a30e74"
+            },
+            {
+              "hole": "h_tail",
+              "path": "attempts/20261119T141220Z-opn-agent-3-claude-partial.5.witness",
+              "sha256": "47b7a1f5788b95ec72d46328c47b8789f9e0956cd436ef0d21117c3fa65c05a0"
+            }
+          ]
+        },
+        "message": "5 of 5 hole(s) carry a witness, each checked as step 7 checks a node's (F07-R23)"
+      },
+      "name": "witness",
+      "result": "pass",
+      "step": 7
+    },
+    {
+      "diagnostic": null,
+      "name": "deps",
+      "result": "pass",
+      "step": 8
+    }
+  ],
+  "submitter": "opn-agent-3-claude",
+  "toolchain_hash": "f54d0bc916bf76a7fae460ce9d078ccd1f74aeb4fd12c4b6546bca28b6aa1c63",
+  "tooling": {
+    "harness": "Claude Code",
+    "model": "claude-opus-5-5"
+  },
+  "trust_base": "kernel",
+  "verdict": "pass"
+}
