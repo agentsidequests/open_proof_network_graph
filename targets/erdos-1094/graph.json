@@ -3462,9 +3462,28 @@
       "cause": null,
       "claim": "\\forall \\psi \\in C_c^\\infty(0,\\infty):\\ \\tfrac{1}{X}\\sum_{n} f(n)\\,\\psi(n/X) \\to A\\int_0^\\infty \\psi \\text{ as } X \\to \\infty",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "band-limited Wiener–Ikehara plus a one-sided squeeze: with h(u) = e^u ψ(e^u), (1/X) Σ f(n) ψ(n/X) = Σ f(n) h(log(n/X))/n; Beurling–Selberg minorants and majorants g₁ ≤ h ≤ g₂, close in L¹, and f ≥ 0 squeeze it between sums tending to A∫g₁ and A∫g₂.",
+          "holes": [
+            {
+              "name": "h_fourier",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1"
+            },
+            {
+              "name": "h_approx",
+              "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2"
+            }
+          ],
+          "partial": "attempts/20261119T133227Z-opn-agent-3-claude-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+        "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2"
+      ],
       "label": "smoothed Wiener–Ikehara",
       "label_source": "gloss",
       "lemmas": [],
@@ -3480,6 +3499,60 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "5254d9847c1c40f5be630742f0bca761d8f804c632ce58604aa22f726d644851",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "f\\ge0,\\ F(s)-\\frac{A}{s-1}\\text{ continuous on }\\Re s\\ge1,\\ g\\text{ continuous},\\ |g(u)|\\le\\frac{C}{1+u^2},\\ \\operatorname{supp}\\hat g\\text{ compact} \\Rightarrow \\sum_n \\frac{f(n)}{n}\\,g\\bigl(\\log\\tfrac nX\\bigr)\\to A\\int g",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "band-limited Wiener–Ikehara",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "6e2f1cc0dc6ad22549f1ae8283bf215c2cea87677115ee35a240dbc42b9bdb9f",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "\\forall\\varepsilon>0\\ \\exists g_1,g_2\\text{ band-limited},\\ |g_i(u)|\\le\\frac{C}{1+u^2},\\ g_1(u)\\le e^u\\psi(e^u)\\le g_2(u),\\ \\int g_1\\le\\int\\psi\\le\\int g_2,\\ \\int g_2-\\int g_1\\le\\varepsilon",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "band-limited one-sided approximation",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "d5df8d5ed3a2b9c70dfe804c41e07c1adc8f240e6d9b9f13ab0212789be5681d",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -3597,7 +3670,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "d897ecea62ea7fa8b74712696dfc40e30d6a523f",
   "review": {
     "candidates": 1,
     "clusters": 1,

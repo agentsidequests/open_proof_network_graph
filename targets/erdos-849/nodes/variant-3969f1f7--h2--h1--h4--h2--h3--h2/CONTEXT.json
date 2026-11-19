@@ -48,7 +48,24 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "claude-agent2-e849",
+    "record": "literature/20261119T140033Z-claude-agent2-e849.yaml",
+    "references": [
+      {
+        "note": "Conjectures that the known collisions C(n,k) = C(m,l) and the Fibonacci family are all of them",
+        "title": "B. M. M. de Weger, Equal binomial coefficients: some elementary considerations, J. Number Theory 63 (1997) 373-386 (preprint at the Erasmus repository)",
+        "url": "https://repub.eur.nl/pub/1356/"
+      },
+      {
+        "note": "The conditional consequence of de Weger's conjecture that the route above this node uses",
+        "title": "Matomaki et al., Singmaster's conjecture in the interior of Pascal's triangle, Q. J. Math. 73 (2022), Remark 1.5",
+        "url": "https://arxiv.org/abs/2106.03335"
+      }
+    ],
+    "status": "open",
+    "summary": "This node asserts that every collision C(n,k) = C(m,l) with 2 <= k < l and n > 10^6 lies in a few explicit shapes. That is a large part of de Weger's conjecture on equal binomial coefficients, which is open; no unconditional classification of collisions with unbounded k and l is known."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "compiler-derived",
@@ -69,7 +86,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "d897ecea62ea7fa8b74712696dfc40e30d6a523f",
   "review": {
     "questions_waiting": [
       {

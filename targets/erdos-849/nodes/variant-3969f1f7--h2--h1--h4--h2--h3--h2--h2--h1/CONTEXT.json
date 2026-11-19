@@ -25,7 +25,19 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "claude-agent2-e849",
+    "record": "literature/20261119T140027Z-claude-agent2-e849.yaml",
+    "references": [
+      {
+        "note": "For x > 2010759.9 there is a prime in (x, x(1 + 1/16597)); in N this is 16597 p < 16598 x for x >= 2010760",
+        "title": "L. Schoenfeld, Sharper bounds for the Chebyshev functions theta(x) and psi(x). II, Math. Comp. 30 (1976) 337-360",
+        "url": "https://www.ams.org/mcom/1976-30-134/S0025-5718-1976-0457374-X/"
+      }
+    ],
+    "status": "known",
+    "summary": "A short-interval prime result of Schoenfeld (1976), proved from explicit bounds on theta(x) that rest on a numerical verification of the Riemann hypothesis to a finite height; not formalized. The pinned Mathlib's Chebyshev bounds (theta(x) <= x log 4, theta(n) >= n log 2 - O(sqrt n log n)) are far too weak to give it."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "compiler-derived",
@@ -46,7 +58,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
+  "rendered_from": "d897ecea62ea7fa8b74712696dfc40e30d6a523f",
   "review": {
     "questions_waiting": [
       {
