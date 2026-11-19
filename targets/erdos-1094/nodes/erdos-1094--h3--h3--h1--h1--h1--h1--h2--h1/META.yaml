@@ -1,7 +1,12 @@
 schema: meta/v2
 id: erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1
 status: ready
-deps: []
+deps:
+- erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1
+- erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h2
+- erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3
+- erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h4
+- erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h5
 statement-hash: 6e2f1cc0dc6ad22549f1ae8283bf215c2cea87677115ee35a240dbc42b9bdb9f
 origin: compiler-derived
 provenance:

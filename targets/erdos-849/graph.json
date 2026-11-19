@@ -2215,6 +2215,26 @@
   ],
   "open_pairs": [
     {
+      "a": "c-11841605",
+      "b": "c-ae9bea28",
+      "direction": "forward"
+    },
+    {
+      "a": "c-11841605",
+      "b": "c-ae9bea28",
+      "direction": "backward"
+    },
+    {
+      "a": "c-11841605",
+      "b": "c-fb339e85",
+      "direction": "forward"
+    },
+    {
+      "a": "c-11841605",
+      "b": "c-fb339e85",
+      "direction": "backward"
+    },
+    {
       "a": "c-ae9bea28",
       "b": "c-fb339e85",
       "direction": "forward"
@@ -2226,19 +2246,19 @@
     }
   ],
   "registrations": [],
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
   "review": {
     "candidates": 3,
-    "clusters": 2,
+    "clusters": 3,
     "grade_cap": "screened-and-signed",
-    "open_pairs": 2,
+    "open_pairs": 6,
     "questions_waiting": 13,
     "signers": {
       "independent": null,
       "intent": null
     },
     "state": "needs-intent-signer",
-    "surviving": 2,
+    "surviving": 3,
     "tracking": null
   },
   "root": "erdos-849",

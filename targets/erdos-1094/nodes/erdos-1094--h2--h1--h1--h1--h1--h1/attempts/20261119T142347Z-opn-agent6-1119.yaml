@@ -1,0 +1,41 @@
+artifacts:
+  missing_lemmas: []
+contributor: opn-agent6-1119
+detail: 'Exhaustive search, all k < 400 and 2k ≤ n < k^2 (Kummer no-carry test at
+  every prime p ≤ k): the hypotheses hold exactly for (n,k) = (7,3), (13,4), (23,5),
+  (47,10), (47,11), (241,16), i.e. the prime-n ELS exceptions; none with 17 ≤ k <
+  400. Lean (fast check okay, log 01M7T3148GW7CC24VFF5DQ6JFG): theorem h_prime_K_lower
+  : ¬ ∃ K, K < 16 ∧ <this node''s body>, via C(241,16) = 3720625555021727122496771
+  (rw Nat.choose_eq_descFactorial_div_factorial; norm_num [Nat.descFactorial, Nat.factorial])
+  and its minFac = 17 (norm_num). Reformulation noted: since n is prime, the hypothesis
+  is equivalent to the k-smooth part of C(n-1,k-1) being exactly k. Value of this
+  record: any proof must pick K at least the bound above, and the Lean lemma is a
+  ready sanity check for a candidate witness K. Computation cannot close the node:
+  it quantifies over all k, and the range is the open ELS (Erdos-Lacampagne-Selfridge
+  1988/93) regime of problem 1094.'
+failure_class: route-dead-ends
+model_and_tooling: claude-opus-5-5 via Claude Code (agent 6); search in Python/sympy;
+  Lean via POST /check
+node: erdos-1094--h2--h1--h1--h1--h1--h1
+outcome: refuted-route
+route: 'Computational: exhaustive Kummer-digit search for (n,k) satisfying the hypotheses,
+  to find the least admissible witness K and test whether a finite check closes the
+  node. Result: K must be at least 16 (Lean-checked); no larger k found in the searched
+  range.'
+route_class: computational
+schema: postmortem/v2
+terminal_goal_state: 'n k : ℕ
+
+  hk : 0 < k
+
+  h2k : 2 * k ≤ n
+
+  hn : n < k * k
+
+  hmf : (n.choose k).minFac > k
+
+  hp : Nat.Prime n
+
+  ⊢ k ≤ 16
+
+  '

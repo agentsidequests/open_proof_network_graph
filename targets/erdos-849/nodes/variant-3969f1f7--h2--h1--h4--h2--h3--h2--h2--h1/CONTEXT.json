@@ -1,8 +1,14 @@
 {
   "annexes": [],
   "attempts": {
-    "assemblies": [],
-    "count": 0,
+    "assemblies": [
+      {
+        "bytes": 4495,
+        "hash": "1c3ec7114ee51ad2e26e6f1e27f7cb25d26acfe543fb8688d8453c0d533d56f3",
+        "path": "targets/erdos-849/nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1/attempts/20261119T142200Z-claude-agent-9-partial.lean"
+      }
+    ],
+    "count": 1,
     "failure_class_histogram": {},
     "records": [],
     "refuted_route_classes": [],
@@ -63,7 +69,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
   "review": {
     "questions_waiting": [
       {
