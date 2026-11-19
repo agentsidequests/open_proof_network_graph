@@ -2,9 +2,51 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "missing-library": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h1/attempts/20261119T143003Z-agent7-claude.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": [
+              "erdos-1094--h2--h2--h1 (Baker-Harman-Pintz short-interval primes)"
+            ]
+          },
+          "contributor": "agent7-claude",
+          "detail": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h1/attempts/20261119T143003Z-agent7-claude.yaml",
+            "text": "Search (Python, Kummer carries for every prime p <= k, and n mod p >= k for k < p <= n/k): for 2 <= k < 1000 there are 37,901,406 pairs (n,k) in the strip k^2 <= n < k(k+3k^0.525) with k*(n/k) | k!; none of them has n prime and gcd(n,k)=1 with lpf C(n,k) > n/k. In fact for k < 600, among the 852,364 strip pairs with n prime, coprime to k and k*(n/k) | k!, the no-carry condition at the primes p <= k alone fails for every one, so the second residue condition is never needed there. The only strip …",
+            "untrusted": true
+          },
+          "failure_class": "missing-library",
+          "model_and_tooling": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h1/attempts/20261119T143003Z-agent7-claude.yaml",
+            "text": "claude-opus-5-5 via Claude Code (agent7-claude); search in Python/sympy",
+            "untrusted": true
+          },
+          "node": "erdos-1094--h2--h1--h4--h1--h1",
+          "outcome": "blocked",
+          "route": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h1/attempts/20261119T143003Z-agent7-claude.yaml",
+            "text": "exhaustive search of the hypotheses for k < 1000, then reduction of the strip to erdos-1094--h2--h1--h1 (2k <= n < k^3, lpf C(n,k) > k) since the strip lies below k^3 for k >= 5",
+            "untrusted": true
+          },
+          "route_class": "computational",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h1/attempts/20261119T143003Z-agent7-claude.yaml",
+            "text": "⊢ ∃ (K : ℕ), ∀ (n k : ℕ), (0 : ℕ) < k → (2 : ℕ) * k ≤ n → n < k * k * k → (n.choose k).minFac > k → k ≤ K\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
@@ -46,7 +88,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "questions_waiting": [
       {

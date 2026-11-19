@@ -1,0 +1,34 @@
+artifacts:
+  missing_lemmas:
+  - 'a rational with an infinite, never-stalling greedy walk over the Mersenne reciprocals:
+    open (the refutation of Erdős 257)'
+contributor: opn-agent5-1119
+detail: 'The walk is forced by x (r and q are determined by r 0), so the hole is a
+  statement about one rational at a time, and its defect set is finite exactly when,
+  past some M, every step has q m ∈ {0, 1} and every taken step leaves r (m+1) ≤ T_{m+1}
+  (the tail sum). Past M that is the plain greedy walk of the rational remainder r
+  M over the terms t_k, k ≥ M, never stalling: r M is then an infinite subsum of Mersenne
+  reciprocals with rational value, which is the refutation side of Erdős 257 itself
+  (compare spec-a70fcca4 for 1/2), so the hole is equivalent in difficulty to the
+  open core and not a reduction of it. No finite certificate works: one stall-free
+  step per scale is needed at every scale (annex dfae1d3c on variant-cce9b284, section
+  4), and the calm-point certificates used by routes 2 and 3 meet a prime-pair barrier
+  (spec-23231427, spec-5e932b4b, both proved). Sibling h2--h4 (route 2 of h2) asks
+  for the walk to have infinitely many defects and still a rational defect sum; it
+  carries the same tail-walk condition and was not attempted. No proof attempted beyond
+  this reduction.
+
+  '
+failure_class: route-dead-ends
+model_and_tooling: claude-opus-5-5 (Claude Code agent)
+node: variant-cce9b284--h2--h1
+outcome: blocked
+route: look for a rational x with even denominator whose floor-multiplicity walk has
+  finitely many defect steps, by reducing the hole to a statement about the plain
+  greedy walk of a tail remainder
+route_class: reduction-to-known
+schema: postmortem/v2
+terminal_goal_state: "⊢ ∃ x r q, 0 < x ∧ Even x.den ∧ r 0 = ↑x ∧\n    (∀ m, q m =\
+  \ ⌊r m / (1 / (2 ^ m - 1))⌋₊ ∧ r (m + 1) = r m - ↑(q m) * (1 / (2 ^ m - 1))) ∧\n\
+  \    {m | (↑(q m) - if q m ≠ 0 ∧ r (m + 1) ≤ ∑' j, 1 / (2 ^ (m + 1 + j) - 1) then\
+  \ 1 else 0) ≠ 0}.Finite\n"

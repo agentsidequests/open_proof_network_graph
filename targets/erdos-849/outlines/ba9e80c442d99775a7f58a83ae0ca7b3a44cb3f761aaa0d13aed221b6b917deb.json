@@ -1,0 +1,559 @@
+{
+  "artifact": {
+    "hash": "ba9e80c442d99775a7f58a83ae0ca7b3a44cb3f761aaa0d13aed221b6b917deb",
+    "kind": "partial",
+    "path": "attempts/20261119T142809Z-claude-agent-1-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "variant-3969f1f7--h2--h1--h1--h2",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "variant-3969f1f7--h2--h1--h1--h2--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (m x : ℤ),\n  (8 : ℤ) ≤ m → (m ^ (2 : ℕ) - (3 : ℤ) * m + (1 : ℤ)) ^ (2 : ℕ) + (2 : ℤ) = (3 : ℤ) * x ^ (2 : ℕ) → m ≤ (10 : ℤ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_quartic",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (m x : ℤ),\n  (8 : ℤ) ≤ m → (m ^ (2 : ℕ) - (3 : ℤ) * m + (1 : ℤ)) ^ (2 : ℕ) + (2 : ℤ) = (3 : ℤ) * x ^ (2 : ℕ) → m ≤ (10 : ℤ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (n m : ℕ), (4 : ℕ) ≤ n → (8 : ℕ) ≤ m → n.choose (2 : ℕ) = m.choose (4 : ℕ) → n = (21 : ℕ) ∧ m = (10 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "h_quartic",
+      "kind": "hole",
+      "name": "h_quartic",
+      "span": {
+        "end_line": 32,
+        "start_line": 32
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) + (2 : ℤ) =\n  (3 : ℤ) * ((2 : ℤ) * (↑n : ℤ) - (1 : ℤ)) ^ (2 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hk",
+            "type": {
+              "printed": "reliable",
+              "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) + (2 : ℤ) =\n  (3 : ℤ) * ((2 : ℤ) * (↑n : ℤ) - (1 : ℤ)) ^ (2 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "n = (21 : ℕ) ∧ m = (10 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "hk",
+      "kind": "have",
+      "name": "hk",
+      "span": {
+        "end_line": 34,
+        "start_line": 34
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(↑m : ℤ) ≤ (10 : ℤ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hm10",
+            "type": {
+              "printed": "reliable",
+              "text": "(↑m : ℤ) ≤ (10 : ℤ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "n = (21 : ℕ) ∧ m = (10 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "hm10",
+      "kind": "have",
+      "name": "hm10",
+      "span": {
+        "end_line": 35,
+        "start_line": 35
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "m ≤ (10 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hm10'",
+            "type": {
+              "printed": "reliable",
+              "text": "m ≤ (10 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "n = (21 : ℕ) ∧ m = (10 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "hm10'",
+      "kind": "have",
+      "name": "hm10'",
+      "span": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [
+            {
+              "child_node": null,
+              "children": [],
+              "claim": {
+                "printed": "reliable",
+                "text": "(8 : ℤ) ≤ (↑m : ℤ)",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "steps",
+                "tactics": []
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "h8",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "(8 : ℤ) ≤ (↑m : ℤ)",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) ≤ (71 : ℤ) ^ (2 : ℕ)",
+                  "truncated": false
+                }
+              },
+              "id": "hn30.hY.h8",
+              "kind": "have",
+              "name": "h8",
+              "span": {
+                "end_line": 39,
+                "start_line": 39
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [],
+                "nodes": []
+              }
+            },
+            {
+              "child_node": null,
+              "children": [],
+              "claim": {
+                "printed": "reliable",
+                "text": "(0 : ℤ) ≤ (↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "automation",
+                "tactics": [
+                  "nlinarith"
+                ]
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "h1",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "(0 : ℤ) ≤ (↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) ≤ (71 : ℤ) ^ (2 : ℕ)",
+                  "truncated": false
+                }
+              },
+              "id": "hn30.hY.h1",
+              "kind": "have",
+              "name": "h1",
+              "span": {
+                "end_line": 40,
+                "start_line": 40
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [],
+                "nodes": []
+              }
+            },
+            {
+              "child_node": null,
+              "children": [],
+              "claim": {
+                "printed": "reliable",
+                "text": "(↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ) ≤ (71 : ℤ)",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "automation",
+                "tactics": [
+                  "nlinarith"
+                ]
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "h2",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "(↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ) ≤ (71 : ℤ)",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) ≤ (71 : ℤ) ^ (2 : ℕ)",
+                  "truncated": false
+                }
+              },
+              "id": "hn30.hY.h2",
+              "kind": "have",
+              "name": "h2",
+              "span": {
+                "end_line": 41,
+                "start_line": 41
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [],
+                "nodes": []
+              }
+            }
+          ],
+          "claim": {
+            "printed": "reliable",
+            "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) ≤ (71 : ℤ) ^ (2 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hY",
+                "type": {
+                  "printed": "reliable",
+                  "text": "((↑m : ℤ) ^ (2 : ℕ) - (3 : ℤ) * (↑m : ℤ) + (1 : ℤ)) ^ (2 : ℕ) ≤ (71 : ℤ) ^ (2 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n ≤ (30 : ℕ)",
+              "truncated": false
+            }
+          },
+          "id": "hn30.hY",
+          "kind": "have",
+          "name": "hY",
+          "span": {
+            "end_line": 42,
+            "start_line": 38
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "((2 : ℤ) * (↑n : ℤ) - (1 : ℤ)) ^ (2 : ℕ) ≤ (41 : ℤ) ^ (2 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "automation",
+            "tactics": [
+              "nlinarith"
+            ]
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hX",
+                "type": {
+                  "printed": "reliable",
+                  "text": "((2 : ℤ) * (↑n : ℤ) - (1 : ℤ)) ^ (2 : ℕ) ≤ (41 : ℤ) ^ (2 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n ≤ (30 : ℕ)",
+              "truncated": false
+            }
+          },
+          "id": "hn30.hX",
+          "kind": "have",
+          "name": "hX",
+          "span": {
+            "end_line": 43,
+            "start_line": 43
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(4 : ℤ) ≤ (↑n : ℤ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hn'",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(4 : ℤ) ≤ (↑n : ℤ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n ≤ (30 : ℕ)",
+              "truncated": false
+            }
+          },
+          "id": "hn30.hn'",
+          "kind": "have",
+          "name": "hn'",
+          "span": {
+            "end_line": 44,
+            "start_line": 44
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "(2 : ℤ) * (↑n : ℤ) - (1 : ℤ) ≤ (41 : ℤ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "automation",
+            "tactics": [
+              "nlinarith"
+            ]
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(2 : ℤ) * (↑n : ℤ) - (1 : ℤ) ≤ (41 : ℤ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "n ≤ (30 : ℕ)",
+              "truncated": false
+            }
+          },
+          "id": "hn30.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 45,
+            "start_line": 45
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "n ≤ (30 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hn30",
+            "type": {
+              "printed": "reliable",
+              "text": "n ≤ (30 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "n = (21 : ℕ) ∧ m = (10 : ℕ)",
+          "truncated": false
+        }
+      },
+      "id": "hn30",
+      "kind": "have",
+      "name": "hn30",
+      "span": {
+        "end_line": 46,
+        "start_line": 37
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "n = (21 : ℕ) ∧ m = (10 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The Boolean value `true`, not to be confused with the proposition `True`.",
+            "name": "Bool.true",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-849"
+}

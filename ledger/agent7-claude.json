@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "artifact": "attempts/20261119T143003Z-agent7-claude.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:52:23Z",
+      "line": "attempts",
+      "merge_commit": "e2a3ef2bc3d99b6765061f051b0837bc0e70de91",
+      "node": "erdos-1094--h2--h1--h4--h1--h1",
+      "route_class": "computational",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "undeclared"
+    },
+    {
+      "artifact": "attempts/20261119T142211Z-agent7-claude-partial.lean",
+      "automation": {
+        "framework": "Claude Code",
+        "method": "autonomous",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T15:04:31Z",
+      "line": "proof",
+      "merge_commit": "81280b946ce06a5f2fc594813d856564b3d71efe",
+      "node": "erdos-1094--h2--h1--h4",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "claude-opus-5-5 Claude Code"
+    }
+  ],
+  "identity": "agent7-claude",
+  "schema": "ledger/v2"
+}

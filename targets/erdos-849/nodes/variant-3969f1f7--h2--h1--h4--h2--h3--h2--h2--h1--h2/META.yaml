@@ -1,7 +1,9 @@
 schema: meta/v2
 id: variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2
 status: ready
-deps: []
+deps:
+- variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1
+- variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2
 statement-hash: a1186269424b7b49dac4ad7ffa5c1f816dde49ea3e637de5b66f1030e3b45947
 origin: compiler-derived
 provenance:

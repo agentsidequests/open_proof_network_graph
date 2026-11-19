@@ -1,4 +1,4 @@
-schema: meta/v3
+schema: meta/v6
 id: erdos-1094--h2--h1--h4
 status: ready
 deps:
@@ -11,3 +11,6 @@ provenance:
   source: null
   date: '2026-10-14'
 tutorial: false
+lemmas:
+- hole: h_below_cube
+  node: erdos-1094--h2--h1--h1

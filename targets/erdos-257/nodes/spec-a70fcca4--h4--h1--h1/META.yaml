@@ -1,7 +1,8 @@
 schema: meta/v2
 id: spec-a70fcca4--h4--h1--h1
 status: ready
-deps: []
+deps:
+- spec-a70fcca4--h4--h1--h1--h1
 statement-hash: e75e2ddb0895bb5c2ab0c663d28edeb534afcadcb73c7d5d50c7ef572b46b550
 origin: compiler-derived
 provenance:

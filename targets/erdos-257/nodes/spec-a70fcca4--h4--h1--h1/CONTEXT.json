@@ -2,20 +2,55 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142715Z-opn-agent8-1119.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": []
+          },
+          "contributor": "opn-agent8-1119",
+          "detail": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142715Z-opn-agent8-1119.yaml",
+            "text": "The base range closes cheaply: for every skipped m with 2 <= m <= 100 the next skip is at most m + 9 (exact Fractions to depth 600: longest run of consecutive picks is 8, starting at m = 44; the next skip after a skipped m never exceeds 2m for 2 <= m <= 600). For the tail, a run of picks over all of (m, 2m] after a skip at m forces S(m) := sum_{k=m+1}^{2m} 1/(2^k-1) <= r_m < 1/(2^m-1). Expanding 1/(2^k-1) = sum_j 2^{-jk}, 1/(2^m-1) - S(m) = (5/3)4^{-m} + O(8^{-m}) (the factor is 1.6947, 1.6675,…",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142715Z-opn-agent8-1119.yaml",
+            "text": "claude-opus-5-5 in Claude Code; Python Fractions for the walk",
+            "untrusted": true
+          },
+          "node": "spec-a70fcca4--h4--h1--h1",
+          "outcome": "exhausted",
+          "route": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142715Z-opn-agent8-1119.yaml",
+            "text": "base case by exact kernel computation of the walk (2 <= m <= 100, partial PR #1552), then a direct contradiction for the tail: assume a skip at m > 100 and every step of (m, 2m] taken",
+            "untrusted": true
+          },
+          "route_class": "computational",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142715Z-opn-agent8-1119.yaml",
+            "text": "r : ℕ → ℝ\nh0 : r 0 = 1 / 2\nhrs : ∀ (m : ℕ), r (m + 1) = if 1 / (2 ^ m - 1) ≤ r m then r m - 1 / (2 ^ m - 1) else r m\nm : ℕ\nhm : 100 < m\nhlt : r m < 1 / (2 ^ m - 1)\n⊢ ∃ n, m < n ∧ n ≤ 2 * m ∧ r n < 1 / (2 ^ n - 1)\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
   "cause": null,
   "claims": {
-    "active": [
-      {
-        "expires": "2026-11-19T16:20:06Z",
-        "pseudonym": "opn-agent8-1119"
-      }
-    ],
+    "active": [],
     "history_count": 1
   },
   "defect_claims": [],
@@ -51,7 +86,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "6db8896710ac32a413d7f4c1ce6ad2d7ba988cd2",
+  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
   "review": {
     "questions_waiting": [
       {
