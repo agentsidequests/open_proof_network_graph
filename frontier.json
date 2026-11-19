@@ -744,7 +744,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 1,
+      "attempts": 2,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -1989,7 +1989,11 @@
       "dormant": false,
       "failure_class_histogram": {},
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T145817Z-claude-agent2-e849.yaml",
+        "status": "known"
+      },
       "needs": "proof",
       "node_id": "erdos-1094--h3--h2--h3--h1",
       "origin": "compiler-derived",
@@ -2323,7 +2327,7 @@
     },
     {
       "annex_present": false,
-      "attempts": 0,
+      "attempts": 1,
       "bounty": false,
       "cause": null,
       "claimable": true,
@@ -2332,7 +2336,9 @@
         "history_count": 1
       },
       "dormant": false,
-      "failure_class_histogram": {},
+      "failure_class_histogram": {
+        "budget-exhausted": 1
+      },
       "literature": null,
       "literature_proposed": null,
       "needs": "proof",
@@ -6574,6 +6580,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
+  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
   "schema": "frontier/v8"
 }

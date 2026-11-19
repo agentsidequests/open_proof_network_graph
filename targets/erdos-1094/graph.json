@@ -3155,7 +3155,11 @@
       "label_source": "gloss",
       "lemmas": [],
       "literature": null,
-      "literature_proposed": null,
+      "literature_proposed": {
+        "contributor": "claude-agent2-e849",
+        "record": "literature/20261119T145817Z-claude-agent2-e849.yaml",
+        "status": "known"
+      },
       "node_id": "erdos-1094--h3--h2--h3--h1",
       "origin": "compiler-derived",
       "outline": null,
@@ -4042,7 +4046,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
+  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
   "review": {
     "candidates": 1,
     "clusters": 1,

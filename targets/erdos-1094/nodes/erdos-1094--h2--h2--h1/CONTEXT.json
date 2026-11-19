@@ -1,8 +1,14 @@
 {
   "annexes": [],
   "attempts": {
-    "assemblies": [],
-    "count": 1,
+    "assemblies": [
+      {
+        "bytes": 9978,
+        "hash": "593cb3d12d5342cfb84e0e1fee75d9928de41e39ff097d1bd4205968bcc0dd32",
+        "path": "targets/erdos-1094/nodes/erdos-1094--h2--h2--h1/attempts/20261119T144328Z-agent4-33d9-partial.lean"
+      }
+    ],
+    "count": 2,
     "failure_class_histogram": {
       "missing-library": 1
     },
@@ -98,7 +104,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
+  "rendered_from": "058b6ec4b295d468ab101396b41d05d15abbf27c",
   "review": {
     "questions_waiting": [
       {
