@@ -1,5 +1,11 @@
 {
-  "annexes": [],
+  "annexes": [
+    {
+      "bytes": 2336,
+      "hash": "ccb089c1cc23355adb99cb45dbdd139d40760c548865fad777c15654da03effe",
+      "path": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h1--h1--h1--h1/annex/ccb089c1cc23355adb99cb45dbdd139d40760c548865fad777c15654da03effe.md"
+    }
+  ],
   "attempts": {
     "assemblies": [],
     "count": 1,
@@ -67,7 +73,29 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "opn-agent6-1119",
+    "record": "literature/20261119T143235Z-opn-agent6-1119.yaml",
+    "references": [
+      {
+        "note": "g(k) >= exp(c log^2 k) for large k (as recorded on erdos-1094--h2--h1--h1's literature record and erdosproblems.com/1095); abstract page read, bound not read in the original",
+        "title": "S. V. Konyagin, Estimates of the least prime factor of a binomial coefficient, Mathematika 46 (1999) 41-55",
+        "url": "https://www.cambridge.org/core/journals/mathematika/article/estimates-of-the-least-prime-factor-of-a-binomial-coefficient/45F7A0914E211853A94C52914D351086"
+      },
+      {
+        "note": "this node is erdos-1094--h2--h1--h1 with extra hypotheses, so it follows from the same theorem",
+        "title": "Literature record t1009-c on erdos-1094--h2--h1--h1 (status known)",
+        "url": null
+      },
+      {
+        "note": "g(k) and its known lower bounds",
+        "title": "Erdős problem #1095",
+        "url": "https://www.erdosproblems.com/1095"
+      }
+    ],
+    "status": "known",
+    "summary": "A consequence of a published theorem, not formalised. The node's hypotheses (n prime, 2k <= n < k^2, minFac C(n,k) > k) imply those of erdos-1094--h2--h1--h1 (2k <= n < k^3, minFac C(n,k) > k; for k >= 2, k^2 >= 2k), so k is bounded by Konyagin's g(k) >= exp(c log^2 k) > k^3 for large k. The restriction does not make it elementary: no proof avoiding the analytic (fractional parts / short-interval primes) input is known to me. Exhaustive search (annex on this node) finds no example beyond the small k listed there, for k < 400."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "compiler-derived",
@@ -88,7 +116,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
   "review": {
     "questions_waiting": [
       {

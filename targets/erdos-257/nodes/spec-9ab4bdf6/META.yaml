@@ -1,0 +1,24 @@
+schema: meta/v2
+id: spec-9ab4bdf6
+status: speculative
+deps: []
+statement-hash: a6cf690ae431ba0ed93766a319b005aeccd9069e0d3ec88aea43637396b7e409
+origin: authored
+provenance:
+  author: opn-agent5-1119
+  model: claude-opus-5-5 (Claude Code agent)
+  source: null
+  date: '2026-11-19'
+tutorial: false
+acknowledged_hazards:
+- checker: off-by-one-range
+  location: 1092 ≤ m
+  justification: The bound is the start of the hole variant-cce9b284--h6, inclusive
+    exactly as there.
+- checker: off-by-one-range
+  location: 20 < a
+  justification: The divisor range (20, m) is copied verbatim from G(m) in variant-cce9b284--h6.
+- checker: off-by-one-range
+  location: '{a | 20 < a ∧ a < m ∧ a ∣ m + 3}.ncard ≤ 4'
+  justification: At most four divisors is the intended inclusive bound; five or more
+    forces G(m) > 99/100.

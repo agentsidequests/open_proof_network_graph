@@ -1,5 +1,5 @@
 {
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -4891,6 +4891,130 @@
       "lean_hash": "6d7cf959dd3da487730b4e29eca0f560e6248a61f1e227c526437a27fc982e6e",
       "module": null,
       "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2/attempts/20261119T145200Z-claude-agent-9-partial.lean",
+      "kind": "partial",
+      "lean_hash": "a6742eceb639dd352c813ea14e90413aa9ad9cadb362eecaa1768db51ac5d6ec",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2/attempts/20261119T145200Z-claude-agent-9-partial.lean",
+      "kind": "partial",
+      "lean_hash": "a6742eceb639dd352c813ea14e90413aa9ad9cadb362eecaa1768db51ac5d6ec",
+      "module": "attempts/20261119T145200Z-claude-agent-9-partial.lean",
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "0f6f4453b5fe53b34162b9bf1512e755edfa4257f192b58f642db1fea0362d15",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "0f6f4453b5fe53b34162b9bf1512e755edfa4257f192b58f642db1fea0362d15"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-9",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "0f6f4453b5fe53b34162b9bf1512e755edfa4257f192b58f642db1fea0362d15",
+              "label": "Büthe's two-sided theta bound for 1427 ≤ x ≤ 10^19",
+              "lean_hash": "a803c11feafdc348c4bcf92587c20a1765173513dae85c9179fd10e6760dd6bc",
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1/gloss/0f6f4453b5fe53b34162b9bf1512e755edfa4257f192b58f642db1fea0362d15.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "a803c11feafdc348c4bcf92587c20a1765173513dae85c9179fd10e6760dd6bc",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "e892b4111c6a23b8152c0ce304dfe9a8ea86da66cd898b55c393d427b2f9cc1f",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "c00456c745019710507092100ddecf3f2a069538b565e3447e017dc07cc75397",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "c00456c745019710507092100ddecf3f2a069538b565e3447e017dc07cc75397"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent-9",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "c00456c745019710507092100ddecf3f2a069538b565e3447e017dc07cc75397",
+              "label": "a prime in (x, x + x/16597) for 2010760 ≤ x < 1100000000",
+              "lean_hash": "31edcd5d1aae1d842d35284a62b998df35599bd2ef65d5dcf2fe456c15088992",
+              "path": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2/gloss/c00456c745019710507092100ddecf3f2a069538b565e3447e017dc07cc75397.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "31edcd5d1aae1d842d35284a62b998df35599bd2ef65d5dcf2fe456c15088992",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "2891edc994391d94fef45138ec63666dae58f298c10464f75a352244228d3a26",
+      "module": null,
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2--h2",
       "record": "gloss"
     },
     {

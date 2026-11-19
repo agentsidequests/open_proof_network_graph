@@ -41,7 +41,7 @@
       "since": null
     }
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
   "schema": "targets-index/v11",
   "targets": [
     {
@@ -338,7 +338,7 @@
       "digestion": {
         "closure": 0,
         "closure_explained": 0,
-        "proved": 25,
+        "proved": 26,
         "proved_explained": 0,
         "state": null
       },
@@ -351,8 +351,8 @@
         "blocked": 0,
         "defective": 0,
         "disputed": 0,
-        "proved": 25,
-        "ready": 65,
+        "proved": 26,
+        "ready": 66,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,
@@ -753,9 +753,9 @@
         "defective": 0,
         "disputed": 0,
         "proved": 44,
-        "ready": 23,
+        "ready": 24,
         "refuted": 0,
-        "speculative": 1,
+        "speculative": 2,
         "stale": 0,
         "superseded": 1
       },
@@ -2035,7 +2035,7 @@
         "defective": 0,
         "disputed": 0,
         "proved": 13,
-        "ready": 45,
+        "ready": 47,
         "refuted": 0,
         "speculative": 0,
         "stale": 0,
@@ -2052,10 +2052,10 @@
       "registrations": [],
       "review": {
         "candidates": 3,
-        "clusters": 2,
+        "clusters": 1,
         "grade_cap": "screened-and-signed",
-        "open_pairs": 2,
-        "questions_waiting": 13,
+        "open_pairs": 0,
+        "questions_waiting": 27,
         "signers": {
           "independent": null,
           "intent": null

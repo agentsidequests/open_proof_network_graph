@@ -1,0 +1,5 @@
+import Mathlib
+
+open Nat
+
+theorem witness : ∃ (x : ℕ), (2010760 : ℕ) ≤ x ∧ x < (1100000000 : ℕ) := ⟨2010760, le_refl _, by norm_num⟩

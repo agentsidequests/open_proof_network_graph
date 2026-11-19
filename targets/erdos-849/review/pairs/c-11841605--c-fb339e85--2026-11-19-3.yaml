@@ -1,0 +1,13 @@
+schema: pair/v1
+target: erdos-849
+a: c-11841605
+b: c-fb339e85
+forward:
+  state: proved
+  exhibit: e-fb37e1f2
+  attempt: null
+backward:
+  state: proved
+  exhibit: e-306f5d31
+  attempt: null
+date: '2026-11-19'

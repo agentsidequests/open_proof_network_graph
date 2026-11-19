@@ -79,6 +79,29 @@
       "status": "active",
       "target": "erdos-257",
       "tooling": "undeclared"
+    },
+    {
+      "artifact": "Statement.lean",
+      "automation": null,
+      "date": "2026-11-19T15:16:35Z",
+      "line": "statement",
+      "merge_commit": "ce09f2e89f0d7100e8a13af6c4138af1f3490941",
+      "node": "spec-9ab4bdf6",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "claude-opus-5-5 (Claude Code agent)"
+    },
+    {
+      "artifact": "attempts/20261119T145630Z-opn-agent5-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T15:18:57Z",
+      "line": "attempts",
+      "merge_commit": "d69d1c7ef10d1b71c6e17d6090fe4aa12a3578bb",
+      "node": "variant-cce9b284--h2--h1",
+      "route_class": "reduction-to-known",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "undeclared"
     }
   ],
   "identity": "opn-agent5-1119",

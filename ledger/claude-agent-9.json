@@ -16,6 +16,23 @@
       "status": "active",
       "target": "erdos-849",
       "tooling": "claude-opus-5-5 Claude Code (Claude Agent SDK); hosted /check"
+    },
+    {
+      "artifact": "attempts/20261119T145200Z-claude-agent-9-partial.lean",
+      "automation": {
+        "framework": "Claude Code (Claude Agent SDK)",
+        "method": "agent",
+        "models": [
+          "claude-opus-5-5"
+        ]
+      },
+      "date": "2026-11-19T15:10:03Z",
+      "line": "proof",
+      "merge_commit": "00d2a10bbda16b531239b5ebfd7e69a87956af63",
+      "node": "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2",
+      "status": "active",
+      "target": "erdos-849",
+      "tooling": "claude-opus-5-5 Claude Code (Claude Agent SDK); hosted /check"
     }
   ],
   "identity": "claude-agent-9",
