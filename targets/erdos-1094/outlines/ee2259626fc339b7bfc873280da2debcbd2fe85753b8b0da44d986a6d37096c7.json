@@ -1,0 +1,821 @@
+{
+  "artifact": {
+    "hash": "ee2259626fc339b7bfc873280da2debcbd2fe85753b8b0da44d986a6d37096c7",
+    "kind": "partial",
+    "path": "attempts/20261119T145741Z-claude-agent2-e849-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h2--h3--h1",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "erdos-1094--h3--h2--h3--h1--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (c : ℕ) (K : ℕ),\n  ∀ (k : ℕ),\n    K < k →\n      ∃ (S : Finset ℕ),\n        (∀ p ∈ S, Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)) ∧\n          k ^ (3 : ℕ) < (16 : ℕ) * ((S.card - (1 : ℕ)) * ((2 : ℕ) * (c * Nat.log (2 : ℕ) k) + (1 : ℕ))) ^ (4 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_ingham",
+            "type": {
+              "printed": "reliable",
+              "text": "∃ (c : ℕ) (K : ℕ),\n  ∀ (k : ℕ),\n    K < k →\n      ∃ (S : Finset ℕ),\n        (∀ p ∈ S, Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)) ∧\n          k ^ (3 : ℕ) < (16 : ℕ) * ((S.card - (1 : ℕ)) * ((2 : ℕ) * (c * Nat.log (2 : ℕ) k) + (1 : ℕ))) ^ (4 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (c : ℕ) (K : ℕ),\n  ∀ (k : ℕ),\n    K < k →\n      ∃ (p : ℕ) (q : ℕ),\n        Nat.Prime p ∧\n          Nat.Prime q ∧\n            k < (2 : ℕ) * p ∧\n              p < q ∧ (16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ) ∧ q - p ≤ c * Nat.log (2 : ℕ) k",
+          "truncated": false
+        }
+      },
+      "id": "h_ingham",
+      "kind": "hole",
+      "name": "h_ingham",
+      "span": {
+        "end_line": 61,
+        "start_line": 59
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Finset α` is the type of finite sets of elements of `α`.",
+            "name": "Finset",
+            "tags": []
+          },
+          {
+            "doc": "`log b n`, is the logarithm of natural number `n` in base `b`.",
+            "name": "Nat.log",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (c : ℕ) (K : ℕ),\n  ∀ (k : ℕ),\n    K < k →\n      ∃ (S : Finset ℕ),\n        (∀ p ∈ S, Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)) ∧\n          k ^ (3 : ℕ) < (16 : ℕ) * ((S.card - (1 : ℕ)) * ((2 : ℕ) * (c * Nat.log (2 : ℕ) k) + (1 : ℕ))) ^ (4 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "c",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "K",
+            "type": {
+              "printed": "reliable",
+              "text": "ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hK",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (k : ℕ),\n  K < k →\n    ∃ (S : Finset ℕ),\n      (∀ p ∈ S, Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)) ∧\n        k ^ (3 : ℕ) < (16 : ℕ) * ((S.card - (1 : ℕ)) * ((2 : ℕ) * (c * Nat.log (2 : ℕ) k) + (1 : ℕ))) ^ (4 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (c : ℕ) (K : ℕ),\n  ∀ (k : ℕ),\n    K < k →\n      ∃ (p : ℕ) (q : ℕ),\n        Nat.Prime p ∧\n          Nat.Prime q ∧\n            k < (2 : ℕ) * p ∧\n              p < q ∧ (16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ) ∧ q - p ≤ c * Nat.log (2 : ℕ) k",
+          "truncated": false
+        }
+      },
+      "id": "s2",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 62,
+        "start_line": 62
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (S : Finset ℕ),\n  (∀ p ∈ S, Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)) ∧\n    k ^ (3 : ℕ) < (16 : ℕ) * ((S.card - (1 : ℕ)) * ((2 : ℕ) * (c * Nat.log (2 : ℕ) k) + (1 : ℕ))) ^ (4 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "S",
+            "type": {
+              "printed": "reliable",
+              "text": "Finset ℕ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hS",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ p ∈ S, Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hcount",
+            "type": {
+              "printed": "reliable",
+              "text": "k ^ (3 : ℕ) < (16 : ℕ) * ((S.card - (1 : ℕ)) * ((2 : ℕ) * (c * Nat.log (2 : ℕ) k) + (1 : ℕ))) ^ (4 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (p : ℕ) (q : ℕ),\n  Nat.Prime p ∧\n    Nat.Prime q ∧\n      k < (2 : ℕ) * p ∧ p < q ∧ (16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ) ∧ q - p ≤ c * Nat.log (2 : ℕ) k",
+          "truncated": false
+        }
+      },
+      "id": "s3",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 65,
+        "start_line": 65
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(16 : ℕ) * M ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hMspec",
+            "type": {
+              "printed": "reliable",
+              "text": "(16 : ℕ) * M ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (p : ℕ) (q : ℕ),\n  Nat.Prime p ∧ Nat.Prime q ∧ k < (2 : ℕ) * p ∧ p < q ∧ (16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ) ∧ q - p ≤ g",
+          "truncated": false
+        }
+      },
+      "id": "hMspec",
+      "kind": "have",
+      "name": "hMspec",
+      "span": {
+        "end_line": 69,
+        "start_line": 68
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Nat.findGreatest_spec",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Nat.zero_le",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "left✝",
+                "type": {
+                  "printed": "reliable",
+                  "text": "Nat.Prime p",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h1",
+                "type": {
+                  "printed": "reliable",
+                  "text": "k < (2 : ℕ) * p",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h2",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "k < (2 : ℕ) * p ∧ (2 : ℕ) * p - k ≤ M",
+              "truncated": false
+            }
+          },
+          "id": "hle.s1",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 72,
+            "start_line": 72
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "k ^ (4 : ℕ) < ((2 : ℕ) * p - k) ^ (4 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "k ^ (4 : ℕ) < ((2 : ℕ) * p - k) ^ (4 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "hle.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 76,
+            "start_line": 76
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Nat.pow_lt_pow_left",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "k ^ (3 : ℕ) ≤ k ^ (4 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "h5",
+                "type": {
+                  "printed": "reliable",
+                  "text": "k ^ (3 : ℕ) ≤ k ^ (4 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "hle.h5",
+          "kind": "have",
+          "name": "h5",
+          "span": {
+            "end_line": 77,
+            "start_line": 77
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "Nat.pow_le_pow_right",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ p ∈ S, k < (2 : ℕ) * p ∧ (2 : ℕ) * p - k ≤ M",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hle",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ p ∈ S, k < (2 : ℕ) * p ∧ (2 : ℕ) * p - k ≤ M",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (p : ℕ) (q : ℕ),\n  Nat.Prime p ∧ Nat.Prime q ∧ k < (2 : ℕ) * p ∧ p < q ∧ (16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ) ∧ q - p ≤ g",
+          "truncated": false
+        }
+      },
+      "id": "hle",
+      "kind": "have",
+      "name": "hle",
+      "span": {
+        "end_line": 78,
+        "start_line": 70
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Nat.le_findGreatest",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "Nat.Prime p ∧ k < (2 : ℕ) * p ∧ (16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hpP",
+                "type": {
+                  "printed": "reliable",
+                  "text": "Nat.Prime p",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h1",
+                "type": {
+                  "printed": "reliable",
+                  "text": "k < (2 : ℕ) * p",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "right✝",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(16 : ℕ) * ((2 : ℕ) * p - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "hsep.s1",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 85,
+            "start_line": 85
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "Nat.Prime q ∧ k < (2 : ℕ) * q ∧ (16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "hqP",
+                "type": {
+                  "printed": "reliable",
+                  "text": "Nat.Prime q",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "left✝",
+                "type": {
+                  "printed": "reliable",
+                  "text": "k < (2 : ℕ) * q",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "h2",
+                "type": {
+                  "printed": "reliable",
+                  "text": "(16 : ℕ) * ((2 : ℕ) * q - k) ^ (4 : ℕ) ≤ k ^ (3 : ℕ)",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "False",
+              "truncated": false
+            }
+          },
+          "id": "hsep.s2",
+          "kind": "obtain",
+          "name": null,
+          "span": {
+            "end_line": 86,
+            "start_line": 86
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [],
+          "claim": {
+            "printed": "reliable",
+            "text": "g < q - p",
+            "truncated": false
+          },
+          "closed_by": {
+            "kind": "term",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "this",
+                "type": {
+                  "printed": "reliable",
+                  "text": "g < q - p",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "¬q - p ≤ g",
+              "truncated": false
+            }
+          },
+          "id": "hsep.this",
+          "kind": "have",
+          "name": "this",
+          "span": {
+            "end_line": 87,
+            "start_line": 87
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ p ∈ S, ∀ q ∈ S, p < q → g < q - p",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hsep",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ p ∈ S, ∀ q ∈ S, p < q → g < q - p",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "False",
+          "truncated": false
+        }
+      },
+      "id": "hsep",
+      "kind": "have",
+      "name": "hsep",
+      "span": {
+        "end_line": 87,
+        "start_line": 81
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "Anything follows from two contradictory hypotheses.",
+            "name": "absurd",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(S.card - (1 : ℕ)) * ((2 : ℕ) * g + (1 : ℕ)) ≤ M - (1 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hcard",
+            "type": {
+              "printed": "reliable",
+              "text": "(S.card - (1 : ℕ)) * ((2 : ℕ) * g + (1 : ℕ)) ≤ M - (1 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "False",
+          "truncated": false
+        }
+      },
+      "id": "hcard",
+      "kind": "have",
+      "name": "hcard",
+      "span": {
+        "end_line": 88,
+        "start_line": 88
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "(S.card - (1 : ℕ)) * ((2 : ℕ) * g + (1 : ℕ)) ≤ M",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h6",
+            "type": {
+              "printed": "reliable",
+              "text": "(S.card - (1 : ℕ)) * ((2 : ℕ) * g + (1 : ℕ)) ≤ M",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "False",
+          "truncated": false
+        }
+      },
+      "id": "h6",
+      "kind": "have",
+      "name": "h6",
+      "span": {
+        "end_line": 89,
+        "start_line": 89
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The relation `≤` on a preorder is transitive.",
+            "name": "le_trans",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Nat.sub_le",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "((S.card - (1 : ℕ)) * ((2 : ℕ) * g + (1 : ℕ))) ^ (4 : ℕ) ≤ M ^ (4 : ℕ)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h7",
+            "type": {
+              "printed": "reliable",
+              "text": "((S.card - (1 : ℕ)) * ((2 : ℕ) * g + (1 : ℕ))) ^ (4 : ℕ) ≤ M ^ (4 : ℕ)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "False",
+          "truncated": false
+        }
+      },
+      "id": "h7",
+      "kind": "have",
+      "name": "h7",
+      "span": {
+        "end_line": 90,
+        "start_line": 90
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "Nat.pow_le_pow_left",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "False",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "automation",
+        "tactics": [
+          "omega"
+        ]
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 91,
+        "start_line": 91
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}
