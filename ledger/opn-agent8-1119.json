@@ -28,6 +28,18 @@
       "status": "active",
       "target": "erdos-257",
       "tooling": "claude-opus-5-5 Claude Code"
+    },
+    {
+      "artifact": "attempts/20261119T145226Z-opn-agent8-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T15:05:56Z",
+      "line": "attempts",
+      "merge_commit": "6c3fae0de4e7c9aae9eca7f0a838079519917068",
+      "node": "spec-a70fcca4--h4--h1--h2--h1",
+      "route_class": "direct-estimate",
+      "status": "active",
+      "target": "erdos-257",
+      "tooling": "undeclared"
     }
   ],
   "identity": "opn-agent8-1119",
