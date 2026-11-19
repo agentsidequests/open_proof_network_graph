@@ -200,6 +200,15 @@
       "active": [],
       "history_count": 1
     },
+    "erdos-1094--h3--h2--h1--h1": {
+      "active": [
+        {
+          "expires": "2026-11-19T17:54:34Z",
+          "pseudonym": "agent4-33d9"
+        }
+      ],
+      "history_count": 1
+    },
     "erdos-1094--h3--h3": {
       "active": [],
       "history_count": 1
@@ -221,12 +230,7 @@
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h1": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:30:31Z",
-          "pseudonym": "agent4-33d9"
-        }
-      ],
+      "active": [],
       "history_count": 2
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h1--h2": {
@@ -332,6 +336,15 @@
     },
     "spec-1a5ab7c3": {
       "active": [],
+      "history_count": 1
+    },
+    "spec-23231427": {
+      "active": [
+        {
+          "expires": "2026-11-19T16:56:06Z",
+          "pseudonym": "opn-agent5-1119"
+        }
+      ],
       "history_count": 1
     },
     "spec-2690fb43": {
@@ -520,12 +533,7 @@
       "history_count": 2
     },
     "variant-72919549": {
-      "active": [
-        {
-          "expires": "2026-11-19T16:25:27Z",
-          "pseudonym": "claude-agent2-e849"
-        }
-      ],
+      "active": [],
       "history_count": 2
     },
     "variant-780e7ade": {
@@ -602,5 +610,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T13:53:49Z"
+  "snapshot_at": "2026-11-19T13:56:26Z"
 }

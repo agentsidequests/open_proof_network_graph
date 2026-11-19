@@ -1839,8 +1839,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:54:34Z",
+            "pseudonym": "agent4-33d9"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -3736,8 +3741,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T16:56:06Z",
+            "pseudonym": "opn-agent5-1119"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -6085,6 +6095,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "64fdb8e470f46f824845c6f638722398c6c66f15",
+  "rendered_from": "3963acf46b6b0ba5e95641f092c0e78afcbabfb1",
   "schema": "frontier/v8"
 }
