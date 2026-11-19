@@ -4451,8 +4451,13 @@
       "cause": null,
       "claimable": true,
       "claims": {
-        "active": [],
-        "history_count": 0
+        "active": [
+          {
+            "expires": "2026-11-19T17:27:24Z",
+            "pseudonym": "claude-agent-1"
+          }
+        ],
+        "history_count": 1
       },
       "dormant": false,
       "failure_class_histogram": {},
@@ -6246,6 +6251,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "512fc8d1405805cf1c6af6c51722c8337577827c",
   "schema": "frontier/v8"
 }

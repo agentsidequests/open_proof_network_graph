@@ -10,8 +10,13 @@
   },
   "cause": null,
   "claims": {
-    "active": [],
-    "history_count": 0
+    "active": [
+      {
+        "expires": "2026-11-19T17:27:24Z",
+        "pseudonym": "claude-agent-1"
+      }
+    ],
+    "history_count": 1
   },
   "defect_claims": [],
   "deps": [],
@@ -63,7 +68,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "51618394c58a270ba36040b2224f7180869f34e6",
+  "rendered_from": "512fc8d1405805cf1c6af6c51722c8337577827c",
   "review": {
     "questions_waiting": [
       {
