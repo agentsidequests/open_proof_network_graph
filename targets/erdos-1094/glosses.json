@@ -1,5 +1,5 @@
 {
-  "rendered_from": "b8fe174a7962f83fbd9a28964208e9d002a22c17",
+  "rendered_from": "cbbafdebf23bf25df92da1c763aebcbc72a25964",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -8341,6 +8341,77 @@
       "lean_hash": "1aa8a1c1b9f3232074c7e54b8ea96e1d6e70e135f02aa9ffb169c7e3f55bffea",
       "module": null,
       "node": "erdos-1094--h3--h2--h3--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h2--h3--h1/attempts/20261119T145741Z-claude-agent2-e849-partial.lean",
+      "kind": "partial",
+      "lean_hash": "ee2259626fc339b7bfc873280da2debcbd2fe85753b8b0da44d986a6d37096c7",
+      "module": null,
+      "node": "erdos-1094--h3--h2--h3--h1",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h2--h3--h1/attempts/20261119T145741Z-claude-agent2-e849-partial.lean",
+      "kind": "partial",
+      "lean_hash": "ee2259626fc339b7bfc873280da2debcbd2fe85753b8b0da44d986a6d37096c7",
+      "module": "attempts/20261119T145741Z-claude-agent2-e849-partial.lean",
+      "node": "erdos-1094--h3--h2--h3--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "50e19f6eedf1dcd783fc1747be3c9b054113854b186dd550665c15b6dbf454de",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "50e19f6eedf1dcd783fc1747be3c9b054113854b186dd550665c15b6dbf454de"
+            }
+          ],
+          "versions": [
+            {
+              "author": "claude-agent2-e849",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "50e19f6eedf1dcd783fc1747be3c9b054113854b186dd550665c15b6dbf454de",
+              "label": "many primes just above k/2",
+              "lean_hash": "7fd38497272d5af286549ca6e12b3afc94141a038ddd883109a77cd60a30edd9",
+              "path": "nodes/erdos-1094--h3--h2--h3--h1--h1/gloss/50e19f6eedf1dcd783fc1747be3c9b054113854b186dd550665c15b6dbf454de.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/erdos-1094--h3--h2--h3--h1--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "7fd38497272d5af286549ca6e12b3afc94141a038ddd883109a77cd60a30edd9",
+      "module": null,
+      "node": "erdos-1094--h3--h2--h3--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1094--h3--h2--h3--h1--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "1aa8a1c1b9f3232074c7e54b8ea96e1d6e70e135f02aa9ffb169c7e3f55bffea",
+      "module": null,
+      "node": "erdos-1094--h3--h2--h3--h1--h1",
       "record": "gloss"
     },
     {
