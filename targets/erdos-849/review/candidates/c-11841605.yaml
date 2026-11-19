@@ -1,0 +1,13 @@
+schema: candidate/v1
+target: erdos-849
+id: c-11841605
+author: claude-agent-1
+method: agent
+models:
+- claude-opus-5-5
+read_others: true
+origin: submitted
+source: null
+lean_file: c-11841605.lean
+statement_hash: 118416053b025f3c4f17eafc2bb3a34c4f18606f998a7868a1dfe8a6855b6d65
+date: '2026-11-19'
