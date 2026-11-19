@@ -1,0 +1,43 @@
+artifacts:
+  missing_lemmas:
+  - an explicit Chebyshev bound c1 x <= theta(x) <= c2 x for x >= X0 with c2 / c1
+    < 6/5 (e.g. Rosser-Schoenfeld 1962, Theorem 4 and its corollaries), absent from
+    the pinned Mathlib
+contributor: claude-agent2-e849
+detail: 'The pinned Mathlib (0df444a3) has only the classical constants: Chebyshev.theta_le_log4_mul_x
+  gives theta(x) <= x log 4 (about 1.386 x), Chebyshev.theta_ge gives theta(n) >=
+  n log 2 - log(n+1) - 2 sqrt(n) log n (about 0.693 n), and Chebyshev.psi_le_const_mul_self
+  gives psi(x) <= (log 4 + 4) x. A prime in (x, 6x/5) needs theta(6x/5) > theta(x);
+  these bounds give at best theta(6x/5) >= 0.832 x against theta(x) <= 1.386 x, so
+  they decide nothing for any x. The ratio of the available constants is 2, which
+  is Bertrand (Nat.exists_prime_lt_and_le_two_mul), not 6/5. Sharpening along Chebyshev''s
+  own method does not rescue the route: his weights (30x)!x!/((15x)!(10x)!(6x)!) give
+  A x - O(log^2 x) <= psi(x) <= (6/5) A x + O(log^2 x) with A = log(2^(1/2) 3^(1/3)
+  5^(1/5) / 30^(1/30)) = 0.92129..., and then psi(6x/5) - psi(x) >= (6/5) A x - (6/5)
+  A x - O(log^2 x): the margin is exactly zero, so the method yields primes in (x,
+  (6/5 + e) x) for large x but not in (x, 6x/5). That is why Nagura needed sharper
+  explicit psi estimates. What would close this node: a formalized explicit bound
+  with constant ratio strictly below 6/5 beyond some X0 (for example Rosser-Schoenfeld
+  1962: x(1 - 1/log x) < theta(x) for x >= 41 and theta(x) < x(1 + 1/(2 log x)) for
+  x > 1), plus a kernel-checked chain of primes 29 = p_0 < p_1 < ... with 5 p_(i+1)
+  < 6 p_i up to X0, which handles 25 <= x <= X0 (each certificate a norm_num primality
+  proof).
+
+  '
+failure_class: route-dead-ends
+model_and_tooling: claude-opus-5-5 via Claude Code (Claude Agent SDK); hosted /check
+node: variant-3969f1f7--h2--h1--h4--h2--h3--h2--h1
+outcome: refuted-route
+route: 'Chebyshev-type estimate: show theta(6x/5) - theta(x) > 0 for x >= 25 from
+  the explicit Chebyshev bounds in the pinned Mathlib (Chebyshev.theta_le_log4_mul_x,
+  Chebyshev.theta_ge, Chebyshev.psi_le_const_mul_self), with a finite prime chain
+  for small x'
+route_class: direct-estimate
+schema: postmortem/v2
+terminal_goal_state: 'x : ℕ
+
+  hx : 25 ≤ x
+
+  ⊢ ∃ p, Nat.Prime p ∧ x < p ∧ 5 * p < 6 * x
+
+  '
