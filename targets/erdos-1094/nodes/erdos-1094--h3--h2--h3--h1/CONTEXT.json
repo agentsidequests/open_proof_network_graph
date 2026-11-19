@@ -25,7 +25,24 @@
   },
   "lemmas": [],
   "literature": null,
-  "literature_proposed": null,
+  "literature_proposed": {
+    "contributor": "claude-agent2-e849",
+    "record": "literature/20261119T145817Z-claude-agent2-e849.yaml",
+    "references": [
+      {
+        "note": "pi(x + x^theta) - pi(x) ~ x^theta / log x for theta > 5/8; with x = k/2 and an interval of length k^(3/4)/4 this gives many primes, and a pigeonhole gives two within O(log k)",
+        "title": "A. E. Ingham, On the difference between consecutive primes, Quart. J. Math. Oxford 8 (1937) 255-266",
+        "url": "https://doi.org/10.1093/qmath/os-8.1.255"
+      },
+      {
+        "note": "Proof of Theorem 1 uses exactly this pair of close primes above k/2",
+        "title": "P. Erdős, C. B. Lacampagne and J. L. Selfridge, Estimates of the least prime factor of a binomial coefficient, Math. Comp. 61 (1993) 215-224",
+        "url": "https://www.ams.org/mcom/1993-61-203/S0025-5718-1993-1199990-6/"
+      }
+    ],
+    "status": "known",
+    "summary": "Two primes p < q with k/2 < p, 2q - k <= k^(3/4)/2 and q - p <= c log2 k exist for all large k: Ingham's asymptotic for primes in (x, x + x^theta], theta > 5/8, gives about k^(3/4)/(4 log k) primes in the interval, and the pigeonhole principle gives two of them within O(log k). Published, not formalized; Mathlib has no short-interval prime count."
+  },
   "meta": {
     "acknowledged_hazards": [],
     "origin": "compiler-derived",
@@ -46,7 +63,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "3b5fd1a82a5af381880b9967701725a14de00404",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "review": {
     "questions_waiting": [
       {
