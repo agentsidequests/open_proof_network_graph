@@ -45,12 +45,7 @@
   },
   "cause": null,
   "claims": {
-    "active": [
-      {
-        "expires": "2026-11-19T16:40:25Z",
-        "pseudonym": "agent4-33d9"
-      }
-    ],
+    "active": [],
     "history_count": 1
   },
   "defect_claims": [],
@@ -103,7 +98,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "review": {
     "questions_waiting": [
       {

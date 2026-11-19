@@ -1,0 +1,186 @@
+{
+  "artifact": {
+    "hash": "b185f42435cfb6a608299b89892d087eb22d1ad895c7b9e1920a65a3fbb86b81",
+    "kind": "proof",
+    "path": "Proof.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∫ (x : ℝ) in Real.exp '' Set.univ, ψ x = ∫ (x : ℝ) in Set.univ, |Real.exp x| • ψ (Real.exp x)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h1",
+            "type": {
+              "printed": "reliable",
+              "text": "∫ (x : ℝ) in Real.exp '' Set.univ, ψ x = ∫ (x : ℝ) in Set.univ, |Real.exp x| • ψ (Real.exp x)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∫ (u : ℝ), Real.exp u * ψ (Real.exp u) = ∫ (x : ℝ), ψ x",
+          "truncated": false
+        }
+      },
+      "id": "h1",
+      "kind": "have",
+      "name": "h1",
+      "span": {
+        "end_line": 13,
+        "start_line": 11
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "Change of variable formula for differentiable functions (one-variable version): if a function `f` is injective and differentiable on a measurable set `s ⊆ ℝ`, then the Bochner integral of a function `g : ℝ → F` on `f '' s` coincides with the integral of `|(f' x)| • g ∘ f` on `s`.",
+            "name": "MeasureTheory.integral_image_eq_integral_abs_deriv_smul",
+            "tags": []
+          },
+          {
+            "doc": "The universal set on a type `α` is the set containing all elements of `α`.",
+            "name": "Set.univ",
+            "tags": []
+          },
+          {
+            "doc": "The real exponential function, defined as the real part of the complex exponential",
+            "name": "Real.exp",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "MeasurableSet.univ",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Real.hasDerivAt_exp",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Real.exp_injective",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∫ (x : ℝ) in Set.Ioi (0 : ℝ), ψ x = ∫ (x : ℝ), ψ x",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h2",
+            "type": {
+              "printed": "reliable",
+              "text": "∫ (x : ℝ) in Set.Ioi (0 : ℝ), ψ x = ∫ (x : ℝ), ψ x",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∫ (u : ℝ), Real.exp u * ψ (Real.exp u) = ∫ (x : ℝ), ψ x",
+          "truncated": false
+        }
+      },
+      "id": "h2",
+      "kind": "have",
+      "name": "h2",
+      "span": {
+        "end_line": 19,
+        "start_line": 15
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": "If a function vanishes on `sᶜ`, then its integral on `s` coincides with its integral on the whole space.",
+            "name": "MeasureTheory.setIntegral_eq_integral_of_forall_compl_eq_zero",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Function.mem_support",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∫ (u : ℝ), Real.exp u * ψ (Real.exp u) = ∫ (x : ℝ), ψ x",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 23,
+        "start_line": 20
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": null,
+            "name": "MeasureTheory.integral_congr_ae",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "abs_of_pos",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Real.exp_pos",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}

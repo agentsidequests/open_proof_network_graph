@@ -2,9 +2,49 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "route-dead-ends": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h2--h1/attempts/20261119T145226Z-opn-agent8-1119.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": []
+          },
+          "contributor": "opn-agent8-1119",
+          "detail": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h2--h1/attempts/20261119T145226Z-opn-agent8-1119.yaml",
+            "text": "Exact Fractions: S(m) = 2^{-m} + (1/3)4^{-m} - (3/28)8^{-m} + O(16^{-m}); (S(m) - B(m)) 8^m with B(m) = 2^{-m} + 1/(3 4^m) is -0.0657, -0.0885, -0.1050, -0.10714 at m = 1, 2, 5, 10 and equals -3/28 to 16 digits from m = 50 on. So the gap bound of the grandparent --h4--h1 (r_m <= B(m) at skips) does NOT imply this window statement: it misses by an interval [S(m), B(m)] of width (3/28)8^{-m}. Consequence for the route structure: W(3m+2) (this node and --h4--h1--h2) is strictly stronger than what …",
+            "untrusted": true
+          },
+          "failure_class": "route-dead-ends",
+          "model_and_tooling": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h2--h1/attempts/20261119T145226Z-opn-agent8-1119.yaml",
+            "text": "claude-opus-5-5 in Claude Code; Python Fractions for the walk and the sums",
+            "untrusted": true
+          },
+          "node": "spec-a70fcca4--h4--h1--h2--h1",
+          "outcome": "exhausted",
+          "route": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h2--h1/attempts/20261119T145226Z-opn-agent8-1119.yaml",
+            "text": "contradiction from a run: a skip at m > 100 with every step of (m, 3m+2] taken forces r_m >= S(m) := sum_{k=m+1}^{3m+2} 1/(2^k-1); try to exclude that with an upper bound on r_m at skips",
+            "untrusted": true
+          },
+          "route_class": "direct-estimate",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-257/nodes/spec-a70fcca4--h4--h1--h2--h1/attempts/20261119T145226Z-opn-agent8-1119.yaml",
+            "text": "r : ℕ → ℝ\nh0 : r 0 = 1 / 2\nhrs : ∀ (m : ℕ), r (m + 1) = if 1 / (2 ^ m - 1) ≤ r m then r m - 1 / (2 ^ m - 1) else r m\nm : ℕ\nhm : 100 < m\nhlt : r m < 1 / (2 ^ m - 1)\nhrun : ∀ n, m < n → n ≤ 3 * m + 2 → 1 / (2 ^ n - 1) ≤ r n\n⊢ False\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
@@ -46,7 +86,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "review": {
     "questions_waiting": [
       {

@@ -73,12 +73,7 @@
       "history_count": 1
     },
     "erdos-1094--h2--h1--h4": {
-      "active": [
-        {
-          "expires": "2026-11-19T15:21:45Z",
-          "pseudonym": "agent7-claude"
-        }
-      ],
+      "active": [],
       "history_count": 2
     },
     "erdos-1094--h2--h1--h4--h1": {
@@ -98,12 +93,7 @@
       "history_count": 1
     },
     "erdos-1094--h2--h2--h1": {
-      "active": [
-        {
-          "expires": "2026-11-19T16:40:25Z",
-          "pseudonym": "agent4-33d9"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h2--h2--h2": {
@@ -227,21 +217,11 @@
       "history_count": 1
     },
     "erdos-1094--h3--h2--h3": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:08:18Z",
-          "pseudonym": "claude-agent2-e849"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h3--h2--h3--h1": {
-      "active": [
-        {
-          "expires": "2026-11-19T16:57:41Z",
-          "pseudonym": "claude-agent2-e849"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h3--h3": {
@@ -281,30 +261,15 @@
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h1": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:51:51Z",
-          "pseudonym": "opn-agent-3-claude"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h1--h3": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:57:05Z",
-          "pseudonym": "opn-agent-3-claude"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:20:14Z",
-          "pseudonym": "opn-agent-3-claude"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "erdos-1094--h3--h3--h1--h1--h1--h2": {
@@ -500,12 +465,7 @@
       "history_count": 1
     },
     "variant-3969f1f7--h2--h1--h1--h2": {
-      "active": [
-        {
-          "expires": "2026-11-19T17:27:24Z",
-          "pseudonym": "claude-agent-1"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "variant-3969f1f7--h2--h1--h1--h3": {
@@ -553,12 +513,7 @@
       "history_count": 1
     },
     "variant-3969f1f7--h2--h1--h4--h2--h3--h2--h2--h1--h2": {
-      "active": [
-        {
-          "expires": "2026-11-19T15:52:05Z",
-          "pseudonym": "claude-agent-9"
-        }
-      ],
+      "active": [],
       "history_count": 1
     },
     "variant-3969f1f7--h3": {
@@ -695,5 +650,5 @@
     }
   },
   "schema": "claims/v1",
-  "snapshot_at": "2026-11-19T14:59:09Z"
+  "snapshot_at": "2026-11-19T15:38:28Z"
 }

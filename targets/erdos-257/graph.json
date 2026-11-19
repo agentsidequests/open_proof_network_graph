@@ -751,6 +751,33 @@
     },
     {
       "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "spec-9ab4bdf6",
+      "label_source": "id",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "spec-9ab4bdf6",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": "variant-cce9b284--h6",
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "a6cf690ae431ba0ed93766a319b005aeccd9069e0d3ec88aea43637396b7e409",
+      "status": "speculative",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
       "claim": "\\exists\\, A \\subseteq \\mathbb{N}\\ \\text{infinite}:\\qquad \\sum_{n\\in A}\\frac{1}{2^n-1} \\;=\\; \\frac12 .",
       "closure": null,
       "decompositions": [
@@ -1030,9 +1057,23 @@
       "cause": null,
       "claim": "m \\ge 2 \\ \\wedge\\ r_m < \\frac{1}{2^m-1} \\ \\Longrightarrow\\ \\exists n,\\ m < n \\le 2m \\ \\wedge\\ r_n < \\frac{1}{2^n-1}",
       "closure": null,
-      "decompositions": [],
+      "decompositions": [
+        {
+          "annex": null,
+          "approach": "the run statement W(2m) is decided exactly for every skipped m with 2 ≤ m ≤ 100 by computing the greedy walk of 1/2 to step 101 in the kernel (one `norm_num` per step); what remains is the same statement for m > 100",
+          "holes": [
+            {
+              "name": "htail",
+              "node": "spec-a70fcca4--h4--h1--h1--h1"
+            }
+          ],
+          "partial": "attempts/20261119T142057Z-opn-agent8-1119-partial.lean"
+        }
+      ],
       "defect_claims": [],
-      "deps": [],
+      "deps": [
+        "spec-a70fcca4--h4--h1--h1--h1"
+      ],
       "label": "after a skipped m >= 2, another skip within (m, 2m]",
       "label_source": "gloss",
       "lemmas": [],
@@ -1048,6 +1089,33 @@
       "relevance": null,
       "shelved": null,
       "statement_hash": "e75e2ddb0895bb5c2ab0c663d28edeb534afcadcb73c7d5d50c7ef572b46b550",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    },
+    {
+      "cause": null,
+      "claim": "m > 100 \\wedge r_m < \\frac{1}{2^m-1} \\Rightarrow \\exists n,\\ m < n \\le 2m \\wedge r_n < \\frac{1}{2^n-1}",
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "after a skipped m > 100, another skip within (m, 2m]",
+      "label_source": "gloss",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "spec-a70fcca4--h4--h1--h1--h1",
+      "origin": "compiler-derived",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "8914005ef8092cae2de4b16e8e7abf5bdc309d8e490c432d653c3342a901517e",
       "status": "ready",
       "trust_base": null,
       "tutorial": false,
@@ -3023,7 +3091,7 @@
   ],
   "open_pairs": [],
   "registrations": [],
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "review": {
     "candidates": 1,
     "clusters": 1,

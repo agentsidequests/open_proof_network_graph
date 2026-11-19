@@ -99,7 +99,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "review": {
     "questions_waiting": [
       {
@@ -123,8 +123,64 @@
         "question": "A variant of the statement agrees with it on every small case checked. Is there a case on which the conjecture and this variant should differ?"
       },
       {
+        "id": "q-14",
+        "question": "The statement with one change, ≤ → < (a relation change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-15",
+        "question": "The statement with one change, ≤ → < (a relation change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-16",
+        "question": "The statement with one change, ≤ → < (a relation change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-17",
+        "question": "The statement with one change, ∧ → ∨ (a connective change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-18",
+        "question": "The statement with one change, ∧ → ∨ (a connective change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-19",
+        "question": "The statement with one change, ∀ → ∃ (a quantifier change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
         "id": "q-2",
         "question": "A variant of the statement agrees with it on every small case checked. Is there a case on which the conjecture and this variant should differ?"
+      },
+      {
+        "id": "q-20",
+        "question": "The statement with one change, ∃ → ∀ (a quantifier change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-21",
+        "question": "The statement with one change, 1 → 0 (a constant change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-22",
+        "question": "The statement with one change, 1 → 2 (a constant change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-23",
+        "question": "The statement with one change, 1 → 0 (a constant change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-24",
+        "question": "The statement with one change, 1 → 2 (a constant change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-25",
+        "question": "The statement with one change, 2 → 1 (a constant change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-26",
+        "question": "The statement with one change, 2 → 3 (a constant change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
+      },
+      {
+        "id": "q-27",
+        "question": "The statement with one change, `1 ≤ t →` dropped (a hypothesis change), is a variant the tests cannot catch: no small case can tell the two apart, since the claim is a closed proposition. Does the change alter what the conjecture says?"
       },
       {
         "id": "q-3",

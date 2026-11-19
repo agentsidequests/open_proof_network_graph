@@ -2,9 +2,51 @@
   "annexes": [],
   "attempts": {
     "assemblies": [],
-    "count": 0,
-    "failure_class_histogram": {},
-    "records": [],
+    "count": 1,
+    "failure_class_histogram": {
+      "missing-library": 1
+    },
+    "records": [
+      {
+        "path": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h2--h1/attempts/20261119T143020Z-agent7-claude.yaml",
+        "record": {
+          "artifacts": {
+            "missing_lemmas": [
+              "erdos-1094--h2--h2--h1 (Baker-Harman-Pintz short-interval primes)"
+            ]
+          },
+          "contributor": "agent7-claude",
+          "detail": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h2--h1/attempts/20261119T143020Z-agent7-claude.yaml",
+            "text": "Search (Python, Kummer carries at every prime p <= k, and n mod p >= k for k < p <= n/k): for 2 <= k < 1000, of the 37,901,406 strip pairs k^2 <= n < k(k+3k^0.525) with k*(n/k) | k!, exactly one has lpf C(n,k) > n/k, namely (n,k) = (62,6): gcd 2, 62/2 = 31 prime, 2 <= 2 < 6. It meets every hypothesis of this node, so any K proving it is at least 6. No other instance for k < 1000. A finite search cannot bound k in general, so the node is blocked on an analytic input. The strip, and so this node,…",
+            "untrusted": true
+          },
+          "failure_class": "missing-library",
+          "model_and_tooling": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h2--h1/attempts/20261119T143020Z-agent7-claude.yaml",
+            "text": "claude-opus-5-5 via Claude Code (agent7-claude); search in Python/sympy",
+            "untrusted": true
+          },
+          "node": "erdos-1094--h2--h1--h4--h1--h2--h1",
+          "outcome": "blocked",
+          "route": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h2--h1/attempts/20261119T143020Z-agent7-claude.yaml",
+            "text": "exhaustive search of the strip hypotheses for k < 1000, then reduction of the strip to erdos-1094--h2--h1--h1 (2k <= n < k^3, lpf C(n,k) > k) since the strip lies below k^3 for k >= 5",
+            "untrusted": true
+          },
+          "route_class": "computational",
+          "schema": "postmortem/v2",
+          "terminal_goal_state": {
+            "source": "targets/erdos-1094/nodes/erdos-1094--h2--h1--h4--h1--h2--h1/attempts/20261119T143020Z-agent7-claude.yaml",
+            "text": "⊢ ∃ (K : ℕ), ∀ (n k : ℕ), (0 : ℕ) < k → (2 : ℕ) * k ≤ n → n < k * k * k → (n.choose k).minFac > k → k ≤ K\n",
+            "untrusted": true
+          }
+        },
+        "shortened": [
+          "detail"
+        ]
+      }
+    ],
     "refuted_route_classes": [],
     "truncated": false
   },
@@ -46,7 +88,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "review": {
     "questions_waiting": [
       {

@@ -1,0 +1,990 @@
+{
+  "artifact": {
+    "hash": "28a6a529cbc373edd5795daf5e8e6666e3488316daa012683cc7340a9e59dd6d",
+    "kind": "partial",
+    "path": "attempts/20261119T142055Z-opn-agent-3-claude-partial.lean"
+  },
+  "gate": "cc2e782e6648a30ce667135dede3aa224f3b0ce8",
+  "node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2",
+  "schema": "outline/v1",
+  "steps": [
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h1",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (ψ : ℝ → ℝ), Function.support ψ ⊆ Set.Ioi (0 : ℝ) → ∫ (u : ℝ), Real.exp u * ψ (Real.exp u) = ∫ (x : ℝ), ψ x",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_cov",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (ψ : ℝ → ℝ), Function.support ψ ⊆ Set.Ioi (0 : ℝ) → ∫ (u : ℝ), Real.exp u * ψ (Real.exp u) = ∫ (x : ℝ), ψ x",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (ψ : ℝ → ℝ),\n  ContDiff ℝ (2 : WithTop ℕ∞) ψ →\n    HasCompactSupport ψ →\n      Function.support ψ ⊆ Set.Ioi (0 : ℝ) →\n        ∀ (ε : ℝ),\n          (0 : ℝ) < ε →\n            ∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n              (Continuous g₁ ∧\n                  (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                    HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n                (Continuous g₂ ∧\n                    (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                      HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n                  (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n                    ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧\n                      ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "h_cov",
+      "kind": "hole",
+      "name": "h_cov",
+      "span": {
+        "end_line": 32,
+        "start_line": 30
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "`support` of a function is the set of points `x` such that `f x ≠ 0`.",
+            "name": "Function.support",
+            "tags": []
+          },
+          {
+            "doc": "`Ioi a` is the left-open right-infinite interval $(a, ∞)$.",
+            "name": "Set.Ioi",
+            "tags": []
+          },
+          {
+            "doc": "The real exponential function, defined as the real part of the complex exponential",
+            "name": "Real.exp",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": "erdos-1094--h3--h3--h1--h1--h1--h1--h2--h2--h2",
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∀ (h : ℝ → ℝ),\n  Continuous h →\n    (∃ (M : ℝ) (R : ℝ), ∀ (u : ℝ), |h u| ≤ M * Real.exp u ∧ (R ≤ u → h u = (0 : ℝ))) →\n      ∀ (ε : ℝ),\n        (0 : ℝ) < ε →\n          ∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n            (Continuous g₁ ∧\n                (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                  HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n              (Continuous g₂ ∧\n                  (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                    HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n                (∀ (u : ℝ), g₁ u ≤ h u ∧ h u ≤ g₂ u) ∧\n                  ∫ (u : ℝ), g₁ u ≤ ∫ (u : ℝ), h u ∧\n                    ∫ (u : ℝ), h u ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "hole",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "h_bs",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (h : ℝ → ℝ),\n  Continuous h →\n    (∃ (M : ℝ) (R : ℝ), ∀ (u : ℝ), |h u| ≤ M * Real.exp u ∧ (R ≤ u → h u = (0 : ℝ))) →\n      ∀ (ε : ℝ),\n        (0 : ℝ) < ε →\n          ∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n            (Continuous g₁ ∧\n                (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                  HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n              (Continuous g₂ ∧\n                  (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                    HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n                (∀ (u : ℝ), g₁ u ≤ h u ∧ h u ≤ g₂ u) ∧\n                  ∫ (u : ℝ), g₁ u ≤ ∫ (u : ℝ), h u ∧\n                    ∫ (u : ℝ), h u ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∀ (ψ : ℝ → ℝ),\n  ContDiff ℝ (2 : WithTop ℕ∞) ψ →\n    HasCompactSupport ψ →\n      Function.support ψ ⊆ Set.Ioi (0 : ℝ) →\n        ∀ (ε : ℝ),\n          (0 : ℝ) < ε →\n            ∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n              (Continuous g₁ ∧\n                  (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                    HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n                (Continuous g₂ ∧\n                    (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n                      HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n                  (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n                    ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧\n                      ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "h_bs",
+      "kind": "hole",
+      "name": "h_bs",
+      "span": {
+        "end_line": 47,
+        "start_line": 37
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "A function between topological spaces is continuous if the preimage of every open set is open.",
+            "name": "Continuous",
+            "tags": []
+          },
+          {
+            "doc": "The real exponential function, defined as the real part of the complex exponential",
+            "name": "Real.exp",
+            "tags": []
+          },
+          {
+            "doc": "A function `f` *has compact support* or is *compactly supported* if the closure of the support of `f` is compact.",
+            "name": "HasCompactSupport",
+            "tags": []
+          },
+          {
+            "doc": "`𝓕 f` is the Fourier transform of `f`.",
+            "name": "FourierTransform.fourier",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Continuous ψ",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hcont",
+            "type": {
+              "printed": "reliable",
+              "text": "Continuous ψ",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "hcont",
+      "kind": "have",
+      "name": "hcont",
+      "span": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "A function between topological spaces is continuous if the preimage of every open set is open.",
+            "name": "Continuous",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (C : ℝ), ∀ (x : ℝ), ‖ψ x‖ ≤ C",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "B",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hB",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (x : ℝ), ‖ψ x‖ ≤ B",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "s4",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (r : ℝ), tsupport ψ ⊆ Metric.closedBall (0 : ℝ) r",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "R₀",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hR₀",
+            "type": {
+              "printed": "reliable",
+              "text": "tsupport ψ ⊆ Metric.closedBall (0 : ℝ) R₀",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "s5",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "Continuous fun (u : ℝ) => Real.exp u * ψ (Real.exp u)",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hhc",
+            "type": {
+              "printed": "reliable",
+              "text": "Continuous fun (u : ℝ) => Real.exp u * ψ (Real.exp u)",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "hhc",
+      "kind": "have",
+      "name": "hhc",
+      "span": {
+        "end_line": 53,
+        "start_line": 52
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "A function between topological spaces is continuous if the preimage of every open set is open.",
+            "name": "Continuous",
+            "tags": []
+          },
+          {
+            "doc": "The real exponential function, defined as the real part of the complex exponential",
+            "name": "Real.exp",
+            "tags": []
+          },
+          {
+            "doc": null,
+            "name": "Real.continuous_exp",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [
+        {
+          "child_node": null,
+          "children": [],
+          "claim": null,
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "u",
+                "type": {
+                  "printed": "reliable",
+                  "text": "ℝ",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "|Real.exp u * ψ (Real.exp u)| ≤ B * Real.exp u",
+              "truncated": false
+            }
+          },
+          "id": "hbd.s1",
+          "kind": "case",
+          "name": null,
+          "span": {
+            "end_line": 58,
+            "start_line": 57
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "abs_mul",
+                "tags": []
+              },
+              {
+                "doc": null,
+                "name": "abs_of_pos",
+                "tags": []
+              },
+              {
+                "doc": null,
+                "name": "Real.exp_pos",
+                "tags": []
+              },
+              {
+                "doc": null,
+                "name": "mul_comm",
+                "tags": []
+              },
+              {
+                "doc": null,
+                "name": "mul_le_mul_of_nonneg_right",
+                "tags": []
+              },
+              {
+                "doc": null,
+                "name": "Real.norm_eq_abs",
+                "tags": []
+              },
+              {
+                "doc": "The real exponential function, defined as the real part of the complex exponential",
+                "name": "Real.exp",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        },
+        {
+          "child_node": null,
+          "children": [
+            {
+              "child_node": null,
+              "children": [
+                {
+                  "child_node": null,
+                  "children": [],
+                  "claim": {
+                    "printed": "reliable",
+                    "text": "u + (1 : ℝ) ≤ Real.exp u",
+                    "truncated": false
+                  },
+                  "closed_by": {
+                    "kind": "term",
+                    "tactics": []
+                  },
+                  "goal": {
+                    "hypotheses": [
+                      {
+                        "name": "this",
+                        "type": {
+                          "printed": "reliable",
+                          "text": "u + (1 : ℝ) ≤ Real.exp u",
+                          "truncated": false
+                        }
+                      }
+                    ],
+                    "target": {
+                      "printed": "reliable",
+                      "text": "|R₀| + (1 : ℝ) < Real.exp u",
+                      "truncated": false
+                    }
+                  },
+                  "id": "hbd.s2.hexp.this",
+                  "kind": "have",
+                  "name": "this",
+                  "span": {
+                    "end_line": 60,
+                    "start_line": 60
+                  },
+                  "uses": {
+                    "defs": [],
+                    "mathlib": [
+                      {
+                        "doc": null,
+                        "name": "Real.add_one_le_exp",
+                        "tags": []
+                      }
+                    ],
+                    "nodes": []
+                  }
+                },
+                {
+                  "child_node": null,
+                  "children": [],
+                  "claim": {
+                    "printed": "reliable",
+                    "text": "Real.exp (|R₀| + (1 : ℝ)) ≤ Real.exp u",
+                    "truncated": false
+                  },
+                  "closed_by": {
+                    "kind": "term",
+                    "tactics": []
+                  },
+                  "goal": {
+                    "hypotheses": [
+                      {
+                        "name": "h2",
+                        "type": {
+                          "printed": "reliable",
+                          "text": "Real.exp (|R₀| + (1 : ℝ)) ≤ Real.exp u",
+                          "truncated": false
+                        }
+                      }
+                    ],
+                    "target": {
+                      "printed": "reliable",
+                      "text": "|R₀| + (1 : ℝ) < Real.exp u",
+                      "truncated": false
+                    }
+                  },
+                  "id": "hbd.s2.hexp.h2",
+                  "kind": "have",
+                  "name": "h2",
+                  "span": {
+                    "end_line": 61,
+                    "start_line": 61
+                  },
+                  "uses": {
+                    "defs": [],
+                    "mathlib": [
+                      {
+                        "doc": "The real exponential function, defined as the real part of the complex exponential",
+                        "name": "Real.exp",
+                        "tags": []
+                      },
+                      {
+                        "doc": null,
+                        "name": "Real.exp_le_exp",
+                        "tags": []
+                      }
+                    ],
+                    "nodes": []
+                  }
+                },
+                {
+                  "child_node": null,
+                  "children": [],
+                  "claim": {
+                    "printed": "reliable",
+                    "text": "|R₀| + (1 : ℝ) + (1 : ℝ) ≤ Real.exp (|R₀| + (1 : ℝ))",
+                    "truncated": false
+                  },
+                  "closed_by": {
+                    "kind": "term",
+                    "tactics": []
+                  },
+                  "goal": {
+                    "hypotheses": [
+                      {
+                        "name": "h3",
+                        "type": {
+                          "printed": "reliable",
+                          "text": "|R₀| + (1 : ℝ) + (1 : ℝ) ≤ Real.exp (|R₀| + (1 : ℝ))",
+                          "truncated": false
+                        }
+                      }
+                    ],
+                    "target": {
+                      "printed": "reliable",
+                      "text": "|R₀| + (1 : ℝ) < Real.exp u",
+                      "truncated": false
+                    }
+                  },
+                  "id": "hbd.s2.hexp.h3",
+                  "kind": "have",
+                  "name": "h3",
+                  "span": {
+                    "end_line": 62,
+                    "start_line": 62
+                  },
+                  "uses": {
+                    "defs": [],
+                    "mathlib": [
+                      {
+                        "doc": null,
+                        "name": "Real.add_one_le_exp",
+                        "tags": []
+                      }
+                    ],
+                    "nodes": []
+                  }
+                }
+              ],
+              "claim": {
+                "printed": "reliable",
+                "text": "|R₀| + (1 : ℝ) < Real.exp u",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "steps",
+                "tactics": []
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "hexp",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "|R₀| + (1 : ℝ) < Real.exp u",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "Real.exp u * ψ (Real.exp u) = (0 : ℝ)",
+                  "truncated": false
+                }
+              },
+              "id": "hbd.s2.hexp",
+              "kind": "have",
+              "name": "hexp",
+              "span": {
+                "end_line": 63,
+                "start_line": 59
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [
+                  {
+                    "doc": "The real exponential function, defined as the real part of the complex exponential",
+                    "name": "Real.exp",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "abs_nonneg",
+                    "tags": []
+                  }
+                ],
+                "nodes": []
+              }
+            },
+            {
+              "child_node": null,
+              "children": [
+                {
+                  "child_node": null,
+                  "children": [],
+                  "claim": {
+                    "printed": "reliable",
+                    "text": "Real.exp u ∈ Metric.closedBall (0 : ℝ) R₀",
+                    "truncated": false
+                  },
+                  "closed_by": {
+                    "kind": "term",
+                    "tactics": []
+                  },
+                  "goal": {
+                    "hypotheses": [
+                      {
+                        "name": "this",
+                        "type": {
+                          "printed": "reliable",
+                          "text": "Real.exp u ∈ Metric.closedBall (0 : ℝ) R₀",
+                          "truncated": false
+                        }
+                      }
+                    ],
+                    "target": {
+                      "printed": "reliable",
+                      "text": "False",
+                      "truncated": false
+                    }
+                  },
+                  "id": "hbd.s2.hnot.this",
+                  "kind": "have",
+                  "name": "this",
+                  "span": {
+                    "end_line": 66,
+                    "start_line": 66
+                  },
+                  "uses": {
+                    "defs": [],
+                    "mathlib": [],
+                    "nodes": []
+                  }
+                }
+              ],
+              "claim": {
+                "printed": "reliable",
+                "text": "Real.exp u ∉ tsupport ψ",
+                "truncated": false
+              },
+              "closed_by": {
+                "kind": "steps",
+                "tactics": []
+              },
+              "goal": {
+                "hypotheses": [
+                  {
+                    "name": "hnot",
+                    "type": {
+                      "printed": "reliable",
+                      "text": "Real.exp u ∉ tsupport ψ",
+                      "truncated": false
+                    }
+                  }
+                ],
+                "target": {
+                  "printed": "reliable",
+                  "text": "Real.exp u * ψ (Real.exp u) = (0 : ℝ)",
+                  "truncated": false
+                }
+              },
+              "id": "hbd.s2.hnot",
+              "kind": "have",
+              "name": "hnot",
+              "span": {
+                "end_line": 68,
+                "start_line": 64
+              },
+              "uses": {
+                "defs": [],
+                "mathlib": [
+                  {
+                    "doc": "The real exponential function, defined as the real part of the complex exponential",
+                    "name": "Real.exp",
+                    "tags": []
+                  },
+                  {
+                    "doc": "The topological support of a function is the closure of its support.",
+                    "name": "tsupport",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "Metric.mem_closedBall",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "Real.dist_eq",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "sub_zero",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "abs_of_pos",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "Real.exp_pos",
+                    "tags": []
+                  },
+                  {
+                    "doc": null,
+                    "name": "le_abs_self",
+                    "tags": []
+                  }
+                ],
+                "nodes": []
+              }
+            }
+          ],
+          "claim": null,
+          "closed_by": {
+            "kind": "steps",
+            "tactics": []
+          },
+          "goal": {
+            "hypotheses": [
+              {
+                "name": "u",
+                "type": {
+                  "printed": "reliable",
+                  "text": "ℝ",
+                  "truncated": false
+                }
+              },
+              {
+                "name": "hu",
+                "type": {
+                  "printed": "reliable",
+                  "text": "|R₀| + (1 : ℝ) ≤ u",
+                  "truncated": false
+                }
+              }
+            ],
+            "target": {
+              "printed": "reliable",
+              "text": "Real.exp u * ψ (Real.exp u) = (0 : ℝ)",
+              "truncated": false
+            }
+          },
+          "id": "hbd.s2",
+          "kind": "case",
+          "name": null,
+          "span": {
+            "end_line": 69,
+            "start_line": 59
+          },
+          "uses": {
+            "defs": [],
+            "mathlib": [
+              {
+                "doc": null,
+                "name": "image_eq_zero_of_notMem_tsupport",
+                "tags": []
+              },
+              {
+                "doc": "Zero is a right absorbing element for multiplication",
+                "name": "MulZeroClass.mul_zero",
+                "tags": []
+              }
+            ],
+            "nodes": []
+          }
+        }
+      ],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (M : ℝ) (R : ℝ),\n  ∀ (u : ℝ), |Real.exp u * ψ (Real.exp u)| ≤ M * Real.exp u ∧ (R ≤ u → Real.exp u * ψ (Real.exp u) = (0 : ℝ))",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "hbd",
+            "type": {
+              "printed": "reliable",
+              "text": "∃ (M : ℝ) (R : ℝ),\n  ∀ (u : ℝ), |Real.exp u * ψ (Real.exp u)| ≤ M * Real.exp u ∧ (R ≤ u → Real.exp u * ψ (Real.exp u) = (0 : ℝ))",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "hbd",
+      "kind": "have",
+      "name": "hbd",
+      "span": {
+        "end_line": 69,
+        "start_line": 54
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "The real exponential function, defined as the real part of the complex exponential",
+            "name": "Real.exp",
+            "tags": []
+          },
+          {
+            "doc": "Existential introduction.",
+            "name": "Exists.intro",
+            "tags": []
+          },
+          {
+            "doc": "`And.intro : a → b → a ∧ b` is the constructor for the And operation.",
+            "name": "And.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (u : ℝ), Real.exp u * ψ (Real.exp u) ∧\n          ∫ (u : ℝ), Real.exp u * ψ (Real.exp u) ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "term",
+        "tactics": []
+      },
+      "goal": {
+        "hypotheses": [
+          {
+            "name": "g₁",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ → ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "g₂",
+            "type": {
+              "printed": "reliable",
+              "text": "ℝ → ℝ",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hg₁",
+            "type": {
+              "printed": "reliable",
+              "text": "Continuous g₁ ∧\n  (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n    HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hg₂",
+            "type": {
+              "printed": "reliable",
+              "text": "Continuous g₂ ∧\n  (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n    HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hsand",
+            "type": {
+              "printed": "reliable",
+              "text": "∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hi1",
+            "type": {
+              "printed": "reliable",
+              "text": "∫ (u : ℝ), g₁ u ≤ ∫ (u : ℝ), Real.exp u * ψ (Real.exp u)",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hi2",
+            "type": {
+              "printed": "reliable",
+              "text": "∫ (u : ℝ), Real.exp u * ψ (Real.exp u) ≤ ∫ (u : ℝ), g₂ u",
+              "truncated": false
+            }
+          },
+          {
+            "name": "hgap",
+            "type": {
+              "printed": "reliable",
+              "text": "(∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+              "truncated": false
+            }
+          }
+        ],
+        "target": {
+          "printed": "reliable",
+          "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+          "truncated": false
+        }
+      },
+      "id": "s8",
+      "kind": "obtain",
+      "name": null,
+      "span": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [],
+        "nodes": []
+      }
+    },
+    {
+      "child_node": null,
+      "children": [],
+      "claim": {
+        "printed": "reliable",
+        "text": "∃ (g₁ : ℝ → ℝ) (g₂ : ℝ → ℝ),\n  (Continuous g₁ ∧\n      (∃ (C : ℝ), ∀ (u : ℝ), |g₁ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n        HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₁ u) : ℂ))) ∧\n    (Continuous g₂ ∧\n        (∃ (C : ℝ), ∀ (u : ℝ), |g₂ u| ≤ C / ((1 : ℝ) + u ^ (2 : ℕ))) ∧\n          HasCompactSupport (FourierTransform.fourier fun (u : ℝ) => (↑(g₂ u) : ℂ))) ∧\n      (∀ (u : ℝ), g₁ u ≤ Real.exp u * ψ (Real.exp u) ∧ Real.exp u * ψ (Real.exp u) ≤ g₂ u) ∧\n        ∫ (u : ℝ), g₁ u ≤ ∫ (x : ℝ), ψ x ∧ ∫ (x : ℝ), ψ x ≤ ∫ (u : ℝ), g₂ u ∧ (∫ (u : ℝ), g₂ u) - ∫ (u : ℝ), g₁ u ≤ ε",
+        "truncated": false
+      },
+      "closed_by": {
+        "kind": "steps",
+        "tactics": []
+      },
+      "goal": null,
+      "id": "close",
+      "kind": "term",
+      "name": null,
+      "span": {
+        "end_line": 72,
+        "start_line": 71
+      },
+      "uses": {
+        "defs": [],
+        "mathlib": [
+          {
+            "doc": "Existential introduction.",
+            "name": "Exists.intro",
+            "tags": []
+          }
+        ],
+        "nodes": []
+      }
+    }
+  ],
+  "target": "erdos-1094"
+}

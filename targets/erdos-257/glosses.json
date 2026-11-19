@@ -1,5 +1,5 @@
 {
-  "rendered_from": "0650eecfc4cad12634c7899e5b2a9d7dad7bfe6a",
+  "rendered_from": "7e69a61e6e4c97d3f79f12569bb6289ac575af9b",
   "schema": "glosses/v3",
   "subjects": [
     {
@@ -2208,6 +2208,24 @@
       "record": "explainer"
     },
     {
+      "chains": [],
+      "file": "nodes/spec-9ab4bdf6/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "a6cf690ae431ba0ed93766a319b005aeccd9069e0d3ec88aea43637396b7e409",
+      "module": null,
+      "node": "spec-9ab4bdf6",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-9ab4bdf6/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "230f6f320022cd07dbc6cbdde58ac3a6b45e108993ec102f0370360c227447ad",
+      "module": null,
+      "node": "spec-9ab4bdf6",
+      "record": "gloss"
+    },
+    {
       "chains": [
         {
           "current": "507c06529c954d530ab345feb33c16812ca6ebab92ef2ca9f7a7b210a7d8e059",
@@ -3644,6 +3662,77 @@
       "lean_hash": "479be7feda41d8e8865a639dee3e44d695b5ab9ef1bc8558604cd92e1ce69005",
       "module": null,
       "node": "spec-a70fcca4--h4--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142057Z-opn-agent8-1119-partial.lean",
+      "kind": "partial",
+      "lean_hash": "a5c50be3451d0acd206d86498ac682d1f56cbc3c14c09f0348eaf769ef0db165",
+      "module": null,
+      "node": "spec-a70fcca4--h4--h1--h1",
+      "record": "explainer"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-a70fcca4--h4--h1--h1/attempts/20261119T142057Z-opn-agent8-1119-partial.lean",
+      "kind": "partial",
+      "lean_hash": "a5c50be3451d0acd206d86498ac682d1f56cbc3c14c09f0348eaf769ef0db165",
+      "module": "attempts/20261119T142057Z-opn-agent8-1119-partial.lean",
+      "node": "spec-a70fcca4--h4--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [
+        {
+          "current": "f9ff339bcb2096cd6254587900738371231a6086cb724c26ca8d4052ef551d1c",
+          "pending": [],
+          "shown": [
+            {
+              "key": "whole",
+              "state": "drafted",
+              "version": "f9ff339bcb2096cd6254587900738371231a6086cb724c26ca8d4052ef551d1c"
+            }
+          ],
+          "versions": [
+            {
+              "author": "opn-agent8-1119",
+              "date": "2026-11-19",
+              "describes_current": true,
+              "drafted_with": "claude-opus-5-5",
+              "drafter": null,
+              "hash": "f9ff339bcb2096cd6254587900738371231a6086cb724c26ca8d4052ef551d1c",
+              "label": "after a skipped m > 100, another skip within (m, 2m]",
+              "lean_hash": "8914005ef8092cae2de4b16e8e7abf5bdc309d8e490c432d653c3342a901517e",
+              "path": "nodes/spec-a70fcca4--h4--h1--h1--h1/gloss/f9ff339bcb2096cd6254587900738371231a6086cb724c26ca8d4052ef551d1c.md",
+              "schema": "gloss/v3",
+              "sections": [
+                {
+                  "key": "whole",
+                  "state": "drafted"
+                }
+              ],
+              "signatures": [],
+              "supersedes": null,
+              "withdrawn": false
+            }
+          ]
+        }
+      ],
+      "file": "nodes/spec-a70fcca4--h4--h1--h1--h1/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "8914005ef8092cae2de4b16e8e7abf5bdc309d8e490c432d653c3342a901517e",
+      "module": null,
+      "node": "spec-a70fcca4--h4--h1--h1--h1",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/spec-a70fcca4--h4--h1--h1--h1/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "245d81a0a9f0f75c5380e25f81663dfea983e0e3252c0881939432cad955c6de",
+      "module": null,
+      "node": "spec-a70fcca4--h4--h1--h1--h1",
       "record": "gloss"
     },
     {
