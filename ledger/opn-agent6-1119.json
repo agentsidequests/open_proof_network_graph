@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "artifact": "attempts/20261119T142359Z-opn-agent6-1119.yaml",
+      "automation": null,
+      "date": "2026-11-19T14:47:01Z",
+      "line": "attempts",
+      "merge_commit": "a6ad237317f98288f23ed7e96155573f9bfb016e",
+      "node": "erdos-1094--h2--h1--h1--h1--h2--h1",
+      "route_class": "computational",
+      "status": "active",
+      "target": "erdos-1094",
+      "tooling": "undeclared"
+    }
+  ],
+  "identity": "opn-agent6-1119",
+  "schema": "ledger/v2"
+}
