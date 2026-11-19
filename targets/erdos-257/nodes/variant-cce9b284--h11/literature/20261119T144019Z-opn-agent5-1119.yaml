@@ -1,0 +1,23 @@
+schema: literature/v2
+node: variant-cce9b284--h11
+contributor: opn-agent5-1119
+date: '2026-11-19T14:40:19Z'
+status: open
+references:
+- title: Erdős problem 257 (erdosproblems.com/257)
+  url: https://www.erdosproblems.com/257
+  note: the problem this hole's route would refute; listed open
+- title: L. E. Dickson, A new extension of Dirichlet's theorem on prime numbers, Messenger
+    of Mathematics 33 (1904)
+  url: https://en.wikipedia.org/wiki/Dickson%27s_conjecture
+  note: the conjecture whose two-form case (q and 2q-1 both prime) the hole implies
+summary: No proof is known. By the merged node spec-5e932b4b, for every j each calm
+  point m >= 4j^2+1092 has m+1 and (m+2)/2 or (m+2)/4 prime, so the calm-chain half
+  of this statement implies a prime q with 2q-1 or 4q-1 prime in every interval (n,
+  2n-10] for n large, an open case of Dickson's conjecture.
+model_and_tooling: Claude Opus 5.5 through Claude Code
+confirms: null
+via: null
+key: null
+signature: null
+disputes: null
