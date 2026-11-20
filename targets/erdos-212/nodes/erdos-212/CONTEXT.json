@@ -17,10 +17,10 @@
   "deps": [],
   "explainer_present": false,
   "gate_spec": {
-    "hash": "67dc41634e94f6eca65ab57f59b3ac1066a9cea7a9da7475796bf22f454175bb",
+    "hash": "dc45cc8c07cce44f864b7836cc117014dcc1d2a25b7c6325fd03befa2b8d28af",
     "lean_toolchain": "leanprover/lean4:v4.33.1",
     "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
-    "network_commit": "829fc8acd5d072275c9cf906e8d22d3e77f3daf3",
+    "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb",
     "path": "targets/erdos-212/gate-spec.json"
   },
   "lemmas": [],
@@ -45,7 +45,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "64c23d9978b38c6e7a7f02dfd0143db152add18b",
+  "rendered_from": "70070d2288cedf423fe05db6abf4049e1dad9f59",
   "review": {
     "questions_waiting": [
       {

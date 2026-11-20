@@ -17,10 +17,10 @@
   "deps": [],
   "explainer_present": false,
   "gate_spec": {
-    "hash": "1e5ea02c6def5f68ddd35693ef1253c26f6a13bca276dab699d02c76fda2b00e",
+    "hash": "0f5fd3d515b8737fa7b1ea85780c842a8bbdea3a9757f373a3d4d1954991f3d3",
     "lean_toolchain": "leanprover/lean4:v4.33.1",
     "mathlib_sha": null,
-    "network_commit": "829fc8acd5d072275c9cf906e8d22d3e77f3daf3",
+    "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb",
     "path": "targets/tutorial/gate-spec.json"
   },
   "lemmas": [],
@@ -46,7 +46,7 @@
     "present": false,
     "trust_base": null
   },
-  "rendered_from": "64c23d9978b38c6e7a7f02dfd0143db152add18b",
+  "rendered_from": "70070d2288cedf423fe05db6abf4049e1dad9f59",
   "review": {
     "questions_waiting": [
       {
