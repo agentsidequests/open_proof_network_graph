@@ -32,6 +32,15 @@
 # goes in no lane: it waits until it is first, and then holds every lane, as the whole queue was
 # held before. The post-merge re-check on the merge commit stays the guard on the record.
 #
+# Nor do a target's own words and reports count against it (F07-T81, the 2026-11-19 run): a
+# postmortem, a precheck record, an explainer or a gloss and their signatures, a literature record,
+# an approach record. No building verdict reads one (no step, no building mode's check, the closure
+# sweep, the target's derived statuses or shelving, the post-merge re-check), so a proof merged
+# behind one is gated against everything its verdict can see. On 2026-11-19 every postmortem merged
+# on a target put every proof there behind: #1552 went green six times before it merged. An annex
+# still counts (a skeleton's step 2 reads the annex it cites, F07-T27), and so does everything else.
+# `inert_role` is this file's own grammar for them; the network repo holds it to the gate's.
+#
 # Appends merge in batches (F07-T45, the owner's ruling 2026-09-29), now within their lane. An append is one
 # new file under a target, earns no attestation and builds nothing, so the up-to-date rebuild buys
 # it nothing, and on 2026-09-27 every fifteen-second append still cost a whole round and a
@@ -43,9 +52,22 @@
 # post-merge run then records the whole batch (gate.yml, F07-T45). The token's bypass is what lets
 # a pull request merge behind main; if the host ever refuses, the acting step updates it instead.
 #
+# A target is two sub-lanes (F07-T82). An append of words and reports alone (every path one T81
+# leaves inert) is in the target's append sub-lane; the building pull requests, and an append that
+# writes something a building verdict reads (an annex, a review record, a shelving, a status), are
+# in its building sub-lane, the lane as it was. A building pull request that holds, updates or
+# merges closes only the building sub-lane; a batch closes only its own sub-lane and walks only it,
+# so it no longer ends at a building pull request. That is safe because of T81: an append in its
+# own sub-lane cannot change what a building pull request is gated against, and merging it leaves
+# that pull request up to date, so neither waits for the other. On 2026-11-19 a green append waited
+# 20 to 50 minutes behind proofs being updated and re-gated on its target; in the replay of that
+# afternoon (F07-T82's evidence) the wait goes from a median of ten minutes to ten seconds. A pull
+# request in no lane still waits until it is first and closes every sub-lane.
+#
 # A lane holds (F07-T31). A pull request that is up to date and whose gate is running is next in
-# its lane, and nothing in that lane is merged past it: its target may not move under a gate run
-# this workflow started. Without that, the pull request it had just updated read as "not green", the
+# its sub-lane, and nothing in that sub-lane is merged past it: its target may not move under a gate
+# run this workflow started, and what the append sub-lane merges past it does not move what it is
+# gated against (F07-T81). Without that, the pull request it had just updated read as "not green", the
 # next green one (always a fifteen-second append) was merged, and the updated one was behind again;
 # on 2026-09-21 green Mathlib pull requests waited 13 to 33 minutes behind appends that took one. A
 # hold older than HOLD_S is ignored, so a run that never reports holds nothing. Nothing waits for a
@@ -164,6 +186,9 @@ jobs:
           #: F07-T62: the lane of a pull request whose diff is empty. It changes nothing any other lane
           #: is gated against, so it is a lane of its own rather than none (which closes every lane).
           EMPTY_LANE = ""
+          #: F07-T82: a target's append sub-lane is `(target, APPEND_SUBLANE)`; its building sub-lane
+          #: is the target itself, as every lane was before.
+          APPEND_SUBLANE = "appends"
           #: F07-T62: open pull requests are read a hundred to a page, oldest first, up to this many.
           MAX_PULL_PAGES = 10
 
@@ -463,6 +488,7 @@ jobs:
               lane_of=lambda number: None,
               words_of=lambda number: frozenset(),
               words_moved=lambda number: False,
+              inert_of=lambda number: False,
           ):
               """F07-T56: a list of (number, sha, action), action one of "merge", "update",
               "hold" (a lane waits for it) or "wait" (nothing waits for it, but the run reads
@@ -477,6 +503,16 @@ jobs:
               is first, and then closes every lane; with no `lane_of` at all every pull request is
               such a one, and the queue is the single line it was before T56.
 
+              F07-T82: a target is two sub-lanes. An append whose every path is a word or a report
+              no building verdict reads (`inert_of`, by `inert_role`) is in the target's append
+              sub-lane; everything else in the target (the building pull requests, and an append
+              that writes something a building verdict can read: an annex, a review record, a
+              shelving) is in its building sub-lane. A building pull request that holds, updates
+              or merges closes only the building sub-lane, a batch closes only its own sub-lane,
+              and `more_appends` walks only the sub-lane it started in. Merging a words append past
+              a building pull request whose gate is running cannot change its verdict, and leaves
+              it up to date (F07-T81), so neither waits for the other.
+
               A green pull request the host says cannot be merged (a conflict with main) is
               passed over: acting on it would fail on every run and hold everything behind it,
               and a person has to look at it either way. `conflicted` may answer None, the host
@@ -486,7 +522,11 @@ jobs:
               refs = {pr["number"]: pr["head"]["ref"] for pr in pulls}
               updated = {pr["number"]: pr.get("updated_at") for pr in pulls}  # F07-T62
               queue = candidates(pulls)
-              lanes = {number: lane_of(number) for number, _sha in queue}
+              lanes = {}
+              for number, _sha in queue:
+                  lane = lane_of(number)
+                  words = lane is not None and refs[number].startswith(APPEND_PREFIX) and inert_of(number)
+                  lanes[number] = (lane, APPEND_SUBLANE) if words else lane  # F07-T82
               decided, closed, batched = [], set(), 0
 
               def close(lane):
@@ -668,6 +708,11 @@ jobs:
                   def words_of(number):
                       return words_keys(files_of(number))
 
+                  def inert_of(number):
+                      # F07-T82: words and reports alone; an empty or unreadable diff is not
+                      files = files_of(number)
+                      return bool(files) and all(inert_role(path) for path in files)
+
                   stale = {}  # one compare per pull request per decision: the token's budget is hourly
                   walks = {}  # F22-T22: main's commits since each head's base, shared by both readers
 
@@ -701,6 +746,7 @@ jobs:
                       lane_of=lane_of,
                       words_of=words_of,
                       words_moved=words_moved,
+                      inert_of=inert_of,
                   )
 
               decided = acts(settle(step, time.sleep))
