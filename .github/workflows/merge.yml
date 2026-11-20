@@ -124,10 +124,12 @@ jobs:
           over the host's JSON, so the network repo's tests run this file as it stands (F07-T25)."""
           import json
           import os
+          import re
           import subprocess
           import sys
           import time
           from datetime import datetime, timedelta, timezone
+          from pathlib import PurePosixPath
 
           SERVICE_PREFIXES = ("propose/", "append/", "submit/")
           #: The service's append routes and nothing else push to this prefix (api/opn_api/appends.py).
@@ -331,16 +333,68 @@ jobs:
               return out
 
 
+          # --- F07-T81: words and reports, which no building verdict reads ---------------------------
+
+          #: A target's or a node's id, as the gate's path grammar reads one (its paths._ID_RE).
+          ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
+          YAML_SUFFIXES = (".yaml", ".yml")
+
+
+          def _flat(name, suffixes):
+              """A file directly in its directory with one of these suffixes (paths._is_flat)."""
+              return "/" not in name and name != "" and PurePosixPath(name).suffix in suffixes
+
+
+          def inert_role(path):
+              """F07-T81: the D-3 role of `path`, by the gate's own name for it (`paths.locate`),
+              when it is one of the words and reports no building verdict reads (a proof, a partial, an
+              alternate, a proposal, a witness: none of their checks, the post-merge re-check
+              included, opens one of these files); None for anything else. A postmortem
+              (`attempts/<name>.yaml`, never a `.lean` assembly or a carried `.witness`/`.proof`), a
+              precheck record, an explainer or a gloss and their signatures, a node's literature
+              record, a target's approach record. An annex is not here: a skeleton's step 2 reads
+              the annex it cites (F07-T27). This file cannot import the gate, so the grammar is its
+              own; the network repo's parity test holds it to `locate` (F07-T81)."""
+              parts = path.split("/")
+              if len(parts) < 4 or parts[0] != "targets" or not ID_RE.match(parts[1]):
+                  return None
+              rest = parts[2:]
+              if rest[0] == "nodes":
+                  if len(rest) < 4 or not ID_RE.match(rest[1]):
+                      return None
+                  directory, tail = rest[2], rest[3:]
+                  if directory == "attempts":
+                      if len(tail) == 2 and tail[0] == "precheck":
+                          return "precheck-record" if _flat(tail[1], (".json",)) else None
+                      return "postmortem" if len(tail) == 1 and _flat(tail[0], YAML_SUFFIXES) else None
+                  if directory == "literature":
+                      return "literature" if len(tail) == 1 and _flat(tail[0], YAML_SUFFIXES) else None
+                  if directory not in ("explainer", "gloss"):
+                      return None
+              elif rest[0] == "approaches":
+                  return "approach-record" if len(rest) == 2 and _flat(rest[1], YAML_SUFFIXES) else None
+              elif rest[0] == "gloss":
+                  directory, tail = "gloss", rest[1:]
+              else:
+                  return None
+              if len(tail) == 1 and _flat(tail[0], (".md",)):
+                  return directory
+              if len(tail) == 2 and tail[0] == "signed" and _flat(tail[1], YAML_SUFFIXES):
+                  return f"{directory}-signature"
+              return None
+
+
           # --- F07-T56: one lane per target ---------------------------------------------------------
 
 
           def gates_on(path, lane):
               """Whether a change to `path` on main can change what a pull request in `lane` is
               gated against. A submission touches one target (D-2, D-3), so another target's files
-              cannot; nor can what the post-merge job renders from the tree (F03), nor the guides.
-              Anything else outside targets/ is shared (curators.json, policy.json, keys/,
-              schemas/, the workflows) and reaches every lane. `lane` None is a pull request this
-              file could not place in one target: everything but the products reaches it."""
+              cannot; nor can what the post-merge job renders from the tree (F03), nor the guides,
+              nor (F07-T81) its own target's words and reports, which no building verdict reads
+              (`inert_role`). Anything else outside targets/ is shared (curators.json, policy.json,
+              keys/, schemas/, the workflows) and reaches every lane. `lane` None is a pull request
+              this file could not place in one target: everything but the products reaches it."""
               if path in PRODUCT_FILES or path.startswith(PRODUCT_DIRS):
                   return False
               parts = path.split("/")
@@ -351,6 +405,8 @@ jobs:
                       return False
                   if len(parts) == 5 and parts[2] == "nodes" and parts[4] in NODE_PRODUCTS:
                       return False
+                  if lane is not None and parts[1] == lane and inert_role(path):
+                      return False  # F07-T81: a postmortem merged ahead re-gates no proof
                   return lane is None or parts[1] == lane
               if len(parts) == 1 and path.endswith(".md"):
                   return False  # prose for people and agents; no gate reads it
