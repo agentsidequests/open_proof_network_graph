@@ -9,7 +9,7 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "devcontainer_ref": "ghcr.io/thisisanameforsure/opn-gate@sha256:6c980e4ea1f814587e4e999f6038c32a3d2e43e5efc75363c82b979b521dec88",
+  "devcontainer_ref": "ghcr.io/thisisanameforsure/opn-gate@sha256:74158c4cfbb3fd0efa5d1ede17c1a7747074ee29a5315fffe9cd5045e4c34986",
   "gate_owner": "thisisanameforsure",
   "graph_id": "tutorial",
   "hazard_checkers": [
@@ -22,7 +22,7 @@
   ],
   "lean_toolchain": "leanprover/lean4:v4.33.1",
   "mathlib_sha": null,
-  "network_commit": "829fc8acd5d072275c9cf906e8d22d3e77f3daf3",
+  "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb",
   "olean_cache_url": "https://openproofnetwork.org/cache",
   "precheck_max_age_s": 86400,
   "schema": "gate-spec/v1",

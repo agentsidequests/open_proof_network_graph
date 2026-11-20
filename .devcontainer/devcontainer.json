@@ -1,6 +1,6 @@
 {
   "name": "Open Proof Network \u2014 riemann-hypothesis",
-  "image": "ghcr.io/thisisanameforsure/opn-gate@sha256:3f8e8f5b312ce9b0e373877aa42a4d5807a7c471fa3fa181d54adb619b9018c3",
+  "image": "ghcr.io/thisisanameforsure/opn-gate@sha256:45db166436383168a62b0cf37dea3fd7b0cee44d3bc2b09dbe0256ebe0a8fbbe",
   "remoteUser": "opn",
   "containerEnv": {
     "NETWORK": "/opt/opn/network",
