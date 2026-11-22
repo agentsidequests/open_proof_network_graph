@@ -1,0 +1,43 @@
+{
+  "rendered_from": "946bb99f715c157616162dddb5249a4ec3fc8c9c",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/reed-omega-delta-chi-conjecture/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "c897b13b5fcb5a02e59ad7285c098b74f5b3e2ee7ce1df7f089da8e4c2688607",
+      "module": null,
+      "node": "reed-omega-delta-chi-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/reed-omega-delta-chi-conjecture/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "39533922286225b1cc92dee477b72f6a249e223c8a70a62b426a919ac5137655",
+      "module": null,
+      "node": "reed-omega-delta-chi-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Clique.lean",
+      "kind": "definition",
+      "lean_hash": "2dfea5c58660a9bdcd8ce0ea0a5dfdfe7f06ee2d7700156a920c2221af63e9b9",
+      "module": "Clique.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Degrees.lean",
+      "kind": "definition",
+      "lean_hash": "6f9874db21e6fea4592e44af9f81dad577ebeb31d36bd39fe7d1b285fcbdf432",
+      "module": "Degrees.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "reed-omega-delta-chi-conjecture"
+}

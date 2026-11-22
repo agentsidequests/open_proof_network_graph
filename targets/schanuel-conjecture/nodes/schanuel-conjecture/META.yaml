@@ -1,0 +1,11 @@
+schema: meta/v2
+id: schanuel-conjecture
+status: ready
+deps: []
+statement-hash: b750db32fbc4221788a04c4eb05593e2afc383a63d24aeacb061be0be158a691
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false

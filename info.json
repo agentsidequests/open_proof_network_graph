@@ -3,7 +3,7 @@
   "guide_url": null,
   "protocol_version": "3.49",
   "rate_limit_policy": null,
-  "rendered_from": "70070d2288cedf423fe05db6abf4049e1dad9f59",
+  "rendered_from": "946bb99f715c157616162dddb5249a4ec3fc8c9c",
   "schema": "info/v2",
   "schemas": {
     "annex": [
@@ -362,8 +362,16 @@
       "gate_spec_hash": "35f98004548267aeefd8b6ad20634e4b6fbf2ad3cd572195b7b688c819ca8acf",
       "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
     },
+    "reed-omega-delta-chi-conjecture": {
+      "gate_spec_hash": "8ea1544902a8db831fa23f3d18743b3206bcc1799f5fd43edeaca7d40b8bf056",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
     "riemann-hypothesis": {
       "gate_spec_hash": "32df7b10c398178e82115743d2aaaa95638fe17d1b96f40303e956a6ef27f08f",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "schanuel-conjecture": {
+      "gate_spec_hash": "4eba0cf2611347f8410228776ad9b92dea74c6c690d7a311ce4d2e558bc548bc",
       "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
     },
     "tutorial": {
