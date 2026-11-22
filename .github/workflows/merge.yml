@@ -19,7 +19,10 @@
 # attestation is never proved (F03-Q7). A defect here could land a commit that should not have
 # landed; it could not make a false statement read as proved.
 #
-# Only branches the service opened (propose/, append/, submit/), oldest first, and one lane per
+# Only branches the service opened (propose/, append/, submit/) and, since F14-T22 (the bulk load,
+# the owner's ruling 2026-11-21 to load every open statement), the curator's intake/ branches, which
+# only an account with push access can open here and only the pinned gate's intake mode turns
+# green; oldest first, and one lane per
 # target (F07-T56, the owner's request 2026-10-02). A submission touches exactly one target (D-2,
 # D-3), so a merge on erdos-402 cannot change the verdict on erdos-69: the ruleset's up-to-date rule
 # is kept per target. A pull request is stale only if main's commits since its merge base touched
@@ -153,7 +156,7 @@ jobs:
           from datetime import datetime, timedelta, timezone
           from pathlib import PurePosixPath
 
-          SERVICE_PREFIXES = ("propose/", "append/", "submit/")
+          SERVICE_PREFIXES = ("propose/", "append/", "submit/", "intake/")  # intake/: F14-T22
           #: The service's append routes and nothing else push to this prefix (api/opn_api/appends.py).
           APPEND_PREFIX = "append/"
           #: At most this many appends in one run (F07-T45): one post-merge job records them all,
