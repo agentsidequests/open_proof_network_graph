@@ -1,0 +1,10 @@
+schema: fidelity/v2
+subject: Composite
+statement_hash: 69203e7995b187b5a2fb483675eafaa1c83adca7d511078a317e63a8aa4dc0f5
+grade: mechanical-only
+subject_author: The Formal Conjectures Authors
+attestor: thisisanameforsure
+date: '2026-11-22'
+evidence: 'admitted at intake: Composite elaborates and passes F08''s mechanical admission.
+  No human has read it against the informal statement, which is what D-9''s first
+  rung says.'
