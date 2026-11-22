@@ -4099,6 +4099,43 @@
       "tutorial": false
     },
     {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "schanuel-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-22T07:45:16Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "b750db32fbc4221788a04c4eb05593e2afc383a63d24aeacb061be0be158a691",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "FieldTheory",
+          "LinearAlgebra",
+          "RingTheory",
+          "SetTheory"
+        ]
+      },
+      "target_id": "schanuel-conjecture",
+      "tutorial": false
+    },
+    {
       "annex_present": true,
       "attempts": 0,
       "bounty": false,
@@ -6721,6 +6758,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "bba16f4f7db106c3ff6dacf93781820a4a75f88c",
+  "rendered_from": "946bb99f715c157616162dddb5249a4ec3fc8c9c",
   "schema": "frontier/v8"
 }
