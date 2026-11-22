@@ -4049,6 +4049,40 @@
       "literature": null,
       "literature_proposed": null,
       "needs": "proof",
+      "node_id": "flint-hills-series-converges",
+      "origin": "authored",
+      "ready_since": "2026-11-22T08:11:22Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "b6d22a9d388d0ff0b6940ce86b9d748b324cedd5f2ca3b65339825eb18c417b7",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "Topology"
+        ]
+      },
+      "target_id": "flint-hills-series-converges",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
       "node_id": "goldbach",
       "origin": "authored",
       "ready_since": "2026-11-22T07:53:28Z",
@@ -6823,6 +6857,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "b997b1425a068579e899d9fc682e83e7e024f8c8",
+  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
   "schema": "frontier/v8"
 }

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Convergence of the Flint Hills and Cookson Hills series",
+      "label_source": "target",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "flint-hills-series-converges",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "b6d22a9d388d0ff0b6940ce86b9d748b324cedd5f2ca3b65339825eb18c417b7",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    }
+  ],
+  "open_pairs": [],
+  "registrations": [],
+  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
+  "review": {
+    "candidates": 0,
+    "clusters": 0,
+    "grade_cap": null,
+    "open_pairs": 0,
+    "questions_waiting": 0,
+    "signers": {
+      "independent": null,
+      "intent": null
+    },
+    "state": "none",
+    "surviving": 0,
+    "tracking": null
+  },
+  "root": "flint-hills-series-converges",
+  "schema": "graph/v16",
+  "target_id": "flint-hills-series-converges",
+  "target_proofs": []
+}

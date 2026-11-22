@@ -3,7 +3,7 @@
   "guide_url": null,
   "protocol_version": "3.49",
   "rate_limit_policy": null,
-  "rendered_from": "b997b1425a068579e899d9fc682e83e7e024f8c8",
+  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
   "schema": "info/v2",
   "schemas": {
     "annex": [
@@ -360,6 +360,10 @@
     },
     "euclid-primes": {
       "gate_spec_hash": "35f98004548267aeefd8b6ad20634e4b6fbf2ad3cd572195b7b688c819ca8acf",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "flint-hills-series-converges": {
+      "gate_spec_hash": "1188895a90b388f4737e0634669633ab62b98974d72aaad6b37bd1606a5f4b43",
       "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
     },
     "goldbach": {

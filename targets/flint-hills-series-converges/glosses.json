@@ -1,0 +1,25 @@
+{
+  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/flint-hills-series-converges/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "b6d22a9d388d0ff0b6940ce86b9d748b324cedd5f2ca3b65339825eb18c417b7",
+      "module": null,
+      "node": "flint-hills-series-converges",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/flint-hills-series-converges/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "32191282b59ec9c3aac4917abe1753b3f8591bfca165f068e5507919ad9bc166",
+      "module": null,
+      "node": "flint-hills-series-converges",
+      "record": "gloss"
+    }
+  ],
+  "target": "flint-hills-series-converges"
+}
