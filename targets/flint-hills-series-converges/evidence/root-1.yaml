@@ -1,0 +1,27 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: b6d22a9d388d0ff0b6940ce86b9d748b324cedd5f2ca3b65339825eb18c417b7
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: 0419f2c0c8e6bd6a5cdd3569c5e60a36f1168c27
+  key: fc:FormalConjectures/Wikipedia/FlintCooksonHills.lean#flint_hills_series_converges
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 3
+  letter: C
+  reasons:
+  - +1 Lean statement public for 180+ days
+  - +1 no misformalization issue ever filed
+  - +1 no file-local definitions in the statement (Mathlib vocabulary only)
+registry_history:
+  first: '2026-03-17'
+  last: '2026-10-14'
+  commits: 5
+misformalization: []
+local_definitions: []
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-22'
