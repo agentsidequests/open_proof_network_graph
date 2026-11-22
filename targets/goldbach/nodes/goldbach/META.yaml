@@ -1,0 +1,17 @@
+schema: meta/v2
+id: goldbach
+status: ready
+deps: []
+statement-hash: 7537e01a762342d8a084592e30f2285815c96d7585c8839f952a1d35c3f24023
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
+acknowledged_hazards:
+- checker: off-by-one-range
+  location: 2 < n
+  justification: 'Strict, as the words say: "every even integer greater than 2". 2
+    itself is not a sum of two primes (0 is not prime), so the bound is the conjecture''s
+    own; the first case is 4 = 2 + 2.'
