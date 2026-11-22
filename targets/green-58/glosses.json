@@ -1,0 +1,34 @@
+{
+  "rendered_from": "b997b1425a068579e899d9fc682e83e7e024f8c8",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/green-58/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "8d3dcd4160c9237b0535ac9ba824b09ee50fe2416bf6c2d5e28d1a697a8f1b9e",
+      "module": null,
+      "node": "green-58",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/green-58/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "32191282b59ec9c3aac4917abe1753b3f8591bfca165f068e5507919ad9bc166",
+      "module": null,
+      "node": "green-58",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Composite.lean",
+      "kind": "definition",
+      "lean_hash": "69203e7995b187b5a2fb483675eafaa1c83adca7d511078a317e63a8aa4dc0f5",
+      "module": "Composite.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "green-58"
+}

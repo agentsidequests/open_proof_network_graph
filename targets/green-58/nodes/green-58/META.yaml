@@ -1,0 +1,16 @@
+schema: meta/v2
+id: green-58
+status: ready
+deps: []
+statement-hash: 8d3dcd4160c9237b0535ac9ba824b09ee50fe2416bf6c2d5e28d1a697a8f1b9e
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
+acknowledged_hazards:
+- checker: off-by-one-range
+  location: Finset.Icc 1 N
+  justification: The informal statement's $\{1, \dots, N\}$ is inclusive at both ends,
+    which is exactly Finset.Icc 1 N; the registry states it the same way.
