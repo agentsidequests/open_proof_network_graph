@@ -1,0 +1,25 @@
+{
+  "rendered_from": "647272c2a1997405ece4fbc617f36d57ed49fea6",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/schanuel-conjecture/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "b750db32fbc4221788a04c4eb05593e2afc383a63d24aeacb061be0be158a691",
+      "module": null,
+      "node": "schanuel-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/schanuel-conjecture/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "2fdb3beb62df80f24022d2d605d1d5e80784dac7830ceff61f719b8504d32b7b",
+      "module": null,
+      "node": "schanuel-conjecture",
+      "record": "gloss"
+    }
+  ],
+  "target": "schanuel-conjecture"
+}

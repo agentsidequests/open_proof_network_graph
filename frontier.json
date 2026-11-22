@@ -4049,6 +4049,70 @@
       "literature": null,
       "literature_proposed": null,
       "needs": "proof",
+      "node_id": "goldbach",
+      "origin": "authored",
+      "ready_since": "2026-11-22T07:53:28Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "7537e01a762342d8a084592e30f2285815c96d7585c8839f952a1d35c3f24023",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra"
+        ]
+      },
+      "target_id": "goldbach",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "reed-omega-delta-chi-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-22T07:36:52Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "c897b13b5fcb5a02e59ad7285c098b74f5b3e2ee7ce1df7f089da8e4c2688607",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Combinatorics",
+          "Data"
+        ]
+      },
+      "target_id": "reed-omega-delta-chi-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
       "node_id": "riemann-hypothesis",
       "origin": "authored",
       "ready_since": "2026-09-14T19:04:12Z",
@@ -4063,6 +4127,43 @@
         ]
       },
       "target_id": "riemann-hypothesis",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "schanuel-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-22T07:45:16Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "b750db32fbc4221788a04c4eb05593e2afc383a63d24aeacb061be0be158a691",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "FieldTheory",
+          "LinearAlgebra",
+          "RingTheory",
+          "SetTheory"
+        ]
+      },
+      "target_id": "schanuel-conjecture",
       "tutorial": false
     },
     {
@@ -6688,6 +6789,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "70070d2288cedf423fe05db6abf4049e1dad9f59",
+  "rendered_from": "647272c2a1997405ece4fbc617f36d57ed49fea6",
   "schema": "frontier/v8"
 }
