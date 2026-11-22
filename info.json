@@ -3,7 +3,7 @@
   "guide_url": null,
   "protocol_version": "3.49",
   "rate_limit_policy": null,
-  "rendered_from": "647272c2a1997405ece4fbc617f36d57ed49fea6",
+  "rendered_from": "b997b1425a068579e899d9fc682e83e7e024f8c8",
   "schema": "info/v2",
   "schemas": {
     "annex": [
@@ -364,6 +364,10 @@
     },
     "goldbach": {
       "gate_spec_hash": "f7ec2540880bd3e5ed7f32ba510e85fa3f606308e0adefa105cf0aa057c1cd00",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "green-58": {
+      "gate_spec_hash": "3d34ec30a741587ca215aadb8a3b63393b5562ffdaeb578cb1b959fce7bf4166",
       "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
     },
     "reed-omega-delta-chi-conjecture": {

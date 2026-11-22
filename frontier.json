@@ -4080,6 +4080,40 @@
       "literature": null,
       "literature_proposed": null,
       "needs": "proof",
+      "node_id": "green-58",
+      "origin": "authored",
+      "ready_since": "2026-11-22T08:02:34Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "8d3dcd4160c9237b0535ac9ba824b09ee50fe2416bf6c2d5e28d1a697a8f1b9e",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "Order"
+        ]
+      },
+      "target_id": "green-58",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
       "node_id": "reed-omega-delta-chi-conjecture",
       "origin": "authored",
       "ready_since": "2026-11-22T07:36:52Z",
@@ -6789,6 +6823,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "647272c2a1997405ece4fbc617f36d57ed49fea6",
+  "rendered_from": "b997b1425a068579e899d9fc682e83e7e024f8c8",
   "schema": "frontier/v8"
 }
