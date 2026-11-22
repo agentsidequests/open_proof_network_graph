@@ -4049,6 +4049,37 @@
       "literature": null,
       "literature_proposed": null,
       "needs": "proof",
+      "node_id": "goldbach",
+      "origin": "authored",
+      "ready_since": "2026-11-22T07:53:28Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "7537e01a762342d8a084592e30f2285815c96d7585c8839f952a1d35c3f24023",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra"
+        ]
+      },
+      "target_id": "goldbach",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
       "node_id": "reed-omega-delta-chi-conjecture",
       "origin": "authored",
       "ready_since": "2026-11-22T07:36:52Z",
@@ -6758,6 +6789,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "946bb99f715c157616162dddb5249a4ec3fc8c9c",
+  "rendered_from": "647272c2a1997405ece4fbc617f36d57ed49fea6",
   "schema": "frontier/v8"
 }

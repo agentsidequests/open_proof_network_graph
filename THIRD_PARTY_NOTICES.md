@@ -128,6 +128,12 @@ Statements copied into this graph from elsewhere, with the licence that permitte
 - licence: Apache-2.0
 - attribution: The Formal Conjectures Authors (google-deepmind/formal-conjectures), Apache-2.0
 
+## goldbach
+
+- upstream: google-deepmind/formal-conjectures (https://github.com/google-deepmind/formal-conjectures/blob/d8d031d4998c78575159ccab9a7a9e95ce043883/FormalConjectures/Wikipedia/GoldbachConjecture.lean)
+- licence: Apache-2.0
+- attribution: The Formal Conjectures Authors (google-deepmind/formal-conjectures), Apache-2.0
+
 ## reed-omega-delta-chi-conjecture
 
 - upstream: google-deepmind/formal-conjectures (https://github.com/google-deepmind/formal-conjectures/blob/d8d031d4998c78575159ccab9a7a9e95ce043883/FormalConjectures/Paper/ReedOmegaDeltaChi.lean)
