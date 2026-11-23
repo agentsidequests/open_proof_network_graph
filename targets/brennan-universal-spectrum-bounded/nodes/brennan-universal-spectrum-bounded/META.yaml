@@ -1,0 +1,11 @@
+schema: meta/v2
+id: brennan-universal-spectrum-bounded
+status: ready
+deps: []
+statement-hash: d714bddcc2b08d046f029064450c64b0ecf646b0148d4b0e1eafccf7b2c90779
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
