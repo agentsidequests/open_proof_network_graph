@@ -1,0 +1,40 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: ca9cbf058728c228d80e2613ccb874eec35e141948d8d0ab1207ed04642bf2be
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:100
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 0
+  letter: D
+  reasons:
+  - +2 attempted by AlphaProof Nexus (Feb 2026), not solved
+  - +0 misformalization issue(s) filed and closed
+  - +1 Lean statement public for 180+ days
+  - -1 file modified in the last 30 days
+  - '+0 file-local definitions: DistancesSeparated'
+  - '-2 wording hazard: sufficiently large, asymptotic notation'
+registry_history:
+  first: '2026-01-25'
+  last: '2026-10-29'
+  commits: 10
+misformalization:
+- number: 2414
+  state: closed
+  url: https://github.com/google-deepmind/formal-conjectures/issues/2414
+  created: '2026-02-26'
+  closed: '2026-03-09'
+  pr: false
+local_definitions:
+- upstream_name: DistancesSeparated
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 1
+hazards:
+- sufficiently large
+- asymptotic notation
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
