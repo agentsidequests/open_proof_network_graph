@@ -1,0 +1,22 @@
+schema: attempts/v1
+attempts:
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_10
+  statement_hash: 49e07f9a81385178f7eacd784ca60dfb1f9edadf00a6c8cb908380dd8014ff9a
+  note: '`erdos_10` is listed as attempted and not solved; dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_10.variants.granville_soundararajan_odd
+  statement_hash: 49e07f9a81385178f7eacd784ca60dfb1f9edadf00a6c8cb908380dd8014ff9a
+  note: '`erdos_10.variants.granville_soundararajan_odd` is listed as attempted and
+    not solved; dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_10.variants.grechuk
+  statement_hash: 49e07f9a81385178f7eacd784ca60dfb1f9edadf00a6c8cb908380dd8014ff9a
+  note: '`erdos_10.variants.grechuk` is listed as attempted and not solved; dated
+    by the list''s publication'
