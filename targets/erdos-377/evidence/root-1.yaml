@@ -1,0 +1,41 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 0abf1055c16b2de67bea0f47e0a223968787f1587616ea90632dbcfba487cabc
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:377
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 1
+  letter: D
+  reasons:
+  - +0 misformalization issue(s) filed and closed
+  - +1 Lean statement public for 180+ days
+  - '+0 file-local definitions: sumInvPrimesNotDvdCentralBinom'
+registry_history:
+  first: '2025-04-26'
+  last: '2026-10-14'
+  commits: 21
+misformalization:
+- number: 5792
+  state: closed
+  url: https://github.com/google-deepmind/formal-conjectures/pull/5792
+  created: '2026-09-11'
+  closed: '2026-09-12'
+  pr: true
+- number: 5645
+  state: closed
+  url: https://github.com/google-deepmind/formal-conjectures/issues/5645
+  created: '2026-09-11'
+  closed: '2026-09-12'
+  pr: false
+local_definitions:
+- upstream_name: sumInvPrimesNotDvdCentralBinom
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
