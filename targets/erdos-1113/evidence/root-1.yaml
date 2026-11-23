@@ -1,0 +1,30 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 8e143c1541fab8cb9b4f6de2a667a9621e764dcba69fb92d3119f32cd3ebeacb
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:1113
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 1
+  letter: D
+  reasons:
+  - +1 no misformalization issue ever filed
+  - +1 Lean statement public for 180+ days
+  - -1 file modified in the last 30 days
+  - '+0 file-local definitions: HasFinitePrimeCoveringSet'
+registry_history:
+  first: '2026-04-10'
+  last: '2026-10-29'
+  commits: 7
+misformalization: []
+local_definitions:
+- upstream_name: HasFinitePrimeCoveringSet
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'

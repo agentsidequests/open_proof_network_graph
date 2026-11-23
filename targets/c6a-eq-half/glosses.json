@@ -1,0 +1,97 @@
+{
+  "rendered_from": "0097ca4f3de44be644ced7010e1d11a1ceb93ce9",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/c6a-eq-half/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "70d9c7d29cbe756f70064c8b3c4d3d022fb6a9a0032764ac8a439cea8d5a6468",
+      "module": null,
+      "node": "c6a-eq-half",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/c6a-eq-half/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "32191282b59ec9c3aac4917abe1753b3f8591bfca165f068e5507919ad9bc166",
+      "module": null,
+      "node": "c6a-eq-half",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/AlgebraWeylAlgebra.lean",
+      "kind": "definition",
+      "lean_hash": "c38bc70ae099130a1293120aa736933497cefce13ef8c90fa02c336b14913382",
+      "module": "AlgebraWeylAlgebra.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "kind": "definition",
+      "lean_hash": "a23db3563dbd5720c7d88e780b332031f01a90785d5eb69122020764798fd4db",
+      "module": "AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/ComputabilityTuringMachineBusyBeavers.lean",
+      "kind": "definition",
+      "lean_hash": "4b0279e765119633440f894e4fd200cf56b0cdfbe5da2c140e099757ac6e73cd",
+      "module": "ComputabilityTuringMachineBusyBeavers.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/ComputabilityTuringMachineNotation.lean",
+      "kind": "definition",
+      "lean_hash": "30e56808ac12b1ca99ea735318458908e20327e939a784ef8bc5f6dcc9dee1d8",
+      "module": "ComputabilityTuringMachineNotation.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/ComputabilityTuringMachinePostTuringMachine.lean",
+      "kind": "definition",
+      "lean_hash": "8a8fd528f5e229123bf9a224466cc8f38b5212c9e268725e86a8674c0d102c6b",
+      "module": "ComputabilityTuringMachinePostTuringMachine.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/FieldTheoryMilnorKTheory.lean",
+      "kind": "definition",
+      "lean_hash": "df7ae97dd988c59ba4fbd78cfae71259fa936fc67717e3687e8fc2fdb76d77c4",
+      "module": "FieldTheoryMilnorKTheory.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/GroupTheoryRationalClasses.lean",
+      "kind": "definition",
+      "lean_hash": "a4ecca71397192d2df478310acafedd96f6a5ec2b446f4ec79c3df5c1d587ee3",
+      "module": "GroupTheoryRationalClasses.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Local.lean",
+      "kind": "definition",
+      "lean_hash": "3d55f00d80a7e1e00748bed17ba61642dc333b141efacd98f985e4f041cafd46",
+      "module": "Local.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "c6a-eq-half"
+}
