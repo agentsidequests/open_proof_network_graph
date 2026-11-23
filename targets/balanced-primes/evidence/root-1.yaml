@@ -1,0 +1,27 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 92469897c0c2dd6ebe05948a090c76f3ff949ea0e53b60e4306dfaab7bff9ee3
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: fc:FormalConjectures/Wikipedia/BalancedPrimes.lean#balanced_primes
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 3
+  letter: C
+  reasons:
+  - +1 Lean statement public for 180+ days
+  - +1 no misformalization issue ever filed
+  - +1 no file-local definitions in the statement (Mathlib vocabulary only)
+registry_history:
+  first: '2026-01-23'
+  last: '2026-10-14'
+  commits: 6
+misformalization: []
+local_definitions: []
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
