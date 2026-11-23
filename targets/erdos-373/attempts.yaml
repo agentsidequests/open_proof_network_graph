@@ -1,0 +1,16 @@
+schema: attempts/v1
+attempts:
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_373.variants.maximal_solution
+  statement_hash: 7b6ea71ef28403d0a4f792251204a7d88870d4e72508d47e28e0364631df0f84
+  note: '`erdos_373.variants.maximal_solution` is listed as attempted and not solved;
+    dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_373.variants.suranyi
+  statement_hash: 7b6ea71ef28403d0a4f792251204a7d88870d4e72508d47e28e0364631df0f84
+  note: '`erdos_373.variants.suranyi` is listed as attempted and not solved; dated
+    by the list''s publication'
