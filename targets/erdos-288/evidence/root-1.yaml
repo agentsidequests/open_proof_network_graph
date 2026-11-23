@@ -1,0 +1,34 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 9796785a7cb799678f949a3ca8160c5e1c443697bd7acd6c5a198aba66fb020a
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:288
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 4
+  letter: B
+  reasons:
+  - +2 attempted by AlphaProof Nexus (Feb 2026), not solved
+  - +0 misformalization issue(s) filed and closed
+  - +1 Lean statement public for 180+ days
+  - +1 no file-local definitions (Mathlib vocabulary only)
+registry_history:
+  first: '2025-10-03'
+  last: '2026-10-14'
+  commits: 8
+misformalization:
+- number: 1195
+  state: closed
+  url: https://github.com/google-deepmind/formal-conjectures/pull/1195
+  created: '2025-11-11'
+  closed: '2025-11-11'
+  pr: true
+local_definitions: []
+registry_helpers: []
+external_attempts_recorded: 3
+hazards: []
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
