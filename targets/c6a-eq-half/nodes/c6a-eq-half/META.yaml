@@ -1,0 +1,11 @@
+schema: meta/v2
+id: c6a-eq-half
+status: ready
+deps: []
+statement-hash: 70d9c7d29cbe756f70064c8b3c4d3d022fb6a9a0032764ac8a439cea8d5a6468
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
