@@ -1,0 +1,15 @@
+schema: attempts/v1
+attempts:
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_313
+  statement_hash: 0c011e506bae000a41b6662751ab03c8a6a45b0bb58712905e1505f957dfec88
+  note: '`erdos_313` is listed as attempted and not solved; dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_313.variants.primary_pseudoperfect_are_infinite
+  statement_hash: 0c011e506bae000a41b6662751ab03c8a6a45b0bb58712905e1505f957dfec88
+  note: '`erdos_313.variants.primary_pseudoperfect_are_infinite` is listed as attempted
+    and not solved; dated by the list''s publication'

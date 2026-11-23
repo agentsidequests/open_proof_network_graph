@@ -1,0 +1,43 @@
+{
+  "rendered_from": "0097ca4f3de44be644ced7010e1d11a1ceb93ce9",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/collatz-conjecture/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "ee5033b8c397f1042e993a64ac7bb2baed27357ceeb8f2b80388553e71106481",
+      "module": null,
+      "node": "collatz-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/collatz-conjecture/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "8b4826f4aa350aabf99872486b9b05335098f2c59ef2687fd8c65d500faa05df",
+      "module": null,
+      "node": "collatz-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "kind": "definition",
+      "lean_hash": "a23db3563dbd5720c7d88e780b332031f01a90785d5eb69122020764798fd4db",
+      "module": "AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Local.lean",
+      "kind": "definition",
+      "lean_hash": "e2d06e3c03ca2ddf3c61bbbbe3b13a4496e7abd3be9ddf7dcf0acf07bde1d052",
+      "module": "Local.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "collatz-conjecture"
+}
