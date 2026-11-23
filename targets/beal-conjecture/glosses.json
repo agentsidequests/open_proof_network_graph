@@ -1,0 +1,43 @@
+{
+  "rendered_from": "0097ca4f3de44be644ced7010e1d11a1ceb93ce9",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/beal-conjecture/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "8d989308ce68a9af4f11e0b0794d1b1dadc6ee8243629a88552bb62bb49dc799",
+      "module": null,
+      "node": "beal-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/beal-conjecture/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "32191282b59ec9c3aac4917abe1753b3f8591bfca165f068e5507919ad9bc166",
+      "module": null,
+      "node": "beal-conjecture",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "kind": "definition",
+      "lean_hash": "a23db3563dbd5720c7d88e780b332031f01a90785d5eb69122020764798fd4db",
+      "module": "AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Local.lean",
+      "kind": "definition",
+      "lean_hash": "b6d1a83888a99b23c705308b1189391e370d997e5714890919f24bf54e28e6b4",
+      "module": "Local.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "beal-conjecture"
+}
