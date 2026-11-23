@@ -1,0 +1,63 @@
+schema: target/v3
+id: erdos-1221
+title: 'Erdős problem 1221, part i: Let $a=(a_1,\ldots,a_n)$ be points, ordered consecutively,
+  around the circle (normalised to have circumference $1$).'
+informal: Let $a=(a_1,\ldots,a_n)$ be points, ordered consecutively, around the circle
+  (normalised to have circumference $1$). Let $$M_r(a)=\max_r \lvert a_{i+r}-a_i\rvert$$
+  and $$m_r(a)=\min_r \lvert a_{i+r}-a_i\rvert,$$ where the indices are interpreted
+  in a cyclic fashion and the distance is around the circle (in other words, the maximum
+  and minimum distance between $r$-consecutive points). Let $$\Lambda_r=\inf_a \limsup_n
+  n M_r(a_1,\ldots,a_n),$$ $$\lambda_r = \sup_a \liminf_n nm_r(a_1,\ldots,a_n),$$
+  and $$\mu_r=\inf_a \limsup_n \frac{M_r(a)}{m_r(a)},$$ where the outer $\inf/\sup$
+  is over all infinite sequences $a=(a_1,\ldots)$. Is it true that $r(\Lambda_r-1)$,
+  $r(1-\lambda_r)$, and $r(\mu_r-1)$ tend to infinity as $r\to \infty$? This is the
+  first part, conjectured by de Bruijn and Erdős [dBEr49, §6]. We read $\Lambda_r$
+  and $\lambda_r$ as in `bigLambda` and `smallLambda`, that is, as printed. The sequences
+  are required to have pairwise distinct points modulo $1$ (see `bigLambda`). Then
+  $nM_r\geq r$ [dBEr49, §1], so $r(\Lambda_r-1)\to\infty$ would hold trivially. Also
+  $m_r\geq r\,m_1$, so the sequence $a_k=\log_2(2k-1)$ of [dBEr49, §2] gives $\lambda_r\geq
+  r/\log 4$, which exceeds $1$ for $r\geq2$, so $r(1-\lambda_r)$ would be negative
+  for $r\geq2$. The intended conjectures are about the quantities normalised by $r$,
+  so $r(\Lambda_r/r-1)=\Lambda_r-r$, and the first part asks whether $\Lambda_r-r\to\infty$.
+paraphrase: null
+track: open
+source:
+  kind: formal-conjectures
+  ref: FormalConjectures/ErdosProblems/1221.lean
+  url: https://github.com/google-deepmind/formal-conjectures/blob/d8d031d4998c78575159ccab9a7a9e95ce043883/FormalConjectures/ErdosProblems/1221.lean
+curator: thisisanameforsure
+prior_art:
+  arxiv_query: null
+  forum_url: https://www.erdosproblems.com/1221
+  summary: 'Catalog score 0 (D) at registry commit d8d031d4998c: +1 no misformalization
+    issue ever filed; -1 file modified in the last 30 days; +0 file-local definitions:
+    pts, sortedPoint, unrolled, rSpan. AlphaProof Nexus attempts: none on record.
+    In the registry since 2026-11-03. Drafted by gate/tools/wave.py (F14-T11); the
+    curator reads it before import (R13).'
+library_coverage:
+  mathlib_sha: 0df444a360eaa60ab8c11dca51a86af692955474
+  missing_prerequisites: []
+provenance:
+  statement_source: formal-conjectures
+  author: The Formal Conjectures Authors
+  adversarially_reviewed: false
+  upstream_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  upstream_path: FormalConjectures/ErdosProblems/1221.lean
+sources:
+- kind: formal-conjectures
+  url: https://github.com/google-deepmind/formal-conjectures/blob/d8d031d4998c78575159ccab9a7a9e95ce043883/FormalConjectures/ErdosProblems/1221.lean
+  accessed: '2026-11-23'
+  licence: Apache-2.0
+  attribution: The Formal Conjectures Authors (google-deepmind/formal-conjectures),
+    Apache-2.0
+  quote_policy: cite
+attack_routes: []
+posting: null
+domains:
+- number-theory
+qa_summary: null
+classification:
+  arxiv:
+  - math.NT
+  msc2020:
+  - 11-xx

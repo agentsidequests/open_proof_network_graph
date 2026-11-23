@@ -1,0 +1,30 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 7a5640b803b6601b8e5097c5ad19373c75d7cab9abb4167ade1175fed49e58ab
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:414
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 4
+  letter: B
+  reasons:
+  - +2 attempted by AlphaProof Nexus (Feb 2026), not solved
+  - +1 no misformalization issue ever filed
+  - +1 Lean statement public for 180+ days
+  - '+0 file-local definitions: h'
+registry_history:
+  first: '2025-12-09'
+  last: '2026-10-14'
+  commits: 6
+misformalization: []
+local_definitions:
+- upstream_name: h
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 1
+hazards: []
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
