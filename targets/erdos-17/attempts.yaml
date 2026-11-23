@@ -1,0 +1,8 @@
+schema: attempts/v1
+attempts:
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_17
+  statement_hash: f8f9047f08f6574318c4a75d39bc0e94ef979017a227b57c8c3cbc18aa730618
+  note: '`erdos_17` is listed as attempted and not solved; dated by the list''s publication'
