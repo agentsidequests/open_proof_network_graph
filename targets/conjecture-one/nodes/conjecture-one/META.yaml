@@ -1,0 +1,11 @@
+schema: meta/v2
+id: conjecture-one
+status: ready
+deps: []
+statement-hash: bc8b5f876009b6f50d591faa3bbbb96e0e25acf2cc58e57aaedcf2d143380d5b
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false

@@ -1,0 +1,34 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: bc8b5f876009b6f50d591faa3bbbb96e0e25acf2cc58e57aaedcf2d143380d5b
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: fc:FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean#conjecture_one
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 1
+  letter: D
+  reasons:
+  - +1 no misformalization issue ever filed
+  - '+0 file-local definitions in the statement: Point, pointPolynomial'
+registry_history:
+  first: '2026-08-11'
+  last: '2026-09-18'
+  commits: 3
+misformalization: []
+local_definitions:
+- upstream_name: Point
+  ported_to: null
+- upstream_name: directionLift
+  ported_to: null
+- upstream_name: linearFactor
+  ported_to: null
+- upstream_name: pointPolynomial
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
