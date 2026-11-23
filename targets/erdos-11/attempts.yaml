@@ -1,0 +1,22 @@
+schema: attempts/v1
+attempts:
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_11
+  statement_hash: 3cb3f07e1e4a4a464076bc4b021da160d0f2ae3f7bd9ef73788276045f04d3b7
+  note: '`erdos_11` is listed as attempted and not solved; dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_11.variants.not_four_dvd
+  statement_hash: 3cb3f07e1e4a4a464076bc4b021da160d0f2ae3f7bd9ef73788276045f04d3b7
+  note: '`erdos_11.variants.not_four_dvd` is listed as attempted and not solved; dated
+    by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_11.variants.two_pow_two
+  statement_hash: 3cb3f07e1e4a4a464076bc4b021da160d0f2ae3f7bd9ef73788276045f04d3b7
+  note: '`erdos_11.variants.two_pow_two` is listed as attempted and not solved; dated
+    by the list''s publication'
