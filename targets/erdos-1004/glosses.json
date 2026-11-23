@@ -1,0 +1,43 @@
+{
+  "rendered_from": "0097ca4f3de44be644ced7010e1d11a1ceb93ce9",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/erdos-1004/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "240f7e0dc4415f4c9ea52dada6dab4793198795141dcdee2a46c1fbcb4e51bf5",
+      "module": null,
+      "node": "erdos-1004",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1004/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "03c3df73f98fa7fc9aace33b0f13f8b42c60cd8dcd8278bfce43a6c2b976e8df",
+      "module": null,
+      "node": "erdos-1004",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "kind": "definition",
+      "lean_hash": "a23db3563dbd5720c7d88e780b332031f01a90785d5eb69122020764798fd4db",
+      "module": "AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/Local.lean",
+      "kind": "definition",
+      "lean_hash": "5ea3d526346996432936630695cad5e9f3088380a877437f9a011a7120dee586",
+      "module": "Local.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "erdos-1004"
+}
