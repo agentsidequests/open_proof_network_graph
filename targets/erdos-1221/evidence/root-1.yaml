@@ -1,0 +1,45 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 7cd160227e1376fffbfc509ee2e6565e19c2f5078548bf8c684389bbc4851fdd
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:1221
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 0
+  letter: D
+  reasons:
+  - +1 no misformalization issue ever filed
+  - -1 file modified in the last 30 days
+  - '+0 file-local definitions: pts, sortedPoint, unrolled, rSpan'
+registry_history:
+  first: '2026-11-03'
+  last: '2026-11-03'
+  commits: 1
+misformalization: []
+local_definitions:
+- upstream_name: pts
+  ported_to: null
+- upstream_name: sortedPoint
+  ported_to: null
+- upstream_name: unrolled
+  ported_to: null
+- upstream_name: rSpan
+  ported_to: null
+- upstream_name: maxSpan
+  ported_to: null
+- upstream_name: minSpan
+  ported_to: null
+- upstream_name: bigLambda
+  ported_to: null
+- upstream_name: smallLambda
+  ported_to: null
+- upstream_name: mu
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
