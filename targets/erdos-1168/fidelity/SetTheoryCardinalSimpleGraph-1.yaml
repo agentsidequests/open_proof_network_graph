@@ -1,0 +1,10 @@
+schema: fidelity/v2
+subject: SetTheoryCardinalSimpleGraph
+statement_hash: 2bf65f7edb21b38cfd1008a44eafe91783e63f5b55019cbbbff24a5c1e49293b
+grade: mechanical-only
+subject_author: The Formal Conjectures Authors
+attestor: thisisanameforsure
+date: '2026-11-23'
+evidence: 'admitted at intake: SetTheoryCardinalSimpleGraph elaborates and passes
+  F08''s mechanical admission. No human has read it against the informal statement,
+  which is what D-9''s first rung says.'

@@ -1,0 +1,23 @@
+schema: attempts/v1
+attempts:
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_288.variants.exists_k_gt_2
+  statement_hash: 9796785a7cb799678f949a3ca8160c5e1c443697bd7acd6c5a198aba66fb020a
+  note: '`erdos_288.variants.exists_k_gt_2` is listed as attempted and not solved;
+    dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_288.variants.i2_card_eq_1
+  statement_hash: 9796785a7cb799678f949a3ca8160c5e1c443697bd7acd6c5a198aba66fb020a
+  note: '`erdos_288.variants.i2_card_eq_1` is listed as attempted and not solved;
+    dated by the list''s publication'
+- venue: google-deepmind/alphaproof-nexus-results
+  system: AlphaProof Nexus
+  date: '2026-05-13'
+  url: https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/erdos_problems_attempted.txt#erdos_288.variants.k_intervals
+  statement_hash: 9796785a7cb799678f949a3ca8160c5e1c443697bd7acd6c5a198aba66fb020a
+  note: '`erdos_288.variants.k_intervals` is listed as attempted and not solved; dated
+    by the list''s publication'
