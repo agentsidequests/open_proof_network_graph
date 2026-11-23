@@ -1,0 +1,31 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 7a63ab77ffd5418e28aca1227ce4cc78c0db3a2c7c2abf24de03641f3a01f404
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: fc:FormalConjectures/Arxiv/0912.2382/CurlingNumberConjecture.lean#curling_number_conjecture
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 2
+  letter: C
+  reasons:
+  - +1 Lean statement public for 180+ days
+  - +1 no misformalization issue ever filed
+  - '+0 file-local definitions in the statement: k, S'
+registry_history:
+  first: '2025-04-26'
+  last: '2026-10-12'
+  commits: 15
+misformalization: []
+local_definitions:
+- upstream_name: k
+  ported_to: null
+- upstream_name: S
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
