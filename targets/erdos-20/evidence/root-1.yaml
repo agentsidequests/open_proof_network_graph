@@ -1,0 +1,39 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: ca5763aa1c2e4f77c28b7a375685150125250c91e7814f01fe1fea35438882a0
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:20
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 5
+  letter: B+
+  reasons:
+  - +2 Bloom selected it for FrontierMath Erdős
+  - +1 FC statement vendored and asserted `research open` at Epoch's pin
+  - +2 attempted by AlphaProof Nexus (Feb 2026), not solved
+  - +0 misformalization issue(s) filed and closed
+  - +1 Lean statement public for 180+ days
+  - -1 file modified in the last 30 days
+  - '+0 file-local definitions: f'
+registry_history:
+  first: '2025-08-20'
+  last: '2026-10-29'
+  commits: 14
+misformalization:
+- number: 1261
+  state: closed
+  url: https://github.com/google-deepmind/formal-conjectures/pull/1261
+  created: '2025-11-22'
+  closed: '2025-11-23'
+  pr: true
+local_definitions:
+- upstream_name: f
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 1
+hazards: []
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
