@@ -1,0 +1,31 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: bd26cc372895805537c23b79d0f1545faa7218f3318a2a8695879a16a89c38ca
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: fc:FormalConjectures/Wikipedia/DiameterSimpleFiniteGroups.lean#babai_seress_conjecture_alternating
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 2
+  letter: C
+  reasons:
+  - +1 Lean statement public for 180+ days
+  - +1 no misformalization issue ever filed
+  - '+0 file-local definitions in the statement: groupDiam'
+registry_history:
+  first: '2026-03-15'
+  last: '2026-09-18'
+  commits: 4
+misformalization: []
+local_definitions:
+- upstream_name: cayleyGraph
+  ported_to: null
+- upstream_name: groupDiam
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards: []
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'

@@ -1,0 +1,11 @@
+schema: meta/v2
+id: babai-seress-conjecture-alternating
+status: ready
+deps: []
+statement-hash: bd26cc372895805537c23b79d0f1545faa7218f3318a2a8695879a16a89c38ca
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
