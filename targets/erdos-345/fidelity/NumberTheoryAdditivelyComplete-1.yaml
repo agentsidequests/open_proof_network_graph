@@ -1,0 +1,10 @@
+schema: fidelity/v2
+subject: NumberTheoryAdditivelyComplete
+statement_hash: c344293f609d01ddeebe6191501e0b177ab1b322b84adfc09f963ffde9f9e671
+grade: mechanical-only
+subject_author: The Formal Conjectures Authors
+attestor: thisisanameforsure
+date: '2026-11-23'
+evidence: 'admitted at intake: NumberTheoryAdditivelyComplete elaborates and passes
+  F08''s mechanical admission. No human has read it against the informal statement,
+  which is what D-9''s first rung says.'
