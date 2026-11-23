@@ -1,0 +1,11 @@
+schema: meta/v2
+id: center-column-not-eventually-periodic
+status: ready
+deps: []
+statement-hash: c4304a56b4f9ee708a873cc2475748f8dc4ad809f332c24b2069a7d80e6ebfbd
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
