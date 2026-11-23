@@ -41,9 +41,5118 @@
       "since": null
     }
   },
-  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
   "schema": "targets-index/v11",
   "targets": [
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "abc",
+      "root_statement_hash": "2b33492071bcf958d299f75bc991f26d27491bf7c42295222ede3b6fc46380c2",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/ABC.lean#abc",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "2b33492071bcf958d299f75bc991f26d27491bf7c42295222ede3b6fc46380c2"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "CombinatoricsSimpleGraphInduced"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataNatPrimeFinset"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "abc",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "algebraic-independent-e-pi",
+      "root_statement_hash": "f2067e4ae938a44ec1a4684e6aaa034b13b6405d175ea05963de60d330b0fc77",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/Irrational.lean#algebraicIndependent_e_pi",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "f2067e4ae938a44ec1a4684e6aaa034b13b6405d175ea05963de60d330b0fc77"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "algebraic-independent-e-pi",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "babai-seress-conjecture",
+      "root_statement_hash": "16976f7620de6e8837a7c875b7e3a09822fd5135a2321b68e73acff7c305fba9",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/DiameterSimpleFiniteGroups.lean#babai_seress_conjecture",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "16976f7620de6e8837a7c875b7e3a09822fd5135a2321b68e73acff7c305fba9"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "babai-seress-conjecture",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "babai-seress-conjecture-alternating",
+      "root_statement_hash": "bd26cc372895805537c23b79d0f1545faa7218f3318a2a8695879a16a89c38ca",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/DiameterSimpleFiniteGroups.lean#babai_seress_conjecture_alternating",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "bd26cc372895805537c23b79d0f1545faa7218f3318a2a8695879a16a89c38ca"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "babai-seress-conjecture-alternating",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "balanced-primes",
+      "root_statement_hash": "92469897c0c2dd6ebe05948a090c76f3ff949ea0e53b60e4306dfaab7bff9ee3",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/BalancedPrimes.lean#balanced_primes",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 3,
+        "statement_hash": "92469897c0c2dd6ebe05948a090c76f3ff949ea0e53b60e4306dfaab7bff9ee3"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        }
+      ],
+      "target_id": "balanced-primes",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "beal-conjecture",
+      "root_statement_hash": "8d989308ce68a9af4f11e0b0794d1b1dadc6ee8243629a88552bb62bb49dc799",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/BealConjecture.lean#beal_conjecture",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "8d989308ce68a9af4f11e0b0794d1b1dadc6ee8243629a88552bb62bb49dc799"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "beal-conjecture",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "beaver-math-olympiad-problem-2-antihydra",
+      "root_statement_hash": "535946e29e93d12ebecc67a639fab85feab5623026d41f3aedfe4f54ab878a29",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Other/BeaverMathOlympiad.lean#beaver_math_olympiad_problem_2_antihydra",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "535946e29e93d12ebecc67a639fab85feab5623026d41f3aedfe4f54ab878a29"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        }
+      ],
+      "target_id": "beaver-math-olympiad-problem-2-antihydra",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "beck-fiala-conjecture",
+      "root_statement_hash": "40d1c5fdc12fc94d93b3e64524492cfeaab8c4bcb46527c5a6c7c0c613d66810",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/BeckFialaConjecture.lean#beck_fiala_conjecture",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "40d1c5fdc12fc94d93b3e64524492cfeaab8c4bcb46527c5a6c7c0c613d66810"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        }
+      ],
+      "target_id": "beck-fiala-conjecture",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "brennan-universal-spectrum-bounded",
+      "root_statement_hash": "d714bddcc2b08d046f029064450c64b0ecf646b0148d4b0e1eafccf7b2c90779",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/Brennanconjecture.lean#brennan_universalSpectrumBounded",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "d714bddcc2b08d046f029064450c64b0ecf646b0148d4b0e1eafccf7b2c90779"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "brennan-universal-spectrum-bounded",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "buchi-problem--m5",
+      "root_statement_hash": "31fbd6cda4d17a3cb2c316404039a8946f3f91deaa11e144fdbad4a2a9ecac2e",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/Buchi.lean#buchi_problem_M5",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "31fbd6cda4d17a3cb2c316404039a8946f3f91deaa11e144fdbad4a2a9ecac2e"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "buchi-problem--m5",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "c6a-eq-half",
+      "root_statement_hash": "70d9c7d29cbe756f70064c8b3c4d3d022fb6a9a0032764ac8a439cea8d5a6468",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/OptimizationConstants/6a.lean#c6a_eq_half",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 0,
+        "statement_hash": "70d9c7d29cbe756f70064c8b3c4d3d022fb6a9a0032764ac8a439cea8d5a6468"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachineBusyBeavers"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachineNotation"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachinePostTuringMachine"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "c6a-eq-half",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "c6a-lower-bound-improved",
+      "root_statement_hash": "1c572248f88edb58bd1d79642e50766fb26626263e3088fd0b7a44b17caf8dbe",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/OptimizationConstants/6a.lean#c6a_lower_bound_improved",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 0,
+        "statement_hash": "1c572248f88edb58bd1d79642e50766fb26626263e3088fd0b7a44b17caf8dbe"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachineBusyBeavers"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachineNotation"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachinePostTuringMachine"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "c6a-lower-bound-improved",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "c6a-upper-bound-improved",
+      "root_statement_hash": "d16ff3cb8281ecf0913ad841817bb135528dd3c3178b03a9f7c8484891950f0f",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/OptimizationConstants/6a.lean#c6a_upper_bound_improved",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 0,
+        "statement_hash": "d16ff3cb8281ecf0913ad841817bb135528dd3c3178b03a9f7c8484891950f0f"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachineBusyBeavers"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachineNotation"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "ComputabilityTuringMachinePostTuringMachine"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "c6a-upper-bound-improved",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "center-column-frequency-half",
+      "root_statement_hash": "45e190fbcb90837eac90cfb74df0e7585fca49033b621ce6e0530f58b7942843",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Other/Rule30.lean#centerColumn_frequency_half",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 0,
+        "statement_hash": "45e190fbcb90837eac90cfb74df0e7585fca49033b621ce6e0530f58b7942843"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraOrderGroupPointwiseInterval"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataSetDensity"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataSetInterval"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "OrderIntervalFinsetBasic"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "OrderIntervalFinsetNat"
+        }
+      ],
+      "target_id": "center-column-frequency-half",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "center-column-not-eventually-periodic",
+      "root_statement_hash": "c4304a56b4f9ee708a873cc2475748f8dc4ad809f332c24b2069a7d80e6ebfbd",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Other/Rule30.lean#centerColumn_not_eventually_periodic",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "c4304a56b4f9ee708a873cc2475748f8dc4ad809f332c24b2069a7d80e6ebfbd"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "center-column-not-eventually-periodic",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "charmichael-totient",
+      "root_statement_hash": "34dad748ff29a89e21ecb52c8d8696aa18e891322a2e8c1d1453d0e0bb4d0ae6",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/CarmichaelTotient.lean#charmichaelTotient",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "34dad748ff29a89e21ecb52c8d8696aa18e891322a2e8c1d1453d0e0bb4d0ae6"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "charmichael-totient",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "collatz-conjecture",
+      "root_statement_hash": "ee5033b8c397f1042e993a64ac7bb2baed27357ceeb8f2b80388553e71106481",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/CollatzConjecture.lean#collatz_conjecture",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "ee5033b8c397f1042e993a64ac7bb2baed27357ceeb8f2b80388553e71106481"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "collatz-conjecture",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "conjecture-4-4",
+      "root_statement_hash": "5c8feb927b191c00fe392cdcb4cbd1eaa67f35f6405042c00442a337cb9fb2ce",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Arxiv/2501.03234/ArithmeticSumS.lean#conjecture_4_4",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "5c8feb927b191c00fe392cdcb4cbd1eaa67f35f6405042c00442a337cb9fb2ce"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "conjecture-4-4",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "conjecture-one",
+      "root_statement_hash": "bc8b5f876009b6f50d591faa3bbbb96e0e25acf2cc58e57aaedcf2d143380d5b",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean#conjecture_one",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "bc8b5f876009b6f50d591faa3bbbb96e0e25acf2cc58e57aaedcf2d143380d5b"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "conjecture-one",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "curling-number-conjecture",
+      "root_statement_hash": "7a63ab77ffd5418e28aca1227ce4cc78c0db3a2c7c2abf24de03641f3a01f404",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Arxiv/0912.2382/CurlingNumberConjecture.lean#curling_number_conjecture",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "7a63ab77ffd5418e28aca1227ce4cc78c0db3a2c7c2abf24de03641f3a01f404"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "curling-number-conjecture",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "density-of-hyperbolicity",
+      "root_statement_hash": "11892813e43425532e8756b4ad320be8318467a8ae60b29c266aa278c68fbaef",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/Mandelbrot.lean#density_of_hyperbolicity",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "11892813e43425532e8756b4ad320be8318467a8ae60b29c266aa278c68fbaef"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "density-of-hyperbolicity",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "determinantal-conjecture",
+      "root_statement_hash": "dc1701682202447a0ea99162139b392e5b1fa5f589f2cb4791250f8d2d117727",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Wikipedia/DeterminantalConjecture.lean#determinantal_conjecture",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 3,
+        "statement_hash": "dc1701682202447a0ea99162139b392e5b1fa5f589f2cb4791250f8d2d117727"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        }
+      ],
+      "target_id": "determinantal-conjecture",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "distinct-prop-lt",
+      "root_statement_hash": "9b0f6faa670f973d6e5fe6d4fecbddde716b57501dc44ec434b4f28d2ca7caf5",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "fc:FormalConjectures/Paper/RiemannZetaZeros.lean#riemannZeta.distinct_prop_lt",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 0,
+        "statement_hash": "9b0f6faa670f973d6e5fe6d4fecbddde716b57501dc44ec434b4f28d2ca7caf5"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "NumberTheoryLegendreSymbolBasic"
+        }
+      ],
+      "target_id": "distinct-prop-lt",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 3,
+        "recorded": 3
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "erdos-10",
+      "root_statement_hash": "49e07f9a81385178f7eacd784ca60dfb1f9edadf00a6c8cb908380dd8014ff9a",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "erdos:10",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 3,
+        "statement_hash": "49e07f9a81385178f7eacd784ca60dfb1f9edadf00a6c8cb908380dd8014ff9a"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "erdos-10",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 1,
+        "recorded": 1
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "erdos-100",
+      "root_statement_hash": "ca9cbf058728c228d80e2613ccb874eec35e141948d8d0ab1207ed04642bf2be",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "erdos:100",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 0,
+        "statement_hash": "ca9cbf058728c228d80e2613ccb874eec35e141948d8d0ab1207ed04642bf2be"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataSetTriplewise"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataSymSym2"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Geometry2d"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GeometryMetric"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "LogicEquivFinRotate"
+        }
+      ],
+      "target_id": "erdos-100",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
     {
       "attempts": {
         "counted": 2,
@@ -135,6 +5244,605 @@
         }
       ],
       "target_id": "erdos-1003",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 1,
+        "recorded": 1
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "erdos-1004",
+      "root_statement_hash": "240f7e0dc4415f4c9ea52dada6dab4793198795141dcdee2a46c1fbcb4e51bf5",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "erdos:1004",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "240f7e0dc4415f4c9ea52dada6dab4793198795141dcdee2a46c1fbcb4e51bf5"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "erdos-1004",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 1,
+        "recorded": 1
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "erdos-101",
+      "root_statement_hash": "ee0e6f7ad2e3996262fbbf3462876267b9d48ed981f73de9dd5aa37ff810c8a3",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "erdos:101",
+        "letter": "A",
+        "misformalization_open": 0,
+        "score": 6,
+        "statement_hash": "ee0e6f7ad2e3996262fbbf3462876267b9d48ed981f73de9dd5aa37ff810c8a3"
+      },
+      "status": "listed",
+      "step9": "evidence",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataSetTriplewise"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "DataSymSym2"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Geometry2d"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GeometryMetric"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "LogicEquivFinRotate"
+        }
+      ],
+      "target_id": "erdos-101",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "erdos-1035",
+      "root_statement_hash": "907706516f24e79475c191a8311416265c1b5ca1b452885f4c591502553a8ca4",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "erdos:1035",
+        "letter": "C",
+        "misformalization_open": 0,
+        "score": 2,
+        "statement_hash": "907706516f24e79475c191a8311416265c1b5ca1b452885f4c591502553a8ca4"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "CombinatoricsSimpleGraphHypercube"
+        }
+      ],
+      "target_id": "erdos-1035",
       "track": "open",
       "writeups": {
         "items": [],
@@ -1529,6 +7237,213 @@
         }
       ],
       "target_id": "erdos-417",
+      "track": "open",
+      "writeups": {
+        "items": [],
+        "official": null
+      }
+    },
+    {
+      "attempts": {
+        "counted": 0,
+        "recorded": 0
+      },
+      "calibration": false,
+      "claimable": true,
+      "digestion": {
+        "closure": 0,
+        "closure_explained": 0,
+        "proved": 0,
+        "proved_explained": 0,
+        "state": null
+      },
+      "drift": null,
+      "fidelity": "mechanical-only",
+      "formalizations": [],
+      "mathlib_sha": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "node_counts": {
+        "abandoned": 0,
+        "blocked": 0,
+        "defective": 0,
+        "disputed": 0,
+        "proved": 0,
+        "ready": 1,
+        "refuted": 0,
+        "speculative": 0,
+        "stale": 0,
+        "superseded": 0
+      },
+      "not_claimable": [],
+      "panel": {
+        "members": [],
+        "motions": []
+      },
+      "posting": null,
+      "registrations": [],
+      "review": {
+        "candidates": 0,
+        "clusters": 0,
+        "grade_cap": null,
+        "open_pairs": 0,
+        "questions_waiting": 0,
+        "signers": {
+          "independent": null,
+          "intent": null
+        },
+        "state": "none",
+        "surviving": 0,
+        "tracking": null
+      },
+      "root": "erdos-472",
+      "root_statement_hash": "583e4345f2c8e2afdca06d35e22e707e36d932854365ca6d83a04a8d9f657885",
+      "statement_evidence": {
+        "catalog_commit": "d8d2781825e63641eecc57bb3eaf9135fec18e59",
+        "current": true,
+        "file": "evidence/root-1.yaml",
+        "key": "erdos:472",
+        "letter": "D",
+        "misformalization_open": 0,
+        "score": 1,
+        "statement_hash": "583e4345f2c8e2afdca06d35e22e707e36d932854365ca6d83a04a8d9f657885"
+      },
+      "status": "listed",
+      "step9": "review",
+      "stewards": [],
+      "subjects": [
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "root"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AlgebraWeylAlgebra"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "AnalysisSpecialFunctionsAdditiveCharacter"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "FieldTheoryMilnorKTheory"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "GroupTheoryRationalClasses"
+        },
+        {
+          "grade": "mechanical-only",
+          "qa": {
+            "checks": {
+              "backtranslation": null,
+              "brief": null,
+              "compile": null,
+              "equivalence": null,
+              "screen-consequence": null,
+              "screen-false": null,
+              "screen-negation": null,
+              "screen-statement": null
+            },
+            "complete": false,
+            "fresh_records": 0,
+            "stale": false,
+            "unrouted_findings": 0
+          },
+          "signature_count": 0,
+          "signers": [],
+          "subject": "Local"
+        }
+      ],
+      "target_id": "erdos-472",
       "track": "open",
       "writeups": {
         "items": [],

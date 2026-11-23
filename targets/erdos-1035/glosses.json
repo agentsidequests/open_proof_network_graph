@@ -1,0 +1,43 @@
+{
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
+  "schema": "glosses/v3",
+  "subjects": [
+    {
+      "chains": [],
+      "file": "nodes/erdos-1035/Statement.lean",
+      "kind": "statement",
+      "lean_hash": "907706516f24e79475c191a8311416265c1b5ca1b452885f4c591502553a8ca4",
+      "module": null,
+      "node": "erdos-1035",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "nodes/erdos-1035/Witness.lean",
+      "kind": "witness",
+      "lean_hash": "32191282b59ec9c3aac4917abe1753b3f8591bfca165f068e5507919ad9bc166",
+      "module": null,
+      "node": "erdos-1035",
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "kind": "definition",
+      "lean_hash": "a23db3563dbd5720c7d88e780b332031f01a90785d5eb69122020764798fd4db",
+      "module": "AnalysisSpecialFunctionsAdditiveCharacter.lean",
+      "node": null,
+      "record": "gloss"
+    },
+    {
+      "chains": [],
+      "file": "defs/CombinatoricsSimpleGraphHypercube.lean",
+      "kind": "definition",
+      "lean_hash": "51e877134e68cd7cae466ad23cdbf2a72aabb60c92e585cc800c06f008eabe43",
+      "module": "CombinatoricsSimpleGraphHypercube.lean",
+      "node": null,
+      "record": "gloss"
+    }
+  ],
+  "target": "erdos-1035"
+}

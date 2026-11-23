@@ -1,0 +1,10 @@
+schema: fidelity/v2
+subject: root
+statement_hash: d16ff3cb8281ecf0913ad841817bb135528dd3c3178b03a9f7c8484891950f0f
+grade: mechanical-only
+subject_author: The Formal Conjectures Authors
+attestor: thisisanameforsure
+date: '2026-11-23'
+evidence: 'admitted at intake: root elaborates and passes F08''s mechanical admission.
+  No human has read it against the informal statement, which is what D-9''s first
+  rung says.'

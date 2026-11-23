@@ -1,0 +1,11 @@
+schema: meta/v2
+id: determinantal-conjecture
+status: ready
+deps: []
+statement-hash: dc1701682202447a0ea99162139b392e5b1fa5f589f2cb4791250f8d2d117727
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false

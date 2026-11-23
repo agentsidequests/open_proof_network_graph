@@ -1,6 +1,812 @@
 {
   "entries": [
     {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "abc",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "2b33492071bcf958d299f75bc991f26d27491bf7c42295222ede3b6fc46380c2",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Analysis",
+          "Data",
+          "Logic"
+        ]
+      },
+      "target_id": "abc",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "algebraic-independent-e-pi",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "f2067e4ae938a44ec1a4684e6aaa034b13b6405d175ea05963de60d330b0fc77",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "RingTheory"
+        ]
+      },
+      "target_id": "algebraic-independent-e-pi",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "babai-seress-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "16976f7620de6e8837a7c875b7e3a09822fd5135a2321b68e73acff7c305fba9",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "GroupTheory"
+        ]
+      },
+      "target_id": "babai-seress-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "babai-seress-conjecture-alternating",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "bd26cc372895805537c23b79d0f1545faa7218f3318a2a8695879a16a89c38ca",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data",
+          "GroupTheory",
+          "Logic"
+        ]
+      },
+      "target_id": "babai-seress-conjecture-alternating",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "balanced-primes",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "92469897c0c2dd6ebe05948a090c76f3ff949ea0e53b60e4306dfaab7bff9ee3",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data"
+        ]
+      },
+      "target_id": "balanced-primes",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "beal-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "8d989308ce68a9af4f11e0b0794d1b1dadc6ee8243629a88552bb62bb49dc799",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data"
+        ]
+      },
+      "target_id": "beal-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "beaver-math-olympiad-problem-2-antihydra",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "535946e29e93d12ebecc67a639fab85feab5623026d41f3aedfe4f54ab878a29",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": []
+      },
+      "target_id": "beaver-math-olympiad-problem-2-antihydra",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "beck-fiala-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "40d1c5fdc12fc94d93b3e64524492cfeaab8c4bcb46527c5a6c7c0c613d66810",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data"
+        ]
+      },
+      "target_id": "beck-fiala-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "brennan-universal-spectrum-bounded",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "d714bddcc2b08d046f029064450c64b0ecf646b0148d4b0e1eafccf7b2c90779",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Data"
+        ]
+      },
+      "target_id": "brennan-universal-spectrum-bounded",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "buchi-problem--m5",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "31fbd6cda4d17a3cb2c316404039a8946f3f91deaa11e144fdbad4a2a9ecac2e",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": []
+      },
+      "target_id": "buchi-problem--m5",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "c6a-eq-half",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "70d9c7d29cbe756f70064c8b3c4d3d022fb6a9a0032764ac8a439cea8d5a6468",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data"
+        ]
+      },
+      "target_id": "c6a-eq-half",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "c6a-lower-bound-improved",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "1c572248f88edb58bd1d79642e50766fb26626263e3088fd0b7a44b17caf8dbe",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data"
+        ]
+      },
+      "target_id": "c6a-lower-bound-improved",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "c6a-upper-bound-improved",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "d16ff3cb8281ecf0913ad841817bb135528dd3c3178b03a9f7c8484891950f0f",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data"
+        ]
+      },
+      "target_id": "c6a-upper-bound-improved",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "center-column-frequency-half",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "45e190fbcb90837eac90cfb74df0e7585fca49033b621ce6e0530f58b7942843",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data",
+          "Order"
+        ]
+      },
+      "target_id": "center-column-frequency-half",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "center-column-not-eventually-periodic",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "c4304a56b4f9ee708a873cc2475748f8dc4ad809f332c24b2069a7d80e6ebfbd",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": []
+      },
+      "target_id": "center-column-not-eventually-periodic",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "charmichael-totient",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "34dad748ff29a89e21ecb52c8d8696aa18e891322a2e8c1d1453d0e0bb4d0ae6",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": []
+      },
+      "target_id": "charmichael-totient",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "collatz-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "ee5033b8c397f1042e993a64ac7bb2baed27357ceeb8f2b80388553e71106481",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Logic"
+        ]
+      },
+      "target_id": "collatz-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "conjecture-4-4",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "5c8feb927b191c00fe392cdcb4cbd1eaa67f35f6405042c00442a337cb9fb2ce",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data",
+          "Order"
+        ]
+      },
+      "target_id": "conjecture-4-4",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "conjecture-one",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "bc8b5f876009b6f50d591faa3bbbb96e0e25acf2cc58e57aaedcf2d143380d5b",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Data",
+          "LinearAlgebra",
+          "RingTheory"
+        ]
+      },
+      "target_id": "conjecture-one",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "curling-number-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "7a63ab77ffd5418e28aca1227ce4cc78c0db3a2c7c2abf24de03641f3a01f404",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": []
+      },
+      "target_id": "curling-number-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "density-of-hyperbolicity",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "11892813e43425532e8756b4ad320be8318467a8ae60b29c266aa278c68fbaef",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "Topology"
+        ]
+      },
+      "target_id": "density-of-hyperbolicity",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "determinantal-conjecture",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "dc1701682202447a0ea99162139b392e5b1fa5f589f2cb4791250f8d2d117727",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "LinearAlgebra",
+          "Logic",
+          "Order"
+        ]
+      },
+      "target_id": "determinantal-conjecture",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "distinct-prop-lt",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "9b0f6faa670f973d6e5fe6d4fecbddde716b57501dc44ec434b4f28d2ca7caf5",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "NumberTheory",
+          "Order"
+        ]
+      },
+      "target_id": "distinct-prop-lt",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-10",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "49e07f9a81385178f7eacd784ca60dfb1f9edadf00a6c8cb908380dd8014ff9a",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Data",
+          "Order"
+        ]
+      },
+      "target_id": "erdos-10",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-100",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "ca9cbf058728c228d80e2613ccb874eec35e141948d8d0ab1207ed04642bf2be",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Analysis",
+          "Data",
+          "Order",
+          "Topology"
+        ]
+      },
+      "target_id": "erdos-100",
+      "tutorial": false
+    },
+    {
       "annex_present": true,
       "attempts": 1,
       "bounty": false,
@@ -31,6 +837,107 @@
         ]
       },
       "target_id": "erdos-1003",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1004",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "240f7e0dc4415f4c9ea52dada6dab4793198795141dcdee2a46c1fbcb4e51bf5",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "Order"
+        ]
+      },
+      "target_id": "erdos-1004",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-101",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "ee0e6f7ad2e3996262fbbf3462876267b9d48ed981f73de9dd5aa37ff810c8a3",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Analysis",
+          "Data",
+          "Order"
+        ]
+      },
+      "target_id": "erdos-101",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-1035",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "907706516f24e79475c191a8311416265c1b5ca1b452885f4c591502553a8ca4",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": [
+          "Algebra",
+          "Combinatorics",
+          "Data"
+        ]
+      },
+      "target_id": "erdos-1035",
       "tutorial": false
     },
     {
@@ -3398,6 +4305,35 @@
         ]
       },
       "target_id": "erdos-417",
+      "tutorial": false
+    },
+    {
+      "annex_present": false,
+      "attempts": 0,
+      "bounty": false,
+      "cause": null,
+      "claimable": true,
+      "claims": {
+        "active": [],
+        "history_count": 0
+      },
+      "dormant": false,
+      "failure_class_histogram": {},
+      "literature": null,
+      "literature_proposed": null,
+      "needs": "proof",
+      "node_id": "erdos-472",
+      "origin": "authored",
+      "ready_since": "2026-11-23T05:52:26Z",
+      "refuted_route_classes": [],
+      "relation": null,
+      "statement_hash": "583e4345f2c8e2afdca06d35e22e707e36d932854365ca6d83a04a8d9f657885",
+      "status": "ready",
+      "tags": {
+        "deps": [],
+        "library": []
+      },
+      "target_id": "erdos-472",
       "tutorial": false
     },
     {
@@ -6857,6 +7793,6 @@
       "tutorial": false
     }
   ],
-  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
   "schema": "frontier/v8"
 }

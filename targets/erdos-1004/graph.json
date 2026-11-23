@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Erdős problem 1004",
+      "label_source": "target",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "erdos-1004",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "240f7e0dc4415f4c9ea52dada6dab4793198795141dcdee2a46c1fbcb4e51bf5",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    }
+  ],
+  "open_pairs": [],
+  "registrations": [],
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
+  "review": {
+    "candidates": 0,
+    "clusters": 0,
+    "grade_cap": null,
+    "open_pairs": 0,
+    "questions_waiting": 0,
+    "signers": {
+      "independent": null,
+      "intent": null
+    },
+    "state": "none",
+    "surviving": 0,
+    "tracking": null
+  },
+  "root": "erdos-1004",
+  "schema": "graph/v16",
+  "target_id": "erdos-1004",
+  "target_proofs": []
+}

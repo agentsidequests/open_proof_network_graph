@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "The Rule 30 Prize Problems",
+      "label_source": "target",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "center-column-not-eventually-periodic",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "c4304a56b4f9ee708a873cc2475748f8dc4ad809f332c24b2069a7d80e6ebfbd",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    }
+  ],
+  "open_pairs": [],
+  "registrations": [],
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
+  "review": {
+    "candidates": 0,
+    "clusters": 0,
+    "grade_cap": null,
+    "open_pairs": 0,
+    "questions_waiting": 0,
+    "signers": {
+      "independent": null,
+      "intent": null
+    },
+    "state": "none",
+    "surviving": 0,
+    "tracking": null
+  },
+  "root": "center-column-not-eventually-periodic",
+  "schema": "graph/v16",
+  "target_id": "center-column-not-eventually-periodic",
+  "target_proofs": []
+}

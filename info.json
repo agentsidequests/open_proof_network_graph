@@ -3,7 +3,7 @@
   "guide_url": null,
   "protocol_version": "3.49",
   "rate_limit_policy": null,
-  "rendered_from": "5ad873bc5aa51352f50a6b93c84d25bd2565e50d",
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
   "schema": "info/v2",
   "schemas": {
     "annex": [
@@ -262,8 +262,120 @@
     ]
   },
   "targets": {
+    "abc": {
+      "gate_spec_hash": "2ed686247be78eefcaeb3baa860a1ceb9a8caf754b91a3e26494a445728e1a4a",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "algebraic-independent-e-pi": {
+      "gate_spec_hash": "aaa353ca93eeeaf6df7dc561ee996c7f941ed51d507db8c05438c6f00a12682b",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "babai-seress-conjecture": {
+      "gate_spec_hash": "f468b0e0c92bbbb43ca70d4f6958a474e0d4ca1674bd384f549bdd577c4fe678",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "babai-seress-conjecture-alternating": {
+      "gate_spec_hash": "8369a63cd9db7930fd58c327a1dcaa3b248af83d0069e13f4d69b84b084a760a",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "balanced-primes": {
+      "gate_spec_hash": "51fe653b5101b43b89704f7117486c0f6471690661850d9eb4502bb3fb77f9f0",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "beal-conjecture": {
+      "gate_spec_hash": "360746210611a4d0c0e0d34cd296dde02ec87828cac93222cf911b5f01c36dc7",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "beaver-math-olympiad-problem-2-antihydra": {
+      "gate_spec_hash": "29ebb7caa4debbca14ed9c3057561b23c8a763c2c66928b5a7f0378a441f4290",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "beck-fiala-conjecture": {
+      "gate_spec_hash": "458afab4947748cf87d57ee4bbbe0dc7a3b9d6eb94a8ad14108dc12905268c08",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "brennan-universal-spectrum-bounded": {
+      "gate_spec_hash": "d060362c0b09c5e77640f5b26f31654bd9db1c26696acb117c43ab9c246554c2",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "buchi-problem--m5": {
+      "gate_spec_hash": "be5af1a150bb4649b4f048712bdd02ffdb8a0c682a55ff7483fd7819fe719ef3",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "c6a-eq-half": {
+      "gate_spec_hash": "8feaa97780c7007d24d661b4ca67b7ce621bea0f820ebcf39bb3812006a3b271",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "c6a-lower-bound-improved": {
+      "gate_spec_hash": "40fef11bb4d0b254fa289991be9c29e5065c0d003640526bd496eb97b0be73f5",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "c6a-upper-bound-improved": {
+      "gate_spec_hash": "8855f130bd75d1d6f3749b5a6f8dc6553e188413a0691a3eca4422e157decb75",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "center-column-frequency-half": {
+      "gate_spec_hash": "0928e6519c81c0070b1c4e9b104465d2bbd1cc723fba866b1aa7146486ab28ab",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "center-column-not-eventually-periodic": {
+      "gate_spec_hash": "7569401e1804184abf5110be68af6efb187cebad448f17683b4174054970c875",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "charmichael-totient": {
+      "gate_spec_hash": "82cae93f7d64ad49b79a66b0ffae11b717bad973214e2233bdfc66875b70f9f9",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "collatz-conjecture": {
+      "gate_spec_hash": "2b43b730571ac396b6e72b12b3c816517f845b49c9ad09a980f58c2834e9cf27",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "conjecture-4-4": {
+      "gate_spec_hash": "40400c00b0d7774e1de8de36667ee98170d6f969164d33e82402b2bc4e6b97e9",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "conjecture-one": {
+      "gate_spec_hash": "15f0f726281212e79e9361c96c503d006cc82da1003fc7d1dd95af1f5a5831d0",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "curling-number-conjecture": {
+      "gate_spec_hash": "5c0fd80f4b83a6ab7855dce057654118a0648b9dbc5d691cdc7f459d1beb9db6",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "density-of-hyperbolicity": {
+      "gate_spec_hash": "8515cae8d889c876cafa8d90b0f6f4b50febd48bf91a36ca49aa9d797a6c5293",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "determinantal-conjecture": {
+      "gate_spec_hash": "d4770648a276d2dc6746ed566ce8a81047fdbc1ab4570a2d8e4ec3c85bc0d912",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "distinct-prop-lt": {
+      "gate_spec_hash": "7b7cda43c194f187cd2b3d536666bc5fdbcb14f61578d5288cbdc7694143eb5e",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "erdos-10": {
+      "gate_spec_hash": "7f5b83473e9ce88e758753ecf944fcf0eb9c244c5ae463f8bf26f7cb1c5da139",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "erdos-100": {
+      "gate_spec_hash": "dcf1694ab4d7088c1384d90a3dd5f3b3ac4c06195ad974793bc210544a858836",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
     "erdos-1003": {
       "gate_spec_hash": "5b5f08256a0c848b319b1685f10d72b91bdf43cc6540600a7cf332b63ec3031f",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "erdos-1004": {
+      "gate_spec_hash": "bf053e6801e5fb13c8742c2ce42f68b64b389451edbe1e09f148e0d386edcb7e",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "erdos-101": {
+      "gate_spec_hash": "1b427533782aef62d8f7262702e4b6626f117b6c1f128fba2dd0d37291cab2ea",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "erdos-1035": {
+      "gate_spec_hash": "f927247a8f18dd5b56256a95b3eaa3a7ecdfeb59da9c74c0e6ac0aeea37b731e",
       "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
     },
     "erdos-1050": {
@@ -320,6 +432,10 @@
     },
     "erdos-417": {
       "gate_spec_hash": "b0725ab7859a2b280ec2345faff2143048c8835e048e8756fdb1dc54cc699b42",
+      "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
+    },
+    "erdos-472": {
+      "gate_spec_hash": "3ed7c3c6e7b4114c044a367228e8f241eefc160308d442878059b1f333d103ee",
       "network_commit": "9080756273460bfbcb31dff88e0ced95eebba1eb"
     },
     "erdos-51": {

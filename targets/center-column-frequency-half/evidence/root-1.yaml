@@ -1,0 +1,34 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 45e190fbcb90837eac90cfb74df0e7585fca49033b621ce6e0530f58b7942843
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: fc:FormalConjectures/Other/Rule30.lean#centerColumn_frequency_half
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 0
+  letter: D
+  reasons:
+  - +1 no misformalization issue ever filed
+  - '+0 file-local definitions in the statement: centerColumn'
+  - '-1 wording hazard: density'
+registry_history:
+  first: '2026-09-07'
+  last: '2026-10-14'
+  commits: 4
+misformalization: []
+local_definitions:
+- upstream_name: step
+  ported_to: null
+- upstream_name: state
+  ported_to: null
+- upstream_name: centerColumn
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards:
+- density
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'

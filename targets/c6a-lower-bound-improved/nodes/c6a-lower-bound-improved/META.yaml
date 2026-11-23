@@ -1,0 +1,11 @@
+schema: meta/v2
+id: c6a-lower-bound-improved
+status: ready
+deps: []
+statement-hash: 1c572248f88edb58bd1d79642e50766fb26626263e3088fd0b7a44b17caf8dbe
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false

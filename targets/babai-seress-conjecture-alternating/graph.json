@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Babai–Seress Conjectures on the Diameter of Finite Groups",
+      "label_source": "target",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "babai-seress-conjecture-alternating",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "bd26cc372895805537c23b79d0f1545faa7218f3318a2a8695879a16a89c38ca",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    }
+  ],
+  "open_pairs": [],
+  "registrations": [],
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
+  "review": {
+    "candidates": 0,
+    "clusters": 0,
+    "grade_cap": null,
+    "open_pairs": 0,
+    "questions_waiting": 0,
+    "signers": {
+      "independent": null,
+      "intent": null
+    },
+    "state": "none",
+    "surviving": 0,
+    "tracking": null
+  },
+  "root": "babai-seress-conjecture-alternating",
+  "schema": "graph/v16",
+  "target_id": "babai-seress-conjecture-alternating",
+  "target_proofs": []
+}
