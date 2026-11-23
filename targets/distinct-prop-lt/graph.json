@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "distinct-prop-lt",
+      "label_source": "id",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "distinct-prop-lt",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "9b0f6faa670f973d6e5fe6d4fecbddde716b57501dc44ec434b4f28d2ca7caf5",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    }
+  ],
+  "open_pairs": [],
+  "registrations": [],
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
+  "review": {
+    "candidates": 0,
+    "clusters": 0,
+    "grade_cap": null,
+    "open_pairs": 0,
+    "questions_waiting": 0,
+    "signers": {
+      "independent": null,
+      "intent": null
+    },
+    "state": "none",
+    "surviving": 0,
+    "tracking": null
+  },
+  "root": "distinct-prop-lt",
+  "schema": "graph/v16",
+  "target_id": "distinct-prop-lt",
+  "target_proofs": []
+}

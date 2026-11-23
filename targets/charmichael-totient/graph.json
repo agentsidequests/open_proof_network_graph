@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "cause": null,
+      "claim": null,
+      "closure": null,
+      "decompositions": [],
+      "defect_claims": [],
+      "deps": [],
+      "label": "Carmichael's totient function conjecture",
+      "label_source": "target",
+      "lemmas": [],
+      "literature": null,
+      "literature_proposed": null,
+      "node_id": "charmichael-totient",
+      "origin": "authored",
+      "outline": null,
+      "proof_commit": null,
+      "proofs": [],
+      "proposed_for": null,
+      "relation": null,
+      "relevance": null,
+      "shelved": null,
+      "statement_hash": "34dad748ff29a89e21ecb52c8d8696aa18e891322a2e8c1d1453d0e0bb4d0ae6",
+      "status": "ready",
+      "trust_base": null,
+      "tutorial": false,
+      "uses": []
+    }
+  ],
+  "open_pairs": [],
+  "registrations": [],
+  "rendered_from": "b52a3cb3986a9916068e1ef7abac5d62e571bc3e",
+  "review": {
+    "candidates": 0,
+    "clusters": 0,
+    "grade_cap": null,
+    "open_pairs": 0,
+    "questions_waiting": 0,
+    "signers": {
+      "independent": null,
+      "intent": null
+    },
+    "state": "none",
+    "surviving": 0,
+    "tracking": null
+  },
+  "root": "charmichael-totient",
+  "schema": "graph/v16",
+  "target_id": "charmichael-totient",
+  "target_proofs": []
+}
