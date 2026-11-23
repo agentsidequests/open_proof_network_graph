@@ -1,0 +1,11 @@
+schema: meta/v2
+id: beck-fiala-conjecture
+status: ready
+deps: []
+statement-hash: 40d1c5fdc12fc94d93b3e64524492cfeaab8c4bcb46527c5a6c7c0c613d66810
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
