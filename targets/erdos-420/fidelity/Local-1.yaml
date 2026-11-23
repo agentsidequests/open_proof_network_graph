@@ -1,0 +1,10 @@
+schema: fidelity/v2
+subject: Local
+statement_hash: ef3a53392c1a17680211e96fdf75708df9766ed9243dce4f35272c8eefb6927c
+grade: mechanical-only
+subject_author: The Formal Conjectures Authors
+attestor: thisisanameforsure
+date: '2026-11-23'
+evidence: 'admitted at intake: Local elaborates and passes F08''s mechanical admission.
+  No human has read it against the informal statement, which is what D-9''s first
+  rung says.'
