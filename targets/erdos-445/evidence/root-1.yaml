@@ -1,0 +1,32 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 80e55ae0e6703e225b7edf2e2bf9e11a430263c7ed0ea7635d9ff9e1ab0b2df8
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: erdos:445
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 3
+  letter: C
+  reasons:
+  - +2 attempted by AlphaProof Nexus (Feb 2026), not solved
+  - +1 no misformalization issue ever filed
+  - +1 Lean statement public for 180+ days
+  - '+0 file-local definitions: Erdos445Prop'
+  - '-1 wording hazard: sufficiently large'
+registry_history:
+  first: '2026-03-16'
+  last: '2026-10-14'
+  commits: 5
+misformalization: []
+local_definitions:
+- upstream_name: Erdos445Prop
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 1
+hazards:
+- sufficiently large
+site_status: open
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
