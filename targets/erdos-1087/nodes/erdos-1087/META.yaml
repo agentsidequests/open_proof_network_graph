@@ -1,0 +1,11 @@
+schema: meta/v2
+id: erdos-1087
+status: ready
+deps: []
+statement-hash: 714a0b64b76789bf222599ac105d291a55677addc663f5970d5c99f9d8567e82
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
