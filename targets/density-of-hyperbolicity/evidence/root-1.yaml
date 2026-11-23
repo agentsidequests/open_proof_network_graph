@@ -1,0 +1,35 @@
+schema: statement-evidence/v1
+subject: root
+statement_hash: 11892813e43425532e8756b4ad320be8318467a8ae60b29c266aa278c68fbaef
+catalog:
+  file: docs/lean_conjecture_catalog.json
+  network_commit: d8d2781825e63641eecc57bb3eaf9135fec18e59
+  key: fc:FormalConjectures/Wikipedia/Mandelbrot.lean#density_of_hyperbolicity
+  fc_commit: d8d031d4998c78575159ccab9a7a9e95ce043883
+  score: 1
+  letter: D
+  reasons:
+  - +1 Lean statement public for 180+ days
+  - +1 no misformalization issue ever filed
+  - '+0 file-local definitions in the statement: mandelbrotSet, IsAttractingCycle'
+  - '-1 wording hazard: density'
+registry_history:
+  first: '2025-06-04'
+  last: '2026-09-18'
+  commits: 13
+misformalization: []
+local_definitions:
+- upstream_name: multibrotSet
+  ported_to: null
+- upstream_name: mandelbrotSet
+  ported_to: null
+- upstream_name: IsAttractingCycle
+  ported_to: null
+registry_helpers: []
+external_attempts_recorded: 0
+hazards:
+- density
+site_status: null
+mathlib_definition: null
+recorded_by: thisisanameforsure
+date: '2026-11-23'
