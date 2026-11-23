@@ -1,0 +1,11 @@
+schema: meta/v2
+id: algebraic-independent-e-pi
+status: ready
+deps: []
+statement-hash: f2067e4ae938a44ec1a4684e6aaa034b13b6405d175ea05963de60d330b0fc77
+origin: authored
+provenance:
+  author: upstream
+  model: null
+  source: null
+tutorial: false
